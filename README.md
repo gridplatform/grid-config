@@ -15,8 +15,17 @@ generator scripts.
 <cloud>/                      # aws | gcp | azure | …
   <environment>/              # development | staging | production
     <infra-type>/             # provider resource type
-      <resource-name>.json    # one file per deployable unit (NOT grid.json)
+      <resource-name>.json    # intent (one deployable unit)
+
+archive/                      # Terraform buffer (grid generate) — commit this
+  <cloud>/<environment>/<infra-type>/<resource-name>/
+    main.tf
+    modules/                  # full copy from grid-terraform
 ```
+
+`grid generate` / `plan` / `deploy` write under **`archive/`**, mirroring the JSON
+path. Same rule for `demo-infra`, this repo, or any `grid init` root. If Grid is
+removed, run Terraform from `archive/…` — no regenerate required.
 
 Examples:
 

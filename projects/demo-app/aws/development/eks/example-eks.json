@@ -4,7 +4,7 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-eks",
-    "description": "Example for EKS. Module: aws/eks",
+    "description": "EKS cluster only. Node pools are separate JSON units under eks-node-group/.",
     "environment": "development",
     "modulePath": "aws/eks"
   },
@@ -12,11 +12,9 @@
     {
       "type": "eks",
       "name": "example-eks",
-      "description": "EKS example",
+      "description": "EKS control plane",
       "cluster_name": "example-eks",
-      "subnet_ids": [
-        "example-eks-item"
-      ]
+      "subnet_ids": ["example-eks-item"]
     }
   ]
 }

@@ -4,7 +4,7 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-gke",
-    "description": "Example for GKE cluster + node pools. Module: gcp/kubernetes-engine",
+    "description": "GKE cluster only. Node pools are separate units under gke-node-pool/.",
     "environment": "development",
     "modulePath": "gcp/kubernetes-engine"
   },
@@ -12,7 +12,7 @@
     {
       "type": "gke",
       "name": "example-gke",
-      "description": "GKE cluster + node pools example",
+      "description": "GKE control plane (leave node_pools empty; use gke-node-pool units)",
       "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
       "region": "us-central1",
       "cluster_name": "example-gke",

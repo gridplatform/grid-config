@@ -1,0 +1,23 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-gke-workers",
+    "description": "One GKE node pool. Own YAML — destroy without touching the cluster.",
+    "environment": "development",
+    "modulePath": "gcp/gke-node-pool",
+    "clusterRef": "example-gke"
+  },
+  "resources": [
+    {
+      "type": "gke-node-pool",
+      "name": "example-gke-workers",
+      "description": "Default workers pool on example-gke",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "region": "us-central1",
+      "cluster_name": "example-gke",
+      "machine_type": "e2-standard-4"
+    }
+  ]
+}

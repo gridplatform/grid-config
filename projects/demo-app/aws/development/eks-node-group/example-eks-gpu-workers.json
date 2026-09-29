@@ -3,8 +3,8 @@
   "project": "grid-development",
   "region": "us-east-1",
   "metadata": {
-    "name": "example-eks-node-group",
-    "description": "One EKS node group / pool. Destroy this unit without destroying the cluster.",
+    "name": "example-eks-gpu-workers",
+    "description": "Second node pool on the same cluster — own YAML so it can be destroyed alone.",
     "environment": "development",
     "modulePath": "aws/eks-node-group",
     "clusterRef": "example-eks"
@@ -12,8 +12,8 @@
   "resources": [
     {
       "type": "eks-node-group",
-      "name": "example-eks-node-group",
-      "description": "Managed node group attached to example-eks",
+      "name": "example-eks-gpu-workers",
+      "description": "GPU-oriented node group on example-eks",
       "cluster_name": "example-eks"
     }
   ]

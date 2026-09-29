@@ -1,0 +1,21 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "bastion",
+    "description": "Bastion host as a compute instance (type vm). Module: oracle/compute-instance",
+    "environment": "production",
+    "modulePath": "oracle/compute-instance"
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "bastion",
+      "description": "Bastion host VM",
+      "machineType": "REPLACE_MACHINE_TYPE",
+      "subnet": "REPLACE_SUBNET_NAME",
+      "diskSize": 20
+    }
+  ]
+}

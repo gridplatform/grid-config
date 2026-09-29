@@ -12,16 +12,22 @@ generator scripts.
 ## Layout
 
 ```text
-<cloud>/                      # aws | gcp | azure | …
-  <environment>/              # development | staging | production
-    <infra-type>/             # provider resource type
-      <resource-name>.json    # intent (one deployable unit)
+projects/
+  <project-slug>/             # e.g. demo-app
+    .grid/project.json        # optional display name / description
+    <cloud>/                  # aws | gcp | azure | …
+      <environment>/          # development | staging | production
+        <infra-type>/         # provider resource type
+          <resource-name>.json
 
 archive/                      # Terraform buffer (grid generate) — commit this
-  <cloud>/<environment>/<infra-type>/<resource-name>/
+  projects/<project-slug>/<cloud>/<environment>/<infra-type>/<resource-name>/
     main.tf
     modules/                  # full copy from grid-terraform
 ```
+
+Grid Core discovers projects only under `projects/<slug>/`. Add another app by
+creating `projects/<new-slug>/` with cloud/env folders — no Core hardcoding.
 
 `grid generate` / `plan` / `deploy` write under **`archive/`**, mirroring the JSON
 path. Same rule for `demo-infra`, this repo, or any `grid init` root.
@@ -29,14 +35,14 @@ path. Same rule for `demo-infra`, this repo, or any `grid init` root.
 Examples:
 
 ```text
-aws/production/ec2/
+projects/demo-app/aws/production/ec2/
   api-01.json
   worker-17.json
 
-gcp/development/gcs/
+projects/demo-app/gcp/development/gcs/
   example-gcs.json
 
-aws/development/s3/
+projects/demo-app/aws/development/s3/
   example-s3.json
 ```
 
@@ -64,8 +70,8 @@ Optional on each file:
 Split vpc + vm JSON files can declare:
 
 ```json
-"metadata": {
-  "dependsOn": ["gcp/development/vpc/grid-development-vpc.json"]
+  "metadata": {
+  "dependsOn": ["projects/demo-app/gcp/development/vpc/grid-development-vpc.json"]
 }
 ```
 

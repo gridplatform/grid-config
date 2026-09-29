@@ -1,0 +1,5 @@
+{
+  "name": "Demo App",
+  "slug": "demo-app",
+  "description": "Full multi-cloud desired-state catalog under one app (cloud → environment → infra-type)."
+}

@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "bastion",
+    "description": "Bastion host as a virtual machine (type vm). Module: azure/virtual-machine",
+    "environment": "development",
+    "modulePath": "azure/virtual-machine"
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "bastion",
+      "description": "Bastion host VM",
+      "machineType": "REPLACE_MACHINE_TYPE",
+      "subnet": "REPLACE_SUBNET_NAME",
+      "diskSize": 20
+    }
+  ]
+}

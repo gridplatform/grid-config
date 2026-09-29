@@ -1,0 +1,21 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "bastion",
+    "description": "Bastion host as an ECS instance (type vm). Module: alibaba/compute-instance",
+    "environment": "development",
+    "modulePath": "alibaba/compute-instance"
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "bastion",
+      "description": "Bastion host VM",
+      "machineType": "REPLACE_MACHINE_TYPE",
+      "subnet": "REPLACE_SUBNET_NAME",
+      "diskSize": 20
+    }
+  ]
+}

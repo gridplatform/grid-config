@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-graph",
+    "description": "Example for Graph. Module: azure/graph",
+    "environment": "staging",
+    "modulePath": "azure/graph"
+  },
+  "resources": [
+    {
+      "type": "graph",
+      "name": "example-graph",
+      "description": "Graph example"
+    }
+  ]
+}

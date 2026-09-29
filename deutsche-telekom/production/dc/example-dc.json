@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-dc",
+    "description": "Example for Dc. Module: deutsche-telekom/dc",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/dc"
+  },
+  "resources": [
+    {
+      "type": "dc",
+      "name": "example-dc",
+      "description": "Dc example"
+    }
+  ]
+}

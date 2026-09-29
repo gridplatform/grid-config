@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-memorystore",
+    "description": "Example for Memorystore Redis. Module: gcp/memorystore-redis",
+    "environment": "staging",
+    "modulePath": "gcp/memorystore-redis"
+  },
+  "resources": [
+    {
+      "type": "memorystore",
+      "name": "example-memorystore",
+      "description": "Memorystore Redis example",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING",
+      "memory_size_gb": 1,
+      "region": "us-central1"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-logging",
+    "description": "Example for Logging. Module: oracle/logging",
+    "environment": "development",
+    "modulePath": "oracle/logging"
+  },
+  "resources": [
+    {
+      "type": "logging",
+      "name": "example-logging",
+      "description": "Logging example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cdw",
+    "description": "Example for Cdw. Module: tencent/cdw",
+    "environment": "development",
+    "modulePath": "tencent/cdw"
+  },
+  "resources": [
+    {
+      "type": "cdw",
+      "name": "example-cdw",
+      "description": "Cdw example"
+    }
+  ]
+}

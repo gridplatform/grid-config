@@ -1,0 +1,22 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-sql-postgres",
+    "description": "Example for Cloud SQL PostgreSQL. Module: gcp/cloud-sql-postgres",
+    "environment": "staging",
+    "modulePath": "gcp/cloud-sql-postgres"
+  },
+  "resources": [
+    {
+      "type": "cloud-sql-postgres",
+      "name": "example-cloud-sql-postgres",
+      "description": "Cloud SQL PostgreSQL example",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING",
+      "region": "us-central1",
+      "instance_name": "example-cloud-sql-postgres",
+      "tier": "REPLACE_TIER"
+    }
+  ]
+}

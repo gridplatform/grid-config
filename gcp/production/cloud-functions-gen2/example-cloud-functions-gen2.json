@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-functions-gen2",
+    "description": "Example for Cloud Functions Gen2. Module: gcp/cloud-functions-gen2",
+    "environment": "production",
+    "modulePath": "gcp/cloud-functions-gen2"
+  },
+  "resources": [
+    {
+      "type": "cloud-functions-gen2",
+      "name": "example-cloud-functions-gen2",
+      "description": "Cloud Functions Gen2 example"
+    }
+  ]
+}

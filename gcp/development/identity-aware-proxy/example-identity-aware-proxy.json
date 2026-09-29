@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-identity-aware-proxy",
+    "description": "Example for Identity Aware Proxy. Module: gcp/identity-aware-proxy",
+    "environment": "development",
+    "modulePath": "gcp/identity-aware-proxy"
+  },
+  "resources": [
+    {
+      "type": "identity-aware-proxy",
+      "name": "example-identity-aware-proxy",
+      "description": "Identity Aware Proxy example"
+    }
+  ]
+}

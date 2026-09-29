@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-integration",
+    "description": "Example for Integration. Module: oracle/integration",
+    "environment": "production",
+    "modulePath": "oracle/integration"
+  },
+  "resources": [
+    {
+      "type": "integration",
+      "name": "example-integration",
+      "description": "Integration example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-bare-metal",
+    "description": "Example for Bare Metal. Module: ibm/bare-metal",
+    "environment": "staging",
+    "modulePath": "ibm/bare-metal"
+  },
+  "resources": [
+    {
+      "type": "bare-metal",
+      "name": "example-bare-metal",
+      "description": "Bare Metal example"
+    }
+  ]
+}

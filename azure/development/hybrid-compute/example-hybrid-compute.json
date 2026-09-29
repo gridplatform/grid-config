@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-hybrid-compute",
+    "description": "Example for Hybrid Compute. Module: azure/hybrid-compute",
+    "environment": "development",
+    "modulePath": "azure/hybrid-compute"
+  },
+  "resources": [
+    {
+      "type": "hybrid-compute",
+      "name": "example-hybrid-compute",
+      "description": "Hybrid Compute example"
+    }
+  ]
+}

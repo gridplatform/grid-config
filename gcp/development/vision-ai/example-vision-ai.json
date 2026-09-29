@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-vision-ai",
+    "description": "Example for Vision Ai. Module: gcp/vision-ai",
+    "environment": "development",
+    "modulePath": "gcp/vision-ai"
+  },
+  "resources": [
+    {
+      "type": "vision-ai",
+      "name": "example-vision-ai",
+      "description": "Vision Ai example"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-bedrock-agentcore",
+    "description": "Example for Bedrock AgentCore (API/platform). Module: aws/ai-api",
+    "environment": "production",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "bedrock-agentcore",
+      "name": "example-bedrock-agentcore",
+      "description": "Bedrock AgentCore (API/platform) example",
+      "service_name": "example-bedrock-agentcore"
+    }
+  ]
+}

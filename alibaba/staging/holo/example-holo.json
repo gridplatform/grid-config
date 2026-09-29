@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-holo",
+    "description": "Example for Holo. Module: alibaba/holo",
+    "environment": "staging",
+    "modulePath": "alibaba/holo"
+  },
+  "resources": [
+    {
+      "type": "holo",
+      "name": "example-holo",
+      "description": "Holo example"
+    }
+  ]
+}

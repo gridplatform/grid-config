@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-automation",
+    "description": "Example for Automation. Module: azure/automation",
+    "environment": "development",
+    "modulePath": "azure/automation"
+  },
+  "resources": [
+    {
+      "type": "automation",
+      "name": "example-automation",
+      "description": "Automation example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-load-balancer",
+    "description": "Example for Server Load Balancer. Module: alibaba/load-balancer",
+    "environment": "production",
+    "modulePath": "alibaba/load-balancer"
+  },
+  "resources": [
+    {
+      "type": "load-balancer",
+      "name": "example-load-balancer",
+      "description": "Server Load Balancer example"
+    }
+  ]
+}

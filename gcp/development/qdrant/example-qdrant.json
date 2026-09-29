@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-qdrant",
+    "description": "Example for Qdrant (self-hosted / unmanaged). Module: gcp/qdrant",
+    "environment": "development",
+    "modulePath": "gcp/qdrant"
+  },
+  "resources": [
+    {
+      "type": "qdrant",
+      "name": "example-qdrant",
+      "description": "Qdrant (self-hosted / unmanaged) example"
+    }
+  ]
+}

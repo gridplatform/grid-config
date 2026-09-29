@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-litellm-gateway",
+    "description": "Example for Litellm Gateway (self-hosted / unmanaged). Module: gcp/litellm-gateway",
+    "environment": "staging",
+    "modulePath": "gcp/litellm-gateway"
+  },
+  "resources": [
+    {
+      "type": "litellm-gateway",
+      "name": "example-litellm-gateway",
+      "description": "Litellm Gateway (self-hosted / unmanaged) example"
+    }
+  ]
+}

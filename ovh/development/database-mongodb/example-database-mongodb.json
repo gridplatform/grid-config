@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-development",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-database-mongodb",
+    "description": "Example for Database Mongodb. Module: ovh/database-mongodb",
+    "environment": "development",
+    "modulePath": "ovh/database-mongodb"
+  },
+  "resources": [
+    {
+      "type": "database-mongodb",
+      "name": "example-database-mongodb",
+      "description": "Database Mongodb example"
+    }
+  ]
+}

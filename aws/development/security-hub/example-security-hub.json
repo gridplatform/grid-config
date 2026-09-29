@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-security-hub",
+    "description": "Example for Security Hub. Module: aws/security-hub",
+    "environment": "development",
+    "modulePath": "aws/security-hub"
+  },
+  "resources": [
+    {
+      "type": "security-hub",
+      "name": "example-security-hub",
+      "description": "Security Hub example"
+    }
+  ]
+}

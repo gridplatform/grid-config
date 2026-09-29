@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-spring-apps",
+    "description": "Example for Spring Apps. Module: azure/spring-apps",
+    "environment": "staging",
+    "modulePath": "azure/spring-apps"
+  },
+  "resources": [
+    {
+      "type": "spring-apps",
+      "name": "example-spring-apps",
+      "description": "Spring Apps example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tcr",
+    "description": "Example for Tcr. Module: tencent/tcr",
+    "environment": "development",
+    "modulePath": "tencent/tcr"
+  },
+  "resources": [
+    {
+      "type": "tcr",
+      "name": "example-tcr",
+      "description": "Tcr example"
+    }
+  ]
+}

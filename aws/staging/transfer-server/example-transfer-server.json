@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-transfer-server",
+    "description": "Example for Transfer Server. Module: aws/transfer-server",
+    "environment": "staging",
+    "modulePath": "aws/transfer-server"
+  },
+  "resources": [
+    {
+      "type": "transfer-server",
+      "name": "example-transfer-server",
+      "description": "Transfer Server example"
+    }
+  ]
+}

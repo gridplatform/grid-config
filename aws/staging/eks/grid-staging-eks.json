@@ -1,0 +1,80 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "grid-staging-eks",
+    "description": "EKS cluster with on-demand, spot, and GPU node groups (staging)",
+    "environment": "staging",
+    "dependsOn": ["aws/staging/vpc/grid-staging-vpc.json"]
+  },
+  "resources": [
+    {
+      "type": "eks",
+      "name": "grid-staging-eks",
+      "description": "Staging EKS — three managed node groups",
+      "cluster_name": "grid-staging-eks",
+      "vpc": "grid-staging-vpc",
+      "subnets": [
+        "grid-staging-nodes-a",
+        "grid-staging-nodes-b"
+      ],
+      "cluster_endpoint_private_access": true,
+      "cluster_endpoint_public_access": true,
+      "enable_irsa": true,
+      "node_groups": {
+        "ondemand": {
+          "instance_types": ["t3.large"],
+          "capacity_type": "ON_DEMAND",
+          "min_size": 1,
+          "max_size": 5,
+          "desired_size": 2,
+          "disk_size": 80,
+          "labels": {
+            "pool": "ondemand",
+            "environment": "staging"
+          }
+        },
+        "spot": {
+          "instance_types": ["t3.large", "t3a.large"],
+          "capacity_type": "SPOT",
+          "min_size": 0,
+          "max_size": 5,
+          "desired_size": 1,
+          "disk_size": 80,
+          "labels": {
+            "pool": "spot",
+            "environment": "staging"
+          },
+          "taints": [
+            {
+              "key": "spot",
+              "value": "true",
+              "effect": "NO_SCHEDULE"
+            }
+          ]
+        },
+        "gpu": {
+          "instance_types": ["g4dn.xlarge"],
+          "capacity_type": "ON_DEMAND",
+          "min_size": 0,
+          "max_size": 2,
+          "desired_size": 0,
+          "disk_size": 100,
+          "ami_type": "AL2_x86_64_GPU",
+          "labels": {
+            "pool": "gpu",
+            "environment": "staging"
+          },
+          "taints": [
+            {
+              "key": "nvidia.com/gpu",
+              "value": "present",
+              "effect": "NO_SCHEDULE"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

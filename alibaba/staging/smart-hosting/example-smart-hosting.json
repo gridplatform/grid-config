@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-smart-hosting",
+    "description": "Example for Smart Hosting. Module: alibaba/smart-hosting",
+    "environment": "staging",
+    "modulePath": "alibaba/smart-hosting"
+  },
+  "resources": [
+    {
+      "type": "smart-hosting",
+      "name": "example-smart-hosting",
+      "description": "Smart Hosting example"
+    }
+  ]
+}

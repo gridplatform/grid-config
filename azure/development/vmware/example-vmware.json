@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-vmware",
+    "description": "Example for Vmware. Module: azure/vmware",
+    "environment": "development",
+    "modulePath": "azure/vmware"
+  },
+  "resources": [
+    {
+      "type": "vmware",
+      "name": "example-vmware",
+      "description": "Vmware example"
+    }
+  ]
+}

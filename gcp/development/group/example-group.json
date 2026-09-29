@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-group",
+    "description": "Example for Cloud Identity Group. Module: gcp/group",
+    "environment": "development",
+    "modulePath": "gcp/group"
+  },
+  "resources": [
+    {
+      "type": "group",
+      "name": "example-group",
+      "description": "Cloud Identity Group example",
+      "id": "example-group"
+    }
+  ]
+}

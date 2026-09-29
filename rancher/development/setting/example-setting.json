@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-setting",
+    "description": "Example for Setting. Module: rancher/setting",
+    "environment": "development",
+    "modulePath": "rancher/setting"
+  },
+  "resources": [
+    {
+      "type": "setting",
+      "name": "example-setting",
+      "description": "Setting example"
+    }
+  ]
+}

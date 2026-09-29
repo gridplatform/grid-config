@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-interconnect",
+    "description": "Example for Interconnect. Module: gcp/interconnect",
+    "environment": "production",
+    "modulePath": "gcp/interconnect"
+  },
+  "resources": [
+    {
+      "type": "interconnect",
+      "name": "example-interconnect",
+      "description": "Interconnect example"
+    }
+  ]
+}

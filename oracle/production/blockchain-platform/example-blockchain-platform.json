@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-blockchain-platform",
+    "description": "Example for Blockchain Platform. Module: oracle/blockchain-platform",
+    "environment": "production",
+    "modulePath": "oracle/blockchain-platform"
+  },
+  "resources": [
+    {
+      "type": "blockchain-platform",
+      "name": "example-blockchain-platform",
+      "description": "Blockchain Platform example"
+    }
+  ]
+}

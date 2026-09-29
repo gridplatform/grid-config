@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-bentoml",
+    "description": "Example for Bentoml (self-hosted / unmanaged). Module: aws/bentoml",
+    "environment": "development",
+    "modulePath": "aws/bentoml"
+  },
+  "resources": [
+    {
+      "type": "bentoml",
+      "name": "example-bentoml",
+      "description": "Bentoml (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-production",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-load-balancer",
+    "description": "Example for Load balancer. Module: ovh/load-balancer",
+    "environment": "production",
+    "modulePath": "ovh/load-balancer"
+  },
+  "resources": [
+    {
+      "type": "load-balancer",
+      "name": "example-load-balancer",
+      "description": "Load balancer example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-security-advisor",
+    "description": "Example for Security Advisor. Module: ibm/security-advisor",
+    "environment": "staging",
+    "modulePath": "ibm/security-advisor"
+  },
+  "resources": [
+    {
+      "type": "security-advisor",
+      "name": "example-security-advisor",
+      "description": "Security Advisor example"
+    }
+  ]
+}

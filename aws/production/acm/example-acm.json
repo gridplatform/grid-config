@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-acm",
+    "description": "Example for ACM. Module: aws/acm",
+    "environment": "production",
+    "modulePath": "aws/acm"
+  },
+  "resources": [
+    {
+      "type": "acm",
+      "name": "example-acm",
+      "description": "ACM example",
+      "domain_name": "example-acm"
+    }
+  ]
+}

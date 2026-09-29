@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-natural-language",
+    "description": "Example for Natural Language. Module: gcp/natural-language",
+    "environment": "staging",
+    "modulePath": "gcp/natural-language"
+  },
+  "resources": [
+    {
+      "type": "natural-language",
+      "name": "example-natural-language",
+      "description": "Natural Language example"
+    }
+  ]
+}

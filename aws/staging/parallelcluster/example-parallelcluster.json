@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-parallelcluster",
+    "description": "Example for Parallelcluster. Module: aws/parallelcluster",
+    "environment": "staging",
+    "modulePath": "aws/parallelcluster"
+  },
+  "resources": [
+    {
+      "type": "parallelcluster",
+      "name": "example-parallelcluster",
+      "description": "Parallelcluster example"
+    }
+  ]
+}

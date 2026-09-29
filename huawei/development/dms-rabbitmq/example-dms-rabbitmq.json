@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dms-rabbitmq",
+    "description": "Example for Dms Rabbitmq. Module: huawei/dms-rabbitmq",
+    "environment": "development",
+    "modulePath": "huawei/dms-rabbitmq"
+  },
+  "resources": [
+    {
+      "type": "dms-rabbitmq",
+      "name": "example-dms-rabbitmq",
+      "description": "Dms Rabbitmq example"
+    }
+  ]
+}

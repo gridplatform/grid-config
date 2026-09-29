@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-css",
+    "description": "Example for Css. Module: deutsche-telekom/css",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/css"
+  },
+  "resources": [
+    {
+      "type": "css",
+      "name": "example-css",
+      "description": "Css example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-namespace",
+    "description": "Example for Namespace. Module: rancher/namespace",
+    "environment": "production",
+    "modulePath": "rancher/namespace"
+  },
+  "resources": [
+    {
+      "type": "namespace",
+      "name": "example-namespace",
+      "description": "Namespace example"
+    }
+  ]
+}

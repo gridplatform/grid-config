@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-emr",
+    "description": "Example for Emr. Module: tencent/emr",
+    "environment": "staging",
+    "modulePath": "tencent/emr"
+  },
+  "resources": [
+    {
+      "type": "emr",
+      "name": "example-emr",
+      "description": "Emr example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-service-gateway",
+    "description": "Example for Service Gateway. Module: oracle/service-gateway",
+    "environment": "production",
+    "modulePath": "oracle/service-gateway"
+  },
+  "resources": [
+    {
+      "type": "service-gateway",
+      "name": "example-service-gateway",
+      "description": "Service Gateway example"
+    }
+  ]
+}

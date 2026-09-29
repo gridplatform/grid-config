@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tem",
+    "description": "Example for Tem. Module: tencent/tem",
+    "environment": "staging",
+    "modulePath": "tencent/tem"
+  },
+  "resources": [
+    {
+      "type": "tem",
+      "name": "example-tem",
+      "description": "Tem example"
+    }
+  ]
+}

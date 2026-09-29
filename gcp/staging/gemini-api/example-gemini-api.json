@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-gemini-api",
+    "description": "Example for Gemini / Model Garden APIs (via Vertex). Module: gcp/ai-api",
+    "environment": "staging",
+    "modulePath": "gcp/ai-api"
+  },
+  "resources": [
+    {
+      "type": "gemini-api",
+      "name": "example-gemini-api",
+      "description": "Gemini / Model Garden APIs (via Vertex) example",
+      "service_name": "example-gemini-api"
+    }
+  ]
+}

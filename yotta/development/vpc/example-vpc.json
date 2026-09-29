@@ -1,0 +1,19 @@
+{
+  "provider": "yotta",
+  "project": "grid-development",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-vpc",
+    "description": "Example for Vpc. Module: yotta/vpc",
+    "environment": "development",
+    "modulePath": "yotta/vpc"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "example-vpc",
+      "description": "Vpc example",
+      "cidr": "10.90.0.0/16"
+    }
+  ]
+}

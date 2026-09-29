@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-monitor",
+    "description": "Example for Monitor. Module: tencent/monitor",
+    "environment": "development",
+    "modulePath": "tencent/monitor"
+  },
+  "resources": [
+    {
+      "type": "monitor",
+      "name": "example-monitor",
+      "description": "Monitor example"
+    }
+  ]
+}

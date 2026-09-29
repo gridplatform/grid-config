@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-healthcare-api",
+    "description": "Example for Healthcare Api. Module: gcp/healthcare-api",
+    "environment": "production",
+    "modulePath": "gcp/healthcare-api"
+  },
+  "resources": [
+    {
+      "type": "healthcare-api",
+      "name": "example-healthcare-api",
+      "description": "Healthcare Api example"
+    }
+  ]
+}

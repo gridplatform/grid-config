@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dcs-redis",
+    "description": "Example for Dcs Redis. Module: huawei/dcs-redis",
+    "environment": "staging",
+    "modulePath": "huawei/dcs-redis"
+  },
+  "resources": [
+    {
+      "type": "dcs-redis",
+      "name": "example-dcs-redis",
+      "description": "Dcs Redis example"
+    }
+  ]
+}

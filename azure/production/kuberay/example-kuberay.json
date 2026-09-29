@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-kuberay",
+    "description": "Example for Kuberay (self-hosted / unmanaged). Module: azure/kuberay",
+    "environment": "production",
+    "modulePath": "azure/kuberay"
+  },
+  "resources": [
+    {
+      "type": "kuberay",
+      "name": "example-kuberay",
+      "description": "Kuberay (self-hosted / unmanaged) example"
+    }
+  ]
+}

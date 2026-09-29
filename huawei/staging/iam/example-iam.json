@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-iam",
+    "description": "Example for IAM. Module: huawei/iam",
+    "environment": "staging",
+    "modulePath": "huawei/iam"
+  },
+  "resources": [
+    {
+      "type": "iam",
+      "name": "example-iam",
+      "description": "IAM example"
+    }
+  ]
+}

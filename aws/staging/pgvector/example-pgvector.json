@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-pgvector",
+    "description": "Example for Pgvector (self-hosted / unmanaged). Module: aws/pgvector",
+    "environment": "staging",
+    "modulePath": "aws/pgvector"
+  },
+  "resources": [
+    {
+      "type": "pgvector",
+      "name": "example-pgvector",
+      "description": "Pgvector (self-hosted / unmanaged) example"
+    }
+  ]
+}

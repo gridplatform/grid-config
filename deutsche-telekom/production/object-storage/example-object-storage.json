@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-object-storage",
+    "description": "Example for Object Storage. Module: deutsche-telekom/object-storage",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/object-storage"
+  },
+  "resources": [
+    {
+      "type": "object-storage",
+      "name": "example-object-storage",
+      "description": "Object Storage example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-budgets",
+    "description": "Example for Budgets. Module: aws/budgets",
+    "environment": "development",
+    "modulePath": "aws/budgets"
+  },
+  "resources": [
+    {
+      "type": "budgets",
+      "name": "example-budgets",
+      "description": "Budgets example"
+    }
+  ]
+}

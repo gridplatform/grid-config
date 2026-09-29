@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ess",
+    "description": "Example for Ess. Module: alibaba/ess",
+    "environment": "production",
+    "modulePath": "alibaba/ess"
+  },
+  "resources": [
+    {
+      "type": "ess",
+      "name": "example-ess",
+      "description": "Ess example"
+    }
+  ]
+}

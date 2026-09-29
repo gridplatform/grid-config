@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-power-vs",
+    "description": "Example for Power Vs. Module: ibm/power-vs",
+    "environment": "development",
+    "modulePath": "ibm/power-vs"
+  },
+  "resources": [
+    {
+      "type": "power-vs",
+      "name": "example-power-vs",
+      "description": "Power Vs example"
+    }
+  ]
+}

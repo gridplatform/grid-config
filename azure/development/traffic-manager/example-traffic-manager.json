@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-traffic-manager",
+    "description": "Example for Traffic Manager. Module: azure/traffic-manager",
+    "environment": "development",
+    "modulePath": "azure/traffic-manager"
+  },
+  "resources": [
+    {
+      "type": "traffic-manager",
+      "name": "example-traffic-manager",
+      "description": "Traffic Manager example"
+    }
+  ]
+}

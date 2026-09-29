@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-personalize",
+    "description": "Example for Amazon Personalize (API/jobs). Module: aws/ai-api",
+    "environment": "development",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "personalize",
+      "name": "example-personalize",
+      "description": "Amazon Personalize (API/jobs) example",
+      "service_name": "example-personalize"
+    }
+  ]
+}

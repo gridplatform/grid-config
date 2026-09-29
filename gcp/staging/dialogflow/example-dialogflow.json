@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-dialogflow",
+    "description": "Example for Dialogflow. Module: gcp/dialogflow",
+    "environment": "staging",
+    "modulePath": "gcp/dialogflow"
+  },
+  "resources": [
+    {
+      "type": "dialogflow",
+      "name": "example-dialogflow",
+      "description": "Dialogflow example"
+    }
+  ]
+}

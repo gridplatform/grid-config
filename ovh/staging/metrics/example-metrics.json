@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-staging",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-metrics",
+    "description": "Example for Metrics. Module: ovh/metrics",
+    "environment": "staging",
+    "modulePath": "ovh/metrics"
+  },
+  "resources": [
+    {
+      "type": "metrics",
+      "name": "example-metrics",
+      "description": "Metrics example"
+    }
+  ]
+}

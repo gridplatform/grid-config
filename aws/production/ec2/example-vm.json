@@ -1,0 +1,21 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-vm",
+    "description": "Example for EC2 instance. Module: aws/ec2-instance",
+    "environment": "production",
+    "modulePath": "aws/ec2-instance"
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "example-vm",
+      "description": "EC2 instance example",
+      "machineType": "REPLACE_MACHINE_TYPE",
+      "subnet": "REPLACE_SUBNET_NAME",
+      "diskSize": 20
+    }
+  ]
+}

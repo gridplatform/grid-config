@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-sqs",
+    "description": "Example for SQS. Module: aws/sqs",
+    "environment": "development",
+    "modulePath": "aws/sqs"
+  },
+  "resources": [
+    {
+      "type": "sqs",
+      "name": "example-sqs",
+      "description": "SQS example"
+    }
+  ]
+}

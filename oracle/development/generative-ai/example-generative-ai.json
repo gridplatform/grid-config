@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-generative-ai",
+    "description": "Example for Generative Ai. Module: oracle/generative-ai",
+    "environment": "development",
+    "modulePath": "oracle/generative-ai"
+  },
+  "resources": [
+    {
+      "type": "generative-ai",
+      "name": "example-generative-ai",
+      "description": "Generative Ai example"
+    }
+  ]
+}

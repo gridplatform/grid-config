@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-heatwave",
+    "description": "Example for Heatwave. Module: oracle/heatwave",
+    "environment": "production",
+    "modulePath": "oracle/heatwave"
+  },
+  "resources": [
+    {
+      "type": "heatwave",
+      "name": "example-heatwave",
+      "description": "Heatwave example"
+    }
+  ]
+}

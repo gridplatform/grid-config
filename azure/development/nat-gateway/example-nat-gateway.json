@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-nat-gateway",
+    "description": "Example for Nat Gateway. Module: azure/nat-gateway",
+    "environment": "development",
+    "modulePath": "azure/nat-gateway"
+  },
+  "resources": [
+    {
+      "type": "nat-gateway",
+      "name": "example-nat-gateway",
+      "description": "Nat Gateway example"
+    }
+  ]
+}

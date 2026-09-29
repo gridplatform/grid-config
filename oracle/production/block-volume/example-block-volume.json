@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-block-volume",
+    "description": "Example for Block Volume. Module: oracle/block-volume",
+    "environment": "production",
+    "modulePath": "oracle/block-volume"
+  },
+  "resources": [
+    {
+      "type": "block-volume",
+      "name": "example-block-volume",
+      "description": "Block Volume example"
+    }
+  ]
+}

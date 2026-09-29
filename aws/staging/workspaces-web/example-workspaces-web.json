@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-workspaces-web",
+    "description": "Example for Workspaces Web. Module: aws/workspaces-web",
+    "environment": "staging",
+    "modulePath": "aws/workspaces-web"
+  },
+  "resources": [
+    {
+      "type": "workspaces-web",
+      "name": "example-workspaces-web",
+      "description": "Workspaces Web example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-outposts",
+    "description": "Example for Outposts. Module: aws/outposts",
+    "environment": "production",
+    "modulePath": "aws/outposts"
+  },
+  "resources": [
+    {
+      "type": "outposts",
+      "name": "example-outposts",
+      "description": "Outposts example"
+    }
+  ]
+}

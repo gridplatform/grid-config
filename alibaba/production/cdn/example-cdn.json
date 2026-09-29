@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-cdn",
+    "description": "Example for Cdn. Module: alibaba/cdn",
+    "environment": "production",
+    "modulePath": "alibaba/cdn"
+  },
+  "resources": [
+    {
+      "type": "cdn",
+      "name": "example-cdn",
+      "description": "Cdn example"
+    }
+  ]
+}

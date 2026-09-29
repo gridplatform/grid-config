@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-deh",
+    "description": "Example for Deh. Module: huawei/deh",
+    "environment": "development",
+    "modulePath": "huawei/deh"
+  },
+  "resources": [
+    {
+      "type": "deh",
+      "name": "example-deh",
+      "description": "Deh example"
+    }
+  ]
+}

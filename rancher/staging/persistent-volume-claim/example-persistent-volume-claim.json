@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-persistent-volume-claim",
+    "description": "Example for Persistent Volume Claim. Module: rancher/persistent-volume-claim",
+    "environment": "staging",
+    "modulePath": "rancher/persistent-volume-claim"
+  },
+  "resources": [
+    {
+      "type": "persistent-volume-claim",
+      "name": "example-persistent-volume-claim",
+      "description": "Persistent Volume Claim example"
+    }
+  ]
+}

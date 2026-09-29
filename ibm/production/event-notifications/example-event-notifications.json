@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-production",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-event-notifications",
+    "description": "Example for Event Notifications. Module: ibm/event-notifications",
+    "environment": "production",
+    "modulePath": "ibm/event-notifications"
+  },
+  "resources": [
+    {
+      "type": "event-notifications",
+      "name": "example-event-notifications",
+      "description": "Event Notifications example"
+    }
+  ]
+}

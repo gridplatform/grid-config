@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-network-connectivity",
+    "description": "Example for Network Connectivity. Module: gcp/network-connectivity",
+    "environment": "production",
+    "modulePath": "gcp/network-connectivity"
+  },
+  "resources": [
+    {
+      "type": "network-connectivity",
+      "name": "example-network-connectivity",
+      "description": "Network Connectivity example"
+    }
+  ]
+}

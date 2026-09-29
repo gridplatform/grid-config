@@ -1,0 +1,80 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "grid-development-eks",
+    "description": "EKS cluster with on-demand, spot, and GPU node groups (development)",
+    "environment": "development",
+    "dependsOn": ["aws/development/vpc/grid-development-vpc.json"]
+  },
+  "resources": [
+    {
+      "type": "eks",
+      "name": "grid-development-eks",
+      "description": "Development EKS — three managed node groups",
+      "cluster_name": "grid-development-eks",
+      "vpc": "grid-development-vpc",
+      "subnets": [
+        "grid-development-nodes-a",
+        "grid-development-nodes-b"
+      ],
+      "cluster_endpoint_private_access": true,
+      "cluster_endpoint_public_access": true,
+      "enable_irsa": true,
+      "node_groups": {
+        "ondemand": {
+          "instance_types": ["t3.medium"],
+          "capacity_type": "ON_DEMAND",
+          "min_size": 0,
+          "max_size": 3,
+          "desired_size": 1,
+          "disk_size": 50,
+          "labels": {
+            "pool": "ondemand",
+            "environment": "development"
+          }
+        },
+        "spot": {
+          "instance_types": ["t3.medium", "t3a.medium"],
+          "capacity_type": "SPOT",
+          "min_size": 0,
+          "max_size": 3,
+          "desired_size": 0,
+          "disk_size": 50,
+          "labels": {
+            "pool": "spot",
+            "environment": "development"
+          },
+          "taints": [
+            {
+              "key": "spot",
+              "value": "true",
+              "effect": "NO_SCHEDULE"
+            }
+          ]
+        },
+        "gpu": {
+          "instance_types": ["g4dn.xlarge"],
+          "capacity_type": "ON_DEMAND",
+          "min_size": 0,
+          "max_size": 2,
+          "desired_size": 0,
+          "disk_size": 100,
+          "ami_type": "AL2_x86_64_GPU",
+          "labels": {
+            "pool": "gpu",
+            "environment": "development"
+          },
+          "taints": [
+            {
+              "key": "nvidia.com/gpu",
+              "value": "present",
+              "effect": "NO_SCHEDULE"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

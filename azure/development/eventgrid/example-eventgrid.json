@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-eventgrid",
+    "description": "Example for Eventgrid. Module: azure/eventgrid",
+    "environment": "development",
+    "modulePath": "azure/eventgrid"
+  },
+  "resources": [
+    {
+      "type": "eventgrid",
+      "name": "example-eventgrid",
+      "description": "Eventgrid example"
+    }
+  ]
+}

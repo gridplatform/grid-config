@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-security-group",
+    "description": "Example for Security Group. Module: alibaba/security-group",
+    "environment": "production",
+    "modulePath": "alibaba/security-group"
+  },
+  "resources": [
+    {
+      "type": "security-group",
+      "name": "example-security-group",
+      "description": "Security Group example"
+    }
+  ]
+}

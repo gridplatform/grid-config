@@ -1,0 +1,20 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-dynamodb",
+    "description": "Example for DynamoDB. Module: aws/dynamodb-table",
+    "environment": "production",
+    "modulePath": "aws/dynamodb-table"
+  },
+  "resources": [
+    {
+      "type": "dynamodb",
+      "name": "example-dynamodb",
+      "description": "DynamoDB example",
+      "hash_key": "REPLACE_HASH_KEY",
+      "attributes": []
+    }
+  ]
+}

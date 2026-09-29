@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-elemental-mediapackage",
+    "description": "Example for Elemental Mediapackage. Module: aws/elemental-mediapackage",
+    "environment": "development",
+    "modulePath": "aws/elemental-mediapackage"
+  },
+  "resources": [
+    {
+      "type": "elemental-mediapackage",
+      "name": "example-elemental-mediapackage",
+      "description": "Elemental Mediapackage example"
+    }
+  ]
+}

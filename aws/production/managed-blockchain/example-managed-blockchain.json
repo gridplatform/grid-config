@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-managed-blockchain",
+    "description": "Example for Managed Blockchain. Module: aws/managed-blockchain",
+    "environment": "production",
+    "modulePath": "aws/managed-blockchain"
+  },
+  "resources": [
+    {
+      "type": "managed-blockchain",
+      "name": "example-managed-blockchain",
+      "description": "Managed Blockchain example"
+    }
+  ]
+}

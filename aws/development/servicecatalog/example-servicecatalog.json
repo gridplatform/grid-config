@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-servicecatalog",
+    "description": "Example for Servicecatalog. Module: aws/servicecatalog",
+    "environment": "development",
+    "modulePath": "aws/servicecatalog"
+  },
+  "resources": [
+    {
+      "type": "servicecatalog",
+      "name": "example-servicecatalog",
+      "description": "Servicecatalog example"
+    }
+  ]
+}

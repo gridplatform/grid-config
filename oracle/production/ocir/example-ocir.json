@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-ocir",
+    "description": "Example for Ocir. Module: oracle/ocir",
+    "environment": "production",
+    "modulePath": "oracle/ocir"
+  },
+  "resources": [
+    {
+      "type": "ocir",
+      "name": "example-ocir",
+      "description": "Ocir example"
+    }
+  ]
+}

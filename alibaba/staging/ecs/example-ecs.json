@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ecs",
+    "description": "Example for Ecs. Module: alibaba/ecs",
+    "environment": "staging",
+    "modulePath": "alibaba/ecs"
+  },
+  "resources": [
+    {
+      "type": "ecs",
+      "name": "example-ecs",
+      "description": "Ecs example"
+    }
+  ]
+}

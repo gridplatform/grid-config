@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-athena",
+    "description": "Example for Athena. Module: aws/athena",
+    "environment": "production",
+    "modulePath": "aws/athena"
+  },
+  "resources": [
+    {
+      "type": "athena",
+      "name": "example-athena",
+      "description": "Athena example"
+    }
+  ]
+}

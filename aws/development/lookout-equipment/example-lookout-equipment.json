@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-lookout-equipment",
+    "description": "Example for Amazon Lookout for Equipment (API). Module: aws/ai-api",
+    "environment": "development",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "lookout-equipment",
+      "name": "example-lookout-equipment",
+      "description": "Amazon Lookout for Equipment (API) example",
+      "service_name": "example-lookout-equipment"
+    }
+  ]
+}

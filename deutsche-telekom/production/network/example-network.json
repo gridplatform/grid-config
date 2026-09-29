@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-network",
+    "description": "Example for VPC / network. Module: deutsche-telekom/network",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/network"
+  },
+  "resources": [
+    {
+      "type": "network",
+      "name": "example-network",
+      "description": "VPC / network example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-sentinel",
+    "description": "Example for Sentinel. Module: azure/sentinel",
+    "environment": "development",
+    "modulePath": "azure/sentinel"
+  },
+  "resources": [
+    {
+      "type": "sentinel",
+      "name": "example-sentinel",
+      "description": "Sentinel example"
+    }
+  ]
+}

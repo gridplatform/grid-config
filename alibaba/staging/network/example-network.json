@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-network",
+    "description": "Example for VPC. Module: alibaba/network",
+    "environment": "staging",
+    "modulePath": "alibaba/network"
+  },
+  "resources": [
+    {
+      "type": "network",
+      "name": "example-network",
+      "description": "VPC example"
+    }
+  ]
+}

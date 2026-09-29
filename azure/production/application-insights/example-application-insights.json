@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-application-insights",
+    "description": "Example for Application Insights. Module: azure/application-insights",
+    "environment": "production",
+    "modulePath": "azure/application-insights"
+  },
+  "resources": [
+    {
+      "type": "application-insights",
+      "name": "example-application-insights",
+      "description": "Application Insights example",
+      "location": "eastus",
+      "resource_group_name": "example-application-insights",
+      "workspace_id": "example-application-insights"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-vllm",
+    "description": "Example for Vllm. Module: ctrls/vllm",
+    "environment": "staging",
+    "modulePath": "ctrls/vllm"
+  },
+  "resources": [
+    {
+      "type": "vllm",
+      "name": "example-vllm",
+      "description": "Vllm example"
+    }
+  ]
+}

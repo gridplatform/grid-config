@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-gaussdb-mysql",
+    "description": "Example for Gaussdb Mysql. Module: huawei/gaussdb-mysql",
+    "environment": "development",
+    "modulePath": "huawei/gaussdb-mysql"
+  },
+  "resources": [
+    {
+      "type": "gaussdb-mysql",
+      "name": "example-gaussdb-mysql",
+      "description": "Gaussdb Mysql example"
+    }
+  ]
+}

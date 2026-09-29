@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-oss-bucket",
+    "description": "Example for Oss Bucket. Module: alibaba/oss-bucket",
+    "environment": "production",
+    "modulePath": "alibaba/oss-bucket"
+  },
+  "resources": [
+    {
+      "type": "oss-bucket",
+      "name": "example-oss-bucket",
+      "description": "Oss Bucket example"
+    }
+  ]
+}

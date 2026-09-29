@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-global-role",
+    "description": "Example for Global Role. Module: rancher/global-role",
+    "environment": "staging",
+    "modulePath": "rancher/global-role"
+  },
+  "resources": [
+    {
+      "type": "global-role",
+      "name": "example-global-role",
+      "description": "Global Role example"
+    }
+  ]
+}

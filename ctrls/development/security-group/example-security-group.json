@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-development",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-security-group",
+    "description": "Example for Security Group. Module: ctrls/security-group",
+    "environment": "development",
+    "modulePath": "ctrls/security-group"
+  },
+  "resources": [
+    {
+      "type": "security-group",
+      "name": "example-security-group",
+      "description": "Security Group example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-mongodb",
+    "description": "Example for Mongodb. Module: tencent/mongodb",
+    "environment": "staging",
+    "modulePath": "tencent/mongodb"
+  },
+  "resources": [
+    {
+      "type": "mongodb",
+      "name": "example-mongodb",
+      "description": "Mongodb example"
+    }
+  ]
+}

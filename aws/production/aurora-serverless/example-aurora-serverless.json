@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-aurora-serverless",
+    "description": "Example for Aurora Serverless. Module: aws/aurora-serverless",
+    "environment": "production",
+    "modulePath": "aws/aurora-serverless"
+  },
+  "resources": [
+    {
+      "type": "aurora-serverless",
+      "name": "example-aurora-serverless",
+      "description": "Aurora Serverless example"
+    }
+  ]
+}

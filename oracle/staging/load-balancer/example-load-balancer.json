@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-load-balancer",
+    "description": "Example for Load balancer. Module: oracle/load-balancer",
+    "environment": "staging",
+    "modulePath": "oracle/load-balancer"
+  },
+  "resources": [
+    {
+      "type": "load-balancer",
+      "name": "example-load-balancer",
+      "description": "Load balancer example"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-ai-search",
+    "description": "Example for Azure AI Search. Module: azure/ai-search",
+    "environment": "development",
+    "modulePath": "azure/ai-search"
+  },
+  "resources": [
+    {
+      "type": "ai-search",
+      "name": "example-ai-search",
+      "description": "Azure AI Search example",
+      "resource_group_name": "example-ai-search",
+      "location": "eastus"
+    }
+  ]
+}

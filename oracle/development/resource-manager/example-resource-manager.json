@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-resource-manager",
+    "description": "Example for Resource Manager. Module: oracle/resource-manager",
+    "environment": "development",
+    "modulePath": "oracle/resource-manager"
+  },
+  "resources": [
+    {
+      "type": "resource-manager",
+      "name": "example-resource-manager",
+      "description": "Resource Manager example"
+    }
+  ]
+}

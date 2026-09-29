@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-production",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-ip-address",
+    "description": "Example for Ip Address. Module: yotta/ip-address",
+    "environment": "production",
+    "modulePath": "yotta/ip-address"
+  },
+  "resources": [
+    {
+      "type": "ip-address",
+      "name": "example-ip-address",
+      "description": "Ip Address example"
+    }
+  ]
+}

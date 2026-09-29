@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-quantum",
+    "description": "Example for Quantum. Module: ibm/quantum",
+    "environment": "staging",
+    "modulePath": "ibm/quantum"
+  },
+  "resources": [
+    {
+      "type": "quantum",
+      "name": "example-quantum",
+      "description": "Quantum example"
+    }
+  ]
+}

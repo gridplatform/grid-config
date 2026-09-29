@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-firebase",
+    "description": "Example for Firebase. Module: gcp/firebase",
+    "environment": "staging",
+    "modulePath": "gcp/firebase"
+  },
+  "resources": [
+    {
+      "type": "firebase",
+      "name": "example-firebase",
+      "description": "Firebase example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-nlb",
+    "description": "Example for Nlb. Module: alibaba/nlb",
+    "environment": "staging",
+    "modulePath": "alibaba/nlb"
+  },
+  "resources": [
+    {
+      "type": "nlb",
+      "name": "example-nlb",
+      "description": "Nlb example"
+    }
+  ]
+}

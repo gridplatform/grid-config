@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-pgvector",
+    "description": "Example for Pgvector (self-hosted / unmanaged). Module: azure/pgvector",
+    "environment": "development",
+    "modulePath": "azure/pgvector"
+  },
+  "resources": [
+    {
+      "type": "pgvector",
+      "name": "example-pgvector",
+      "description": "Pgvector (self-hosted / unmanaged) example"
+    }
+  ]
+}

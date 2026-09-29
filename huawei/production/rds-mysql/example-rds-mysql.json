@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-rds-mysql",
+    "description": "Example for Rds Mysql. Module: huawei/rds-mysql",
+    "environment": "production",
+    "modulePath": "huawei/rds-mysql"
+  },
+  "resources": [
+    {
+      "type": "rds-mysql",
+      "name": "example-rds-mysql",
+      "description": "Rds Mysql example"
+    }
+  ]
+}

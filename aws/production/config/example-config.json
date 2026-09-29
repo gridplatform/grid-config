@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-config",
+    "description": "Example for Config. Module: aws/config",
+    "environment": "production",
+    "modulePath": "aws/config"
+  },
+  "resources": [
+    {
+      "type": "config",
+      "name": "example-config",
+      "description": "Config example"
+    }
+  ]
+}

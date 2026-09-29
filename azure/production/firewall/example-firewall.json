@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-firewall",
+    "description": "Example for Firewall. Module: azure/firewall",
+    "environment": "production",
+    "modulePath": "azure/firewall"
+  },
+  "resources": [
+    {
+      "type": "firewall",
+      "name": "example-firewall",
+      "description": "Firewall example"
+    }
+  ]
+}

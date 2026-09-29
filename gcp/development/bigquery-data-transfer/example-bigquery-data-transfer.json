@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-bigquery-data-transfer",
+    "description": "Example for Bigquery Data Transfer. Module: gcp/bigquery-data-transfer",
+    "environment": "development",
+    "modulePath": "gcp/bigquery-data-transfer"
+  },
+  "resources": [
+    {
+      "type": "bigquery-data-transfer",
+      "name": "example-bigquery-data-transfer",
+      "description": "Bigquery Data Transfer example"
+    }
+  ]
+}

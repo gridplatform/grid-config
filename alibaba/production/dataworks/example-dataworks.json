@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-dataworks",
+    "description": "Example for Dataworks. Module: alibaba/dataworks",
+    "environment": "production",
+    "modulePath": "alibaba/dataworks"
+  },
+  "resources": [
+    {
+      "type": "dataworks",
+      "name": "example-dataworks",
+      "description": "Dataworks example"
+    }
+  ]
+}

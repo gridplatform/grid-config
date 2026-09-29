@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-cts",
+    "description": "Example for Cts. Module: deutsche-telekom/cts",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/cts"
+  },
+  "resources": [
+    {
+      "type": "cts",
+      "name": "example-cts",
+      "description": "Cts example"
+    }
+  ]
+}

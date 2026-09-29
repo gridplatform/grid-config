@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cbh",
+    "description": "Example for Cbh. Module: huawei/cbh",
+    "environment": "staging",
+    "modulePath": "huawei/cbh"
+  },
+  "resources": [
+    {
+      "type": "cbh",
+      "name": "example-cbh",
+      "description": "Cbh example"
+    }
+  ]
+}

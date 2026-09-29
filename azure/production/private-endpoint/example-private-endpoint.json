@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-private-endpoint",
+    "description": "Example for Private Endpoint. Module: azure/private-endpoint",
+    "environment": "production",
+    "modulePath": "azure/private-endpoint"
+  },
+  "resources": [
+    {
+      "type": "private-endpoint",
+      "name": "example-private-endpoint",
+      "description": "Private Endpoint example"
+    }
+  ]
+}

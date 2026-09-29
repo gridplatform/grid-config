@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-maxcompute",
+    "description": "Example for Maxcompute. Module: alibaba/maxcompute",
+    "environment": "development",
+    "modulePath": "alibaba/maxcompute"
+  },
+  "resources": [
+    {
+      "type": "maxcompute",
+      "name": "example-maxcompute",
+      "description": "Maxcompute example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-ami",
+    "description": "Example for Ami. Module: aws/ami",
+    "environment": "staging",
+    "modulePath": "aws/ami"
+  },
+  "resources": [
+    {
+      "type": "ami",
+      "name": "example-ami",
+      "description": "Ami example"
+    }
+  ]
+}

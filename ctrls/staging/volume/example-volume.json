@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-volume",
+    "description": "Example for Volume. Module: ctrls/volume",
+    "environment": "staging",
+    "modulePath": "ctrls/volume"
+  },
+  "resources": [
+    {
+      "type": "volume",
+      "name": "example-volume",
+      "description": "Volume example"
+    }
+  ]
+}

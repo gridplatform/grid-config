@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-staging",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-kubernetes",
+    "description": "Example for Managed Kubernetes. Module: ovh/kubernetes",
+    "environment": "staging",
+    "modulePath": "ovh/kubernetes"
+  },
+  "resources": [
+    {
+      "type": "kubernetes",
+      "name": "example-kubernetes",
+      "description": "Managed Kubernetes example"
+    }
+  ]
+}

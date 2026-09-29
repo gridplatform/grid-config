@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-queue",
+    "description": "Example for Queue. Module: oracle/queue",
+    "environment": "production",
+    "modulePath": "oracle/queue"
+  },
+  "resources": [
+    {
+      "type": "queue",
+      "name": "example-queue",
+      "description": "Queue example"
+    }
+  ]
+}

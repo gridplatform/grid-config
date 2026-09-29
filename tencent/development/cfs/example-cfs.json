@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cfs",
+    "description": "Example for Cfs. Module: tencent/cfs",
+    "environment": "development",
+    "modulePath": "tencent/cfs"
+  },
+  "resources": [
+    {
+      "type": "cfs",
+      "name": "example-cfs",
+      "description": "Cfs example"
+    }
+  ]
+}

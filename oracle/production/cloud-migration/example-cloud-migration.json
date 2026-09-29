@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-cloud-migration",
+    "description": "Example for Cloud Migration. Module: oracle/cloud-migration",
+    "environment": "production",
+    "modulePath": "oracle/cloud-migration"
+  },
+  "resources": [
+    {
+      "type": "cloud-migration",
+      "name": "example-cloud-migration",
+      "description": "Cloud Migration example"
+    }
+  ]
+}

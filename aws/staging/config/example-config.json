@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-config",
+    "description": "Example for Config. Module: aws/config",
+    "environment": "staging",
+    "modulePath": "aws/config"
+  },
+  "resources": [
+    {
+      "type": "config",
+      "name": "example-config",
+      "description": "Config example"
+    }
+  ]
+}

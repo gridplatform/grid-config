@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-neptune",
+    "description": "Example for Neptune. Module: aws/neptune",
+    "environment": "development",
+    "modulePath": "aws/neptune"
+  },
+  "resources": [
+    {
+      "type": "neptune",
+      "name": "example-neptune",
+      "description": "Neptune example"
+    }
+  ]
+}

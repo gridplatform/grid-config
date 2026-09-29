@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-databricks",
+    "description": "Example for Databricks. Module: azure/databricks",
+    "environment": "staging",
+    "modulePath": "azure/databricks"
+  },
+  "resources": [
+    {
+      "type": "databricks",
+      "name": "example-databricks",
+      "description": "Databricks example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-events",
+    "description": "Example for Events. Module: oracle/events",
+    "environment": "staging",
+    "modulePath": "oracle/events"
+  },
+  "resources": [
+    {
+      "type": "events",
+      "name": "example-events",
+      "description": "Events example"
+    }
+  ]
+}

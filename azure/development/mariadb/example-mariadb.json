@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-mariadb",
+    "description": "Example for Mariadb. Module: azure/mariadb",
+    "environment": "development",
+    "modulePath": "azure/mariadb"
+  },
+  "resources": [
+    {
+      "type": "mariadb",
+      "name": "example-mariadb",
+      "description": "Mariadb example"
+    }
+  ]
+}

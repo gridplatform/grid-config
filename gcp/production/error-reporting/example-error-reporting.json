@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-error-reporting",
+    "description": "Example for Error Reporting. Module: gcp/error-reporting",
+    "environment": "production",
+    "modulePath": "gcp/error-reporting"
+  },
+  "resources": [
+    {
+      "type": "error-reporting",
+      "name": "example-error-reporting",
+      "description": "Error Reporting example"
+    }
+  ]
+}

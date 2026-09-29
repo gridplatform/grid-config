@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-kms",
+    "description": "Example for Kms. Module: tencent/kms",
+    "environment": "production",
+    "modulePath": "tencent/kms"
+  },
+  "resources": [
+    {
+      "type": "kms",
+      "name": "example-kms",
+      "description": "Kms example"
+    }
+  ]
+}

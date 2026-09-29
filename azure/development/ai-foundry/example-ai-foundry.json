@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-ai-foundry",
+    "description": "Example for Ai Foundry. Module: azure/ai-foundry",
+    "environment": "development",
+    "modulePath": "azure/ai-foundry"
+  },
+  "resources": [
+    {
+      "type": "ai-foundry",
+      "name": "example-ai-foundry",
+      "description": "Ai Foundry example"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-log-export",
+    "description": "Example for Log sink / export. Module: gcp/log-export",
+    "environment": "development",
+    "modulePath": "gcp/log-export"
+  },
+  "resources": [
+    {
+      "type": "log-export",
+      "name": "example-log-export",
+      "description": "Log sink / export example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "log_sink_name": "example-log-export",
+      "destination_uri": "REPLACE_DESTINATION_URI",
+      "parent_resource_id": "example-log-export"
+    }
+  ]
+}

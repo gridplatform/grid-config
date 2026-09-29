@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-kafka",
+    "description": "Example for Kafka. Module: huawei/kafka",
+    "environment": "staging",
+    "modulePath": "huawei/kafka"
+  },
+  "resources": [
+    {
+      "type": "kafka",
+      "name": "example-kafka",
+      "description": "Kafka example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-development",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-kubernetes",
+    "description": "Example for Kubernetes. Module: yotta/kubernetes",
+    "environment": "development",
+    "modulePath": "yotta/kubernetes"
+  },
+  "resources": [
+    {
+      "type": "kubernetes",
+      "name": "example-kubernetes",
+      "description": "Kubernetes example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-maps",
+    "description": "Example for Maps. Module: azure/maps",
+    "environment": "development",
+    "modulePath": "azure/maps"
+  },
+  "resources": [
+    {
+      "type": "maps",
+      "name": "example-maps",
+      "description": "Maps example"
+    }
+  ]
+}

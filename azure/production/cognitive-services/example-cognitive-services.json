@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-cognitive-services",
+    "description": "Example for Azure AI Services / Foundry Tools account. Module: azure/cognitive-services",
+    "environment": "production",
+    "modulePath": "azure/cognitive-services"
+  },
+  "resources": [
+    {
+      "type": "cognitive-services",
+      "name": "example-cognitive-services",
+      "description": "Azure AI Services / Foundry Tools account example",
+      "resource_group_name": "example-cognitive-services",
+      "location": "eastus",
+      "kind": "REPLACE_KIND"
+    }
+  ]
+}

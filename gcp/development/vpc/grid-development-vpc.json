@@ -1,0 +1,34 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "grid-development-vpc",
+    "description": "Dedicated VPC for Grid development platform (GKE + VM)",
+    "environment": "development"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "grid-development-vpc",
+      "cidr": "10.10.0.0/16",
+      "description": "Development platform VPC"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-development-nodes",
+      "vpc": "grid-development-vpc",
+      "cidr": "10.10.0.0/20",
+      "region": "us-central1",
+      "description": "Private GKE nodes subnet; secondary ranges pods=10.10.64.0/18 services=10.10.128.0/20"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-development-public",
+      "vpc": "grid-development-vpc",
+      "cidr": "10.10.16.0/24",
+      "region": "us-central1",
+      "description": "Public subnet for Compute Engine VM"
+    }
+  ]
+}

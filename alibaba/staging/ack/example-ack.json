@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ack",
+    "description": "Example for Container Service for Kubernetes (ACK). Module: alibaba/ack",
+    "environment": "staging",
+    "modulePath": "alibaba/ack"
+  },
+  "resources": [
+    {
+      "type": "ack",
+      "name": "example-ack",
+      "description": "Container Service for Kubernetes (ACK) example"
+    }
+  ]
+}

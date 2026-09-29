@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-development",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-er",
+    "description": "Example for Er. Module: deutsche-telekom/er",
+    "environment": "development",
+    "modulePath": "deutsche-telekom/er"
+  },
+  "resources": [
+    {
+      "type": "er",
+      "name": "example-er",
+      "description": "Er example"
+    }
+  ]
+}

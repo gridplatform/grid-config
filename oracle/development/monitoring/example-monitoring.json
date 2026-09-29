@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-monitoring",
+    "description": "Example for Monitoring. Module: oracle/monitoring",
+    "environment": "development",
+    "modulePath": "oracle/monitoring"
+  },
+  "resources": [
+    {
+      "type": "monitoring",
+      "name": "example-monitoring",
+      "description": "Monitoring example"
+    }
+  ]
+}

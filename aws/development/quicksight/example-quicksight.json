@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-quicksight",
+    "description": "Example for Quicksight. Module: aws/quicksight",
+    "environment": "development",
+    "modulePath": "aws/quicksight"
+  },
+  "resources": [
+    {
+      "type": "quicksight",
+      "name": "example-quicksight",
+      "description": "Quicksight example"
+    }
+  ]
+}

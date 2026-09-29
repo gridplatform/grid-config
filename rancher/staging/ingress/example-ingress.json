@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-ingress",
+    "description": "Example for Ingress. Module: rancher/ingress",
+    "environment": "staging",
+    "modulePath": "rancher/ingress"
+  },
+  "resources": [
+    {
+      "type": "ingress",
+      "name": "example-ingress",
+      "description": "Ingress example"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-vm",
+    "description": "Example for Compute instance. Module: oracle/compute-instance",
+    "environment": "staging",
+    "modulePath": "oracle/compute-instance"
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "example-vm",
+      "description": "Compute instance example",
+      "machineType": "REPLACE_MACHINE_TYPE",
+      "subnet": "REPLACE_SUBNET_NAME",
+      "diskSize": 20
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-content-safety",
+    "description": "Example for Azure Content Safety. Module: azure/cognitive-services",
+    "environment": "production",
+    "modulePath": "azure/cognitive-services"
+  },
+  "resources": [
+    {
+      "type": "content-safety",
+      "name": "example-content-safety",
+      "description": "Azure Content Safety example",
+      "resource_group_name": "example-content-safety",
+      "location": "eastus",
+      "kind": "REPLACE_KIND"
+    }
+  ]
+}

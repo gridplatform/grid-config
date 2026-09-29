@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-app-engine",
+    "description": "Example for App Engine. Module: gcp/app-engine",
+    "environment": "staging",
+    "modulePath": "gcp/app-engine"
+  },
+  "resources": [
+    {
+      "type": "app-engine",
+      "name": "example-app-engine",
+      "description": "App Engine example"
+    }
+  ]
+}

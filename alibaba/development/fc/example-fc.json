@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-fc",
+    "description": "Example for Fc. Module: alibaba/fc",
+    "environment": "development",
+    "modulePath": "alibaba/fc"
+  },
+  "resources": [
+    {
+      "type": "fc",
+      "name": "example-fc",
+      "description": "Fc example"
+    }
+  ]
+}

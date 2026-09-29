@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-mig",
+    "description": "Example for Mig. Module: gcp/mig",
+    "environment": "staging",
+    "modulePath": "gcp/mig"
+  },
+  "resources": [
+    {
+      "type": "mig",
+      "name": "example-mig",
+      "description": "Mig example"
+    }
+  ]
+}

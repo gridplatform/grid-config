@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-service-bus",
+    "description": "Example for Service Bus. Module: azure/service-bus",
+    "environment": "staging",
+    "modulePath": "azure/service-bus"
+  },
+  "resources": [
+    {
+      "type": "service-bus",
+      "name": "example-service-bus",
+      "description": "Service Bus example"
+    }
+  ]
+}

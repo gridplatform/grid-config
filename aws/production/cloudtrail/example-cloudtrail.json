@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-cloudtrail",
+    "description": "Example for Cloudtrail. Module: aws/cloudtrail",
+    "environment": "production",
+    "modulePath": "aws/cloudtrail"
+  },
+  "resources": [
+    {
+      "type": "cloudtrail",
+      "name": "example-cloudtrail",
+      "description": "Cloudtrail example"
+    }
+  ]
+}

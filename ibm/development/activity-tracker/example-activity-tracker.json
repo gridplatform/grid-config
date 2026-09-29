@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-activity-tracker",
+    "description": "Example for Activity Tracker. Module: ibm/activity-tracker",
+    "environment": "development",
+    "modulePath": "ibm/activity-tracker"
+  },
+  "resources": [
+    {
+      "type": "activity-tracker",
+      "name": "example-activity-tracker",
+      "description": "Activity Tracker example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-cluster",
+    "description": "Example for Rancher cluster. Module: rancher/cluster",
+    "environment": "staging",
+    "modulePath": "rancher/cluster"
+  },
+  "resources": [
+    {
+      "type": "cluster",
+      "name": "example-cluster",
+      "description": "Rancher cluster example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-development",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-ces",
+    "description": "Example for Ces. Module: deutsche-telekom/ces",
+    "environment": "development",
+    "modulePath": "deutsche-telekom/ces"
+  },
+  "resources": [
+    {
+      "type": "ces",
+      "name": "example-ces",
+      "description": "Ces example"
+    }
+  ]
+}

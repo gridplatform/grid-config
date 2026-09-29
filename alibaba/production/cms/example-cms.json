@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-cms",
+    "description": "Example for Cms. Module: alibaba/cms",
+    "environment": "production",
+    "modulePath": "alibaba/cms"
+  },
+  "resources": [
+    {
+      "type": "cms",
+      "name": "example-cms",
+      "description": "Cms example"
+    }
+  ]
+}

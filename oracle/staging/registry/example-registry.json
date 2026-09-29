@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-registry",
+    "description": "Example for Registry. Module: oracle/registry",
+    "environment": "staging",
+    "modulePath": "oracle/registry"
+  },
+  "resources": [
+    {
+      "type": "registry",
+      "name": "example-registry",
+      "description": "Registry example"
+    }
+  ]
+}

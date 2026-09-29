@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-org-policy",
+    "description": "Example for Org policy. Module: gcp/org-policy",
+    "environment": "development",
+    "modulePath": "gcp/org-policy"
+  },
+  "resources": [
+    {
+      "type": "org-policy",
+      "name": "example-org-policy",
+      "description": "Org policy example",
+      "parent_type": "REPLACE_PARENT_TYPE",
+      "parent_id": "example-org-policy",
+      "constraint": "REPLACE_CONSTRAINT"
+    }
+  ]
+}

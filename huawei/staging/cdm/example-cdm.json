@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cdm",
+    "description": "Example for Cdm. Module: huawei/cdm",
+    "environment": "staging",
+    "modulePath": "huawei/cdm"
+  },
+  "resources": [
+    {
+      "type": "cdm",
+      "name": "example-cdm",
+      "description": "Cdm example"
+    }
+  ]
+}

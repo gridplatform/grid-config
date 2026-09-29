@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-resource-manager-folders",
+    "description": "Example for Resource Manager folders. Module: gcp/resource-manager-folders",
+    "environment": "staging",
+    "modulePath": "gcp/resource-manager-folders"
+  },
+  "resources": [
+    {
+      "type": "resource-manager-folders",
+      "name": "example-resource-manager-folders",
+      "description": "Resource Manager folders example",
+      "parent": "REPLACE_PARENT"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-vault",
+    "description": "Example for Vault. Module: oracle/vault",
+    "environment": "staging",
+    "modulePath": "oracle/vault"
+  },
+  "resources": [
+    {
+      "type": "vault",
+      "name": "example-vault",
+      "description": "Vault example"
+    }
+  ]
+}

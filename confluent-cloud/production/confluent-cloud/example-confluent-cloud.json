@@ -1,0 +1,21 @@
+{
+  "provider": "confluent-cloud",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-confluent-cloud",
+    "description": "Example for confluent-cloud. Module: confluent-cloud",
+    "environment": "production",
+    "modulePath": "confluent-cloud"
+  },
+  "resources": [
+    {
+      "type": "confluent-cloud",
+      "name": "example-confluent-cloud",
+      "description": "confluent-cloud example",
+      "environment_display_name": "example-confluent-cloud",
+      "cluster_display_name": "example-confluent-cloud",
+      "cluster_region": "global"
+    }
+  ]
+}

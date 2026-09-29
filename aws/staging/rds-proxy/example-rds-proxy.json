@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-rds-proxy",
+    "description": "Example for Rds Proxy. Module: aws/rds-proxy",
+    "environment": "staging",
+    "modulePath": "aws/rds-proxy"
+  },
+  "resources": [
+    {
+      "type": "rds-proxy",
+      "name": "example-rds-proxy",
+      "description": "Rds Proxy example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-speech",
+    "description": "Example for Speech. Module: oracle/speech",
+    "environment": "staging",
+    "modulePath": "oracle/speech"
+  },
+  "resources": [
+    {
+      "type": "speech",
+      "name": "example-speech",
+      "description": "Speech example"
+    }
+  ]
+}

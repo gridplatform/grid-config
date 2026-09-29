@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-token",
+    "description": "Example for Token. Module: rancher/token",
+    "environment": "staging",
+    "modulePath": "rancher/token"
+  },
+  "resources": [
+    {
+      "type": "token",
+      "name": "example-token",
+      "description": "Token example"
+    }
+  ]
+}

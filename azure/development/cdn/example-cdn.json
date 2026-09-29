@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-cdn",
+    "description": "Example for Cdn. Module: azure/cdn",
+    "environment": "development",
+    "modulePath": "azure/cdn"
+  },
+  "resources": [
+    {
+      "type": "cdn",
+      "name": "example-cdn",
+      "description": "Cdn example"
+    }
+  ]
+}

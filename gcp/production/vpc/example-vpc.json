@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-vpc",
+    "description": "Example for VPC network (+ subnets, firewall, routes, peering, PSA). Module: gcp/network",
+    "environment": "production",
+    "modulePath": "gcp/network"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "example-vpc",
+      "description": "VPC network (+ subnets, firewall, routes, peering, PSA) example",
+      "cidr": "10.90.0.0/16"
+    }
+  ]
+}

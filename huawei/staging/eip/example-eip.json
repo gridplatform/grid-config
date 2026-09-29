@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-eip",
+    "description": "Example for Eip. Module: huawei/eip",
+    "environment": "staging",
+    "modulePath": "huawei/eip"
+  },
+  "resources": [
+    {
+      "type": "eip",
+      "name": "example-eip",
+      "description": "Eip example"
+    }
+  ]
+}

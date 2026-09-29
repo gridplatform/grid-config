@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-kserve",
+    "description": "Example for Kserve. Module: ibm/kserve",
+    "environment": "development",
+    "modulePath": "ibm/kserve"
+  },
+  "resources": [
+    {
+      "type": "kserve",
+      "name": "example-kserve",
+      "description": "Kserve example"
+    }
+  ]
+}

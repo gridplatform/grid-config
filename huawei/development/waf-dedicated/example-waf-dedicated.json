@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-waf-dedicated",
+    "description": "Example for Waf Dedicated. Module: huawei/waf-dedicated",
+    "environment": "development",
+    "modulePath": "huawei/waf-dedicated"
+  },
+  "resources": [
+    {
+      "type": "waf-dedicated",
+      "name": "example-waf-dedicated",
+      "description": "Waf Dedicated example"
+    }
+  ]
+}

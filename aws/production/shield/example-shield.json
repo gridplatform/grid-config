@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-shield",
+    "description": "Example for Shield. Module: aws/shield",
+    "environment": "production",
+    "modulePath": "aws/shield"
+  },
+  "resources": [
+    {
+      "type": "shield",
+      "name": "example-shield",
+      "description": "Shield example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-config-map",
+    "description": "Example for Config Map. Module: rancher/config-map",
+    "environment": "staging",
+    "modulePath": "rancher/config-map"
+  },
+  "resources": [
+    {
+      "type": "config-map",
+      "name": "example-config-map",
+      "description": "Config Map example"
+    }
+  ]
+}

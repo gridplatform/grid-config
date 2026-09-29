@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-app-config",
+    "description": "Example for App Config. Module: ibm/app-config",
+    "environment": "development",
+    "modulePath": "ibm/app-config"
+  },
+  "resources": [
+    {
+      "type": "app-config",
+      "name": "example-app-config",
+      "description": "App Config example"
+    }
+  ]
+}

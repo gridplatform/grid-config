@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-development",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-apig",
+    "description": "Example for Apig. Module: deutsche-telekom/apig",
+    "environment": "development",
+    "modulePath": "deutsche-telekom/apig"
+  },
+  "resources": [
+    {
+      "type": "apig",
+      "name": "example-apig",
+      "description": "Apig example"
+    }
+  ]
+}

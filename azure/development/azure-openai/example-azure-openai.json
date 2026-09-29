@@ -1,0 +1,20 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-azure-openai",
+    "description": "Example for Azure OpenAI. Module: azure/openai",
+    "environment": "development",
+    "modulePath": "azure/openai"
+  },
+  "resources": [
+    {
+      "type": "azure-openai",
+      "name": "example-azure-openai",
+      "description": "Azure OpenAI example",
+      "resource_group_name": "example-azure-openai",
+      "location": "eastus"
+    }
+  ]
+}

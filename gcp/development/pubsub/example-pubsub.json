@@ -1,0 +1,20 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-pubsub",
+    "description": "Example for Pub/Sub. Module: gcp/pubsub",
+    "environment": "development",
+    "modulePath": "gcp/pubsub"
+  },
+  "resources": [
+    {
+      "type": "pubsub",
+      "name": "example-pubsub",
+      "description": "Pub/Sub example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "topic": "REPLACE_TOPIC"
+    }
+  ]
+}

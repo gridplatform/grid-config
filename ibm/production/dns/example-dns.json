@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-production",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-dns",
+    "description": "Example for DNS. Module: ibm/dns",
+    "environment": "production",
+    "modulePath": "ibm/dns"
+  },
+  "resources": [
+    {
+      "type": "dns",
+      "name": "example-dns",
+      "description": "DNS example"
+    }
+  ]
+}

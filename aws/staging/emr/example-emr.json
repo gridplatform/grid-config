@@ -1,0 +1,21 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-emr",
+    "description": "Example for EMR. Module: aws/emr",
+    "environment": "staging",
+    "modulePath": "aws/emr"
+  },
+  "resources": [
+    {
+      "type": "emr",
+      "name": "example-emr",
+      "description": "EMR example",
+      "release_label": "REPLACE_RELEASE_LABEL",
+      "service_role_arn": "REPLACE_SERVICE_ROLE_ARN",
+      "subnet_id": "example-emr"
+    }
+  ]
+}

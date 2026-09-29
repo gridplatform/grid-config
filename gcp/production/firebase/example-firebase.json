@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-firebase",
+    "description": "Example for Firebase. Module: gcp/firebase",
+    "environment": "production",
+    "modulePath": "gcp/firebase"
+  },
+  "resources": [
+    {
+      "type": "firebase",
+      "name": "example-firebase",
+      "description": "Firebase example"
+    }
+  ]
+}

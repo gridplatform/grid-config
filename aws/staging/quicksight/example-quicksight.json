@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-quicksight",
+    "description": "Example for Quicksight. Module: aws/quicksight",
+    "environment": "staging",
+    "modulePath": "aws/quicksight"
+  },
+  "resources": [
+    {
+      "type": "quicksight",
+      "name": "example-quicksight",
+      "description": "Quicksight example"
+    }
+  ]
+}

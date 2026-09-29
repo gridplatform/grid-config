@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-production",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-nutanix-subnet",
+    "description": "Example for Nutanix Subnet. Module: ctrls/nutanix-subnet",
+    "environment": "production",
+    "modulePath": "ctrls/nutanix-subnet"
+  },
+  "resources": [
+    {
+      "type": "nutanix-subnet",
+      "name": "example-nutanix-subnet",
+      "description": "Nutanix Subnet example"
+    }
+  ]
+}

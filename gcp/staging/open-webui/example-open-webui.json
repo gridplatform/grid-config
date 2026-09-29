@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-open-webui",
+    "description": "Example for Open Webui (self-hosted / unmanaged). Module: gcp/open-webui",
+    "environment": "staging",
+    "modulePath": "gcp/open-webui"
+  },
+  "resources": [
+    {
+      "type": "open-webui",
+      "name": "example-open-webui",
+      "description": "Open Webui (self-hosted / unmanaged) example"
+    }
+  ]
+}

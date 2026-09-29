@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tcb",
+    "description": "Example for Tcb. Module: tencent/tcb",
+    "environment": "development",
+    "modulePath": "tencent/tcb"
+  },
+  "resources": [
+    {
+      "type": "tcb",
+      "name": "example-tcb",
+      "description": "Tcb example"
+    }
+  ]
+}

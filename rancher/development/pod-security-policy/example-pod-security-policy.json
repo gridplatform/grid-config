@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-pod-security-policy",
+    "description": "Example for Pod Security Policy. Module: rancher/pod-security-policy",
+    "environment": "development",
+    "modulePath": "rancher/pod-security-policy"
+  },
+  "resources": [
+    {
+      "type": "pod-security-policy",
+      "name": "example-pod-security-policy",
+      "description": "Pod Security Policy example"
+    }
+  ]
+}

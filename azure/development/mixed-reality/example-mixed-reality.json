@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-mixed-reality",
+    "description": "Example for Mixed Reality. Module: azure/mixed-reality",
+    "environment": "development",
+    "modulePath": "azure/mixed-reality"
+  },
+  "resources": [
+    {
+      "type": "mixed-reality",
+      "name": "example-mixed-reality",
+      "description": "Mixed Reality example"
+    }
+  ]
+}

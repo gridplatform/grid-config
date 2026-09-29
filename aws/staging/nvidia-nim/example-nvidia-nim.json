@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-nvidia-nim",
+    "description": "Example for Nvidia Nim (self-hosted / unmanaged). Module: aws/nvidia-nim",
+    "environment": "staging",
+    "modulePath": "aws/nvidia-nim"
+  },
+  "resources": [
+    {
+      "type": "nvidia-nim",
+      "name": "example-nvidia-nim",
+      "description": "Nvidia Nim (self-hosted / unmanaged) example"
+    }
+  ]
+}

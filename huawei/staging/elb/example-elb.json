@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-elb",
+    "description": "Example for Elb. Module: huawei/elb",
+    "environment": "staging",
+    "modulePath": "huawei/elb"
+  },
+  "resources": [
+    {
+      "type": "elb",
+      "name": "example-elb",
+      "description": "Elb example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-sentinel",
+    "description": "Example for Sentinel. Module: azure/sentinel",
+    "environment": "staging",
+    "modulePath": "azure/sentinel"
+  },
+  "resources": [
+    {
+      "type": "sentinel",
+      "name": "example-sentinel",
+      "description": "Sentinel example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-dli",
+    "description": "Example for Dli. Module: deutsche-telekom/dli",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/dli"
+  },
+  "resources": [
+    {
+      "type": "dli",
+      "name": "example-dli",
+      "description": "Dli example"
+    }
+  ]
+}

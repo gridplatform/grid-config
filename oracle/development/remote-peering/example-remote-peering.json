@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-remote-peering",
+    "description": "Example for Remote Peering. Module: oracle/remote-peering",
+    "environment": "development",
+    "modulePath": "oracle/remote-peering"
+  },
+  "resources": [
+    {
+      "type": "remote-peering",
+      "name": "example-remote-peering",
+      "description": "Remote Peering example"
+    }
+  ]
+}

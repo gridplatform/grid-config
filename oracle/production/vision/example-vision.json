@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-vision",
+    "description": "Example for Vision. Module: oracle/vision",
+    "environment": "production",
+    "modulePath": "oracle/vision"
+  },
+  "resources": [
+    {
+      "type": "vision",
+      "name": "example-vision",
+      "description": "Vision example"
+    }
+  ]
+}

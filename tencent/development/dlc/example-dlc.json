@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-dlc",
+    "description": "Example for Dlc. Module: tencent/dlc",
+    "environment": "development",
+    "modulePath": "tencent/dlc"
+  },
+  "resources": [
+    {
+      "type": "dlc",
+      "name": "example-dlc",
+      "description": "Dlc example"
+    }
+  ]
+}

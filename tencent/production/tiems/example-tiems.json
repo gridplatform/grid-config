@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tiems",
+    "description": "Example for Tiems. Module: tencent/tiems",
+    "environment": "production",
+    "modulePath": "tencent/tiems"
+  },
+  "resources": [
+    {
+      "type": "tiems",
+      "name": "example-tiems",
+      "description": "Tiems example"
+    }
+  ]
+}

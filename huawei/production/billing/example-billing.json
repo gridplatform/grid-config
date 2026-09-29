@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-billing",
+    "description": "Example for Billing. Module: huawei/billing",
+    "environment": "production",
+    "modulePath": "huawei/billing"
+  },
+  "resources": [
+    {
+      "type": "billing",
+      "name": "example-billing",
+      "description": "Billing example"
+    }
+  ]
+}

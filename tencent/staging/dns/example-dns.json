@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-dns",
+    "description": "Example for DNS. Module: tencent/dns",
+    "environment": "staging",
+    "modulePath": "tencent/dns"
+  },
+  "resources": [
+    {
+      "type": "dns",
+      "name": "example-dns",
+      "description": "DNS example"
+    }
+  ]
+}

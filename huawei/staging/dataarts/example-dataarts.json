@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dataarts",
+    "description": "Example for Dataarts. Module: huawei/dataarts",
+    "environment": "staging",
+    "modulePath": "huawei/dataarts"
+  },
+  "resources": [
+    {
+      "type": "dataarts",
+      "name": "example-dataarts",
+      "description": "Dataarts example"
+    }
+  ]
+}

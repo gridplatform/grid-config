@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-client-vpn",
+    "description": "Example for Client Vpn. Module: aws/client-vpn",
+    "environment": "development",
+    "modulePath": "aws/client-vpn"
+  },
+  "resources": [
+    {
+      "type": "client-vpn",
+      "name": "example-client-vpn",
+      "description": "Client Vpn example"
+    }
+  ]
+}

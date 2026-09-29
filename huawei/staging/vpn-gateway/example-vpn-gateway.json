@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-vpn-gateway",
+    "description": "Example for Vpn Gateway. Module: huawei/vpn-gateway",
+    "environment": "staging",
+    "modulePath": "huawei/vpn-gateway"
+  },
+  "resources": [
+    {
+      "type": "vpn-gateway",
+      "name": "example-vpn-gateway",
+      "description": "Vpn Gateway example"
+    }
+  ]
+}

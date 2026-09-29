@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-iam",
+    "description": "Example for IAM. Module: oracle/iam",
+    "environment": "development",
+    "modulePath": "oracle/iam"
+  },
+  "resources": [
+    {
+      "type": "iam",
+      "name": "example-iam",
+      "description": "IAM example"
+    }
+  ]
+}

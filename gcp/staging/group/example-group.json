@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-group",
+    "description": "Example for Cloud Identity Group. Module: gcp/group",
+    "environment": "staging",
+    "modulePath": "gcp/group"
+  },
+  "resources": [
+    {
+      "type": "group",
+      "name": "example-group",
+      "description": "Cloud Identity Group example",
+      "id": "example-group"
+    }
+  ]
+}

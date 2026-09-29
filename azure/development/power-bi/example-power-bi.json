@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-power-bi",
+    "description": "Example for Power Bi. Module: azure/power-bi",
+    "environment": "development",
+    "modulePath": "azure/power-bi"
+  },
+  "resources": [
+    {
+      "type": "power-bi",
+      "name": "example-power-bi",
+      "description": "Power Bi example"
+    }
+  ]
+}

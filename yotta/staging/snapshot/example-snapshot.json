@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-snapshot",
+    "description": "Example for Snapshot. Module: yotta/snapshot",
+    "environment": "staging",
+    "modulePath": "yotta/snapshot"
+  },
+  "resources": [
+    {
+      "type": "snapshot",
+      "name": "example-snapshot",
+      "description": "Snapshot example"
+    }
+  ]
+}

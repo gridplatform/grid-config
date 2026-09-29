@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-health-checks",
+    "description": "Example for Health Checks. Module: oracle/health-checks",
+    "environment": "development",
+    "modulePath": "oracle/health-checks"
+  },
+  "resources": [
+    {
+      "type": "health-checks",
+      "name": "example-health-checks",
+      "description": "Health Checks example"
+    }
+  ]
+}

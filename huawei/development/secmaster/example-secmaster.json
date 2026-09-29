@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-secmaster",
+    "description": "Example for Secmaster. Module: huawei/secmaster",
+    "environment": "development",
+    "modulePath": "huawei/secmaster"
+  },
+  "resources": [
+    {
+      "type": "secmaster",
+      "name": "example-secmaster",
+      "description": "Secmaster example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-transcribe",
+    "description": "Example for module-transcribe. Module: aws/transcribe",
+    "environment": "staging",
+    "modulePath": "aws/transcribe"
+  },
+  "resources": [
+    {
+      "type": "module-transcribe",
+      "name": "example-module-transcribe",
+      "description": "module-transcribe example"
+    }
+  ]
+}

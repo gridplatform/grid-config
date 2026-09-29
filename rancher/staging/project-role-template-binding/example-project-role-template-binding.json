@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-project-role-template-binding",
+    "description": "Example for Project Role Template Binding. Module: rancher/project-role-template-binding",
+    "environment": "staging",
+    "modulePath": "rancher/project-role-template-binding"
+  },
+  "resources": [
+    {
+      "type": "project-role-template-binding",
+      "name": "example-project-role-template-binding",
+      "description": "Project Role Template Binding example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dws",
+    "description": "Example for Dws. Module: huawei/dws",
+    "environment": "staging",
+    "modulePath": "huawei/dws"
+  },
+  "resources": [
+    {
+      "type": "dws",
+      "name": "example-dws",
+      "description": "Dws example"
+    }
+  ]
+}

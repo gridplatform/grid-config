@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-production",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-schematics",
+    "description": "Example for Schematics. Module: ibm/schematics",
+    "environment": "production",
+    "modulePath": "ibm/schematics"
+  },
+  "resources": [
+    {
+      "type": "schematics",
+      "name": "example-schematics",
+      "description": "Schematics example"
+    }
+  ]
+}

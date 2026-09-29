@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-forecast",
+    "description": "Example for Amazon Forecast (API). Module: aws/ai-api",
+    "environment": "staging",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "forecast",
+      "name": "example-forecast",
+      "description": "Amazon Forecast (API) example",
+      "service_name": "example-forecast"
+    }
+  ]
+}

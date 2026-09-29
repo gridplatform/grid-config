@@ -1,0 +1,50 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "grid-production-vpc",
+    "description": "Dedicated VPC for Grid production platform (EKS + EC2)",
+    "environment": "production"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "grid-production-vpc",
+      "cidr": "10.60.0.0/16",
+      "description": "Production platform VPC"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-production-nodes-a",
+      "vpc": "grid-production-vpc",
+      "cidr": "10.60.0.0/20",
+      "region": "us-east-1",
+      "description": "Private EKS nodes subnet (us-east-1a)"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-production-nodes-b",
+      "vpc": "grid-production-vpc",
+      "cidr": "10.60.16.0/20",
+      "region": "us-east-1",
+      "description": "Private EKS nodes subnet (us-east-1b)"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-production-nodes-c",
+      "vpc": "grid-production-vpc",
+      "cidr": "10.60.32.0/20",
+      "region": "us-east-1",
+      "description": "Private EKS nodes subnet (us-east-1c)"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-production-public",
+      "vpc": "grid-production-vpc",
+      "cidr": "10.60.48.0/24",
+      "region": "us-east-1",
+      "description": "Public subnet for EC2 instance"
+    }
+  ]
+}

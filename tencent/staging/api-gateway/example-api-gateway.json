@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-api-gateway",
+    "description": "Example for Api Gateway. Module: tencent/api-gateway",
+    "environment": "staging",
+    "modulePath": "tencent/api-gateway"
+  },
+  "resources": [
+    {
+      "type": "api-gateway",
+      "name": "example-api-gateway",
+      "description": "Api Gateway example"
+    }
+  ]
+}

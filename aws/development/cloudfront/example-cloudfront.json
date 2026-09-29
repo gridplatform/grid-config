@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-cloudfront",
+    "description": "Example for Cloudfront. Module: aws/cloudfront",
+    "environment": "development",
+    "modulePath": "aws/cloudfront"
+  },
+  "resources": [
+    {
+      "type": "cloudfront",
+      "name": "example-cloudfront",
+      "description": "Cloudfront example"
+    }
+  ]
+}

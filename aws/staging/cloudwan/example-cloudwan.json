@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-cloudwan",
+    "description": "Example for Cloudwan. Module: aws/cloudwan",
+    "environment": "staging",
+    "modulePath": "aws/cloudwan"
+  },
+  "resources": [
+    {
+      "type": "cloudwan",
+      "name": "example-cloudwan",
+      "description": "Cloudwan example"
+    }
+  ]
+}

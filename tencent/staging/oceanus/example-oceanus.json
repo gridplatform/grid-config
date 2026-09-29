@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-oceanus",
+    "description": "Example for Oceanus. Module: tencent/oceanus",
+    "environment": "staging",
+    "modulePath": "tencent/oceanus"
+  },
+  "resources": [
+    {
+      "type": "oceanus",
+      "name": "example-oceanus",
+      "description": "Oceanus example"
+    }
+  ]
+}

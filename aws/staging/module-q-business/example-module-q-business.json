@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-q-business",
+    "description": "Example for module-q-business. Module: aws/q-business",
+    "environment": "staging",
+    "modulePath": "aws/q-business"
+  },
+  "resources": [
+    {
+      "type": "module-q-business",
+      "name": "example-module-q-business",
+      "description": "module-q-business example"
+    }
+  ]
+}

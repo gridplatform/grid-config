@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-nsg",
+    "description": "Example for Nsg. Module: oracle/nsg",
+    "environment": "production",
+    "modulePath": "oracle/nsg"
+  },
+  "resources": [
+    {
+      "type": "nsg",
+      "name": "example-nsg",
+      "description": "Nsg example"
+    }
+  ]
+}

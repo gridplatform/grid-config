@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-spanner",
+    "description": "Example for Spanner. Module: gcp/spanner",
+    "environment": "production",
+    "modulePath": "gcp/spanner"
+  },
+  "resources": [
+    {
+      "type": "spanner",
+      "name": "example-spanner",
+      "description": "Spanner example"
+    }
+  ]
+}

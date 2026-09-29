@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-sglang",
+    "description": "Example for Sglang (self-hosted / unmanaged). Module: azure/sglang",
+    "environment": "staging",
+    "modulePath": "azure/sglang"
+  },
+  "resources": [
+    {
+      "type": "sglang",
+      "name": "example-sglang",
+      "description": "Sglang (self-hosted / unmanaged) example"
+    }
+  ]
+}

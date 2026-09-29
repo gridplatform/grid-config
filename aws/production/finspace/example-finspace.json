@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-finspace",
+    "description": "Example for Finspace. Module: aws/finspace",
+    "environment": "production",
+    "modulePath": "aws/finspace"
+  },
+  "resources": [
+    {
+      "type": "finspace",
+      "name": "example-finspace",
+      "description": "Finspace example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-nlp",
+    "description": "Example for Nlp. Module: alibaba/nlp",
+    "environment": "development",
+    "modulePath": "alibaba/nlp"
+  },
+  "resources": [
+    {
+      "type": "nlp",
+      "name": "example-nlp",
+      "description": "Nlp example"
+    }
+  ]
+}

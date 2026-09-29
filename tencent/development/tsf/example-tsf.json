@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tsf",
+    "description": "Example for Tsf. Module: tencent/tsf",
+    "environment": "development",
+    "modulePath": "tencent/tsf"
+  },
+  "resources": [
+    {
+      "type": "tsf",
+      "name": "example-tsf",
+      "description": "Tsf example"
+    }
+  ]
+}

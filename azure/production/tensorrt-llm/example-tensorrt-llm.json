@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-tensorrt-llm",
+    "description": "Example for Tensorrt Llm (self-hosted / unmanaged). Module: azure/tensorrt-llm",
+    "environment": "production",
+    "modulePath": "azure/tensorrt-llm"
+  },
+  "resources": [
+    {
+      "type": "tensorrt-llm",
+      "name": "example-tensorrt-llm",
+      "description": "Tensorrt Llm (self-hosted / unmanaged) example"
+    }
+  ]
+}

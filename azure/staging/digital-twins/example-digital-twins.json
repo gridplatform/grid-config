@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-digital-twins",
+    "description": "Example for Digital Twins. Module: azure/digital-twins",
+    "environment": "staging",
+    "modulePath": "azure/digital-twins"
+  },
+  "resources": [
+    {
+      "type": "digital-twins",
+      "name": "example-digital-twins",
+      "description": "Digital Twins example"
+    }
+  ]
+}

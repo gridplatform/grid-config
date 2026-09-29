@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cdn",
+    "description": "Example for Cdn. Module: tencent/cdn",
+    "environment": "development",
+    "modulePath": "tencent/cdn"
+  },
+  "resources": [
+    {
+      "type": "cdn",
+      "name": "example-cdn",
+      "description": "Cdn example"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-kms",
+    "description": "Example for KMS. Module: gcp/kms",
+    "environment": "development",
+    "modulePath": "gcp/kms"
+  },
+  "resources": [
+    {
+      "type": "kms",
+      "name": "example-kms",
+      "description": "KMS example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "location": "us-central1",
+      "keyring": "REPLACE_KEYRING"
+    }
+  ]
+}

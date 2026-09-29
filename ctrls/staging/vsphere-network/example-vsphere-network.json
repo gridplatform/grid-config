@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-vsphere-network",
+    "description": "Example for Vsphere Network. Module: ctrls/vsphere-network",
+    "environment": "staging",
+    "modulePath": "ctrls/vsphere-network"
+  },
+  "resources": [
+    {
+      "type": "vsphere-network",
+      "name": "example-vsphere-network",
+      "description": "Vsphere Network example"
+    }
+  ]
+}

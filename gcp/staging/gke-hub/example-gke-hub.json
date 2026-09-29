@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-gke-hub",
+    "description": "Example for Gke Hub. Module: gcp/gke-hub",
+    "environment": "staging",
+    "modulePath": "gcp/gke-hub"
+  },
+  "resources": [
+    {
+      "type": "gke-hub",
+      "name": "example-gke-hub",
+      "description": "Gke Hub example"
+    }
+  ]
+}

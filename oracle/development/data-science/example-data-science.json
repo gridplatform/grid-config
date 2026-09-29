@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-data-science",
+    "description": "Example for Data Science. Module: oracle/data-science",
+    "environment": "development",
+    "modulePath": "oracle/data-science"
+  },
+  "resources": [
+    {
+      "type": "data-science",
+      "name": "example-data-science",
+      "description": "Data Science example"
+    }
+  ]
+}

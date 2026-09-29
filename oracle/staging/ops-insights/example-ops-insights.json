@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-ops-insights",
+    "description": "Example for Ops Insights. Module: oracle/ops-insights",
+    "environment": "staging",
+    "modulePath": "oracle/ops-insights"
+  },
+  "resources": [
+    {
+      "type": "ops-insights",
+      "name": "example-ops-insights",
+      "description": "Ops Insights example"
+    }
+  ]
+}

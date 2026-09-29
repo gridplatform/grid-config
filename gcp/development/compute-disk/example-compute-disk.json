@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-compute-disk",
+    "description": "Example for Compute Disk. Module: gcp/compute-disk",
+    "environment": "development",
+    "modulePath": "gcp/compute-disk"
+  },
+  "resources": [
+    {
+      "type": "compute-disk",
+      "name": "example-compute-disk",
+      "description": "Compute Disk example"
+    }
+  ]
+}

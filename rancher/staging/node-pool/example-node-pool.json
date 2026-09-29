@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-node-pool",
+    "description": "Example for Node pool. Module: rancher/node-pool",
+    "environment": "staging",
+    "modulePath": "rancher/node-pool"
+  },
+  "resources": [
+    {
+      "type": "node-pool",
+      "name": "example-node-pool",
+      "description": "Node pool example"
+    }
+  ]
+}

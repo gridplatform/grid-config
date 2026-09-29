@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-network-manager",
+    "description": "Example for Network Manager. Module: aws/network-manager",
+    "environment": "development",
+    "modulePath": "aws/network-manager"
+  },
+  "resources": [
+    {
+      "type": "network-manager",
+      "name": "example-network-manager",
+      "description": "Network Manager example"
+    }
+  ]
+}

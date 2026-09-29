@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-dataflow",
+    "description": "Example for Dataflow. Module: gcp/dataflow",
+    "environment": "staging",
+    "modulePath": "gcp/dataflow"
+  },
+  "resources": [
+    {
+      "type": "dataflow",
+      "name": "example-dataflow",
+      "description": "Dataflow example",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING"
+    }
+  ]
+}

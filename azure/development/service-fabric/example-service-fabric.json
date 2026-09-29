@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-service-fabric",
+    "description": "Example for Service Fabric. Module: azure/service-fabric",
+    "environment": "development",
+    "modulePath": "azure/service-fabric"
+  },
+  "resources": [
+    {
+      "type": "service-fabric",
+      "name": "example-service-fabric",
+      "description": "Service Fabric example"
+    }
+  ]
+}

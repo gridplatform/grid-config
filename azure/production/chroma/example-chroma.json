@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-chroma",
+    "description": "Example for Chroma (self-hosted / unmanaged). Module: azure/chroma",
+    "environment": "production",
+    "modulePath": "azure/chroma"
+  },
+  "resources": [
+    {
+      "type": "chroma",
+      "name": "example-chroma",
+      "description": "Chroma (self-hosted / unmanaged) example"
+    }
+  ]
+}

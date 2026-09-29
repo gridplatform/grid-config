@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-firewall-manager",
+    "description": "Example for Firewall Manager. Module: aws/firewall-manager",
+    "environment": "development",
+    "modulePath": "aws/firewall-manager"
+  },
+  "resources": [
+    {
+      "type": "firewall-manager",
+      "name": "example-firewall-manager",
+      "description": "Firewall Manager example"
+    }
+  ]
+}

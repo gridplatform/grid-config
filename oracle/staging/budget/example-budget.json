@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-budget",
+    "description": "Example for Budget. Module: oracle/budget",
+    "environment": "staging",
+    "modulePath": "oracle/budget"
+  },
+  "resources": [
+    {
+      "type": "budget",
+      "name": "example-budget",
+      "description": "Budget example"
+    }
+  ]
+}

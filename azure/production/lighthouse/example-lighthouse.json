@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-lighthouse",
+    "description": "Example for Lighthouse. Module: azure/lighthouse",
+    "environment": "production",
+    "modulePath": "azure/lighthouse"
+  },
+  "resources": [
+    {
+      "type": "lighthouse",
+      "name": "example-lighthouse",
+      "description": "Lighthouse example"
+    }
+  ]
+}

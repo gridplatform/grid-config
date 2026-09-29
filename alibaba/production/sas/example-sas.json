@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-sas",
+    "description": "Example for Sas. Module: alibaba/sas",
+    "environment": "production",
+    "modulePath": "alibaba/sas"
+  },
+  "resources": [
+    {
+      "type": "sas",
+      "name": "example-sas",
+      "description": "Sas example"
+    }
+  ]
+}

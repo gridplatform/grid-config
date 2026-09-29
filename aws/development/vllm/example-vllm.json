@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-vllm",
+    "description": "Example for Vllm (self-hosted / unmanaged). Module: aws/vllm",
+    "environment": "development",
+    "modulePath": "aws/vllm"
+  },
+  "resources": [
+    {
+      "type": "vllm",
+      "name": "example-vllm",
+      "description": "Vllm (self-hosted / unmanaged) example"
+    }
+  ]
+}

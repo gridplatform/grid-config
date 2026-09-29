@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-template",
+    "description": "Example for Template. Module: yotta/template",
+    "environment": "staging",
+    "modulePath": "yotta/template"
+  },
+  "resources": [
+    {
+      "type": "template",
+      "name": "example-template",
+      "description": "Template example"
+    }
+  ]
+}

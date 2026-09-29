@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-redis-cluster",
+    "description": "Example for Redis Cluster. Module: gcp/redis-cluster",
+    "environment": "production",
+    "modulePath": "gcp/redis-cluster"
+  },
+  "resources": [
+    {
+      "type": "redis-cluster",
+      "name": "example-redis-cluster",
+      "description": "Redis Cluster example"
+    }
+  ]
+}

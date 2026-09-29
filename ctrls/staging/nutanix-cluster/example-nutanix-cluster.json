@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-nutanix-cluster",
+    "description": "Example for Nutanix Cluster. Module: ctrls/nutanix-cluster",
+    "environment": "staging",
+    "modulePath": "ctrls/nutanix-cluster"
+  },
+  "resources": [
+    {
+      "type": "nutanix-cluster",
+      "name": "example-nutanix-cluster",
+      "description": "Nutanix Cluster example"
+    }
+  ]
+}

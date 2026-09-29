@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-media-flow",
+    "description": "Example for Media Flow. Module: oracle/media-flow",
+    "environment": "staging",
+    "modulePath": "oracle/media-flow"
+  },
+  "resources": [
+    {
+      "type": "media-flow",
+      "name": "example-media-flow",
+      "description": "Media Flow example"
+    }
+  ]
+}

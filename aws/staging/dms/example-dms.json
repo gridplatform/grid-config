@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-dms",
+    "description": "Example for Dms. Module: aws/dms",
+    "environment": "staging",
+    "modulePath": "aws/dms"
+  },
+  "resources": [
+    {
+      "type": "dms",
+      "name": "example-dms",
+      "description": "Dms example"
+    }
+  ]
+}

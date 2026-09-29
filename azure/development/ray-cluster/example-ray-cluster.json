@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-ray-cluster",
+    "description": "Example for Ray Cluster (self-hosted / unmanaged). Module: azure/ray-cluster",
+    "environment": "development",
+    "modulePath": "azure/ray-cluster"
+  },
+  "resources": [
+    {
+      "type": "ray-cluster",
+      "name": "example-ray-cluster",
+      "description": "Ray Cluster (self-hosted / unmanaged) example"
+    }
+  ]
+}

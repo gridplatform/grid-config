@@ -1,0 +1,24 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-sagemaker-domain",
+    "description": "Example for SageMaker Studio Domain. Module: aws/sagemaker-domain",
+    "environment": "staging",
+    "modulePath": "aws/sagemaker-domain"
+  },
+  "resources": [
+    {
+      "type": "sagemaker-domain",
+      "name": "example-sagemaker-domain",
+      "description": "SageMaker Studio Domain example",
+      "domain_name": "example-sagemaker-domain",
+      "vpc_id": "example-sagemaker-domain",
+      "subnet_ids": [
+        "example-sagemaker-domain-item"
+      ],
+      "execution_role_arn": "REPLACE_EXECUTION_ROLE_ARN"
+    }
+  ]
+}

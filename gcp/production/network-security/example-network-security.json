@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-network-security",
+    "description": "Example for Network Security. Module: gcp/network-security",
+    "environment": "production",
+    "modulePath": "gcp/network-security"
+  },
+  "resources": [
+    {
+      "type": "network-security",
+      "name": "example-network-security",
+      "description": "Network Security example"
+    }
+  ]
+}

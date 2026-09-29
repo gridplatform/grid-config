@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-development",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-firewall",
+    "description": "Example for Firewall. Module: yotta/firewall",
+    "environment": "development",
+    "modulePath": "yotta/firewall"
+  },
+  "resources": [
+    {
+      "type": "firewall",
+      "name": "example-firewall",
+      "description": "Firewall example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-storage-class",
+    "description": "Example for Storage Class. Module: rancher/storage-class",
+    "environment": "development",
+    "modulePath": "rancher/storage-class"
+  },
+  "resources": [
+    {
+      "type": "storage-class",
+      "name": "example-storage-class",
+      "description": "Storage Class example"
+    }
+  ]
+}

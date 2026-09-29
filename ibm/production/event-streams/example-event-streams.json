@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-production",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-event-streams",
+    "description": "Example for Event Streams. Module: ibm/event-streams",
+    "environment": "production",
+    "modulePath": "ibm/event-streams"
+  },
+  "resources": [
+    {
+      "type": "event-streams",
+      "name": "example-event-streams",
+      "description": "Event Streams example"
+    }
+  ]
+}

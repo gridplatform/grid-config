@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-sfs-turbo",
+    "description": "Example for Sfs Turbo. Module: huawei/sfs-turbo",
+    "environment": "staging",
+    "modulePath": "huawei/sfs-turbo"
+  },
+  "resources": [
+    {
+      "type": "sfs-turbo",
+      "name": "example-sfs-turbo",
+      "description": "Sfs Turbo example"
+    }
+  ]
+}

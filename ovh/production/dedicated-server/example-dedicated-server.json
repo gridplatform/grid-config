@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-production",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-dedicated-server",
+    "description": "Example for Dedicated Server. Module: ovh/dedicated-server",
+    "environment": "production",
+    "modulePath": "ovh/dedicated-server"
+  },
+  "resources": [
+    {
+      "type": "dedicated-server",
+      "name": "example-dedicated-server",
+      "description": "Dedicated Server example"
+    }
+  ]
+}

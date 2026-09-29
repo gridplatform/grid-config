@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-memorystore-memcached",
+    "description": "Example for Memorystore Memcached. Module: gcp/memorystore-memcached",
+    "environment": "production",
+    "modulePath": "gcp/memorystore-memcached"
+  },
+  "resources": [
+    {
+      "type": "memorystore-memcached",
+      "name": "example-memorystore-memcached",
+      "description": "Memorystore Memcached example"
+    }
+  ]
+}

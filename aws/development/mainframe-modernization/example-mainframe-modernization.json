@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-mainframe-modernization",
+    "description": "Example for Mainframe Modernization. Module: aws/mainframe-modernization",
+    "environment": "development",
+    "modulePath": "aws/mainframe-modernization"
+  },
+  "resources": [
+    {
+      "type": "mainframe-modernization",
+      "name": "example-mainframe-modernization",
+      "description": "Mainframe Modernization example"
+    }
+  ]
+}

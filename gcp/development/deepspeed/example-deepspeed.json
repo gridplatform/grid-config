@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-deepspeed",
+    "description": "Example for Deepspeed (self-hosted / unmanaged). Module: gcp/deepspeed",
+    "environment": "development",
+    "modulePath": "gcp/deepspeed"
+  },
+  "resources": [
+    {
+      "type": "deepspeed",
+      "name": "example-deepspeed",
+      "description": "Deepspeed (self-hosted / unmanaged) example"
+    }
+  ]
+}

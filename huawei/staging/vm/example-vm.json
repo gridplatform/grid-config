@@ -1,0 +1,21 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-vm",
+    "description": "Example for ECS instance. Module: huawei/compute-instance",
+    "environment": "staging",
+    "modulePath": "huawei/compute-instance"
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "example-vm",
+      "description": "ECS instance example",
+      "machineType": "REPLACE_MACHINE_TYPE",
+      "subnet": "REPLACE_SUBNET_NAME",
+      "diskSize": 20
+    }
+  ]
+}

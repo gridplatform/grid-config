@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-affinity-group",
+    "description": "Example for Affinity Group. Module: yotta/affinity-group",
+    "environment": "staging",
+    "modulePath": "yotta/affinity-group"
+  },
+  "resources": [
+    {
+      "type": "affinity-group",
+      "name": "example-affinity-group",
+      "description": "Affinity Group example"
+    }
+  ]
+}

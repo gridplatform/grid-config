@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-bastionhost",
+    "description": "Example for Bastionhost. Module: alibaba/bastionhost",
+    "environment": "development",
+    "modulePath": "alibaba/bastionhost"
+  },
+  "resources": [
+    {
+      "type": "bastionhost",
+      "name": "example-bastionhost",
+      "description": "Bastionhost example"
+    }
+  ]
+}

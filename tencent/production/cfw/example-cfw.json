@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cfw",
+    "description": "Example for Cfw. Module: tencent/cfw",
+    "environment": "production",
+    "modulePath": "tencent/cfw"
+  },
+  "resources": [
+    {
+      "type": "cfw",
+      "name": "example-cfw",
+      "description": "Cfw example"
+    }
+  ]
+}

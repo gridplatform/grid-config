@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-connect",
+    "description": "Example for Connect. Module: aws/connect",
+    "environment": "development",
+    "modulePath": "aws/connect"
+  },
+  "resources": [
+    {
+      "type": "connect",
+      "name": "example-connect",
+      "description": "Connect example"
+    }
+  ]
+}

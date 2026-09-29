@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-network-acl",
+    "description": "Example for Network Acl. Module: huawei/network-acl",
+    "environment": "staging",
+    "modulePath": "huawei/network-acl"
+  },
+  "resources": [
+    {
+      "type": "network-acl",
+      "name": "example-network-acl",
+      "description": "Network Acl example"
+    }
+  ]
+}

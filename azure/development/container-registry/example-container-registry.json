@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-container-registry",
+    "description": "Example for Container Registry. Module: azure/container-registry",
+    "environment": "development",
+    "modulePath": "azure/container-registry"
+  },
+  "resources": [
+    {
+      "type": "container-registry",
+      "name": "example-container-registry",
+      "description": "Container Registry example"
+    }
+  ]
+}

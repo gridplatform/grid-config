@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-appflow",
+    "description": "Example for Appflow. Module: aws/appflow",
+    "environment": "production",
+    "modulePath": "aws/appflow"
+  },
+  "resources": [
+    {
+      "type": "appflow",
+      "name": "example-appflow",
+      "description": "Appflow example"
+    }
+  ]
+}

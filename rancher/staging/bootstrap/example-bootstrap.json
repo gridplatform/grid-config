@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-bootstrap",
+    "description": "Example for Bootstrap. Module: rancher/bootstrap",
+    "environment": "staging",
+    "modulePath": "rancher/bootstrap"
+  },
+  "resources": [
+    {
+      "type": "bootstrap",
+      "name": "example-bootstrap",
+      "description": "Bootstrap example"
+    }
+  ]
+}

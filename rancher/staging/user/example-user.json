@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-user",
+    "description": "Example for User. Module: rancher/user",
+    "environment": "staging",
+    "modulePath": "rancher/user"
+  },
+  "resources": [
+    {
+      "type": "user",
+      "name": "example-user",
+      "description": "User example"
+    }
+  ]
+}

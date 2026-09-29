@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-production",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-iks",
+    "description": "Example for Iks. Module: ibm/iks",
+    "environment": "production",
+    "modulePath": "ibm/iks"
+  },
+  "resources": [
+    {
+      "type": "iks",
+      "name": "example-iks",
+      "description": "Iks example"
+    }
+  ]
+}

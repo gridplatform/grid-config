@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-trusted-advisor",
+    "description": "Example for Trusted Advisor. Module: aws/trusted-advisor",
+    "environment": "staging",
+    "modulePath": "aws/trusted-advisor"
+  },
+  "resources": [
+    {
+      "type": "trusted-advisor",
+      "name": "example-trusted-advisor",
+      "description": "Trusted Advisor example"
+    }
+  ]
+}

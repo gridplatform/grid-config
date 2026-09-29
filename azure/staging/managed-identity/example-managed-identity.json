@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-managed-identity",
+    "description": "Example for Managed Identity. Module: azure/managed-identity",
+    "environment": "staging",
+    "modulePath": "azure/managed-identity"
+  },
+  "resources": [
+    {
+      "type": "managed-identity",
+      "name": "example-managed-identity",
+      "description": "Managed Identity example"
+    }
+  ]
+}

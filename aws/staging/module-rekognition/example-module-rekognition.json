@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-rekognition",
+    "description": "Example for module-rekognition. Module: aws/rekognition",
+    "environment": "staging",
+    "modulePath": "aws/rekognition"
+  },
+  "resources": [
+    {
+      "type": "module-rekognition",
+      "name": "example-module-rekognition",
+      "description": "module-rekognition example"
+    }
+  ]
+}

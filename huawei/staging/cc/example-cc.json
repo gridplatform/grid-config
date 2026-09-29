@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cc",
+    "description": "Example for Cc. Module: huawei/cc",
+    "environment": "staging",
+    "modulePath": "huawei/cc"
+  },
+  "resources": [
+    {
+      "type": "cc",
+      "name": "example-cc",
+      "description": "Cc example"
+    }
+  ]
+}

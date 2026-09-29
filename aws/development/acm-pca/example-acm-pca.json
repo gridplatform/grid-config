@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-acm-pca",
+    "description": "Example for Acm Pca. Module: aws/acm-pca",
+    "environment": "development",
+    "modulePath": "aws/acm-pca"
+  },
+  "resources": [
+    {
+      "type": "acm-pca",
+      "name": "example-acm-pca",
+      "description": "Acm Pca example"
+    }
+  ]
+}

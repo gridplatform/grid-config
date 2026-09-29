@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-ces-monitoring",
+    "description": "Example for Ces Monitoring. Module: huawei/ces-monitoring",
+    "environment": "development",
+    "modulePath": "huawei/ces-monitoring"
+  },
+  "resources": [
+    {
+      "type": "ces-monitoring",
+      "name": "example-ces-monitoring",
+      "description": "Ces Monitoring example"
+    }
+  ]
+}

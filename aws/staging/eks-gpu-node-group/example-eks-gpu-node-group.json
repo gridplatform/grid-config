@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-eks-gpu-node-group",
+    "description": "Example for Eks Gpu Node Group (self-hosted / unmanaged). Module: aws/eks-gpu-node-group",
+    "environment": "staging",
+    "modulePath": "aws/eks-gpu-node-group"
+  },
+  "resources": [
+    {
+      "type": "eks-gpu-node-group",
+      "name": "example-eks-gpu-node-group",
+      "description": "Eks Gpu Node Group (self-hosted / unmanaged) example"
+    }
+  ]
+}

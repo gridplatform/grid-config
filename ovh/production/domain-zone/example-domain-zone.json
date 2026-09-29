@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-production",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-domain-zone",
+    "description": "Example for Domain Zone. Module: ovh/domain-zone",
+    "environment": "production",
+    "modulePath": "ovh/domain-zone"
+  },
+  "resources": [
+    {
+      "type": "domain-zone",
+      "name": "example-domain-zone",
+      "description": "Domain Zone example"
+    }
+  ]
+}

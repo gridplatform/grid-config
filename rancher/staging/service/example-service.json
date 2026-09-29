@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-service",
+    "description": "Example for Service. Module: rancher/service",
+    "environment": "staging",
+    "modulePath": "rancher/service"
+  },
+  "resources": [
+    {
+      "type": "service",
+      "name": "example-service",
+      "description": "Service example"
+    }
+  ]
+}

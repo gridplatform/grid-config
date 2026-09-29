@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-source-repositories",
+    "description": "Example for Source Repositories. Module: gcp/source-repositories",
+    "environment": "staging",
+    "modulePath": "gcp/source-repositories"
+  },
+  "resources": [
+    {
+      "type": "source-repositories",
+      "name": "example-source-repositories",
+      "description": "Source Repositories example"
+    }
+  ]
+}

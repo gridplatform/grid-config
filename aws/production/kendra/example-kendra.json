@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-kendra",
+    "description": "Example for Amazon Kendra index. Module: aws/kendra",
+    "environment": "production",
+    "modulePath": "aws/kendra"
+  },
+  "resources": [
+    {
+      "type": "kendra",
+      "name": "example-kendra",
+      "description": "Amazon Kendra index example",
+      "role_arn": "REPLACE_ROLE_ARN"
+    }
+  ]
+}

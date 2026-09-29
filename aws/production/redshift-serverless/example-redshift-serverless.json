@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-redshift-serverless",
+    "description": "Example for Redshift Serverless. Module: aws/redshift-serverless",
+    "environment": "production",
+    "modulePath": "aws/redshift-serverless"
+  },
+  "resources": [
+    {
+      "type": "redshift-serverless",
+      "name": "example-redshift-serverless",
+      "description": "Redshift Serverless example"
+    }
+  ]
+}

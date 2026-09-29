@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-development",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-email-pro",
+    "description": "Example for Email Pro. Module: ovh/email-pro",
+    "environment": "development",
+    "modulePath": "ovh/email-pro"
+  },
+  "resources": [
+    {
+      "type": "email-pro",
+      "name": "example-email-pro",
+      "description": "Email Pro example"
+    }
+  ]
+}

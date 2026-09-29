@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-scm",
+    "description": "Example for Scm. Module: huawei/scm",
+    "environment": "development",
+    "modulePath": "huawei/scm"
+  },
+  "resources": [
+    {
+      "type": "scm",
+      "name": "example-scm",
+      "description": "Scm example"
+    }
+  ]
+}

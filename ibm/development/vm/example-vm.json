@@ -1,0 +1,21 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-vm",
+    "description": "Example for Virtual server instance. Module: ibm/compute-instance",
+    "environment": "development",
+    "modulePath": "ibm/compute-instance"
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "example-vm",
+      "description": "Virtual server instance example",
+      "machineType": "REPLACE_MACHINE_TYPE",
+      "subnet": "REPLACE_SUBNET_NAME",
+      "diskSize": 20
+    }
+  ]
+}

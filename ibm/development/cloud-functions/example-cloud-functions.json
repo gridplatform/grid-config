@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-cloud-functions",
+    "description": "Example for Cloud Functions. Module: ibm/cloud-functions",
+    "environment": "development",
+    "modulePath": "ibm/cloud-functions"
+  },
+  "resources": [
+    {
+      "type": "cloud-functions",
+      "name": "example-cloud-functions",
+      "description": "Cloud Functions example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-bastion",
+    "description": "Example for Bastion. Module: azure/bastion",
+    "environment": "staging",
+    "modulePath": "azure/bastion"
+  },
+  "resources": [
+    {
+      "type": "bastion",
+      "name": "example-bastion",
+      "description": "Bastion example"
+    }
+  ]
+}

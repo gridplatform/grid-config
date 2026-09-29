@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-maintenance",
+    "description": "Example for Maintenance. Module: azure/maintenance",
+    "environment": "staging",
+    "modulePath": "azure/maintenance"
+  },
+  "resources": [
+    {
+      "type": "maintenance",
+      "name": "example-maintenance",
+      "description": "Maintenance example"
+    }
+  ]
+}

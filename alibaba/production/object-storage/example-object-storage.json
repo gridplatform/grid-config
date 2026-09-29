@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-object-storage",
+    "description": "Example for OSS. Module: alibaba/object-storage",
+    "environment": "production",
+    "modulePath": "alibaba/object-storage"
+  },
+  "resources": [
+    {
+      "type": "object-storage",
+      "name": "example-object-storage",
+      "description": "OSS example"
+    }
+  ]
+}

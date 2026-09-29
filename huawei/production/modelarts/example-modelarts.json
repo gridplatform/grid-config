@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-modelarts",
+    "description": "Example for Modelarts. Module: huawei/modelarts",
+    "environment": "production",
+    "modulePath": "huawei/modelarts"
+  },
+  "resources": [
+    {
+      "type": "modelarts",
+      "name": "example-modelarts",
+      "description": "Modelarts example"
+    }
+  ]
+}

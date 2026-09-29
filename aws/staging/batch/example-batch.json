@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-batch",
+    "description": "Example for Batch. Module: aws/batch",
+    "environment": "staging",
+    "modulePath": "aws/batch"
+  },
+  "resources": [
+    {
+      "type": "batch",
+      "name": "example-batch",
+      "description": "Batch example"
+    }
+  ]
+}

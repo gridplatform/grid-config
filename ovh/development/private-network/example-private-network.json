@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-development",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-private-network",
+    "description": "Example for Private Network. Module: ovh/private-network",
+    "environment": "development",
+    "modulePath": "ovh/private-network"
+  },
+  "resources": [
+    {
+      "type": "private-network",
+      "name": "example-private-network",
+      "description": "Private Network example"
+    }
+  ]
+}

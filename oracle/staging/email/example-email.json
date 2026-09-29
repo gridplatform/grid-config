@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-email",
+    "description": "Example for Email. Module: oracle/email",
+    "environment": "staging",
+    "modulePath": "oracle/email"
+  },
+  "resources": [
+    {
+      "type": "email",
+      "name": "example-email",
+      "description": "Email example"
+    }
+  ]
+}

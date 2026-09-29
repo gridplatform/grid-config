@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-xray",
+    "description": "Example for Xray. Module: aws/xray",
+    "environment": "production",
+    "modulePath": "aws/xray"
+  },
+  "resources": [
+    {
+      "type": "xray",
+      "name": "example-xray",
+      "description": "Xray example"
+    }
+  ]
+}

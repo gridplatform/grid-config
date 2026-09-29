@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-generative-ai-agent",
+    "description": "Example for Generative Ai Agent. Module: oracle/generative-ai-agent",
+    "environment": "staging",
+    "modulePath": "oracle/generative-ai-agent"
+  },
+  "resources": [
+    {
+      "type": "generative-ai-agent",
+      "name": "example-generative-ai-agent",
+      "description": "Generative Ai Agent example"
+    }
+  ]
+}

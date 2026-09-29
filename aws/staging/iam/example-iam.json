@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-iam",
+    "description": "Example for IAM. Module: aws/iam",
+    "environment": "staging",
+    "modulePath": "aws/iam"
+  },
+  "resources": [
+    {
+      "type": "iam",
+      "name": "example-iam",
+      "description": "IAM example",
+      "service_principal": "REPLACE_SERVICE_PRINCIPAL"
+    }
+  ]
+}

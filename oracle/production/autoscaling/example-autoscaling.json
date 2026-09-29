@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-autoscaling",
+    "description": "Example for Autoscaling. Module: oracle/autoscaling",
+    "environment": "production",
+    "modulePath": "oracle/autoscaling"
+  },
+  "resources": [
+    {
+      "type": "autoscaling",
+      "name": "example-autoscaling",
+      "description": "Autoscaling example"
+    }
+  ]
+}

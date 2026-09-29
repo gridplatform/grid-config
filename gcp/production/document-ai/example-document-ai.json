@@ -1,0 +1,20 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-document-ai",
+    "description": "Example for Document AI processor. Module: gcp/document-ai",
+    "environment": "production",
+    "modulePath": "gcp/document-ai"
+  },
+  "resources": [
+    {
+      "type": "document-ai",
+      "name": "example-document-ai",
+      "description": "Document AI processor example",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION",
+      "display_name": "example-document-ai"
+    }
+  ]
+}

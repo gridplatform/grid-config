@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-storage",
+    "description": "Example for Storage account. Module: azure/storage-account",
+    "environment": "staging",
+    "modulePath": "azure/storage-account"
+  },
+  "resources": [
+    {
+      "type": "storage",
+      "name": "example-storage",
+      "description": "Storage account example",
+      "storage_account_name": "example-storage",
+      "resource_group_name": "example-storage",
+      "location": "eastus"
+    }
+  ]
+}

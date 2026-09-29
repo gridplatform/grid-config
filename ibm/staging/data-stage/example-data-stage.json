@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-data-stage",
+    "description": "Example for Data Stage. Module: ibm/data-stage",
+    "environment": "staging",
+    "modulePath": "ibm/data-stage"
+  },
+  "resources": [
+    {
+      "type": "data-stage",
+      "name": "example-data-stage",
+      "description": "Data Stage example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-hpc-cache",
+    "description": "Example for Hpc Cache. Module: azure/hpc-cache",
+    "environment": "development",
+    "modulePath": "azure/hpc-cache"
+  },
+  "resources": [
+    {
+      "type": "hpc-cache",
+      "name": "example-hpc-cache",
+      "description": "Hpc Cache example"
+    }
+  ]
+}

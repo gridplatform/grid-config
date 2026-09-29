@@ -1,0 +1,20 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-key-vault",
+    "description": "Example for Key Vault. Module: azure/key-vault",
+    "environment": "development",
+    "modulePath": "azure/key-vault"
+  },
+  "resources": [
+    {
+      "type": "key-vault",
+      "name": "example-key-vault",
+      "description": "Key Vault example",
+      "location": "eastus",
+      "resource_group_name": "example-key-vault"
+    }
+  ]
+}

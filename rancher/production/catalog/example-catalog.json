@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-catalog",
+    "description": "Example for Catalog. Module: rancher/catalog",
+    "environment": "production",
+    "modulePath": "rancher/catalog"
+  },
+  "resources": [
+    {
+      "type": "catalog",
+      "name": "example-catalog",
+      "description": "Catalog example"
+    }
+  ]
+}

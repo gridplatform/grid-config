@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-private-ca",
+    "description": "Example for Private Ca. Module: gcp/private-ca",
+    "environment": "production",
+    "modulePath": "gcp/private-ca"
+  },
+  "resources": [
+    {
+      "type": "private-ca",
+      "name": "example-private-ca",
+      "description": "Private Ca example"
+    }
+  ]
+}

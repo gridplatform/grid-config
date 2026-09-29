@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-kserve",
+    "description": "Example for Kserve. Module: rancher/kserve",
+    "environment": "production",
+    "modulePath": "rancher/kserve"
+  },
+  "resources": [
+    {
+      "type": "kserve",
+      "name": "example-kserve",
+      "description": "Kserve example"
+    }
+  ]
+}

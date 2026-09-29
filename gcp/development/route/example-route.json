@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-route",
+    "description": "Example for Custom routes (folded into network). Module: gcp/network",
+    "environment": "development",
+    "modulePath": "gcp/network"
+  },
+  "resources": [
+    {
+      "type": "route",
+      "name": "example-route",
+      "description": "Custom routes (folded into network) example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "network_name": "example-route",
+      "subnets": []
+    }
+  ]
+}

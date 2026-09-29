@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-storage-gateway",
+    "description": "Example for Storage Gateway. Module: aws/storage-gateway",
+    "environment": "development",
+    "modulePath": "aws/storage-gateway"
+  },
+  "resources": [
+    {
+      "type": "storage-gateway",
+      "name": "example-storage-gateway",
+      "description": "Storage Gateway example"
+    }
+  ]
+}

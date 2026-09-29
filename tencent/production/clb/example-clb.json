@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-clb",
+    "description": "Example for Clb. Module: tencent/clb",
+    "environment": "production",
+    "modulePath": "tencent/clb"
+  },
+  "resources": [
+    {
+      "type": "clb",
+      "name": "example-clb",
+      "description": "Clb example"
+    }
+  ]
+}

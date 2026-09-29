@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-weaviate",
+    "description": "Example for Weaviate (self-hosted / unmanaged). Module: aws/weaviate",
+    "environment": "production",
+    "modulePath": "aws/weaviate"
+  },
+  "resources": [
+    {
+      "type": "weaviate",
+      "name": "example-weaviate",
+      "description": "Weaviate (self-hosted / unmanaged) example"
+    }
+  ]
+}

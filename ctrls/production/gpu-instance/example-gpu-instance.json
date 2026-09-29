@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-production",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-gpu-instance",
+    "description": "Example for Gpu Instance. Module: ctrls/gpu-instance",
+    "environment": "production",
+    "modulePath": "ctrls/gpu-instance"
+  },
+  "resources": [
+    {
+      "type": "gpu-instance",
+      "name": "example-gpu-instance",
+      "description": "Gpu Instance example"
+    }
+  ]
+}

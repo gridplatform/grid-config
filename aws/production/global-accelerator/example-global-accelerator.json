@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-global-accelerator",
+    "description": "Example for Global Accelerator. Module: aws/global-accelerator",
+    "environment": "production",
+    "modulePath": "aws/global-accelerator"
+  },
+  "resources": [
+    {
+      "type": "global-accelerator",
+      "name": "example-global-accelerator",
+      "description": "Global Accelerator example"
+    }
+  ]
+}

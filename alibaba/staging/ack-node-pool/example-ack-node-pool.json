@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ack-node-pool",
+    "description": "Example for Ack Node Pool. Module: alibaba/ack-node-pool",
+    "environment": "staging",
+    "modulePath": "alibaba/ack-node-pool"
+  },
+  "resources": [
+    {
+      "type": "ack-node-pool",
+      "name": "example-ack-node-pool",
+      "description": "Ack Node Pool example"
+    }
+  ]
+}

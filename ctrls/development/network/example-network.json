@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-development",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-network",
+    "description": "Example for Network. Module: ctrls/network",
+    "environment": "development",
+    "modulePath": "ctrls/network"
+  },
+  "resources": [
+    {
+      "type": "network",
+      "name": "example-network",
+      "description": "Network example"
+    }
+  ]
+}

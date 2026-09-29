@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-elastic-beanstalk",
+    "description": "Example for Elastic Beanstalk. Module: aws/elastic-beanstalk",
+    "environment": "staging",
+    "modulePath": "aws/elastic-beanstalk"
+  },
+  "resources": [
+    {
+      "type": "elastic-beanstalk",
+      "name": "example-elastic-beanstalk",
+      "description": "Elastic Beanstalk example"
+    }
+  ]
+}

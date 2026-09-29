@@ -1,0 +1,81 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "grid-production-eks",
+    "description": "EKS cluster with on-demand, spot, and GPU node groups (production)",
+    "environment": "production",
+    "dependsOn": ["aws/production/vpc/grid-production-vpc.json"]
+  },
+  "resources": [
+    {
+      "type": "eks",
+      "name": "grid-production-eks",
+      "description": "Production EKS — three managed node groups",
+      "cluster_name": "grid-production-eks",
+      "vpc": "grid-production-vpc",
+      "subnets": [
+        "grid-production-nodes-a",
+        "grid-production-nodes-b",
+        "grid-production-nodes-c"
+      ],
+      "cluster_endpoint_private_access": true,
+      "cluster_endpoint_public_access": false,
+      "enable_irsa": true,
+      "node_groups": {
+        "ondemand": {
+          "instance_types": ["m5.large"],
+          "capacity_type": "ON_DEMAND",
+          "min_size": 2,
+          "max_size": 10,
+          "desired_size": 3,
+          "disk_size": 100,
+          "labels": {
+            "pool": "ondemand",
+            "environment": "production"
+          }
+        },
+        "spot": {
+          "instance_types": ["m5.large", "m5a.large"],
+          "capacity_type": "SPOT",
+          "min_size": 0,
+          "max_size": 10,
+          "desired_size": 2,
+          "disk_size": 100,
+          "labels": {
+            "pool": "spot",
+            "environment": "production"
+          },
+          "taints": [
+            {
+              "key": "spot",
+              "value": "true",
+              "effect": "NO_SCHEDULE"
+            }
+          ]
+        },
+        "gpu": {
+          "instance_types": ["g4dn.xlarge"],
+          "capacity_type": "ON_DEMAND",
+          "min_size": 1,
+          "max_size": 4,
+          "desired_size": 1,
+          "disk_size": 200,
+          "ami_type": "AL2_x86_64_GPU",
+          "labels": {
+            "pool": "gpu",
+            "environment": "production"
+          },
+          "taints": [
+            {
+              "key": "nvidia.com/gpu",
+              "value": "present",
+              "effect": "NO_SCHEDULE"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-security-group",
+    "description": "Example for Security Group. Module: huawei/security-group",
+    "environment": "production",
+    "modulePath": "huawei/security-group"
+  },
+  "resources": [
+    {
+      "type": "security-group",
+      "name": "example-security-group",
+      "description": "Security Group example"
+    }
+  ]
+}

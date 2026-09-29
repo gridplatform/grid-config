@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-nlb",
+    "description": "Example for Nlb. Module: aws/nlb",
+    "environment": "development",
+    "modulePath": "aws/nlb"
+  },
+  "resources": [
+    {
+      "type": "nlb",
+      "name": "example-nlb",
+      "description": "Nlb example"
+    }
+  ]
+}

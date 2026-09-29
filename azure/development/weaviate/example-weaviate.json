@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-weaviate",
+    "description": "Example for Weaviate (self-hosted / unmanaged). Module: azure/weaviate",
+    "environment": "development",
+    "modulePath": "azure/weaviate"
+  },
+  "resources": [
+    {
+      "type": "weaviate",
+      "name": "example-weaviate",
+      "description": "Weaviate (self-hosted / unmanaged) example"
+    }
+  ]
+}

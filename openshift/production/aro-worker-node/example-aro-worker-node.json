@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-aro-worker-node",
+    "description": "Example for Aro Worker Node. Module: openshift/aro-worker-node",
+    "environment": "production",
+    "modulePath": "openshift/aro-worker-node"
+  },
+  "resources": [
+    {
+      "type": "aro-worker-node",
+      "name": "example-aro-worker-node",
+      "description": "Aro Worker Node example"
+    }
+  ]
+}

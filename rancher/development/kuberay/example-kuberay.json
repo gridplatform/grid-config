@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-kuberay",
+    "description": "Example for Kuberay. Module: rancher/kuberay",
+    "environment": "development",
+    "modulePath": "rancher/kuberay"
+  },
+  "resources": [
+    {
+      "type": "kuberay",
+      "name": "example-kuberay",
+      "description": "Kuberay example"
+    }
+  ]
+}

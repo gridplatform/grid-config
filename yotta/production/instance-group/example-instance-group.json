@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-production",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-instance-group",
+    "description": "Example for Instance Group. Module: yotta/instance-group",
+    "environment": "production",
+    "modulePath": "yotta/instance-group"
+  },
+  "resources": [
+    {
+      "type": "instance-group",
+      "name": "example-instance-group",
+      "description": "Instance Group example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-watson-assistant",
+    "description": "Example for Watson Assistant. Module: ibm/watson-assistant",
+    "environment": "staging",
+    "modulePath": "ibm/watson-assistant"
+  },
+  "resources": [
+    {
+      "type": "watson-assistant",
+      "name": "example-watson-assistant",
+      "description": "Watson Assistant example"
+    }
+  ]
+}

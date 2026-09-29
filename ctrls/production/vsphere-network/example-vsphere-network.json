@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-production",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-vsphere-network",
+    "description": "Example for Vsphere Network. Module: ctrls/vsphere-network",
+    "environment": "production",
+    "modulePath": "ctrls/vsphere-network"
+  },
+  "resources": [
+    {
+      "type": "vsphere-network",
+      "name": "example-vsphere-network",
+      "description": "Vsphere Network example"
+    }
+  ]
+}

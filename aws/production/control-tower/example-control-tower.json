@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-control-tower",
+    "description": "Example for Control Tower. Module: aws/control-tower",
+    "environment": "production",
+    "modulePath": "aws/control-tower"
+  },
+  "resources": [
+    {
+      "type": "control-tower",
+      "name": "example-control-tower",
+      "description": "Control Tower example"
+    }
+  ]
+}

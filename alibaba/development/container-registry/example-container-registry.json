@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-container-registry",
+    "description": "Example for Container Registry. Module: alibaba/container-registry",
+    "environment": "development",
+    "modulePath": "alibaba/container-registry"
+  },
+  "resources": [
+    {
+      "type": "container-registry",
+      "name": "example-container-registry",
+      "description": "Container Registry example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-rocketmq",
+    "description": "Example for Rocketmq. Module: alibaba/rocketmq",
+    "environment": "development",
+    "modulePath": "alibaba/rocketmq"
+  },
+  "resources": [
+    {
+      "type": "rocketmq",
+      "name": "example-rocketmq",
+      "description": "Rocketmq example"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-dns",
+    "description": "Example for Cloud DNS (public/private zone + records). Module: gcp/cloud-dns",
+    "environment": "development",
+    "modulePath": "gcp/cloud-dns"
+  },
+  "resources": [
+    {
+      "type": "cloud-dns",
+      "name": "example-cloud-dns",
+      "description": "Cloud DNS (public/private zone + records) example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "domain": "REPLACE_DOMAIN"
+    }
+  ]
+}

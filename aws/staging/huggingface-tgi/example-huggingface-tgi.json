@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-huggingface-tgi",
+    "description": "Example for Huggingface Tgi (self-hosted / unmanaged). Module: aws/huggingface-tgi",
+    "environment": "staging",
+    "modulePath": "aws/huggingface-tgi"
+  },
+  "resources": [
+    {
+      "type": "huggingface-tgi",
+      "name": "example-huggingface-tgi",
+      "description": "Huggingface Tgi (self-hosted / unmanaged) example"
+    }
+  ]
+}

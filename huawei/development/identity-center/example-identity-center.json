@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-identity-center",
+    "description": "Example for Identity Center. Module: huawei/identity-center",
+    "environment": "development",
+    "modulePath": "huawei/identity-center"
+  },
+  "resources": [
+    {
+      "type": "identity-center",
+      "name": "example-identity-center",
+      "description": "Identity Center example"
+    }
+  ]
+}

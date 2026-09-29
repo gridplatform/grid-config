@@ -1,0 +1,23 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-redis",
+    "description": "Example for Redis Cache. Module: azure/redis-cache",
+    "environment": "development",
+    "modulePath": "azure/redis-cache"
+  },
+  "resources": [
+    {
+      "type": "redis",
+      "name": "example-redis",
+      "description": "Redis Cache example",
+      "resource_group_name": "example-redis",
+      "location": "eastus",
+      "capacity": 1,
+      "family": "REPLACE_IMAGE",
+      "sku_name": "example-redis"
+    }
+  ]
+}

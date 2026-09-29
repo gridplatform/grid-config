@@ -1,0 +1,29 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-rds",
+    "description": "Example for RDS. Module: aws/rds",
+    "environment": "development",
+    "modulePath": "aws/rds"
+  },
+  "resources": [
+    {
+      "type": "rds",
+      "name": "example-rds",
+      "description": "RDS example",
+      "identifier": "REPLACE_IDENTIFIER",
+      "engine": "REPLACE_ENGINE",
+      "instance_class": "REPLACE_INSTANCE_CLASS",
+      "username": "example-rds",
+      "password": "REPLACE_PASSWORD",
+      "subnet_ids": [
+        "example-rds-item"
+      ],
+      "vpc_security_group_ids": [
+        "example-rds-item"
+      ]
+    }
+  ]
+}

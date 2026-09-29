@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-appstream",
+    "description": "Example for Appstream. Module: aws/appstream",
+    "environment": "production",
+    "modulePath": "aws/appstream"
+  },
+  "resources": [
+    {
+      "type": "appstream",
+      "name": "example-appstream",
+      "description": "Appstream example"
+    }
+  ]
+}

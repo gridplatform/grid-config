@@ -1,0 +1,26 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "grid-development-vm",
+    "description": "Compute Engine VM instance on development platform VPC",
+    "environment": "development",
+    "serviceAccountEmail": "REPLACE_WITH_SA_EMAIL",
+    "dependsOn": ["gcp/development/vpc/grid-development-vpc.json"]
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "grid-development-vm",
+      "machineType": "e2-small",
+      "zone": "us-central1-a",
+      "subnet": "grid-development-public",
+      "image": "ubuntu-os-cloud/ubuntu-2204-lts",
+      "diskSize": 20,
+      "diskType": "pd-standard",
+      "tags": ["grid", "vm", "development"],
+      "description": "Test / jump VM (logical subnet ref to vpc stack)"
+    }
+  ]
+}

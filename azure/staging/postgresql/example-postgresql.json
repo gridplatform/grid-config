@@ -1,0 +1,23 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-postgresql",
+    "description": "Example for PostgreSQL Flexible Server. Module: azure/postgresql",
+    "environment": "staging",
+    "modulePath": "azure/postgresql"
+  },
+  "resources": [
+    {
+      "type": "postgresql",
+      "name": "example-postgresql",
+      "description": "PostgreSQL Flexible Server example",
+      "server_name": "example-postgresql",
+      "resource_group_name": "example-postgresql",
+      "location": "eastus",
+      "administrator_login": "REPLACE_ADMINISTRATOR_LOGIN",
+      "administrator_password": "REPLACE_ADMINISTRATOR_PASSWORD"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-appconfig",
+    "description": "Example for Appconfig. Module: aws/appconfig",
+    "environment": "production",
+    "modulePath": "aws/appconfig"
+  },
+  "resources": [
+    {
+      "type": "appconfig",
+      "name": "example-appconfig",
+      "description": "Appconfig example"
+    }
+  ]
+}

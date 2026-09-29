@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-staging",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-gpu-instance",
+    "description": "Example for Gpu Instance. Module: ovh/gpu-instance",
+    "environment": "staging",
+    "modulePath": "ovh/gpu-instance"
+  },
+  "resources": [
+    {
+      "type": "gpu-instance",
+      "name": "example-gpu-instance",
+      "description": "Gpu Instance example"
+    }
+  ]
+}

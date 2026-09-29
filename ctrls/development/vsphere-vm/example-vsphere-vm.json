@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-development",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-vsphere-vm",
+    "description": "Example for Vsphere Vm. Module: ctrls/vsphere-vm",
+    "environment": "development",
+    "modulePath": "ctrls/vsphere-vm"
+  },
+  "resources": [
+    {
+      "type": "vsphere-vm",
+      "name": "example-vsphere-vm",
+      "description": "Vsphere Vm example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-development",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-workflow",
+    "description": "Example for Workflow. Module: ovh/workflow",
+    "environment": "development",
+    "modulePath": "ovh/workflow"
+  },
+  "resources": [
+    {
+      "type": "workflow",
+      "name": "example-workflow",
+      "description": "Workflow example"
+    }
+  ]
+}

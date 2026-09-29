@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-msk-connect",
+    "description": "Example for Msk Connect. Module: aws/msk-connect",
+    "environment": "production",
+    "modulePath": "aws/msk-connect"
+  },
+  "resources": [
+    {
+      "type": "msk-connect",
+      "name": "example-msk-connect",
+      "description": "Msk Connect example"
+    }
+  ]
+}

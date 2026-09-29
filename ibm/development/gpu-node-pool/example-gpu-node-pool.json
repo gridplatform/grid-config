@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-gpu-node-pool",
+    "description": "Example for Gpu Node Pool. Module: ibm/gpu-node-pool",
+    "environment": "development",
+    "modulePath": "ibm/gpu-node-pool"
+  },
+  "resources": [
+    {
+      "type": "gpu-node-pool",
+      "name": "example-gpu-node-pool",
+      "description": "Gpu Node Pool example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-ai-language",
+    "description": "Example for Ai Language. Module: oracle/ai-language",
+    "environment": "production",
+    "modulePath": "oracle/ai-language"
+  },
+  "resources": [
+    {
+      "type": "ai-language",
+      "name": "example-ai-language",
+      "description": "Ai Language example"
+    }
+  ]
+}

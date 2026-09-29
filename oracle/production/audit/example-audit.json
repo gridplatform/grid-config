@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-audit",
+    "description": "Example for Audit. Module: oracle/audit",
+    "environment": "production",
+    "modulePath": "oracle/audit"
+  },
+  "resources": [
+    {
+      "type": "audit",
+      "name": "example-audit",
+      "description": "Audit example"
+    }
+  ]
+}

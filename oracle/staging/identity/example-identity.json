@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-identity",
+    "description": "Example for Identity. Module: oracle/identity",
+    "environment": "staging",
+    "modulePath": "oracle/identity"
+  },
+  "resources": [
+    {
+      "type": "identity",
+      "name": "example-identity",
+      "description": "Identity example"
+    }
+  ]
+}

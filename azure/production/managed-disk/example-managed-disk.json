@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-managed-disk",
+    "description": "Example for Managed Disk. Module: azure/managed-disk",
+    "environment": "production",
+    "modulePath": "azure/managed-disk"
+  },
+  "resources": [
+    {
+      "type": "managed-disk",
+      "name": "example-managed-disk",
+      "description": "Managed Disk example"
+    }
+  ]
+}

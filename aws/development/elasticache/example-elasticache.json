@@ -1,0 +1,23 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-elasticache",
+    "description": "Example for ElastiCache. Module: aws/elasticache",
+    "environment": "development",
+    "modulePath": "aws/elasticache"
+  },
+  "resources": [
+    {
+      "type": "elasticache",
+      "name": "example-elasticache",
+      "description": "ElastiCache example",
+      "replication_group_id": "example-elasticache",
+      "node_type": "REPLACE_NODE_TYPE",
+      "security_group_ids": [
+        "example-elasticache-item"
+      ]
+    }
+  ]
+}

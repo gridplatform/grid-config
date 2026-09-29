@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-bms",
+    "description": "Example for Bms. Module: huawei/bms",
+    "environment": "development",
+    "modulePath": "huawei/bms"
+  },
+  "resources": [
+    {
+      "type": "bms",
+      "name": "example-bms",
+      "description": "Bms example"
+    }
+  ]
+}

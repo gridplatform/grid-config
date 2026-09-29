@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-waf",
+    "description": "Example for Waf. Module: alibaba/waf",
+    "environment": "production",
+    "modulePath": "alibaba/waf"
+  },
+  "resources": [
+    {
+      "type": "waf",
+      "name": "example-waf",
+      "description": "Waf example"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-lb-http",
+    "description": "Example for HTTP(S) LB. Module: gcp/lb-http",
+    "environment": "production",
+    "modulePath": "gcp/lb-http"
+  },
+  "resources": [
+    {
+      "type": "lb-http",
+      "name": "example-lb-http",
+      "description": "HTTP(S) LB example",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-braket",
+    "description": "Example for Braket. Module: aws/braket",
+    "environment": "development",
+    "modulePath": "aws/braket"
+  },
+  "resources": [
+    {
+      "type": "braket",
+      "name": "example-braket",
+      "description": "Braket example"
+    }
+  ]
+}

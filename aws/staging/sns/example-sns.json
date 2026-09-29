@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-sns",
+    "description": "Example for SNS. Module: aws/sns",
+    "environment": "staging",
+    "modulePath": "aws/sns"
+  },
+  "resources": [
+    {
+      "type": "sns",
+      "name": "example-sns",
+      "description": "SNS example"
+    }
+  ]
+}

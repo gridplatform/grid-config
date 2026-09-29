@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-aurora",
+    "description": "Example for Aurora. Module: aws/aurora",
+    "environment": "development",
+    "modulePath": "aws/aurora"
+  },
+  "resources": [
+    {
+      "type": "aurora",
+      "name": "example-aurora",
+      "description": "Aurora example"
+    }
+  ]
+}

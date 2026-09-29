@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-etcd-backup",
+    "description": "Example for Etcd Backup. Module: rancher/etcd-backup",
+    "environment": "staging",
+    "modulePath": "rancher/etcd-backup"
+  },
+  "resources": [
+    {
+      "type": "etcd-backup",
+      "name": "example-etcd-backup",
+      "description": "Etcd Backup example"
+    }
+  ]
+}

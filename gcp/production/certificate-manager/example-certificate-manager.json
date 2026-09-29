@@ -1,0 +1,25 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-certificate-manager",
+    "description": "Example for Certificate Manager (+ optional global IP). Module: gcp/certificate-manager",
+    "environment": "production",
+    "modulePath": "gcp/certificate-manager"
+  },
+  "resources": [
+    {
+      "type": "certificate-manager",
+      "name": "example-certificate-manager",
+      "description": "Certificate Manager (+ optional global IP) example",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION",
+      "domain": "REPLACE_DOMAIN",
+      "dns_authorization_name": "example-certificate-manager",
+      "certificate_name": "example-certificate-manager",
+      "cert_map_name": "example-certificate-manager",
+      "map_wildcard_entry_name": "example-certificate-manager",
+      "map_primary_entry_name": "example-certificate-manager"
+    }
+  ]
+}

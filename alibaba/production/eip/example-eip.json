@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-eip",
+    "description": "Example for Eip. Module: alibaba/eip",
+    "environment": "production",
+    "modulePath": "alibaba/eip"
+  },
+  "resources": [
+    {
+      "type": "eip",
+      "name": "example-eip",
+      "description": "Eip example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-production",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-kubernetes",
+    "description": "Example for Kubernetes. Module: ctrls/kubernetes",
+    "environment": "production",
+    "modulePath": "ctrls/kubernetes"
+  },
+  "resources": [
+    {
+      "type": "kubernetes",
+      "name": "example-kubernetes",
+      "description": "Kubernetes example"
+    }
+  ]
+}

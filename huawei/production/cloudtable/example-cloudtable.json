@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cloudtable",
+    "description": "Example for Cloudtable. Module: huawei/cloudtable",
+    "environment": "production",
+    "modulePath": "huawei/cloudtable"
+  },
+  "resources": [
+    {
+      "type": "cloudtable",
+      "name": "example-cloudtable",
+      "description": "Cloudtable example"
+    }
+  ]
+}

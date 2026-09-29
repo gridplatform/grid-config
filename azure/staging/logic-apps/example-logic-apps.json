@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-logic-apps",
+    "description": "Example for Logic Apps. Module: azure/logic-apps",
+    "environment": "staging",
+    "modulePath": "azure/logic-apps"
+  },
+  "resources": [
+    {
+      "type": "logic-apps",
+      "name": "example-logic-apps",
+      "description": "Logic Apps example"
+    }
+  ]
+}

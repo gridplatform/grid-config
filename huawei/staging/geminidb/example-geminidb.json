@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-geminidb",
+    "description": "Example for Geminidb. Module: huawei/geminidb",
+    "environment": "staging",
+    "modulePath": "huawei/geminidb"
+  },
+  "resources": [
+    {
+      "type": "geminidb",
+      "name": "example-geminidb",
+      "description": "Geminidb example"
+    }
+  ]
+}

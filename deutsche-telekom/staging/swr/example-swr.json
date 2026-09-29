@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-swr",
+    "description": "Example for Swr. Module: deutsche-telekom/swr",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/swr"
+  },
+  "resources": [
+    {
+      "type": "swr",
+      "name": "example-swr",
+      "description": "Swr example"
+    }
+  ]
+}

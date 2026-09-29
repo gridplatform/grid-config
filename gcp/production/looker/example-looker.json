@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-looker",
+    "description": "Example for Looker. Module: gcp/looker",
+    "environment": "production",
+    "modulePath": "gcp/looker"
+  },
+  "resources": [
+    {
+      "type": "looker",
+      "name": "example-looker",
+      "description": "Looker example"
+    }
+  ]
+}

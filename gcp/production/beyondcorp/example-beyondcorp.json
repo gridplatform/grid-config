@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-beyondcorp",
+    "description": "Example for Beyondcorp. Module: gcp/beyondcorp",
+    "environment": "production",
+    "modulePath": "gcp/beyondcorp"
+  },
+  "resources": [
+    {
+      "type": "beyondcorp",
+      "name": "example-beyondcorp",
+      "description": "Beyondcorp example"
+    }
+  ]
+}

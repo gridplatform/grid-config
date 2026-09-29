@@ -1,0 +1,20 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-load-balancer",
+    "description": "Example for Load balancer. Module: azure/load-balancer",
+    "environment": "development",
+    "modulePath": "azure/load-balancer"
+  },
+  "resources": [
+    {
+      "type": "load-balancer",
+      "name": "example-load-balancer",
+      "description": "Load balancer example",
+      "resource_group_name": "example-load-balancer",
+      "location": "eastus"
+    }
+  ]
+}

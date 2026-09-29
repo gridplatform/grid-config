@@ -1,0 +1,22 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-eks",
+    "description": "Example for EKS. Module: aws/eks",
+    "environment": "staging",
+    "modulePath": "aws/eks"
+  },
+  "resources": [
+    {
+      "type": "eks",
+      "name": "example-eks",
+      "description": "EKS example",
+      "cluster_name": "example-eks",
+      "subnet_ids": [
+        "example-eks-item"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-rekognition",
+    "description": "Example for Amazon Rekognition (API). Module: aws/ai-api",
+    "environment": "staging",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "rekognition",
+      "name": "example-rekognition",
+      "description": "Amazon Rekognition (API) example",
+      "service_name": "example-rekognition"
+    }
+  ]
+}

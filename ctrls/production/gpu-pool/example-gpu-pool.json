@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-production",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-gpu-pool",
+    "description": "Example for Gpu Pool. Module: ctrls/gpu-pool",
+    "environment": "production",
+    "modulePath": "ctrls/gpu-pool"
+  },
+  "resources": [
+    {
+      "type": "gpu-pool",
+      "name": "example-gpu-pool",
+      "description": "Gpu Pool example"
+    }
+  ]
+}

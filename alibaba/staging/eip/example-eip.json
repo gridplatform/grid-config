@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-eip",
+    "description": "Example for Eip. Module: alibaba/eip",
+    "environment": "staging",
+    "modulePath": "alibaba/eip"
+  },
+  "resources": [
+    {
+      "type": "eip",
+      "name": "example-eip",
+      "description": "Eip example"
+    }
+  ]
+}

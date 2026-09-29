@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-vpn",
+    "description": "Example for Vpn. Module: ibm/vpn",
+    "environment": "development",
+    "modulePath": "ibm/vpn"
+  },
+  "resources": [
+    {
+      "type": "vpn",
+      "name": "example-vpn",
+      "description": "Vpn example"
+    }
+  ]
+}

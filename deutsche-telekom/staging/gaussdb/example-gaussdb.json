@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-gaussdb",
+    "description": "Example for Gaussdb. Module: deutsche-telekom/gaussdb",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/gaussdb"
+  },
+  "resources": [
+    {
+      "type": "gaussdb",
+      "name": "example-gaussdb",
+      "description": "Gaussdb example"
+    }
+  ]
+}

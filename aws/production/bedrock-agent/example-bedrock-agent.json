@@ -1,0 +1,22 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-bedrock-agent",
+    "description": "Example for Bedrock Agent. Module: aws/bedrock-agent",
+    "environment": "production",
+    "modulePath": "aws/bedrock-agent"
+  },
+  "resources": [
+    {
+      "type": "bedrock-agent",
+      "name": "example-bedrock-agent",
+      "description": "Bedrock Agent example",
+      "agent_name": "example-bedrock-agent",
+      "agent_resource_role_arn": "REPLACE_AGENT_RESOURCE_ROLE_ARN",
+      "foundation_model": "REPLACE_FOUNDATION_MODEL",
+      "instruction": "REPLACE_INSTRUCTION"
+    }
+  ]
+}

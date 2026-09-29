@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-notifications",
+    "description": "Example for Notifications. Module: oracle/notifications",
+    "environment": "staging",
+    "modulePath": "oracle/notifications"
+  },
+  "resources": [
+    {
+      "type": "notifications",
+      "name": "example-notifications",
+      "description": "Notifications example"
+    }
+  ]
+}

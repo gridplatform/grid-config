@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-dws",
+    "description": "Example for Dws. Module: deutsche-telekom/dws",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/dws"
+  },
+  "resources": [
+    {
+      "type": "dws",
+      "name": "example-dws",
+      "description": "Dws example"
+    }
+  ]
+}

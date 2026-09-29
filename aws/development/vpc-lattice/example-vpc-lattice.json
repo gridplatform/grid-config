@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-vpc-lattice",
+    "description": "Example for Vpc Lattice. Module: aws/vpc-lattice",
+    "environment": "development",
+    "modulePath": "aws/vpc-lattice"
+  },
+  "resources": [
+    {
+      "type": "vpc-lattice",
+      "name": "example-vpc-lattice",
+      "description": "Vpc Lattice example"
+    }
+  ]
+}

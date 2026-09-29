@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-config",
+    "description": "Example for Config. Module: huawei/config",
+    "environment": "development",
+    "modulePath": "huawei/config"
+  },
+  "resources": [
+    {
+      "type": "config",
+      "name": "example-config",
+      "description": "Config example"
+    }
+  ]
+}

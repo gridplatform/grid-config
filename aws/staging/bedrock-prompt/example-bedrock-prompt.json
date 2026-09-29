@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-bedrock-prompt",
+    "description": "Example for Bedrock Prompt. Module: aws/bedrock-prompt",
+    "environment": "staging",
+    "modulePath": "aws/bedrock-prompt"
+  },
+  "resources": [
+    {
+      "type": "bedrock-prompt",
+      "name": "example-bedrock-prompt",
+      "description": "Bedrock Prompt example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-flink",
+    "description": "Example for Flink. Module: alibaba/flink",
+    "environment": "production",
+    "modulePath": "alibaba/flink"
+  },
+  "resources": [
+    {
+      "type": "flink",
+      "name": "example-flink",
+      "description": "Flink example"
+    }
+  ]
+}

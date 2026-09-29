@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cfw",
+    "description": "Example for Cfw. Module: huawei/cfw",
+    "environment": "development",
+    "modulePath": "huawei/cfw"
+  },
+  "resources": [
+    {
+      "type": "cfw",
+      "name": "example-cfw",
+      "description": "Cfw example"
+    }
+  ]
+}

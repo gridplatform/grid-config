@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-app",
+    "description": "Example for App / catalog app. Module: rancher/app",
+    "environment": "development",
+    "modulePath": "rancher/app"
+  },
+  "resources": [
+    {
+      "type": "app",
+      "name": "example-app",
+      "description": "App / catalog app example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-vod",
+    "description": "Example for Vod. Module: huawei/vod",
+    "environment": "staging",
+    "modulePath": "huawei/vod"
+  },
+  "resources": [
+    {
+      "type": "vod",
+      "name": "example-vod",
+      "description": "Vod example"
+    }
+  ]
+}

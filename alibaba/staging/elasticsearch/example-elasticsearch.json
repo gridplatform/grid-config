@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-elasticsearch",
+    "description": "Example for Elasticsearch. Module: alibaba/elasticsearch",
+    "environment": "staging",
+    "modulePath": "alibaba/elasticsearch"
+  },
+  "resources": [
+    {
+      "type": "elasticsearch",
+      "name": "example-elasticsearch",
+      "description": "Elasticsearch example"
+    }
+  ]
+}

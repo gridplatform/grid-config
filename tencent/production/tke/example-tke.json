@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tke",
+    "description": "Example for Tencent Kubernetes Engine (TKE). Module: tencent/tke",
+    "environment": "production",
+    "modulePath": "tencent/tke"
+  },
+  "resources": [
+    {
+      "type": "tke",
+      "name": "example-tke",
+      "description": "Tencent Kubernetes Engine (TKE) example"
+    }
+  ]
+}

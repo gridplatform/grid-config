@@ -1,0 +1,23 @@
+{
+  "provider": "redis-enterprise",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-gcp",
+    "description": "Example for gcp. Module: redis-enterprise/gcp",
+    "environment": "production",
+    "modulePath": "redis-enterprise/gcp"
+  },
+  "resources": [
+    {
+      "type": "gcp",
+      "name": "example-gcp",
+      "description": "gcp example",
+      "subscription_name": "example-gcp",
+      "database_name": "example-gcp",
+      "region": "global",
+      "networking_deployment_cidr": "10.0.0.0/16",
+      "dataset_size_in_gb": 1
+    }
+  ]
+}

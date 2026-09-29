@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-evs",
+    "description": "Example for Evs. Module: huawei/evs",
+    "environment": "staging",
+    "modulePath": "huawei/evs"
+  },
+  "resources": [
+    {
+      "type": "evs",
+      "name": "example-evs",
+      "description": "Evs example"
+    }
+  ]
+}

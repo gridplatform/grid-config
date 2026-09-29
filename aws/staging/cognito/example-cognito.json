@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-cognito",
+    "description": "Example for Cognito. Module: aws/cognito",
+    "environment": "staging",
+    "modulePath": "aws/cognito"
+  },
+  "resources": [
+    {
+      "type": "cognito",
+      "name": "example-cognito",
+      "description": "Cognito example"
+    }
+  ]
+}

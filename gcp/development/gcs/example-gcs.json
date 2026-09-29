@@ -1,0 +1,22 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-gcs",
+    "description": "Example for Cloud Storage. Module: gcp/cloud-storage",
+    "environment": "development",
+    "modulePath": "gcp/cloud-storage"
+  },
+  "resources": [
+    {
+      "type": "gcs",
+      "name": "example-gcs",
+      "description": "Cloud Storage example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "names": [
+        "example-gcs-item"
+      ]
+    }
+  ]
+}

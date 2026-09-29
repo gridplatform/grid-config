@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-sagemaker",
+    "description": "Example for SageMaker notebook / model / endpoint. Module: aws/sagemaker",
+    "environment": "development",
+    "modulePath": "aws/sagemaker"
+  },
+  "resources": [
+    {
+      "type": "sagemaker",
+      "name": "example-sagemaker",
+      "description": "SageMaker notebook / model / endpoint example",
+      "role_arn": "REPLACE_ROLE_ARN"
+    }
+  ]
+}

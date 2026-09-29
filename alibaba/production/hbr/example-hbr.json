@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-hbr",
+    "description": "Example for Hbr. Module: alibaba/hbr",
+    "environment": "production",
+    "modulePath": "alibaba/hbr"
+  },
+  "resources": [
+    {
+      "type": "hbr",
+      "name": "example-hbr",
+      "description": "Hbr example"
+    }
+  ]
+}

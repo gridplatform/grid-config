@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-load-balancer",
+    "description": "Example for Load balancer. Module: ctrls/load-balancer",
+    "environment": "staging",
+    "modulePath": "ctrls/load-balancer"
+  },
+  "resources": [
+    {
+      "type": "load-balancer",
+      "name": "example-load-balancer",
+      "description": "Load balancer example"
+    }
+  ]
+}

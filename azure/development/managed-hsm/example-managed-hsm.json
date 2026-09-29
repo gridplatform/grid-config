@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-managed-hsm",
+    "description": "Example for Managed Hsm. Module: azure/managed-hsm",
+    "environment": "development",
+    "modulePath": "azure/managed-hsm"
+  },
+  "resources": [
+    {
+      "type": "managed-hsm",
+      "name": "example-managed-hsm",
+      "description": "Managed Hsm example"
+    }
+  ]
+}

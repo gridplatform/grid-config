@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cam",
+    "description": "Example for CAM. Module: tencent/cam",
+    "environment": "production",
+    "modulePath": "tencent/cam"
+  },
+  "resources": [
+    {
+      "type": "cam",
+      "name": "example-cam",
+      "description": "CAM example"
+    }
+  ]
+}

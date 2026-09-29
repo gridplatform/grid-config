@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-composer",
+    "description": "Example for Composer. Module: gcp/composer",
+    "environment": "development",
+    "modulePath": "gcp/composer"
+  },
+  "resources": [
+    {
+      "type": "composer",
+      "name": "example-composer",
+      "description": "Composer example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "network": "REPLACE_NETWORK_ID",
+      "subnetwork": "REPLACE_SUBNET_ID"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-web-application-firewall",
+    "description": "Example for Web Application Firewall. Module: oracle/web-application-firewall",
+    "environment": "development",
+    "modulePath": "oracle/web-application-firewall"
+  },
+  "resources": [
+    {
+      "type": "web-application-firewall",
+      "name": "example-web-application-firewall",
+      "description": "Web Application Firewall example"
+    }
+  ]
+}

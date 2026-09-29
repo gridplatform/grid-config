@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ots",
+    "description": "Example for Ots. Module: alibaba/ots",
+    "environment": "production",
+    "modulePath": "alibaba/ots"
+  },
+  "resources": [
+    {
+      "type": "ots",
+      "name": "example-ots",
+      "description": "Ots example"
+    }
+  ]
+}

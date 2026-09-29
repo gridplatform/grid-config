@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-enterprise-project",
+    "description": "Example for Enterprise Project. Module: huawei/enterprise-project",
+    "environment": "staging",
+    "modulePath": "huawei/enterprise-project"
+  },
+  "resources": [
+    {
+      "type": "enterprise-project",
+      "name": "example-enterprise-project",
+      "description": "Enterprise Project example"
+    }
+  ]
+}

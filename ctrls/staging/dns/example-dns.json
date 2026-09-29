@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-dns",
+    "description": "Example for DNS. Module: ctrls/dns",
+    "environment": "staging",
+    "modulePath": "ctrls/dns"
+  },
+  "resources": [
+    {
+      "type": "dns",
+      "name": "example-dns",
+      "description": "DNS example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-cost-management",
+    "description": "Example for Cost Management. Module: azure/cost-management",
+    "environment": "production",
+    "modulePath": "azure/cost-management"
+  },
+  "resources": [
+    {
+      "type": "cost-management",
+      "name": "example-cost-management",
+      "description": "Cost Management example"
+    }
+  ]
+}

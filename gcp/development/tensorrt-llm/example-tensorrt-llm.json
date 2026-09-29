@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-tensorrt-llm",
+    "description": "Example for Tensorrt Llm (self-hosted / unmanaged). Module: gcp/tensorrt-llm",
+    "environment": "development",
+    "modulePath": "gcp/tensorrt-llm"
+  },
+  "resources": [
+    {
+      "type": "tensorrt-llm",
+      "name": "example-tensorrt-llm",
+      "description": "Tensorrt Llm (self-hosted / unmanaged) example"
+    }
+  ]
+}

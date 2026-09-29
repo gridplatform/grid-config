@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ssl-certificate",
+    "description": "Example for Ssl Certificate. Module: alibaba/ssl-certificate",
+    "environment": "production",
+    "modulePath": "alibaba/ssl-certificate"
+  },
+  "resources": [
+    {
+      "type": "ssl-certificate",
+      "name": "example-ssl-certificate",
+      "description": "Ssl Certificate example"
+    }
+  ]
+}

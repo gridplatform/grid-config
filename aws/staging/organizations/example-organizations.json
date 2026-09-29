@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-organizations",
+    "description": "Example for Organizations. Module: aws/organizations",
+    "environment": "staging",
+    "modulePath": "aws/organizations"
+  },
+  "resources": [
+    {
+      "type": "organizations",
+      "name": "example-organizations",
+      "description": "Organizations example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dms",
+    "description": "Example for Dms. Module: huawei/dms",
+    "environment": "production",
+    "modulePath": "huawei/dms"
+  },
+  "resources": [
+    {
+      "type": "dms",
+      "name": "example-dms",
+      "description": "Dms example"
+    }
+  ]
+}

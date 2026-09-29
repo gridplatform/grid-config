@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-data-safe",
+    "description": "Example for Data Safe. Module: oracle/data-safe",
+    "environment": "production",
+    "modulePath": "oracle/data-safe"
+  },
+  "resources": [
+    {
+      "type": "data-safe",
+      "name": "example-data-safe",
+      "description": "Data Safe example"
+    }
+  ]
+}

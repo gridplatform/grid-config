@@ -1,0 +1,27 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-msk",
+    "description": "Example for MSK. Module: aws/msk",
+    "environment": "production",
+    "modulePath": "aws/msk"
+  },
+  "resources": [
+    {
+      "type": "msk",
+      "name": "example-msk",
+      "description": "MSK example",
+      "cluster_name": "example-msk",
+      "kafka_version": "REPLACE_KAFKA_VERSION",
+      "number_of_broker_nodes": 1,
+      "subnet_ids": [
+        "example-msk-item"
+      ],
+      "security_group_ids": [
+        "example-msk-item"
+      ]
+    }
+  ]
+}

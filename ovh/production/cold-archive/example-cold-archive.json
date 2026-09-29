@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-production",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-cold-archive",
+    "description": "Example for Cold Archive. Module: ovh/cold-archive",
+    "environment": "production",
+    "modulePath": "ovh/cold-archive"
+  },
+  "resources": [
+    {
+      "type": "cold-archive",
+      "name": "example-cold-archive",
+      "description": "Cold Archive example"
+    }
+  ]
+}

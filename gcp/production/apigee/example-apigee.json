@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-apigee",
+    "description": "Example for Apigee. Module: gcp/apigee",
+    "environment": "production",
+    "modulePath": "gcp/apigee"
+  },
+  "resources": [
+    {
+      "type": "apigee",
+      "name": "example-apigee",
+      "description": "Apigee example"
+    }
+  ]
+}

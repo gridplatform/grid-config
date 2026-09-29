@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-transcribe",
+    "description": "Example for Amazon Transcribe (API). Module: aws/ai-api",
+    "environment": "production",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "transcribe",
+      "name": "example-transcribe",
+      "description": "Amazon Transcribe (API) example",
+      "service_name": "example-transcribe"
+    }
+  ]
+}

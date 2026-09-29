@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-network-firewall",
+    "description": "Example for Network Firewall. Module: oracle/network-firewall",
+    "environment": "staging",
+    "modulePath": "oracle/network-firewall"
+  },
+  "resources": [
+    {
+      "type": "network-firewall",
+      "name": "example-network-firewall",
+      "description": "Network Firewall example"
+    }
+  ]
+}

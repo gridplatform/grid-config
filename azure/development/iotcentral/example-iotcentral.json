@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-iotcentral",
+    "description": "Example for Iotcentral. Module: azure/iotcentral",
+    "environment": "development",
+    "modulePath": "azure/iotcentral"
+  },
+  "resources": [
+    {
+      "type": "iotcentral",
+      "name": "example-iotcentral",
+      "description": "Iotcentral example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-emr",
+    "description": "Example for Emr. Module: alibaba/emr",
+    "environment": "production",
+    "modulePath": "alibaba/emr"
+  },
+  "resources": [
+    {
+      "type": "emr",
+      "name": "example-emr",
+      "description": "Emr example"
+    }
+  ]
+}

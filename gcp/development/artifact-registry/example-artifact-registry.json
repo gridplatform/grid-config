@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-artifact-registry",
+    "description": "Example for Artifact Registry. Module: gcp/artifact-registry",
+    "environment": "development",
+    "modulePath": "gcp/artifact-registry"
+  },
+  "resources": [
+    {
+      "type": "artifact-registry",
+      "name": "example-artifact-registry",
+      "description": "Artifact Registry example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "location": "us-central1",
+      "repository_id": "example-artifact-registry"
+    }
+  ]
+}

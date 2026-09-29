@@ -1,0 +1,21 @@
+{
+  "provider": "ovh",
+  "project": "grid-staging",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-vm",
+    "description": "Example for Public Cloud instance. Module: ovh/compute-instance",
+    "environment": "staging",
+    "modulePath": "ovh/compute-instance"
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "example-vm",
+      "description": "Public Cloud instance example",
+      "machineType": "REPLACE_MACHINE_TYPE",
+      "subnet": "REPLACE_SUBNET_NAME",
+      "diskSize": 20
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-antiddos",
+    "description": "Example for Antiddos. Module: deutsche-telekom/antiddos",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/antiddos"
+  },
+  "resources": [
+    {
+      "type": "antiddos",
+      "name": "example-antiddos",
+      "description": "Antiddos example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-codeartifact",
+    "description": "Example for Codeartifact. Module: aws/codeartifact",
+    "environment": "development",
+    "modulePath": "aws/codeartifact"
+  },
+  "resources": [
+    {
+      "type": "codeartifact",
+      "name": "example-codeartifact",
+      "description": "Codeartifact example"
+    }
+  ]
+}

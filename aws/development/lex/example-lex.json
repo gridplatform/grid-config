@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-lex",
+    "description": "Example for Amazon Lex V2 bot. Module: aws/lex",
+    "environment": "development",
+    "modulePath": "aws/lex"
+  },
+  "resources": [
+    {
+      "type": "lex",
+      "name": "example-lex",
+      "description": "Amazon Lex V2 bot example",
+      "role_arn": "REPLACE_ROLE_ARN"
+    }
+  ]
+}

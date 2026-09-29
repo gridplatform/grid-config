@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-vllm",
+    "description": "Example for Vllm (self-hosted / unmanaged). Module: azure/vllm",
+    "environment": "production",
+    "modulePath": "azure/vllm"
+  },
+  "resources": [
+    {
+      "type": "vllm",
+      "name": "example-vllm",
+      "description": "Vllm (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-bot-service",
+    "description": "Example for Bot Service. Module: azure/bot-service",
+    "environment": "development",
+    "modulePath": "azure/bot-service"
+  },
+  "resources": [
+    {
+      "type": "bot-service",
+      "name": "example-bot-service",
+      "description": "Bot Service example"
+    }
+  ]
+}

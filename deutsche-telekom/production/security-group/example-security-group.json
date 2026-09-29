@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-security-group",
+    "description": "Example for Security Group. Module: deutsche-telekom/security-group",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/security-group"
+  },
+  "resources": [
+    {
+      "type": "security-group",
+      "name": "example-security-group",
+      "description": "Security Group example"
+    }
+  ]
+}

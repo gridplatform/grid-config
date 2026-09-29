@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-compute-cluster",
+    "description": "Example for Compute Cluster. Module: oracle/compute-cluster",
+    "environment": "production",
+    "modulePath": "oracle/compute-cluster"
+  },
+  "resources": [
+    {
+      "type": "compute-cluster",
+      "name": "example-compute-cluster",
+      "description": "Compute Cluster example"
+    }
+  ]
+}

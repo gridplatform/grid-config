@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-event-hubs",
+    "description": "Example for Event Hubs. Module: azure/event-hubs",
+    "environment": "development",
+    "modulePath": "azure/event-hubs"
+  },
+  "resources": [
+    {
+      "type": "event-hubs",
+      "name": "example-event-hubs",
+      "description": "Event Hubs example"
+    }
+  ]
+}

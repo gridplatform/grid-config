@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-location-service",
+    "description": "Example for Location Service. Module: aws/location-service",
+    "environment": "staging",
+    "modulePath": "aws/location-service"
+  },
+  "resources": [
+    {
+      "type": "location-service",
+      "name": "example-location-service",
+      "description": "Location Service example"
+    }
+  ]
+}

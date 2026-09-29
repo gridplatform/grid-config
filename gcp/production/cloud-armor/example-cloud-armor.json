@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-armor",
+    "description": "Example for Cloud Armor. Module: gcp/cloud-armor",
+    "environment": "production",
+    "modulePath": "gcp/cloud-armor"
+  },
+  "resources": [
+    {
+      "type": "cloud-armor",
+      "name": "example-cloud-armor",
+      "description": "Cloud Armor example"
+    }
+  ]
+}

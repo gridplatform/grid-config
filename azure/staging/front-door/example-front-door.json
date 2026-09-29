@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-front-door",
+    "description": "Example for Front Door. Module: azure/front-door",
+    "environment": "staging",
+    "modulePath": "azure/front-door"
+  },
+  "resources": [
+    {
+      "type": "front-door",
+      "name": "example-front-door",
+      "description": "Front Door example"
+    }
+  ]
+}

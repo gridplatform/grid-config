@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-security-group",
+    "description": "Example for Security group. Module: aws/security-group",
+    "environment": "development",
+    "modulePath": "aws/security-group"
+  },
+  "resources": [
+    {
+      "type": "security-group",
+      "name": "example-security-group",
+      "description": "Security group example",
+      "vpc_id": "example-security-group"
+    }
+  ]
+}

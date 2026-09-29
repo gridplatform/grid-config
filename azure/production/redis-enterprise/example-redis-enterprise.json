@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-redis-enterprise",
+    "description": "Example for Redis Enterprise. Module: azure/redis-enterprise",
+    "environment": "production",
+    "modulePath": "azure/redis-enterprise"
+  },
+  "resources": [
+    {
+      "type": "redis-enterprise",
+      "name": "example-redis-enterprise",
+      "description": "Redis Enterprise example"
+    }
+  ]
+}

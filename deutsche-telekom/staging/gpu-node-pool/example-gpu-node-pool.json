@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-gpu-node-pool",
+    "description": "Example for Gpu Node Pool. Module: deutsche-telekom/gpu-node-pool",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/gpu-node-pool"
+  },
+  "resources": [
+    {
+      "type": "gpu-node-pool",
+      "name": "example-gpu-node-pool",
+      "description": "Gpu Node Pool example"
+    }
+  ]
+}

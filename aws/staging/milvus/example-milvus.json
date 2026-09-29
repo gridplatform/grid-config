@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-milvus",
+    "description": "Example for Milvus (self-hosted / unmanaged). Module: aws/milvus",
+    "environment": "staging",
+    "modulePath": "aws/milvus"
+  },
+  "resources": [
+    {
+      "type": "milvus",
+      "name": "example-milvus",
+      "description": "Milvus (self-hosted / unmanaged) example"
+    }
+  ]
+}

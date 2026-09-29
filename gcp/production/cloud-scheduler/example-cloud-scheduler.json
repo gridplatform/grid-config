@@ -1,0 +1,22 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-scheduler",
+    "description": "Example for Cloud Scheduler. Module: gcp/cloud-scheduler",
+    "environment": "production",
+    "modulePath": "gcp/cloud-scheduler"
+  },
+  "resources": [
+    {
+      "type": "cloud-scheduler",
+      "name": "example-cloud-scheduler",
+      "description": "Cloud Scheduler example",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION",
+      "region": "us-central1",
+      "schedule": "REPLACE_SCHEDULE",
+      "target_type": "REPLACE_TARGET_TYPE"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-pod-security-policy",
+    "description": "Example for Pod Security Policy. Module: rancher/pod-security-policy",
+    "environment": "staging",
+    "modulePath": "rancher/pod-security-policy"
+  },
+  "resources": [
+    {
+      "type": "pod-security-policy",
+      "name": "example-pod-security-policy",
+      "description": "Pod Security Policy example"
+    }
+  ]
+}

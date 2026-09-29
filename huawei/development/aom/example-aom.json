@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-aom",
+    "description": "Example for Aom. Module: huawei/aom",
+    "environment": "development",
+    "modulePath": "huawei/aom"
+  },
+  "resources": [
+    {
+      "type": "aom",
+      "name": "example-aom",
+      "description": "Aom example"
+    }
+  ]
+}

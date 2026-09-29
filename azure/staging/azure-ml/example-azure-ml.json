@@ -1,0 +1,23 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-azure-ml",
+    "description": "Example for Azure Machine Learning workspace. Module: azure/machine-learning",
+    "environment": "staging",
+    "modulePath": "azure/machine-learning"
+  },
+  "resources": [
+    {
+      "type": "azure-ml",
+      "name": "example-azure-ml",
+      "description": "Azure Machine Learning workspace example",
+      "resource_group_name": "example-azure-ml",
+      "location": "eastus",
+      "application_insights_id": "example-azure-ml",
+      "key_vault_id": "example-azure-ml",
+      "storage_account_id": "example-azure-ml"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-backup",
+    "description": "Example for Backup. Module: aws/backup",
+    "environment": "staging",
+    "modulePath": "aws/backup"
+  },
+  "resources": [
+    {
+      "type": "backup",
+      "name": "example-backup",
+      "description": "Backup example"
+    }
+  ]
+}

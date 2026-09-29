@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-eventbridge",
+    "description": "Example for EventBridge. Module: aws/eventbridge",
+    "environment": "development",
+    "modulePath": "aws/eventbridge"
+  },
+  "resources": [
+    {
+      "type": "eventbridge",
+      "name": "example-eventbridge",
+      "description": "EventBridge example"
+    }
+  ]
+}

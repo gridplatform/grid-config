@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-pai",
+    "description": "Example for Pai. Module: alibaba/pai",
+    "environment": "staging",
+    "modulePath": "alibaba/pai"
+  },
+  "resources": [
+    {
+      "type": "pai",
+      "name": "example-pai",
+      "description": "Pai example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-clickhouse",
+    "description": "Example for Clickhouse. Module: alibaba/clickhouse",
+    "environment": "production",
+    "modulePath": "alibaba/clickhouse"
+  },
+  "resources": [
+    {
+      "type": "clickhouse",
+      "name": "example-clickhouse",
+      "description": "Clickhouse example"
+    }
+  ]
+}

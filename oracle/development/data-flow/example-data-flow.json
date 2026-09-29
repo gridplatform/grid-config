@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-data-flow",
+    "description": "Example for Data Flow. Module: oracle/data-flow",
+    "environment": "development",
+    "modulePath": "oracle/data-flow"
+  },
+  "resources": [
+    {
+      "type": "data-flow",
+      "name": "example-data-flow",
+      "description": "Data Flow example"
+    }
+  ]
+}

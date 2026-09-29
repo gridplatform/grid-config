@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-apprunner",
+    "description": "Example for Apprunner. Module: aws/apprunner",
+    "environment": "staging",
+    "modulePath": "aws/apprunner"
+  },
+  "resources": [
+    {
+      "type": "apprunner",
+      "name": "example-apprunner",
+      "description": "Apprunner example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-mlflow",
+    "description": "Example for Mlflow (self-hosted / unmanaged). Module: aws/mlflow",
+    "environment": "staging",
+    "modulePath": "aws/mlflow"
+  },
+  "resources": [
+    {
+      "type": "mlflow",
+      "name": "example-mlflow",
+      "description": "Mlflow (self-hosted / unmanaged) example"
+    }
+  ]
+}

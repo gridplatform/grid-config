@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-security-lake",
+    "description": "Example for Security Lake. Module: aws/security-lake",
+    "environment": "staging",
+    "modulePath": "aws/security-lake"
+  },
+  "resources": [
+    {
+      "type": "security-lake",
+      "name": "example-security-lake",
+      "description": "Security Lake example"
+    }
+  ]
+}

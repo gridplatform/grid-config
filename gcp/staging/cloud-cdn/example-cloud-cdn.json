@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-cdn",
+    "description": "Example for Cloud Cdn. Module: gcp/cloud-cdn",
+    "environment": "staging",
+    "modulePath": "gcp/cloud-cdn"
+  },
+  "resources": [
+    {
+      "type": "cloud-cdn",
+      "name": "example-cloud-cdn",
+      "description": "Cloud Cdn example"
+    }
+  ]
+}

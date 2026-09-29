@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-internet-gateway",
+    "description": "Example for Internet Gateway. Module: oracle/internet-gateway",
+    "environment": "production",
+    "modulePath": "oracle/internet-gateway"
+  },
+  "resources": [
+    {
+      "type": "internet-gateway",
+      "name": "example-internet-gateway",
+      "description": "Internet Gateway example"
+    }
+  ]
+}

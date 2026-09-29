@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-ecr",
+    "description": "Example for ECR. Module: aws/ecr",
+    "environment": "staging",
+    "modulePath": "aws/ecr"
+  },
+  "resources": [
+    {
+      "type": "ecr",
+      "name": "example-ecr",
+      "description": "ECR example",
+      "repository_name": "example-ecr"
+    }
+  ]
+}

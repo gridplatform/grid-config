@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-vpcep",
+    "description": "Example for Vpcep. Module: deutsche-telekom/vpcep",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/vpcep"
+  },
+  "resources": [
+    {
+      "type": "vpcep",
+      "name": "example-vpcep",
+      "description": "Vpcep example"
+    }
+  ]
+}

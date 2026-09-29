@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-imm",
+    "description": "Example for Imm. Module: alibaba/imm",
+    "environment": "production",
+    "modulePath": "alibaba/imm"
+  },
+  "resources": [
+    {
+      "type": "imm",
+      "name": "example-imm",
+      "description": "Imm example"
+    }
+  ]
+}

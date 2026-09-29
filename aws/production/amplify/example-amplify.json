@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-amplify",
+    "description": "Example for Amplify. Module: aws/amplify",
+    "environment": "production",
+    "modulePath": "aws/amplify"
+  },
+  "resources": [
+    {
+      "type": "amplify",
+      "name": "example-amplify",
+      "description": "Amplify example"
+    }
+  ]
+}

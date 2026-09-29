@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-digital-assistant",
+    "description": "Example for Digital Assistant. Module: oracle/digital-assistant",
+    "environment": "development",
+    "modulePath": "oracle/digital-assistant"
+  },
+  "resources": [
+    {
+      "type": "digital-assistant",
+      "name": "example-digital-assistant",
+      "description": "Digital Assistant example"
+    }
+  ]
+}

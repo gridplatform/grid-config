@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-opensearch",
+    "description": "Example for Opensearch. Module: aws/opensearch",
+    "environment": "production",
+    "modulePath": "aws/opensearch"
+  },
+  "resources": [
+    {
+      "type": "opensearch",
+      "name": "example-opensearch",
+      "description": "Opensearch example"
+    }
+  ]
+}

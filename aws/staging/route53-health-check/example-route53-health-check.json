@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-route53-health-check",
+    "description": "Example for Route 53 health check. Module: aws/route53-health-check",
+    "environment": "staging",
+    "modulePath": "aws/route53-health-check"
+  },
+  "resources": [
+    {
+      "type": "REPLACE_TYPE",
+      "name": "example-route53-health-check",
+      "description": "Route 53 health check example"
+    }
+  ]
+}

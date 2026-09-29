@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-development",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-autoscale",
+    "description": "Example for Autoscale. Module: yotta/autoscale",
+    "environment": "development",
+    "modulePath": "yotta/autoscale"
+  },
+  "resources": [
+    {
+      "type": "autoscale",
+      "name": "example-autoscale",
+      "description": "Autoscale example"
+    }
+  ]
+}

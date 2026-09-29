@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-nat-gateway",
+    "description": "Example for Nat Gateway. Module: oracle/nat-gateway",
+    "environment": "production",
+    "modulePath": "oracle/nat-gateway"
+  },
+  "resources": [
+    {
+      "type": "nat-gateway",
+      "name": "example-nat-gateway",
+      "description": "Nat Gateway example"
+    }
+  ]
+}

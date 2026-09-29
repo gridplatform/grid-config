@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-service-mesh",
+    "description": "Example for Service Mesh. Module: oracle/service-mesh",
+    "environment": "development",
+    "modulePath": "oracle/service-mesh"
+  },
+  "resources": [
+    {
+      "type": "service-mesh",
+      "name": "example-service-mesh",
+      "description": "Service Mesh example"
+    }
+  ]
+}

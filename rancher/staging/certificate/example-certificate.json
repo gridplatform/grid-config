@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-certificate",
+    "description": "Example for Certificate. Module: rancher/certificate",
+    "environment": "staging",
+    "modulePath": "rancher/certificate"
+  },
+  "resources": [
+    {
+      "type": "certificate",
+      "name": "example-certificate",
+      "description": "Certificate example"
+    }
+  ]
+}

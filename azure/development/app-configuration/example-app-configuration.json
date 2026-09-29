@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-app-configuration",
+    "description": "Example for App Configuration. Module: azure/app-configuration",
+    "environment": "development",
+    "modulePath": "azure/app-configuration"
+  },
+  "resources": [
+    {
+      "type": "app-configuration",
+      "name": "example-app-configuration",
+      "description": "App Configuration example"
+    }
+  ]
+}

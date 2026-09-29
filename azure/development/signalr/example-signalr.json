@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-signalr",
+    "description": "Example for Signalr. Module: azure/signalr",
+    "environment": "development",
+    "modulePath": "azure/signalr"
+  },
+  "resources": [
+    {
+      "type": "signalr",
+      "name": "example-signalr",
+      "description": "Signalr example"
+    }
+  ]
+}

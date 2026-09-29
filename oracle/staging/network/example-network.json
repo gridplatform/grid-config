@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-network",
+    "description": "Example for VCN / network. Module: oracle/network",
+    "environment": "staging",
+    "modulePath": "oracle/network"
+  },
+  "resources": [
+    {
+      "type": "network",
+      "name": "example-network",
+      "description": "VCN / network example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-medialive",
+    "description": "Example for Medialive. Module: aws/medialive",
+    "environment": "production",
+    "modulePath": "aws/medialive"
+  },
+  "resources": [
+    {
+      "type": "medialive",
+      "name": "example-medialive",
+      "description": "Medialive example"
+    }
+  ]
+}

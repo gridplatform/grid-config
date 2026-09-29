@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ram",
+    "description": "Example for RAM. Module: alibaba/ram",
+    "environment": "staging",
+    "modulePath": "alibaba/ram"
+  },
+  "resources": [
+    {
+      "type": "ram",
+      "name": "example-ram",
+      "description": "RAM example"
+    }
+  ]
+}

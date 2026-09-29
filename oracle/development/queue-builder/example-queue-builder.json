@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-queue-builder",
+    "description": "Example for Queue Builder. Module: oracle/queue-builder",
+    "environment": "development",
+    "modulePath": "oracle/queue-builder"
+  },
+  "resources": [
+    {
+      "type": "queue-builder",
+      "name": "example-queue-builder",
+      "description": "Queue Builder example"
+    }
+  ]
+}

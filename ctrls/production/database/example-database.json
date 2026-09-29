@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-production",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-database",
+    "description": "Example for Database. Module: ctrls/database",
+    "environment": "production",
+    "modulePath": "ctrls/database"
+  },
+  "resources": [
+    {
+      "type": "database",
+      "name": "example-database",
+      "description": "Database example"
+    }
+  ]
+}

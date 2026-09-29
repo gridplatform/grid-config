@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-stream-analytics",
+    "description": "Example for Stream Analytics. Module: azure/stream-analytics",
+    "environment": "development",
+    "modulePath": "azure/stream-analytics"
+  },
+  "resources": [
+    {
+      "type": "stream-analytics",
+      "name": "example-stream-analytics",
+      "description": "Stream Analytics example"
+    }
+  ]
+}

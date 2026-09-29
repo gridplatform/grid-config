@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-vault",
+    "description": "Example for Vault IAM helpers. Module: gcp/vault",
+    "environment": "development",
+    "modulePath": "gcp/vault"
+  },
+  "resources": [
+    {
+      "type": "vault",
+      "name": "example-vault",
+      "description": "Vault IAM helpers example",
+      "service_account_email": "REPLACE_WITH_SA_EMAIL",
+      "storage_bucket_name": "example-vault",
+      "kms_crypto_key_id": "example-vault"
+    }
+  ]
+}

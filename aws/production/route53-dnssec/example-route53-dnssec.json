@@ -1,0 +1,21 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-route53-dnssec",
+    "description": "Example for Route 53 DNSSEC. Module: aws/route53-dnssec",
+    "environment": "production",
+    "modulePath": "aws/route53-dnssec"
+  },
+  "resources": [
+    {
+      "type": "route53-dnssec",
+      "name": "example-route53-dnssec",
+      "description": "Route 53 DNSSEC example",
+      "zone_id": "us-east-1-a",
+      "kms_key_arn": "REPLACE_KMS_KEY_ARN",
+      "key_name": "example-route53-dnssec"
+    }
+  ]
+}

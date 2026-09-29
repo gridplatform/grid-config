@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-cloud-phone",
+    "description": "Example for Cloud Phone. Module: alibaba/cloud-phone",
+    "environment": "production",
+    "modulePath": "alibaba/cloud-phone"
+  },
+  "resources": [
+    {
+      "type": "cloud-phone",
+      "name": "example-cloud-phone",
+      "description": "Cloud Phone example"
+    }
+  ]
+}

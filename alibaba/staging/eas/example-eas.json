@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-eas",
+    "description": "Example for Eas. Module: alibaba/eas",
+    "environment": "staging",
+    "modulePath": "alibaba/eas"
+  },
+  "resources": [
+    {
+      "type": "eas",
+      "name": "example-eas",
+      "description": "Eas example"
+    }
+  ]
+}

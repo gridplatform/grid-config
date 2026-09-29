@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-vllm",
+    "description": "Example for Vllm (self-hosted / unmanaged). Module: gcp/vllm",
+    "environment": "staging",
+    "modulePath": "gcp/vllm"
+  },
+  "resources": [
+    {
+      "type": "vllm",
+      "name": "example-vllm",
+      "description": "Vllm (self-hosted / unmanaged) example"
+    }
+  ]
+}

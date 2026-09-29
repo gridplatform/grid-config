@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-development",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-volume-attach",
+    "description": "Example for Volume Attach. Module: ctrls/volume-attach",
+    "environment": "development",
+    "modulePath": "ctrls/volume-attach"
+  },
+  "resources": [
+    {
+      "type": "volume-attach",
+      "name": "example-volume-attach",
+      "description": "Volume Attach example"
+    }
+  ]
+}

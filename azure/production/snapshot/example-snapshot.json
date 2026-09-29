@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-snapshot",
+    "description": "Example for Snapshot. Module: azure/snapshot",
+    "environment": "production",
+    "modulePath": "azure/snapshot"
+  },
+  "resources": [
+    {
+      "type": "snapshot",
+      "name": "example-snapshot",
+      "description": "Snapshot example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-public-ip",
+    "description": "Example for Public Ip. Module: azure/public-ip",
+    "environment": "staging",
+    "modulePath": "azure/public-ip"
+  },
+  "resources": [
+    {
+      "type": "public-ip",
+      "name": "example-public-ip",
+      "description": "Public Ip example"
+    }
+  ]
+}

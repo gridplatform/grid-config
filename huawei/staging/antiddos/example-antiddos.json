@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-antiddos",
+    "description": "Example for Antiddos. Module: huawei/antiddos",
+    "environment": "staging",
+    "modulePath": "huawei/antiddos"
+  },
+  "resources": [
+    {
+      "type": "antiddos",
+      "name": "example-antiddos",
+      "description": "Antiddos example"
+    }
+  ]
+}

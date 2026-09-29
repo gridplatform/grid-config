@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-roma",
+    "description": "Example for Roma. Module: huawei/roma",
+    "environment": "staging",
+    "modulePath": "huawei/roma"
+  },
+  "resources": [
+    {
+      "type": "roma",
+      "name": "example-roma",
+      "description": "Roma example"
+    }
+  ]
+}

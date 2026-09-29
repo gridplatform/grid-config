@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-dms",
+    "description": "Example for Dms. Module: deutsche-telekom/dms",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/dms"
+  },
+  "resources": [
+    {
+      "type": "dms",
+      "name": "example-dms",
+      "description": "Dms example"
+    }
+  ]
+}

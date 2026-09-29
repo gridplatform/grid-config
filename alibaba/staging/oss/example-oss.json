@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-oss",
+    "description": "Example for Oss. Module: alibaba/oss",
+    "environment": "staging",
+    "modulePath": "alibaba/oss"
+  },
+  "resources": [
+    {
+      "type": "oss",
+      "name": "example-oss",
+      "description": "Oss example"
+    }
+  ]
+}

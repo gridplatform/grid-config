@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-speech",
+    "description": "Example for Azure Speech. Module: azure/cognitive-services",
+    "environment": "production",
+    "modulePath": "azure/cognitive-services"
+  },
+  "resources": [
+    {
+      "type": "speech",
+      "name": "example-speech",
+      "description": "Azure Speech example",
+      "resource_group_name": "example-speech",
+      "location": "eastus",
+      "kind": "REPLACE_KIND"
+    }
+  ]
+}

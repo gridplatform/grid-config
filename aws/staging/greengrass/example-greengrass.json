@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-greengrass",
+    "description": "Example for Greengrass. Module: aws/greengrass",
+    "environment": "staging",
+    "modulePath": "aws/greengrass"
+  },
+  "resources": [
+    {
+      "type": "greengrass",
+      "name": "example-greengrass",
+      "description": "Greengrass example"
+    }
+  ]
+}

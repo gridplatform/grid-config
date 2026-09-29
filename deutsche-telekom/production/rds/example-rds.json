@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-rds",
+    "description": "Example for RDS. Module: deutsche-telekom/rds",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/rds"
+  },
+  "resources": [
+    {
+      "type": "rds",
+      "name": "example-rds",
+      "description": "RDS example"
+    }
+  ]
+}

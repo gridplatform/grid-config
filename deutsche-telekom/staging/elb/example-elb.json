@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-elb",
+    "description": "Example for Elb. Module: deutsche-telekom/elb",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/elb"
+  },
+  "resources": [
+    {
+      "type": "elb",
+      "name": "example-elb",
+      "description": "Elb example"
+    }
+  ]
+}

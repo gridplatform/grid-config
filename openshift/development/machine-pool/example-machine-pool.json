@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-machine-pool",
+    "description": "Example for Machine pool. Module: openshift/machine-pool",
+    "environment": "development",
+    "modulePath": "openshift/machine-pool"
+  },
+  "resources": [
+    {
+      "type": "machine-pool",
+      "name": "example-machine-pool",
+      "description": "Machine pool example"
+    }
+  ]
+}

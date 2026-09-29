@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-cloud-firewall",
+    "description": "Example for Cloud Firewall. Module: alibaba/cloud-firewall",
+    "environment": "staging",
+    "modulePath": "alibaba/cloud-firewall"
+  },
+  "resources": [
+    {
+      "type": "cloud-firewall",
+      "name": "example-cloud-firewall",
+      "description": "Cloud Firewall example"
+    }
+  ]
+}

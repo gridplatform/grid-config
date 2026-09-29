@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-vpc-service-controls",
+    "description": "Example for Vpc Service Controls. Module: gcp/vpc-service-controls",
+    "environment": "staging",
+    "modulePath": "gcp/vpc-service-controls"
+  },
+  "resources": [
+    {
+      "type": "vpc-service-controls",
+      "name": "example-vpc-service-controls",
+      "description": "Vpc Service Controls example"
+    }
+  ]
+}

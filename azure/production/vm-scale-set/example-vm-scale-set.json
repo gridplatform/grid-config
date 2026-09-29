@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-vm-scale-set",
+    "description": "Example for Vm Scale Set. Module: azure/vm-scale-set",
+    "environment": "production",
+    "modulePath": "azure/vm-scale-set"
+  },
+  "resources": [
+    {
+      "type": "vm-scale-set",
+      "name": "example-vm-scale-set",
+      "description": "Vm Scale Set example"
+    }
+  ]
+}

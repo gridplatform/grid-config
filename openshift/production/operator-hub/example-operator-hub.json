@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-operator-hub",
+    "description": "Example for Operator Hub. Module: openshift/operator-hub",
+    "environment": "production",
+    "modulePath": "openshift/operator-hub"
+  },
+  "resources": [
+    {
+      "type": "operator-hub",
+      "name": "example-operator-hub",
+      "description": "Operator Hub example"
+    }
+  ]
+}

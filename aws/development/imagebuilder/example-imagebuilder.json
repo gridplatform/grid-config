@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-imagebuilder",
+    "description": "Example for Imagebuilder. Module: aws/imagebuilder",
+    "environment": "development",
+    "modulePath": "aws/imagebuilder"
+  },
+  "resources": [
+    {
+      "type": "imagebuilder",
+      "name": "example-imagebuilder",
+      "description": "Imagebuilder example"
+    }
+  ]
+}

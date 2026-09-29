@@ -1,0 +1,26 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "grid-production-vm",
+    "description": "Compute Engine VM instance on production platform VPC",
+    "environment": "production",
+    "serviceAccountEmail": "REPLACE_WITH_SA_EMAIL",
+    "dependsOn": ["gcp/production/vpc/grid-production-vpc.json"]
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "grid-production-vm",
+      "machineType": "e2-medium",
+      "zone": "us-central1-a",
+      "subnet": "grid-production-public",
+      "image": "ubuntu-os-cloud/ubuntu-2204-lts",
+      "diskSize": 40,
+      "diskType": "pd-balanced",
+      "tags": ["grid", "vm", "production"],
+      "description": "Test / jump VM (logical subnet ref to vpc stack)"
+    }
+  ]
+}

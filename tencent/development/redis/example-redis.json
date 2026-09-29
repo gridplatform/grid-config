@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-redis",
+    "description": "Example for Redis. Module: tencent/redis",
+    "environment": "development",
+    "modulePath": "tencent/redis"
+  },
+  "resources": [
+    {
+      "type": "redis",
+      "name": "example-redis",
+      "description": "Redis example"
+    }
+  ]
+}

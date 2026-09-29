@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-container-engine",
+    "description": "Example for Container Engine. Module: oracle/container-engine",
+    "environment": "staging",
+    "modulePath": "oracle/container-engine"
+  },
+  "resources": [
+    {
+      "type": "container-engine",
+      "name": "example-container-engine",
+      "description": "Container Engine example"
+    }
+  ]
+}

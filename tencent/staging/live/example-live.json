@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-live",
+    "description": "Example for Live. Module: tencent/live",
+    "environment": "staging",
+    "modulePath": "tencent/live"
+  },
+  "resources": [
+    {
+      "type": "live",
+      "name": "example-live",
+      "description": "Live example"
+    }
+  ]
+}

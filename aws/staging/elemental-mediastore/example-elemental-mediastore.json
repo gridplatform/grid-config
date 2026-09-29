@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-elemental-mediastore",
+    "description": "Example for Elemental Mediastore. Module: aws/elemental-mediastore",
+    "environment": "staging",
+    "modulePath": "aws/elemental-mediastore"
+  },
+  "resources": [
+    {
+      "type": "elemental-mediastore",
+      "name": "example-elemental-mediastore",
+      "description": "Elemental Mediastore example"
+    }
+  ]
+}

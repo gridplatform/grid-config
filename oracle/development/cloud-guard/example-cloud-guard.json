@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-cloud-guard",
+    "description": "Example for Cloud Guard. Module: oracle/cloud-guard",
+    "environment": "development",
+    "modulePath": "oracle/cloud-guard"
+  },
+  "resources": [
+    {
+      "type": "cloud-guard",
+      "name": "example-cloud-guard",
+      "description": "Cloud Guard example"
+    }
+  ]
+}

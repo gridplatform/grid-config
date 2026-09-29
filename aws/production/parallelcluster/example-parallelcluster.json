@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-parallelcluster",
+    "description": "Example for Parallelcluster. Module: aws/parallelcluster",
+    "environment": "production",
+    "modulePath": "aws/parallelcluster"
+  },
+  "resources": [
+    {
+      "type": "parallelcluster",
+      "name": "example-parallelcluster",
+      "description": "Parallelcluster example"
+    }
+  ]
+}

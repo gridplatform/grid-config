@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-as-autoscaling",
+    "description": "Example for As Autoscaling. Module: tencent/as-autoscaling",
+    "environment": "development",
+    "modulePath": "tencent/as-autoscaling"
+  },
+  "resources": [
+    {
+      "type": "as-autoscaling",
+      "name": "example-as-autoscaling",
+      "description": "As Autoscaling example"
+    }
+  ]
+}

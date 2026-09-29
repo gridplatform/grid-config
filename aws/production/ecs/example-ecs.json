@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-ecs",
+    "description": "Example for ECS. Module: aws/ecs",
+    "environment": "production",
+    "modulePath": "aws/ecs"
+  },
+  "resources": [
+    {
+      "type": "ecs",
+      "name": "example-ecs",
+      "description": "ECS example",
+      "cluster_name": "example-ecs"
+    }
+  ]
+}

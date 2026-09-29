@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-open-webui",
+    "description": "Example for Open Webui (self-hosted / unmanaged). Module: aws/open-webui",
+    "environment": "development",
+    "modulePath": "aws/open-webui"
+  },
+  "resources": [
+    {
+      "type": "open-webui",
+      "name": "example-open-webui",
+      "description": "Open Webui (self-hosted / unmanaged) example"
+    }
+  ]
+}

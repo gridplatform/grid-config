@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-detective",
+    "description": "Example for Detective. Module: aws/detective",
+    "environment": "staging",
+    "modulePath": "aws/detective"
+  },
+  "resources": [
+    {
+      "type": "detective",
+      "name": "example-detective",
+      "description": "Detective example"
+    }
+  ]
+}

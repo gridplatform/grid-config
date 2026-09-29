@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-batch",
+    "description": "Example for Batch. Module: gcp/batch",
+    "environment": "staging",
+    "modulePath": "gcp/batch"
+  },
+  "resources": [
+    {
+      "type": "batch",
+      "name": "example-batch",
+      "description": "Batch example"
+    }
+  ]
+}

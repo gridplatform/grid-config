@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-textract",
+    "description": "Example for Amazon Textract (API). Module: aws/ai-api",
+    "environment": "production",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "textract",
+      "name": "example-textract",
+      "description": "Amazon Textract (API) example",
+      "service_name": "example-textract"
+    }
+  ]
+}

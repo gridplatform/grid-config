@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-sql-server",
+    "description": "Example for Sql Server. Module: azure/sql-server",
+    "environment": "development",
+    "modulePath": "azure/sql-server"
+  },
+  "resources": [
+    {
+      "type": "sql-server",
+      "name": "example-sql-server",
+      "description": "Sql Server example"
+    }
+  ]
+}

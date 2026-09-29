@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-media-convert",
+    "description": "Example for Media Convert. Module: aws/media-convert",
+    "environment": "production",
+    "modulePath": "aws/media-convert"
+  },
+  "resources": [
+    {
+      "type": "media-convert",
+      "name": "example-media-convert",
+      "description": "Media Convert example"
+    }
+  ]
+}

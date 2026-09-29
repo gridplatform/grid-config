@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-fleet-workspace",
+    "description": "Example for Fleet Workspace. Module: rancher/fleet-workspace",
+    "environment": "production",
+    "modulePath": "rancher/fleet-workspace"
+  },
+  "resources": [
+    {
+      "type": "fleet-workspace",
+      "name": "example-fleet-workspace",
+      "description": "Fleet Workspace example"
+    }
+  ]
+}

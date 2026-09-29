@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dbss",
+    "description": "Example for Dbss. Module: huawei/dbss",
+    "environment": "staging",
+    "modulePath": "huawei/dbss"
+  },
+  "resources": [
+    {
+      "type": "dbss",
+      "name": "example-dbss",
+      "description": "Dbss example"
+    }
+  ]
+}

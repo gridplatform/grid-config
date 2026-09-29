@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-access-analyzer",
+    "description": "Example for Access Analyzer. Module: aws/access-analyzer",
+    "environment": "staging",
+    "modulePath": "aws/access-analyzer"
+  },
+  "resources": [
+    {
+      "type": "access-analyzer",
+      "name": "example-access-analyzer",
+      "description": "Access Analyzer example"
+    }
+  ]
+}

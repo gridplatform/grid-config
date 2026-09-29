@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-openstack-network",
+    "description": "Example for Openstack Network. Module: yotta/openstack-network",
+    "environment": "staging",
+    "modulePath": "yotta/openstack-network"
+  },
+  "resources": [
+    {
+      "type": "openstack-network",
+      "name": "example-openstack-network",
+      "description": "Openstack Network example"
+    }
+  ]
+}

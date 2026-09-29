@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-rabbitmq",
+    "description": "Example for Rabbitmq. Module: huawei/rabbitmq",
+    "environment": "staging",
+    "modulePath": "huawei/rabbitmq"
+  },
+  "resources": [
+    {
+      "type": "rabbitmq",
+      "name": "example-rabbitmq",
+      "description": "Rabbitmq example"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-private-dns",
+    "description": "Example for Azure Private DNS (zone + VNet links + records). Module: azure/private-dns",
+    "environment": "staging",
+    "modulePath": "azure/private-dns"
+  },
+  "resources": [
+    {
+      "type": "private-dns",
+      "name": "example-private-dns",
+      "description": "Azure Private DNS (zone + VNet links + records) example",
+      "zone_name": "eastus-a",
+      "resource_group_name": "example-private-dns"
+    }
+  ]
+}

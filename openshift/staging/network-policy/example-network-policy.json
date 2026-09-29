@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-network-policy",
+    "description": "Example for Network Policy. Module: openshift/network-policy",
+    "environment": "staging",
+    "modulePath": "openshift/network-policy"
+  },
+  "resources": [
+    {
+      "type": "network-policy",
+      "name": "example-network-policy",
+      "description": "Network Policy example"
+    }
+  ]
+}

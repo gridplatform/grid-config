@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-network-firewall",
+    "description": "Example for Network Firewall. Module: aws/network-firewall",
+    "environment": "production",
+    "modulePath": "aws/network-firewall"
+  },
+  "resources": [
+    {
+      "type": "network-firewall",
+      "name": "example-network-firewall",
+      "description": "Network Firewall example"
+    }
+  ]
+}

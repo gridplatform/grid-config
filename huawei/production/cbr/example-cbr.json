@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cbr",
+    "description": "Example for Cbr. Module: huawei/cbr",
+    "environment": "production",
+    "modulePath": "huawei/cbr"
+  },
+  "resources": [
+    {
+      "type": "cbr",
+      "name": "example-cbr",
+      "description": "Cbr example"
+    }
+  ]
+}

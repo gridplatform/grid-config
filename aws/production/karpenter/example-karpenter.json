@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-karpenter",
+    "description": "Example for Karpenter (self-hosted / unmanaged). Module: aws/karpenter",
+    "environment": "production",
+    "modulePath": "aws/karpenter"
+  },
+  "resources": [
+    {
+      "type": "karpenter",
+      "name": "example-karpenter",
+      "description": "Karpenter (self-hosted / unmanaged) example"
+    }
+  ]
+}

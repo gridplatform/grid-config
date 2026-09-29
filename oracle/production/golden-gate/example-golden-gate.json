@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-golden-gate",
+    "description": "Example for Golden Gate. Module: oracle/golden-gate",
+    "environment": "production",
+    "modulePath": "oracle/golden-gate"
+  },
+  "resources": [
+    {
+      "type": "golden-gate",
+      "name": "example-golden-gate",
+      "description": "Golden Gate example"
+    }
+  ]
+}

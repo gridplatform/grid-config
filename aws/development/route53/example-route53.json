@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-route53",
+    "description": "Example for Route 53 DNS (zone + records, public/private). Module: aws/route53",
+    "environment": "development",
+    "modulePath": "aws/route53"
+  },
+  "resources": [
+    {
+      "type": "route53",
+      "name": "example-route53",
+      "description": "Route 53 DNS (zone + records, public/private) example",
+      "zone_name": "us-east-1-a"
+    }
+  ]
+}

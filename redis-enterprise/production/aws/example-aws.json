@@ -1,0 +1,23 @@
+{
+  "provider": "redis-enterprise",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-aws",
+    "description": "Example for aws. Module: redis-enterprise/aws",
+    "environment": "production",
+    "modulePath": "redis-enterprise/aws"
+  },
+  "resources": [
+    {
+      "type": "aws",
+      "name": "example-aws",
+      "description": "aws example",
+      "subscription_name": "example-aws",
+      "database_name": "example-aws",
+      "region": "global",
+      "networking_deployment_cidr": "10.0.0.0/16",
+      "dataset_size_in_gb": 1
+    }
+  ]
+}

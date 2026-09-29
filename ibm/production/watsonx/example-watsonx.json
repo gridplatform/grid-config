@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-production",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-watsonx",
+    "description": "Example for Watsonx. Module: ibm/watsonx",
+    "environment": "production",
+    "modulePath": "ibm/watsonx"
+  },
+  "resources": [
+    {
+      "type": "watsonx",
+      "name": "example-watsonx",
+      "description": "Watsonx example"
+    }
+  ]
+}

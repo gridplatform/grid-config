@@ -1,0 +1,23 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-aks",
+    "description": "Example for AKS. Module: azure/aks",
+    "environment": "production",
+    "modulePath": "azure/aks"
+  },
+  "resources": [
+    {
+      "type": "aks",
+      "name": "example-aks",
+      "description": "AKS example",
+      "resource_group_name": "example-aks",
+      "location": "eastus",
+      "cluster_name": "example-aks",
+      "vnet_subnet_id": "example-aks",
+      "default_node_pool": {}
+    }
+  ]
+}

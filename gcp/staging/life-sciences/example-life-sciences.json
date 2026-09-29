@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-life-sciences",
+    "description": "Example for Life Sciences. Module: gcp/life-sciences",
+    "environment": "staging",
+    "modulePath": "gcp/life-sciences"
+  },
+  "resources": [
+    {
+      "type": "life-sciences",
+      "name": "example-life-sciences",
+      "description": "Life Sciences example"
+    }
+  ]
+}

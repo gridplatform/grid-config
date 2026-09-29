@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-comprehend",
+    "description": "Example for module-comprehend. Module: aws/comprehend",
+    "environment": "staging",
+    "modulePath": "aws/comprehend"
+  },
+  "resources": [
+    {
+      "type": "module-comprehend",
+      "name": "example-module-comprehend",
+      "description": "module-comprehend example"
+    }
+  ]
+}

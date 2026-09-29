@@ -1,0 +1,20 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-nsg",
+    "description": "Example for Network security group. Module: azure/network-security-group",
+    "environment": "staging",
+    "modulePath": "azure/network-security-group"
+  },
+  "resources": [
+    {
+      "type": "nsg",
+      "name": "example-nsg",
+      "description": "Network security group example",
+      "resource_group_name": "example-nsg",
+      "location": "eastus"
+    }
+  ]
+}

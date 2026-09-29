@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-security-group",
+    "description": "Example for Security Group. Module: yotta/security-group",
+    "environment": "staging",
+    "modulePath": "yotta/security-group"
+  },
+  "resources": [
+    {
+      "type": "security-group",
+      "name": "example-security-group",
+      "description": "Security Group example"
+    }
+  ]
+}

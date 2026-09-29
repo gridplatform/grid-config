@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-network",
+    "description": "Example for VPC. Module: tencent/network",
+    "environment": "staging",
+    "modulePath": "tencent/network"
+  },
+  "resources": [
+    {
+      "type": "network",
+      "name": "example-network",
+      "description": "VPC example"
+    }
+  ]
+}

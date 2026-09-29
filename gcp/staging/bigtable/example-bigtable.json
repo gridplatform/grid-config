@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-bigtable",
+    "description": "Example for Bigtable. Module: gcp/bigtable",
+    "environment": "staging",
+    "modulePath": "gcp/bigtable"
+  },
+  "resources": [
+    {
+      "type": "bigtable",
+      "name": "example-bigtable",
+      "description": "Bigtable example"
+    }
+  ]
+}

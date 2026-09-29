@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-recovery-services",
+    "description": "Example for Recovery Services. Module: azure/recovery-services",
+    "environment": "development",
+    "modulePath": "azure/recovery-services"
+  },
+  "resources": [
+    {
+      "type": "recovery-services",
+      "name": "example-recovery-services",
+      "description": "Recovery Services example"
+    }
+  ]
+}

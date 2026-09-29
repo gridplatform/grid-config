@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-run",
+    "description": "Example for Cloud Run (Gen 2). Module: gcp/cloud-run",
+    "environment": "development",
+    "modulePath": "gcp/cloud-run"
+  },
+  "resources": [
+    {
+      "type": "cloud-run",
+      "name": "example-cloud-run",
+      "description": "Cloud Run (Gen 2) example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "region": "us-central1",
+      "image": "REPLACE_IMAGE"
+    }
+  ]
+}

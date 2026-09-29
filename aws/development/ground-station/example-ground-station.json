@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-ground-station",
+    "description": "Example for Ground Station. Module: aws/ground-station",
+    "environment": "development",
+    "modulePath": "aws/ground-station"
+  },
+  "resources": [
+    {
+      "type": "ground-station",
+      "name": "example-ground-station",
+      "description": "Ground Station example"
+    }
+  ]
+}

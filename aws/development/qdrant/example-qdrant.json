@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-qdrant",
+    "description": "Example for Qdrant (self-hosted / unmanaged). Module: aws/qdrant",
+    "environment": "development",
+    "modulePath": "aws/qdrant"
+  },
+  "resources": [
+    {
+      "type": "qdrant",
+      "name": "example-qdrant",
+      "description": "Qdrant (self-hosted / unmanaged) example"
+    }
+  ]
+}

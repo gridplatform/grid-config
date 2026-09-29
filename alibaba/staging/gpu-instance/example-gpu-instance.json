@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-gpu-instance",
+    "description": "Example for Gpu Instance. Module: alibaba/gpu-instance",
+    "environment": "staging",
+    "modulePath": "alibaba/gpu-instance"
+  },
+  "resources": [
+    {
+      "type": "gpu-instance",
+      "name": "example-gpu-instance",
+      "description": "Gpu Instance example"
+    }
+  ]
+}

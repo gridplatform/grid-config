@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-container-apps",
+    "description": "Example for Container Apps. Module: azure/container-apps",
+    "environment": "development",
+    "modulePath": "azure/container-apps"
+  },
+  "resources": [
+    {
+      "type": "container-apps",
+      "name": "example-container-apps",
+      "description": "Container Apps example"
+    }
+  ]
+}

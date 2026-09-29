@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-kms",
+    "description": "Example for Kms. Module: oracle/kms",
+    "environment": "staging",
+    "modulePath": "oracle/kms"
+  },
+  "resources": [
+    {
+      "type": "kms",
+      "name": "example-kms",
+      "description": "Kms example"
+    }
+  ]
+}

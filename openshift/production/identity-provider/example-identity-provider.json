@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-identity-provider",
+    "description": "Example for Identity provider. Module: openshift/identity-provider",
+    "environment": "production",
+    "modulePath": "openshift/identity-provider"
+  },
+  "resources": [
+    {
+      "type": "identity-provider",
+      "name": "example-identity-provider",
+      "description": "Identity provider example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-direct-connect",
+    "description": "Example for Direct Connect. Module: aws/direct-connect",
+    "environment": "production",
+    "modulePath": "aws/direct-connect"
+  },
+  "resources": [
+    {
+      "type": "direct-connect",
+      "name": "example-direct-connect",
+      "description": "Direct Connect example"
+    }
+  ]
+}

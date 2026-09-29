@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-dataproc",
+    "description": "Example for Dataproc. Module: gcp/dataproc",
+    "environment": "production",
+    "modulePath": "gcp/dataproc"
+  },
+  "resources": [
+    {
+      "type": "dataproc",
+      "name": "example-dataproc",
+      "description": "Dataproc example",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-vpc-access-connector",
+    "description": "Example for Serverless VPC Access connector. Module: gcp/vpc-access-connector",
+    "environment": "development",
+    "modulePath": "gcp/vpc-access-connector"
+  },
+  "resources": [
+    {
+      "type": "vpc-access-connector",
+      "name": "example-vpc-access-connector",
+      "description": "Serverless VPC Access connector example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "region": "us-central1"
+    }
+  ]
+}

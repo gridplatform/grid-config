@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-development",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-lb-member",
+    "description": "Example for Lb Member. Module: ctrls/lb-member",
+    "environment": "development",
+    "modulePath": "ctrls/lb-member"
+  },
+  "resources": [
+    {
+      "type": "lb-member",
+      "name": "example-lb-member",
+      "description": "Lb Member example"
+    }
+  ]
+}

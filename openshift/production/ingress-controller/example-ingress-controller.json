@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-ingress-controller",
+    "description": "Example for Ingress Controller. Module: openshift/ingress-controller",
+    "environment": "production",
+    "modulePath": "openshift/ingress-controller"
+  },
+  "resources": [
+    {
+      "type": "ingress-controller",
+      "name": "example-ingress-controller",
+      "description": "Ingress Controller example"
+    }
+  ]
+}

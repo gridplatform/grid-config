@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-registry",
+    "description": "Example for Registry. Module: aws/registry",
+    "environment": "staging",
+    "modulePath": "aws/registry"
+  },
+  "resources": [
+    {
+      "type": "registry",
+      "name": "example-registry",
+      "description": "Registry example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-cloud-pak-for-data",
+    "description": "Example for Cloud Pak For Data. Module: ibm/cloud-pak-for-data",
+    "environment": "development",
+    "modulePath": "ibm/cloud-pak-for-data"
+  },
+  "resources": [
+    {
+      "type": "cloud-pak-for-data",
+      "name": "example-cloud-pak-for-data",
+      "description": "Cloud Pak For Data example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-ollama",
+    "description": "Example for Ollama (self-hosted / unmanaged). Module: aws/ollama",
+    "environment": "production",
+    "modulePath": "aws/ollama"
+  },
+  "resources": [
+    {
+      "type": "ollama",
+      "name": "example-ollama",
+      "description": "Ollama (self-hosted / unmanaged) example"
+    }
+  ]
+}

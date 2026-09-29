@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-security-zones",
+    "description": "Example for Security Zones. Module: oracle/security-zones",
+    "environment": "production",
+    "modulePath": "oracle/security-zones"
+  },
+  "resources": [
+    {
+      "type": "security-zones",
+      "name": "example-security-zones",
+      "description": "Security Zones example"
+    }
+  ]
+}

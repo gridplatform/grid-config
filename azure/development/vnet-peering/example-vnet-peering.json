@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-vnet-peering",
+    "description": "Example for Vnet Peering. Module: azure/vnet-peering",
+    "environment": "development",
+    "modulePath": "azure/vnet-peering"
+  },
+  "resources": [
+    {
+      "type": "vnet-peering",
+      "name": "example-vnet-peering",
+      "description": "Vnet Peering example"
+    }
+  ]
+}

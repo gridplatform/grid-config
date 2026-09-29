@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-resource-manager",
+    "description": "Example for Resource Manager. Module: alibaba/resource-manager",
+    "environment": "staging",
+    "modulePath": "alibaba/resource-manager"
+  },
+  "resources": [
+    {
+      "type": "resource-manager",
+      "name": "example-resource-manager",
+      "description": "Resource Manager example"
+    }
+  ]
+}

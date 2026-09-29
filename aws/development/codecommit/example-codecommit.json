@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-codecommit",
+    "description": "Example for Codecommit. Module: aws/codecommit",
+    "environment": "development",
+    "modulePath": "aws/codecommit"
+  },
+  "resources": [
+    {
+      "type": "codecommit",
+      "name": "example-codecommit",
+      "description": "Codecommit example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-development",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-vllm",
+    "description": "Example for Vllm. Module: ovh/vllm",
+    "environment": "development",
+    "modulePath": "ovh/vllm"
+  },
+  "resources": [
+    {
+      "type": "vllm",
+      "name": "example-vllm",
+      "description": "Vllm example"
+    }
+  ]
+}

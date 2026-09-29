@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-nas",
+    "description": "Example for Nas. Module: alibaba/nas",
+    "environment": "development",
+    "modulePath": "alibaba/nas"
+  },
+  "resources": [
+    {
+      "type": "nas",
+      "name": "example-nas",
+      "description": "Nas example"
+    }
+  ]
+}

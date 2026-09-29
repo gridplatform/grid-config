@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dns",
+    "description": "Example for DNS. Module: huawei/dns",
+    "environment": "staging",
+    "modulePath": "huawei/dns"
+  },
+  "resources": [
+    {
+      "type": "dns",
+      "name": "example-dns",
+      "description": "DNS example"
+    }
+  ]
+}

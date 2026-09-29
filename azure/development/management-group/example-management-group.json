@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-management-group",
+    "description": "Example for Management Group. Module: azure/management-group",
+    "environment": "development",
+    "modulePath": "azure/management-group"
+  },
+  "resources": [
+    {
+      "type": "management-group",
+      "name": "example-management-group",
+      "description": "Management Group example"
+    }
+  ]
+}

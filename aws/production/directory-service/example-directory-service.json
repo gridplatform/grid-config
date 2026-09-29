@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-directory-service",
+    "description": "Example for Directory Service. Module: aws/directory-service",
+    "environment": "production",
+    "modulePath": "aws/directory-service"
+  },
+  "resources": [
+    {
+      "type": "directory-service",
+      "name": "example-directory-service",
+      "description": "Directory Service example"
+    }
+  ]
+}

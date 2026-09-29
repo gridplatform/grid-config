@@ -1,0 +1,20 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-bedrock-knowledge-base",
+    "description": "Example for Bedrock Knowledge Base (RAG). Module: aws/bedrock-knowledge-base",
+    "environment": "development",
+    "modulePath": "aws/bedrock-knowledge-base"
+  },
+  "resources": [
+    {
+      "type": "bedrock-knowledge-base",
+      "name": "example-bedrock-knowledge-base",
+      "description": "Bedrock Knowledge Base (RAG) example",
+      "role_arn": "REPLACE_ROLE_ARN",
+      "embedding_model_arn": "REPLACE_EMBEDDING_MODEL_ARN"
+    }
+  ]
+}

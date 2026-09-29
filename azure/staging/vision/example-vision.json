@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-vision",
+    "description": "Example for Azure Vision. Module: azure/cognitive-services",
+    "environment": "staging",
+    "modulePath": "azure/cognitive-services"
+  },
+  "resources": [
+    {
+      "type": "vision",
+      "name": "example-vision",
+      "description": "Azure Vision example",
+      "resource_group_name": "example-vision",
+      "location": "eastus",
+      "kind": "REPLACE_KIND"
+    }
+  ]
+}

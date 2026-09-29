@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-gaussdb-redis",
+    "description": "Example for Gaussdb Redis. Module: huawei/gaussdb-redis",
+    "environment": "development",
+    "modulePath": "huawei/gaussdb-redis"
+  },
+  "resources": [
+    {
+      "type": "gaussdb-redis",
+      "name": "example-gaussdb-redis",
+      "description": "Gaussdb Redis example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-eip",
+    "description": "Example for Eip. Module: tencent/eip",
+    "environment": "development",
+    "modulePath": "tencent/eip"
+  },
+  "resources": [
+    {
+      "type": "eip",
+      "name": "example-eip",
+      "description": "Eip example"
+    }
+  ]
+}

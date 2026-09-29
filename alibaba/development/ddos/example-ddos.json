@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ddos",
+    "description": "Example for Ddos. Module: alibaba/ddos",
+    "environment": "development",
+    "modulePath": "alibaba/ddos"
+  },
+  "resources": [
+    {
+      "type": "ddos",
+      "name": "example-ddos",
+      "description": "Ddos example"
+    }
+  ]
+}

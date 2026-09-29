@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-pipes",
+    "description": "Example for Pipes. Module: aws/pipes",
+    "environment": "staging",
+    "modulePath": "aws/pipes"
+  },
+  "resources": [
+    {
+      "type": "pipes",
+      "name": "example-pipes",
+      "description": "Pipes example"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-datastore",
+    "description": "Example for Datastore. Module: gcp/cloud-datastore",
+    "environment": "development",
+    "modulePath": "gcp/cloud-datastore"
+  },
+  "resources": [
+    {
+      "type": "cloud-datastore",
+      "name": "example-cloud-datastore",
+      "description": "Datastore example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT"
+    }
+  ]
+}

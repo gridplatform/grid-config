@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-lookout-metrics",
+    "description": "Example for module-lookout-metrics. Module: aws/lookout-metrics",
+    "environment": "production",
+    "modulePath": "aws/lookout-metrics"
+  },
+  "resources": [
+    {
+      "type": "module-lookout-metrics",
+      "name": "example-module-lookout-metrics",
+      "description": "module-lookout-metrics example"
+    }
+  ]
+}

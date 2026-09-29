@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-process-automation",
+    "description": "Example for Process Automation. Module: oracle/process-automation",
+    "environment": "production",
+    "modulePath": "oracle/process-automation"
+  },
+  "resources": [
+    {
+      "type": "process-automation",
+      "name": "example-process-automation",
+      "description": "Process Automation example"
+    }
+  ]
+}

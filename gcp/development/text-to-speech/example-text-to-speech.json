@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-text-to-speech",
+    "description": "Example for Text-to-Speech. Module: gcp/ai-api",
+    "environment": "development",
+    "modulePath": "gcp/ai-api"
+  },
+  "resources": [
+    {
+      "type": "text-to-speech",
+      "name": "example-text-to-speech",
+      "description": "Text-to-Speech example",
+      "service_name": "example-text-to-speech"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-mlflow",
+    "description": "Example for Mlflow (self-hosted / unmanaged). Module: gcp/mlflow",
+    "environment": "staging",
+    "modulePath": "gcp/mlflow"
+  },
+  "resources": [
+    {
+      "type": "mlflow",
+      "name": "example-mlflow",
+      "description": "Mlflow (self-hosted / unmanaged) example"
+    }
+  ]
+}

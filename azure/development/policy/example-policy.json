@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-policy",
+    "description": "Example for Policy. Module: azure/policy",
+    "environment": "development",
+    "modulePath": "azure/policy"
+  },
+  "resources": [
+    {
+      "type": "policy",
+      "name": "example-policy",
+      "description": "Policy example"
+    }
+  ]
+}

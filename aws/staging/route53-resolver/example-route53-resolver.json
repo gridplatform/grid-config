@@ -1,0 +1,21 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-route53-resolver",
+    "description": "Example for Route53 Resolver. Module: aws/route53-resolver",
+    "environment": "staging",
+    "modulePath": "aws/route53-resolver"
+  },
+  "resources": [
+    {
+      "type": "route53-resolver",
+      "name": "example-route53-resolver",
+      "description": "Route53 Resolver example",
+      "security_group_ids": [
+        "example-route53-resolver-item"
+      ]
+    }
+  ]
+}

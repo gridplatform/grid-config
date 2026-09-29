@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-transit-gateway",
+    "description": "Example for Transit Gateway. Module: aws/transit-gateway",
+    "environment": "staging",
+    "modulePath": "aws/transit-gateway"
+  },
+  "resources": [
+    {
+      "type": "transit-gateway",
+      "name": "example-transit-gateway",
+      "description": "Transit Gateway example"
+    }
+  ]
+}

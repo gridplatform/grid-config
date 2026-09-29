@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-transit-gateway",
+    "description": "Example for Transit Gateway. Module: ibm/transit-gateway",
+    "environment": "development",
+    "modulePath": "ibm/transit-gateway"
+  },
+  "resources": [
+    {
+      "type": "transit-gateway",
+      "name": "example-transit-gateway",
+      "description": "Transit Gateway example"
+    }
+  ]
+}

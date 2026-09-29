@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-development",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-image",
+    "description": "Example for Image. Module: ctrls/image",
+    "environment": "development",
+    "modulePath": "ctrls/image"
+  },
+  "resources": [
+    {
+      "type": "image",
+      "name": "example-image",
+      "description": "Image example"
+    }
+  ]
+}

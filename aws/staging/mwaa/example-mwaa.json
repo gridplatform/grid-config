@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-mwaa",
+    "description": "Example for Mwaa. Module: aws/mwaa",
+    "environment": "staging",
+    "modulePath": "aws/mwaa"
+  },
+  "resources": [
+    {
+      "type": "mwaa",
+      "name": "example-mwaa",
+      "description": "Mwaa example"
+    }
+  ]
+}

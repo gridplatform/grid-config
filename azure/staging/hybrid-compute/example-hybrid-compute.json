@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-hybrid-compute",
+    "description": "Example for Hybrid Compute. Module: azure/hybrid-compute",
+    "environment": "staging",
+    "modulePath": "azure/hybrid-compute"
+  },
+  "resources": [
+    {
+      "type": "hybrid-compute",
+      "name": "example-hybrid-compute",
+      "description": "Hybrid Compute example"
+    }
+  ]
+}

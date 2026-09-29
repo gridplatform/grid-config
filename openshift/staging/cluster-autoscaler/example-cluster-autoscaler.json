@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-cluster-autoscaler",
+    "description": "Example for Cluster Autoscaler. Module: openshift/cluster-autoscaler",
+    "environment": "staging",
+    "modulePath": "openshift/cluster-autoscaler"
+  },
+  "resources": [
+    {
+      "type": "cluster-autoscaler",
+      "name": "example-cluster-autoscaler",
+      "description": "Cluster Autoscaler example"
+    }
+  ]
+}

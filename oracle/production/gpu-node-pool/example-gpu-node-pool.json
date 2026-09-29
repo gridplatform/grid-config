@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-gpu-node-pool",
+    "description": "Example for Gpu Node Pool. Module: oracle/gpu-node-pool",
+    "environment": "production",
+    "modulePath": "oracle/gpu-node-pool"
+  },
+  "resources": [
+    {
+      "type": "gpu-node-pool",
+      "name": "example-gpu-node-pool",
+      "description": "Gpu Node Pool example"
+    }
+  ]
+}

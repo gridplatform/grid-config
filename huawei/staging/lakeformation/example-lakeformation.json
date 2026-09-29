@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-lakeformation",
+    "description": "Example for Lakeformation. Module: huawei/lakeformation",
+    "environment": "staging",
+    "modulePath": "huawei/lakeformation"
+  },
+  "resources": [
+    {
+      "type": "lakeformation",
+      "name": "example-lakeformation",
+      "description": "Lakeformation example"
+    }
+  ]
+}

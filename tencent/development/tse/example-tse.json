@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tse",
+    "description": "Example for Tse. Module: tencent/tse",
+    "environment": "development",
+    "modulePath": "tencent/tse"
+  },
+  "resources": [
+    {
+      "type": "tse",
+      "name": "example-tse",
+      "description": "Tse example"
+    }
+  ]
+}

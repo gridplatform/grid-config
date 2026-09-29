@@ -1,0 +1,23 @@
+{
+  "provider": "redis-enterprise",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-azure",
+    "description": "Example for azure. Module: redis-enterprise/azure",
+    "environment": "staging",
+    "modulePath": "redis-enterprise/azure"
+  },
+  "resources": [
+    {
+      "type": "azure",
+      "name": "example-azure",
+      "description": "azure example",
+      "subscription_name": "example-azure",
+      "database_name": "example-azure",
+      "region": "global",
+      "networking_deployment_cidr": "10.0.0.0/16",
+      "dataset_size_in_gb": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cbs",
+    "description": "Example for Cbs. Module: tencent/cbs",
+    "environment": "production",
+    "modulePath": "tencent/cbs"
+  },
+  "resources": [
+    {
+      "type": "cbs",
+      "name": "example-cbs",
+      "description": "Cbs example"
+    }
+  ]
+}

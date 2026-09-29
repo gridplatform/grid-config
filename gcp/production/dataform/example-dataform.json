@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-dataform",
+    "description": "Example for Dataform. Module: gcp/dataform",
+    "environment": "production",
+    "modulePath": "gcp/dataform"
+  },
+  "resources": [
+    {
+      "type": "dataform",
+      "name": "example-dataform",
+      "description": "Dataform example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cos-bucket",
+    "description": "Example for Cos Bucket. Module: tencent/cos-bucket",
+    "environment": "production",
+    "modulePath": "tencent/cos-bucket"
+  },
+  "resources": [
+    {
+      "type": "cos-bucket",
+      "name": "example-cos-bucket",
+      "description": "Cos Bucket example"
+    }
+  ]
+}

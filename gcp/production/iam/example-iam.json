@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-iam",
+    "description": "Example for Project IAM. Module: gcp/iam",
+    "environment": "production",
+    "modulePath": "gcp/iam"
+  },
+  "resources": [
+    {
+      "type": "iam",
+      "name": "example-iam",
+      "description": "Project IAM example"
+    }
+  ]
+}

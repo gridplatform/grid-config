@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-vertex-ai",
+    "description": "Example for Vertex AI dataset / endpoint / featurestore / vector index / tensorboard. Module: gcp/vertex-ai",
+    "environment": "production",
+    "modulePath": "gcp/vertex-ai"
+  },
+  "resources": [
+    {
+      "type": "vertex-ai",
+      "name": "example-vertex-ai",
+      "description": "Vertex AI dataset / endpoint / featurestore / vector index / tensorboard example",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION"
+    }
+  ]
+}

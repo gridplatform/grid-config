@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-resource-group",
+    "description": "Example for Resource Group. Module: azure/resource-group",
+    "environment": "development",
+    "modulePath": "azure/resource-group"
+  },
+  "resources": [
+    {
+      "type": "resource-group",
+      "name": "example-resource-group",
+      "description": "Resource Group example"
+    }
+  ]
+}

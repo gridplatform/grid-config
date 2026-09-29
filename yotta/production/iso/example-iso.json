@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-production",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-iso",
+    "description": "Example for Iso. Module: yotta/iso",
+    "environment": "production",
+    "modulePath": "yotta/iso"
+  },
+  "resources": [
+    {
+      "type": "iso",
+      "name": "example-iso",
+      "description": "Iso example"
+    }
+  ]
+}

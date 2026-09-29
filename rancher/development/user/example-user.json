@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-user",
+    "description": "Example for User. Module: rancher/user",
+    "environment": "development",
+    "modulePath": "rancher/user"
+  },
+  "resources": [
+    {
+      "type": "user",
+      "name": "example-user",
+      "description": "User example"
+    }
+  ]
+}

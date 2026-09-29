@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-timeseries-insights",
+    "description": "Example for Timeseries Insights. Module: azure/timeseries-insights",
+    "environment": "production",
+    "modulePath": "azure/timeseries-insights"
+  },
+  "resources": [
+    {
+      "type": "timeseries-insights",
+      "name": "example-timeseries-insights",
+      "description": "Timeseries Insights example"
+    }
+  ]
+}

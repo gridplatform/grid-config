@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-file-storage",
+    "description": "Example for File Storage. Module: oracle/file-storage",
+    "environment": "development",
+    "modulePath": "oracle/file-storage"
+  },
+  "resources": [
+    {
+      "type": "file-storage",
+      "name": "example-file-storage",
+      "description": "File Storage example"
+    }
+  ]
+}

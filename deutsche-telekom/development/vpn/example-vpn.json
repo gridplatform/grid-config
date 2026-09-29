@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-development",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-vpn",
+    "description": "Example for Vpn. Module: deutsche-telekom/vpn",
+    "environment": "development",
+    "modulePath": "deutsche-telekom/vpn"
+  },
+  "resources": [
+    {
+      "type": "vpn",
+      "name": "example-vpn",
+      "description": "Vpn example"
+    }
+  ]
+}

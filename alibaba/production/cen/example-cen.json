@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-cen",
+    "description": "Example for Cen. Module: alibaba/cen",
+    "environment": "production",
+    "modulePath": "alibaba/cen"
+  },
+  "resources": [
+    {
+      "type": "cen",
+      "name": "example-cen",
+      "description": "Cen example"
+    }
+  ]
+}

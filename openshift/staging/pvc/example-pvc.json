@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-pvc",
+    "description": "Example for Pvc. Module: openshift/pvc",
+    "environment": "staging",
+    "modulePath": "openshift/pvc"
+  },
+  "resources": [
+    {
+      "type": "pvc",
+      "name": "example-pvc",
+      "description": "Pvc example"
+    }
+  ]
+}

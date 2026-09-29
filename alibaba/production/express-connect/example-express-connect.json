@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-express-connect",
+    "description": "Example for Express Connect. Module: alibaba/express-connect",
+    "environment": "production",
+    "modulePath": "alibaba/express-connect"
+  },
+  "resources": [
+    {
+      "type": "express-connect",
+      "name": "example-express-connect",
+      "description": "Express Connect example"
+    }
+  ]
+}

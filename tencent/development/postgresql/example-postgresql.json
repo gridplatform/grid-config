@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-postgresql",
+    "description": "Example for Postgresql. Module: tencent/postgresql",
+    "environment": "development",
+    "modulePath": "tencent/postgresql"
+  },
+  "resources": [
+    {
+      "type": "postgresql",
+      "name": "example-postgresql",
+      "description": "Postgresql example"
+    }
+  ]
+}

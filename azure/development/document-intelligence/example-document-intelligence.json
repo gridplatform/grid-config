@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-document-intelligence",
+    "description": "Example for Document Intelligence (FormRecognizer kind). Module: azure/cognitive-services",
+    "environment": "development",
+    "modulePath": "azure/cognitive-services"
+  },
+  "resources": [
+    {
+      "type": "document-intelligence",
+      "name": "example-document-intelligence",
+      "description": "Document Intelligence (FormRecognizer kind) example",
+      "resource_group_name": "example-document-intelligence",
+      "location": "eastus",
+      "kind": "REPLACE_KIND"
+    }
+  ]
+}

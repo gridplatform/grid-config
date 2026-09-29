@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-comprehend",
+    "description": "Example for Amazon Comprehend (API). Module: aws/ai-api",
+    "environment": "production",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "comprehend",
+      "name": "example-comprehend",
+      "description": "Amazon Comprehend (API) example",
+      "service_name": "example-comprehend"
+    }
+  ]
+}

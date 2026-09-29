@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-iothub",
+    "description": "Example for Iothub. Module: azure/iothub",
+    "environment": "development",
+    "modulePath": "azure/iothub"
+  },
+  "resources": [
+    {
+      "type": "iothub",
+      "name": "example-iothub",
+      "description": "Iothub example"
+    }
+  ]
+}

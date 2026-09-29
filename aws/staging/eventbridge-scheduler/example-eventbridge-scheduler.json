@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-eventbridge-scheduler",
+    "description": "Example for Eventbridge Scheduler. Module: aws/eventbridge-scheduler",
+    "environment": "staging",
+    "modulePath": "aws/eventbridge-scheduler"
+  },
+  "resources": [
+    {
+      "type": "eventbridge-scheduler",
+      "name": "example-eventbridge-scheduler",
+      "description": "Eventbridge Scheduler example"
+    }
+  ]
+}

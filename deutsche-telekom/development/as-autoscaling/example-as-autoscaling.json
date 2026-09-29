@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-development",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-as-autoscaling",
+    "description": "Example for As Autoscaling. Module: deutsche-telekom/as-autoscaling",
+    "environment": "development",
+    "modulePath": "deutsche-telekom/as-autoscaling"
+  },
+  "resources": [
+    {
+      "type": "as-autoscaling",
+      "name": "example-as-autoscaling",
+      "description": "As Autoscaling example"
+    }
+  ]
+}

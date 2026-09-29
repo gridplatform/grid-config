@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-dws",
+    "description": "Example for Dws. Module: deutsche-telekom/dws",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/dws"
+  },
+  "resources": [
+    {
+      "type": "dws",
+      "name": "example-dws",
+      "description": "Dws example"
+    }
+  ]
+}

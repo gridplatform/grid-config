@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-kserve",
+    "description": "Example for Kserve. Module: huawei/kserve",
+    "environment": "development",
+    "modulePath": "huawei/kserve"
+  },
+  "resources": [
+    {
+      "type": "kserve",
+      "name": "example-kserve",
+      "description": "Kserve example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-service-discovery",
+    "description": "Example for Service Discovery. Module: aws/service-discovery",
+    "environment": "development",
+    "modulePath": "aws/service-discovery"
+  },
+  "resources": [
+    {
+      "type": "service-discovery",
+      "name": "example-service-discovery",
+      "description": "Service Discovery example"
+    }
+  ]
+}

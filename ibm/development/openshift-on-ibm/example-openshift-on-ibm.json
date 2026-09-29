@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-openshift-on-ibm",
+    "description": "Example for Openshift On Ibm. Module: ibm/openshift-on-ibm",
+    "environment": "development",
+    "modulePath": "ibm/openshift-on-ibm"
+  },
+  "resources": [
+    {
+      "type": "openshift-on-ibm",
+      "name": "example-openshift-on-ibm",
+      "description": "Openshift On Ibm example"
+    }
+  ]
+}

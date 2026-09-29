@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-gaussdb-opengauss",
+    "description": "Example for Gaussdb Opengauss. Module: huawei/gaussdb-opengauss",
+    "environment": "production",
+    "modulePath": "huawei/gaussdb-opengauss"
+  },
+  "resources": [
+    {
+      "type": "gaussdb-opengauss",
+      "name": "example-gaussdb-opengauss",
+      "description": "Gaussdb Opengauss example"
+    }
+  ]
+}

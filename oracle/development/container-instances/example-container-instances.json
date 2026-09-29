@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-container-instances",
+    "description": "Example for Container Instances. Module: oracle/container-instances",
+    "environment": "development",
+    "modulePath": "oracle/container-instances"
+  },
+  "resources": [
+    {
+      "type": "container-instances",
+      "name": "example-container-instances",
+      "description": "Container Instances example"
+    }
+  ]
+}

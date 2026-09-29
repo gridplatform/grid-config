@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-kms",
+    "description": "Example for Kms. Module: alibaba/kms",
+    "environment": "development",
+    "modulePath": "alibaba/kms"
+  },
+  "resources": [
+    {
+      "type": "kms",
+      "name": "example-kms",
+      "description": "Kms example"
+    }
+  ]
+}

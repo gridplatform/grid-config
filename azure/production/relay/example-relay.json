@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-relay",
+    "description": "Example for Relay. Module: azure/relay",
+    "environment": "production",
+    "modulePath": "azure/relay"
+  },
+  "resources": [
+    {
+      "type": "relay",
+      "name": "example-relay",
+      "description": "Relay example"
+    }
+  ]
+}

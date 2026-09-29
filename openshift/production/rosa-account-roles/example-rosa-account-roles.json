@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-rosa-account-roles",
+    "description": "Example for Rosa Account Roles. Module: openshift/rosa-account-roles",
+    "environment": "production",
+    "modulePath": "openshift/rosa-account-roles"
+  },
+  "resources": [
+    {
+      "type": "rosa-account-roles",
+      "name": "example-rosa-account-roles",
+      "description": "Rosa Account Roles example"
+    }
+  ]
+}

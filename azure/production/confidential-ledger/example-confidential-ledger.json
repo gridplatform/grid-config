@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-confidential-ledger",
+    "description": "Example for Confidential Ledger. Module: azure/confidential-ledger",
+    "environment": "production",
+    "modulePath": "azure/confidential-ledger"
+  },
+  "resources": [
+    {
+      "type": "confidential-ledger",
+      "name": "example-confidential-ledger",
+      "description": "Confidential Ledger example"
+    }
+  ]
+}

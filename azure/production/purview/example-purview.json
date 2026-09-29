@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-purview",
+    "description": "Example for Purview. Module: azure/purview",
+    "environment": "production",
+    "modulePath": "azure/purview"
+  },
+  "resources": [
+    {
+      "type": "purview",
+      "name": "example-purview",
+      "description": "Purview example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-drg",
+    "description": "Example for Drg. Module: oracle/drg",
+    "environment": "staging",
+    "modulePath": "oracle/drg"
+  },
+  "resources": [
+    {
+      "type": "drg",
+      "name": "example-drg",
+      "description": "Drg example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-as-autoscaling",
+    "description": "Example for As Autoscaling. Module: huawei/as-autoscaling",
+    "environment": "production",
+    "modulePath": "huawei/as-autoscaling"
+  },
+  "resources": [
+    {
+      "type": "as-autoscaling",
+      "name": "example-as-autoscaling",
+      "description": "As Autoscaling example"
+    }
+  ]
+}

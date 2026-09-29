@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-workspace",
+    "description": "Example for Workspace. Module: huawei/workspace",
+    "environment": "staging",
+    "modulePath": "huawei/workspace"
+  },
+  "resources": [
+    {
+      "type": "workspace",
+      "name": "example-workspace",
+      "description": "Workspace example"
+    }
+  ]
+}

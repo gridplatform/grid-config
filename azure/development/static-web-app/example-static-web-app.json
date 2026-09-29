@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-static-web-app",
+    "description": "Example for Static Web App. Module: azure/static-web-app",
+    "environment": "development",
+    "modulePath": "azure/static-web-app"
+  },
+  "resources": [
+    {
+      "type": "static-web-app",
+      "name": "example-static-web-app",
+      "description": "Static Web App example"
+    }
+  ]
+}

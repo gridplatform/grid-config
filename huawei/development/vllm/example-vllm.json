@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-vllm",
+    "description": "Example for Vllm. Module: huawei/vllm",
+    "environment": "development",
+    "modulePath": "huawei/vllm"
+  },
+  "resources": [
+    {
+      "type": "vllm",
+      "name": "example-vllm",
+      "description": "Vllm example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-healthlake",
+    "description": "Example for Healthlake. Module: aws/healthlake",
+    "environment": "development",
+    "modulePath": "aws/healthlake"
+  },
+  "resources": [
+    {
+      "type": "healthlake",
+      "name": "example-healthlake",
+      "description": "Healthlake example"
+    }
+  ]
+}

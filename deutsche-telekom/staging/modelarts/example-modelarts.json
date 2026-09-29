@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-modelarts",
+    "description": "Example for Modelarts. Module: deutsche-telekom/modelarts",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/modelarts"
+  },
+  "resources": [
+    {
+      "type": "modelarts",
+      "name": "example-modelarts",
+      "description": "Modelarts example"
+    }
+  ]
+}

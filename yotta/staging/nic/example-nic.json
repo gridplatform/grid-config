@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-nic",
+    "description": "Example for Nic. Module: yotta/nic",
+    "environment": "staging",
+    "modulePath": "yotta/nic"
+  },
+  "resources": [
+    {
+      "type": "nic",
+      "name": "example-nic",
+      "description": "Nic example"
+    }
+  ]
+}

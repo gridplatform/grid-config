@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-alb",
+    "description": "Example for Alb. Module: alibaba/alb",
+    "environment": "development",
+    "modulePath": "alibaba/alb"
+  },
+  "resources": [
+    {
+      "type": "alb",
+      "name": "example-alb",
+      "description": "Alb example"
+    }
+  ]
+}

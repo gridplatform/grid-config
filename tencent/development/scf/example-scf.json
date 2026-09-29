@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-scf",
+    "description": "Example for Scf. Module: tencent/scf",
+    "environment": "development",
+    "modulePath": "tencent/scf"
+  },
+  "resources": [
+    {
+      "type": "scf",
+      "name": "example-scf",
+      "description": "Scf example"
+    }
+  ]
+}

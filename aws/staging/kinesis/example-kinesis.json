@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-kinesis",
+    "description": "Example for Kinesis. Module: aws/kinesis",
+    "environment": "staging",
+    "modulePath": "aws/kinesis"
+  },
+  "resources": [
+    {
+      "type": "kinesis",
+      "name": "example-kinesis",
+      "description": "Kinesis example"
+    }
+  ]
+}

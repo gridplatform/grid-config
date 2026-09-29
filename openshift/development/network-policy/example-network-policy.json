@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-network-policy",
+    "description": "Example for Network Policy. Module: openshift/network-policy",
+    "environment": "development",
+    "modulePath": "openshift/network-policy"
+  },
+  "resources": [
+    {
+      "type": "network-policy",
+      "name": "example-network-policy",
+      "description": "Network Policy example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-digital-assistant",
+    "description": "Example for Digital Assistant. Module: oracle/digital-assistant",
+    "environment": "staging",
+    "modulePath": "oracle/digital-assistant"
+  },
+  "resources": [
+    {
+      "type": "digital-assistant",
+      "name": "example-digital-assistant",
+      "description": "Digital Assistant example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-mlflow",
+    "description": "Example for Mlflow (self-hosted / unmanaged). Module: azure/mlflow",
+    "environment": "staging",
+    "modulePath": "azure/mlflow"
+  },
+  "resources": [
+    {
+      "type": "mlflow",
+      "name": "example-mlflow",
+      "description": "Mlflow (self-hosted / unmanaged) example"
+    }
+  ]
+}

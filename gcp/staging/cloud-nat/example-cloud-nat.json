@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-nat",
+    "description": "Example for Cloud NAT. Module: gcp/cloud-nat",
+    "environment": "staging",
+    "modulePath": "gcp/cloud-nat"
+  },
+  "resources": [
+    {
+      "type": "cloud-nat",
+      "name": "example-cloud-nat",
+      "description": "Cloud NAT example",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING",
+      "region": "us-central1",
+      "router": "REPLACE_ROUTER"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-dayu",
+    "description": "Example for Dayu. Module: tencent/dayu",
+    "environment": "staging",
+    "modulePath": "tencent/dayu"
+  },
+  "resources": [
+    {
+      "type": "dayu",
+      "name": "example-dayu",
+      "description": "Dayu example"
+    }
+  ]
+}

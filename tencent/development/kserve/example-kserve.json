@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-kserve",
+    "description": "Example for Kserve. Module: tencent/kserve",
+    "environment": "development",
+    "modulePath": "tencent/kserve"
+  },
+  "resources": [
+    {
+      "type": "kserve",
+      "name": "example-kserve",
+      "description": "Kserve example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-bigtable",
+    "description": "Example for Bigtable. Module: gcp/bigtable",
+    "environment": "production",
+    "modulePath": "gcp/bigtable"
+  },
+  "resources": [
+    {
+      "type": "bigtable",
+      "name": "example-bigtable",
+      "description": "Bigtable example"
+    }
+  ]
+}

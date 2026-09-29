@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-peering",
+    "description": "Example for VPC peering (folded into network). Module: gcp/network",
+    "environment": "staging",
+    "modulePath": "gcp/network"
+  },
+  "resources": [
+    {
+      "type": "peering",
+      "name": "example-peering",
+      "description": "VPC peering (folded into network) example",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING",
+      "network_name": "example-peering",
+      "subnets": []
+    }
+  ]
+}

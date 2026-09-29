@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-kserve",
+    "description": "Example for Kserve (self-hosted / unmanaged). Module: aws/kserve",
+    "environment": "staging",
+    "modulePath": "aws/kserve"
+  },
+  "resources": [
+    {
+      "type": "kserve",
+      "name": "example-kserve",
+      "description": "Kserve (self-hosted / unmanaged) example"
+    }
+  ]
+}

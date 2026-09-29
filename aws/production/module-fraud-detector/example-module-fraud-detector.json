@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-fraud-detector",
+    "description": "Example for module-fraud-detector. Module: aws/fraud-detector",
+    "environment": "production",
+    "modulePath": "aws/fraud-detector"
+  },
+  "resources": [
+    {
+      "type": "module-fraud-detector",
+      "name": "example-module-fraud-detector",
+      "description": "module-fraud-detector example"
+    }
+  ]
+}

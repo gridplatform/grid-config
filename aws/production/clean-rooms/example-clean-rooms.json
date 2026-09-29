@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-clean-rooms",
+    "description": "Example for Clean Rooms. Module: aws/clean-rooms",
+    "environment": "production",
+    "modulePath": "aws/clean-rooms"
+  },
+  "resources": [
+    {
+      "type": "clean-rooms",
+      "name": "example-clean-rooms",
+      "description": "Clean Rooms example"
+    }
+  ]
+}

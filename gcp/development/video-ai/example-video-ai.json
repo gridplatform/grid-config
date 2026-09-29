@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-video-ai",
+    "description": "Example for Video Intelligence API. Module: gcp/ai-api",
+    "environment": "development",
+    "modulePath": "gcp/ai-api"
+  },
+  "resources": [
+    {
+      "type": "video-ai",
+      "name": "example-video-ai",
+      "description": "Video Intelligence API example",
+      "service_name": "example-video-ai"
+    }
+  ]
+}

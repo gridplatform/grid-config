@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tcm",
+    "description": "Example for Tcm. Module: tencent/tcm",
+    "environment": "staging",
+    "modulePath": "tencent/tcm"
+  },
+  "resources": [
+    {
+      "type": "tcm",
+      "name": "example-tcm",
+      "description": "Tcm example"
+    }
+  ]
+}

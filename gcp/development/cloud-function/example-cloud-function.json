@@ -1,0 +1,24 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-function",
+    "description": "Example for Cloud Function (Gen 1). Module: gcp/cloud-function",
+    "environment": "development",
+    "modulePath": "gcp/cloud-function"
+  },
+  "resources": [
+    {
+      "type": "cloud-function",
+      "name": "example-cloud-function",
+      "description": "Cloud Function (Gen 1) example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "region": "us-central1",
+      "source_directory": "REPLACE_SOURCE_DIRECTORY",
+      "runtime": "REPLACE_RUNTIME",
+      "entry_point": "REPLACE_ENTRY_POINT",
+      "bucket_name": "example-cloud-function"
+    }
+  ]
+}

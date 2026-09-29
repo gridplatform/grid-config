@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-auth-config",
+    "description": "Example for Auth Config. Module: rancher/auth-config",
+    "environment": "staging",
+    "modulePath": "rancher/auth-config"
+  },
+  "resources": [
+    {
+      "type": "auth-config",
+      "name": "example-auth-config",
+      "description": "Auth Config example"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-app-service",
+    "description": "Example for App Service. Module: azure/app-service",
+    "environment": "staging",
+    "modulePath": "azure/app-service"
+  },
+  "resources": [
+    {
+      "type": "app-service",
+      "name": "example-app-service",
+      "description": "App Service example",
+      "location": "eastus",
+      "resource_group_name": "example-app-service"
+    }
+  ]
+}

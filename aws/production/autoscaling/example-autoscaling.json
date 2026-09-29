@@ -1,0 +1,23 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-autoscaling",
+    "description": "Example for Autoscaling. Module: aws/autoscaling",
+    "environment": "production",
+    "modulePath": "aws/autoscaling"
+  },
+  "resources": [
+    {
+      "type": "autoscaling",
+      "name": "example-autoscaling",
+      "description": "Autoscaling example",
+      "max_size": 1,
+      "subnet_ids": [
+        "example-autoscaling-item"
+      ],
+      "launch_template_id": "example-autoscaling"
+    }
+  ]
+}

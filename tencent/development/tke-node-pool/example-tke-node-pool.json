@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tke-node-pool",
+    "description": "Example for Tke Node Pool. Module: tencent/tke-node-pool",
+    "environment": "development",
+    "modulePath": "tencent/tke-node-pool"
+  },
+  "resources": [
+    {
+      "type": "tke-node-pool",
+      "name": "example-tke-node-pool",
+      "description": "Tke Node Pool example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-desktop-virtualization",
+    "description": "Example for Desktop Virtualization. Module: azure/desktop-virtualization",
+    "environment": "production",
+    "modulePath": "azure/desktop-virtualization"
+  },
+  "resources": [
+    {
+      "type": "desktop-virtualization",
+      "name": "example-desktop-virtualization",
+      "description": "Desktop Virtualization example"
+    }
+  ]
+}

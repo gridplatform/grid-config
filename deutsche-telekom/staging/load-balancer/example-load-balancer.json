@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-load-balancer",
+    "description": "Example for ELB. Module: deutsche-telekom/load-balancer",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/load-balancer"
+  },
+  "resources": [
+    {
+      "type": "load-balancer",
+      "name": "example-load-balancer",
+      "description": "ELB example"
+    }
+  ]
+}

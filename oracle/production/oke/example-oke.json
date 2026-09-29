@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-oke",
+    "description": "Example for Oracle Kubernetes Engine (OKE). Module: oracle/oke",
+    "environment": "production",
+    "modulePath": "oracle/oke"
+  },
+  "resources": [
+    {
+      "type": "oke",
+      "name": "example-oke",
+      "description": "Oracle Kubernetes Engine (OKE) example"
+    }
+  ]
+}

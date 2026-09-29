@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-vllm",
+    "description": "Example for Vllm. Module: alibaba/vllm",
+    "environment": "production",
+    "modulePath": "alibaba/vllm"
+  },
+  "resources": [
+    {
+      "type": "vllm",
+      "name": "example-vllm",
+      "description": "Vllm example"
+    }
+  ]
+}

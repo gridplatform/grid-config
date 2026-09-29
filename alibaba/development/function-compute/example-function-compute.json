@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-function-compute",
+    "description": "Example for Function Compute. Module: alibaba/function-compute",
+    "environment": "development",
+    "modulePath": "alibaba/function-compute"
+  },
+  "resources": [
+    {
+      "type": "function-compute",
+      "name": "example-function-compute",
+      "description": "Function Compute example"
+    }
+  ]
+}

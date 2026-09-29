@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-forecast",
+    "description": "Example for module-forecast. Module: aws/forecast",
+    "environment": "staging",
+    "modulePath": "aws/forecast"
+  },
+  "resources": [
+    {
+      "type": "module-forecast",
+      "name": "example-module-forecast",
+      "description": "module-forecast example"
+    }
+  ]
+}

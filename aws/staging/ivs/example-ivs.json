@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-ivs",
+    "description": "Example for Ivs. Module: aws/ivs",
+    "environment": "staging",
+    "modulePath": "aws/ivs"
+  },
+  "resources": [
+    {
+      "type": "ivs",
+      "name": "example-ivs",
+      "description": "Ivs example"
+    }
+  ]
+}

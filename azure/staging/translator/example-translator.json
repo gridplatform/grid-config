@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-translator",
+    "description": "Example for Azure Translator. Module: azure/cognitive-services",
+    "environment": "staging",
+    "modulePath": "azure/cognitive-services"
+  },
+  "resources": [
+    {
+      "type": "translator",
+      "name": "example-translator",
+      "description": "Azure Translator example",
+      "resource_group_name": "example-translator",
+      "location": "eastus",
+      "kind": "REPLACE_KIND"
+    }
+  ]
+}

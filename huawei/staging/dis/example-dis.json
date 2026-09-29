@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dis",
+    "description": "Example for Dis. Module: huawei/dis",
+    "environment": "staging",
+    "modulePath": "huawei/dis"
+  },
+  "resources": [
+    {
+      "type": "dis",
+      "name": "example-dis",
+      "description": "Dis example"
+    }
+  ]
+}

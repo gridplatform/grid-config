@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-devops",
+    "description": "Example for Devops. Module: oracle/devops",
+    "environment": "staging",
+    "modulePath": "oracle/devops"
+  },
+  "resources": [
+    {
+      "type": "devops",
+      "name": "example-devops",
+      "description": "Devops example"
+    }
+  ]
+}

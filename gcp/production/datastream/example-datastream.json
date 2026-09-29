@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-datastream",
+    "description": "Example for Datastream. Module: gcp/datastream",
+    "environment": "production",
+    "modulePath": "gcp/datastream"
+  },
+  "resources": [
+    {
+      "type": "datastream",
+      "name": "example-datastream",
+      "description": "Datastream example"
+    }
+  ]
+}

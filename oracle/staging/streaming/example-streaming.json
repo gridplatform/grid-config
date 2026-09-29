@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-streaming",
+    "description": "Example for Streaming. Module: oracle/streaming",
+    "environment": "staging",
+    "modulePath": "oracle/streaming"
+  },
+  "resources": [
+    {
+      "type": "streaming",
+      "name": "example-streaming",
+      "description": "Streaming example"
+    }
+  ]
+}

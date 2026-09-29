@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-nat-gateway",
+    "description": "Example for Nat Gateway. Module: aws/nat-gateway",
+    "environment": "development",
+    "modulePath": "aws/nat-gateway"
+  },
+  "resources": [
+    {
+      "type": "nat-gateway",
+      "name": "example-nat-gateway",
+      "description": "Nat Gateway example"
+    }
+  ]
+}

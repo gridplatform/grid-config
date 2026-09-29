@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-internet-services",
+    "description": "Example for Internet Services. Module: ibm/internet-services",
+    "environment": "development",
+    "modulePath": "ibm/internet-services"
+  },
+  "resources": [
+    {
+      "type": "internet-services",
+      "name": "example-internet-services",
+      "description": "Internet Services example"
+    }
+  ]
+}

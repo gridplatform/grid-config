@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dli",
+    "description": "Example for Dli. Module: huawei/dli",
+    "environment": "development",
+    "modulePath": "huawei/dli"
+  },
+  "resources": [
+    {
+      "type": "dli",
+      "name": "example-dli",
+      "description": "Dli example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-firewall-policy",
+    "description": "Example for Firewall Policy. Module: gcp/firewall-policy",
+    "environment": "staging",
+    "modulePath": "gcp/firewall-policy"
+  },
+  "resources": [
+    {
+      "type": "firewall-policy",
+      "name": "example-firewall-policy",
+      "description": "Firewall Policy example"
+    }
+  ]
+}

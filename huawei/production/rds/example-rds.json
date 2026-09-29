@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-rds",
+    "description": "Example for RDS. Module: huawei/rds",
+    "environment": "production",
+    "modulePath": "huawei/rds"
+  },
+  "resources": [
+    {
+      "type": "rds",
+      "name": "example-rds",
+      "description": "RDS example"
+    }
+  ]
+}

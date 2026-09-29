@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-function-app",
+    "description": "Example for Function App. Module: azure/function-app",
+    "environment": "production",
+    "modulePath": "azure/function-app"
+  },
+  "resources": [
+    {
+      "type": "function-app",
+      "name": "example-function-app",
+      "description": "Function App example"
+    }
+  ]
+}

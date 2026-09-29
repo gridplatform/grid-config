@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-iot-core",
+    "description": "Example for Iot Core. Module: aws/iot-core",
+    "environment": "production",
+    "modulePath": "aws/iot-core"
+  },
+  "resources": [
+    {
+      "type": "iot-core",
+      "name": "example-iot-core",
+      "description": "Iot Core example"
+    }
+  ]
+}

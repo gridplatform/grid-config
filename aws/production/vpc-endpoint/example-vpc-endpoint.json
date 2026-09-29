@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-vpc-endpoint",
+    "description": "Example for Vpc Endpoint. Module: aws/vpc-endpoint",
+    "environment": "production",
+    "modulePath": "aws/vpc-endpoint"
+  },
+  "resources": [
+    {
+      "type": "vpc-endpoint",
+      "name": "example-vpc-endpoint",
+      "description": "Vpc Endpoint example"
+    }
+  ]
+}

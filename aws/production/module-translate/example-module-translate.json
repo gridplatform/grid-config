@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-translate",
+    "description": "Example for module-translate. Module: aws/translate",
+    "environment": "production",
+    "modulePath": "aws/translate"
+  },
+  "resources": [
+    {
+      "type": "module-translate",
+      "name": "example-module-translate",
+      "description": "module-translate example"
+    }
+  ]
+}

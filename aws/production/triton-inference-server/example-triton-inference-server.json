@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-triton-inference-server",
+    "description": "Example for Triton Inference Server (self-hosted / unmanaged). Module: aws/triton-inference-server",
+    "environment": "production",
+    "modulePath": "aws/triton-inference-server"
+  },
+  "resources": [
+    {
+      "type": "triton-inference-server",
+      "name": "example-triton-inference-server",
+      "description": "Triton Inference Server (self-hosted / unmanaged) example"
+    }
+  ]
+}

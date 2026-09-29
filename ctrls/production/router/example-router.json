@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-production",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-router",
+    "description": "Example for Router. Module: ctrls/router",
+    "environment": "production",
+    "modulePath": "ctrls/router"
+  },
+  "resources": [
+    {
+      "type": "router",
+      "name": "example-router",
+      "description": "Router example"
+    }
+  ]
+}

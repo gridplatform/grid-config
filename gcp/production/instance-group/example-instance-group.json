@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-instance-group",
+    "description": "Example for Instance Group. Module: gcp/instance-group",
+    "environment": "production",
+    "modulePath": "gcp/instance-group"
+  },
+  "resources": [
+    {
+      "type": "instance-group",
+      "name": "example-instance-group",
+      "description": "Instance Group example"
+    }
+  ]
+}

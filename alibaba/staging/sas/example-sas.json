@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-sas",
+    "description": "Example for Sas. Module: alibaba/sas",
+    "environment": "staging",
+    "modulePath": "alibaba/sas"
+  },
+  "resources": [
+    {
+      "type": "sas",
+      "name": "example-sas",
+      "description": "Sas example"
+    }
+  ]
+}

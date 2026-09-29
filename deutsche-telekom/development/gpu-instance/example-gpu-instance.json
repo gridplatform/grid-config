@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-development",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-gpu-instance",
+    "description": "Example for Gpu Instance. Module: deutsche-telekom/gpu-instance",
+    "environment": "development",
+    "modulePath": "deutsche-telekom/gpu-instance"
+  },
+  "resources": [
+    {
+      "type": "gpu-instance",
+      "name": "example-gpu-instance",
+      "description": "Gpu Instance example"
+    }
+  ]
+}

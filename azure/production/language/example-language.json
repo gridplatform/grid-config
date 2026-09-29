@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-language",
+    "description": "Example for Azure Language. Module: azure/cognitive-services",
+    "environment": "production",
+    "modulePath": "azure/cognitive-services"
+  },
+  "resources": [
+    {
+      "type": "language",
+      "name": "example-language",
+      "description": "Azure Language example",
+      "resource_group_name": "example-language",
+      "location": "eastus",
+      "kind": "REPLACE_KIND"
+    }
+  ]
+}

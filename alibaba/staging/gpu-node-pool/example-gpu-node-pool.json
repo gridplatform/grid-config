@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-gpu-node-pool",
+    "description": "Example for Gpu Node Pool. Module: alibaba/gpu-node-pool",
+    "environment": "staging",
+    "modulePath": "alibaba/gpu-node-pool"
+  },
+  "resources": [
+    {
+      "type": "gpu-node-pool",
+      "name": "example-gpu-node-pool",
+      "description": "Gpu Node Pool example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-tpu",
+    "description": "Example for Tpu. Module: gcp/tpu",
+    "environment": "staging",
+    "modulePath": "gcp/tpu"
+  },
+  "resources": [
+    {
+      "type": "tpu",
+      "name": "example-tpu",
+      "description": "Tpu example"
+    }
+  ]
+}

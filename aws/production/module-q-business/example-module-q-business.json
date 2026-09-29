@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-q-business",
+    "description": "Example for module-q-business. Module: aws/q-business",
+    "environment": "production",
+    "modulePath": "aws/q-business"
+  },
+  "resources": [
+    {
+      "type": "module-q-business",
+      "name": "example-module-q-business",
+      "description": "module-q-business example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-cluster-monitoring",
+    "description": "Example for Cluster Monitoring. Module: openshift/cluster-monitoring",
+    "environment": "staging",
+    "modulePath": "openshift/cluster-monitoring"
+  },
+  "resources": [
+    {
+      "type": "cluster-monitoring",
+      "name": "example-cluster-monitoring",
+      "description": "Cluster Monitoring example"
+    }
+  ]
+}

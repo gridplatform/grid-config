@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-kserve",
+    "description": "Example for Kserve. Module: openshift/kserve",
+    "environment": "staging",
+    "modulePath": "openshift/kserve"
+  },
+  "resources": [
+    {
+      "type": "kserve",
+      "name": "example-kserve",
+      "description": "Kserve example"
+    }
+  ]
+}

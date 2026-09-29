@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-ssl",
+    "description": "Example for Ssl. Module: tencent/ssl",
+    "environment": "development",
+    "modulePath": "tencent/ssl"
+  },
+  "resources": [
+    {
+      "type": "ssl",
+      "name": "example-ssl",
+      "description": "Ssl example"
+    }
+  ]
+}

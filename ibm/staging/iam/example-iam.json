@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-iam",
+    "description": "Example for IAM. Module: ibm/iam",
+    "environment": "staging",
+    "modulePath": "ibm/iam"
+  },
+  "resources": [
+    {
+      "type": "iam",
+      "name": "example-iam",
+      "description": "IAM example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-vpc-endpoint",
+    "description": "Example for Vpc Endpoint. Module: tencent/vpc-endpoint",
+    "environment": "production",
+    "modulePath": "tencent/vpc-endpoint"
+  },
+  "resources": [
+    {
+      "type": "vpc-endpoint",
+      "name": "example-vpc-endpoint",
+      "description": "Vpc Endpoint example"
+    }
+  ]
+}

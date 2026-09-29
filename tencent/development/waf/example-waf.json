@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-waf",
+    "description": "Example for Waf. Module: tencent/waf",
+    "environment": "development",
+    "modulePath": "tencent/waf"
+  },
+  "resources": [
+    {
+      "type": "waf",
+      "name": "example-waf",
+      "description": "Waf example"
+    }
+  ]
+}

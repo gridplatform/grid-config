@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-disk",
+    "description": "Example for Disk. Module: alibaba/disk",
+    "environment": "staging",
+    "modulePath": "alibaba/disk"
+  },
+  "resources": [
+    {
+      "type": "disk",
+      "name": "example-disk",
+      "description": "Disk example"
+    }
+  ]
+}

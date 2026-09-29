@@ -1,0 +1,21 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-private-dns-resolver",
+    "description": "Example for Azure DNS Private Resolver (hybrid). Module: azure/private-dns-resolver",
+    "environment": "staging",
+    "modulePath": "azure/private-dns-resolver"
+  },
+  "resources": [
+    {
+      "type": "private-dns-resolver",
+      "name": "example-private-dns-resolver",
+      "description": "Azure DNS Private Resolver (hybrid) example",
+      "resource_group_name": "example-private-dns-resolver",
+      "location": "eastus",
+      "virtual_network_id": "example-private-dns-resolver"
+    }
+  ]
+}

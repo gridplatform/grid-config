@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-weaviate",
+    "description": "Example for Weaviate (self-hosted / unmanaged). Module: gcp/weaviate",
+    "environment": "production",
+    "modulePath": "gcp/weaviate"
+  },
+  "resources": [
+    {
+      "type": "weaviate",
+      "name": "example-weaviate",
+      "description": "Weaviate (self-hosted / unmanaged) example"
+    }
+  ]
+}

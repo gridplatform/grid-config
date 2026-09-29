@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-servicecomb",
+    "description": "Example for Servicecomb. Module: huawei/servicecomb",
+    "environment": "development",
+    "modulePath": "huawei/servicecomb"
+  },
+  "resources": [
+    {
+      "type": "servicecomb",
+      "name": "example-servicecomb",
+      "description": "Servicecomb example"
+    }
+  ]
+}

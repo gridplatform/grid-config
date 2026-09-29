@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-datasync",
+    "description": "Example for Datasync. Module: aws/datasync",
+    "environment": "development",
+    "modulePath": "aws/datasync"
+  },
+  "resources": [
+    {
+      "type": "datasync",
+      "name": "example-datasync",
+      "description": "Datasync example"
+    }
+  ]
+}

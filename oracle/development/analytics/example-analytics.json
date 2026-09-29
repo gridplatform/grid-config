@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-analytics",
+    "description": "Example for Analytics. Module: oracle/analytics",
+    "environment": "development",
+    "modulePath": "oracle/analytics"
+  },
+  "resources": [
+    {
+      "type": "analytics",
+      "name": "example-analytics",
+      "description": "Analytics example"
+    }
+  ]
+}

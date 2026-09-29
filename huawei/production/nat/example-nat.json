@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-nat",
+    "description": "Example for Nat. Module: huawei/nat",
+    "environment": "production",
+    "modulePath": "huawei/nat"
+  },
+  "resources": [
+    {
+      "type": "nat",
+      "name": "example-nat",
+      "description": "Nat example"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-memorystore",
+    "description": "Example for Memorystore Redis. Module: gcp/memorystore-redis",
+    "environment": "production",
+    "modulePath": "gcp/memorystore-redis"
+  },
+  "resources": [
+    {
+      "type": "memorystore",
+      "name": "example-memorystore",
+      "description": "Memorystore Redis example",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION",
+      "memory_size_gb": 1,
+      "region": "us-central1"
+    }
+  ]
+}

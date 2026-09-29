@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-codepipeline",
+    "description": "Example for Codepipeline. Module: aws/codepipeline",
+    "environment": "staging",
+    "modulePath": "aws/codepipeline"
+  },
+  "resources": [
+    {
+      "type": "codepipeline",
+      "name": "example-codepipeline",
+      "description": "Codepipeline example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-synapse",
+    "description": "Example for Synapse. Module: azure/synapse",
+    "environment": "staging",
+    "modulePath": "azure/synapse"
+  },
+  "resources": [
+    {
+      "type": "synapse",
+      "name": "example-synapse",
+      "description": "Synapse example"
+    }
+  ]
+}

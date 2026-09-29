@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-gamelift",
+    "description": "Example for Gamelift. Module: aws/gamelift",
+    "environment": "development",
+    "modulePath": "aws/gamelift"
+  },
+  "resources": [
+    {
+      "type": "gamelift",
+      "name": "example-gamelift",
+      "description": "Gamelift example"
+    }
+  ]
+}

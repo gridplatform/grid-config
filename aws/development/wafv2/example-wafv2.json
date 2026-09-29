@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-wafv2",
+    "description": "Example for Wafv2. Module: aws/wafv2",
+    "environment": "development",
+    "modulePath": "aws/wafv2"
+  },
+  "resources": [
+    {
+      "type": "wafv2",
+      "name": "example-wafv2",
+      "description": "Wafv2 example"
+    }
+  ]
+}

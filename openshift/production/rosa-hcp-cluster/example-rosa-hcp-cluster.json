@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-rosa-hcp-cluster",
+    "description": "Example for Rosa Hcp Cluster. Module: openshift/rosa-hcp-cluster",
+    "environment": "production",
+    "modulePath": "openshift/rosa-hcp-cluster"
+  },
+  "resources": [
+    {
+      "type": "rosa-hcp-cluster",
+      "name": "example-rosa-hcp-cluster",
+      "description": "Rosa Hcp Cluster example"
+    }
+  ]
+}

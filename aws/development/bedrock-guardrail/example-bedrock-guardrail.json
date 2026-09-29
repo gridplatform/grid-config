@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-bedrock-guardrail",
+    "description": "Example for Bedrock Guardrail. Module: aws/bedrock-guardrail",
+    "environment": "development",
+    "modulePath": "aws/bedrock-guardrail"
+  },
+  "resources": [
+    {
+      "type": "bedrock-guardrail",
+      "name": "example-bedrock-guardrail",
+      "description": "Bedrock Guardrail example"
+    }
+  ]
+}

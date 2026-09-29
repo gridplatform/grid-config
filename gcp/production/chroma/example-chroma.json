@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-chroma",
+    "description": "Example for Chroma (self-hosted / unmanaged). Module: gcp/chroma",
+    "environment": "production",
+    "modulePath": "gcp/chroma"
+  },
+  "resources": [
+    {
+      "type": "chroma",
+      "name": "example-chroma",
+      "description": "Chroma (self-hosted / unmanaged) example"
+    }
+  ]
+}

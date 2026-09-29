@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-athena-workgroup",
+    "description": "Example for Athena Workgroup. Module: aws/athena-workgroup",
+    "environment": "staging",
+    "modulePath": "aws/athena-workgroup"
+  },
+  "resources": [
+    {
+      "type": "athena-workgroup",
+      "name": "example-athena-workgroup",
+      "description": "Athena Workgroup example"
+    }
+  ]
+}

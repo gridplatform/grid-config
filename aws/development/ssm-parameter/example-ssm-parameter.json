@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-ssm-parameter",
+    "description": "Example for SSM Parameter. Module: aws/ssm-parameter",
+    "environment": "development",
+    "modulePath": "aws/ssm-parameter"
+  },
+  "resources": [
+    {
+      "type": "REPLACE_TYPE",
+      "name": "example-ssm-parameter",
+      "description": "SSM Parameter example"
+    }
+  ]
+}

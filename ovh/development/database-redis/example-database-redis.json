@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-development",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-database-redis",
+    "description": "Example for Database Redis. Module: ovh/database-redis",
+    "environment": "development",
+    "modulePath": "ovh/database-redis"
+  },
+  "resources": [
+    {
+      "type": "database-redis",
+      "name": "example-database-redis",
+      "description": "Database Redis example"
+    }
+  ]
+}

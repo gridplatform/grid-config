@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-ecr-public",
+    "description": "Example for Ecr Public. Module: aws/ecr-public",
+    "environment": "production",
+    "modulePath": "aws/ecr-public"
+  },
+  "resources": [
+    {
+      "type": "ecr-public",
+      "name": "example-ecr-public",
+      "description": "Ecr Public example"
+    }
+  ]
+}

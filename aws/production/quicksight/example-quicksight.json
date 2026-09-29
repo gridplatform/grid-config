@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-quicksight",
+    "description": "Example for Quicksight. Module: aws/quicksight",
+    "environment": "production",
+    "modulePath": "aws/quicksight"
+  },
+  "resources": [
+    {
+      "type": "quicksight",
+      "name": "example-quicksight",
+      "description": "Quicksight example"
+    }
+  ]
+}

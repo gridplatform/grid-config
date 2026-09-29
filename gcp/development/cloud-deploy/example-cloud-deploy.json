@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-deploy",
+    "description": "Example for Cloud Deploy. Module: gcp/cloud-deploy",
+    "environment": "development",
+    "modulePath": "gcp/cloud-deploy"
+  },
+  "resources": [
+    {
+      "type": "cloud-deploy",
+      "name": "example-cloud-deploy",
+      "description": "Cloud Deploy example"
+    }
+  ]
+}

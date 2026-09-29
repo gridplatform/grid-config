@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-pubsub-lite",
+    "description": "Example for Pubsub Lite. Module: gcp/pubsub-lite",
+    "environment": "staging",
+    "modulePath": "gcp/pubsub-lite"
+  },
+  "resources": [
+    {
+      "type": "pubsub-lite",
+      "name": "example-pubsub-lite",
+      "description": "Pubsub Lite example"
+    }
+  ]
+}

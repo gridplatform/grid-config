@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-identity-center",
+    "description": "Example for Identity Center. Module: aws/identity-center",
+    "environment": "staging",
+    "modulePath": "aws/identity-center"
+  },
+  "resources": [
+    {
+      "type": "identity-center",
+      "name": "example-identity-center",
+      "description": "Identity Center example"
+    }
+  ]
+}

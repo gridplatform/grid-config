@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-keyspaces",
+    "description": "Example for Keyspaces. Module: aws/keyspaces",
+    "environment": "development",
+    "modulePath": "aws/keyspaces"
+  },
+  "resources": [
+    {
+      "type": "keyspaces",
+      "name": "example-keyspaces",
+      "description": "Keyspaces example"
+    }
+  ]
+}

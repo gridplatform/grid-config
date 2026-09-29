@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-audit-manager",
+    "description": "Example for Audit Manager. Module: aws/audit-manager",
+    "environment": "staging",
+    "modulePath": "aws/audit-manager"
+  },
+  "resources": [
+    {
+      "type": "audit-manager",
+      "name": "example-audit-manager",
+      "description": "Audit Manager example"
+    }
+  ]
+}

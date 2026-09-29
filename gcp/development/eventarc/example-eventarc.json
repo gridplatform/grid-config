@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-eventarc",
+    "description": "Example for Eventarc. Module: gcp/eventarc",
+    "environment": "development",
+    "modulePath": "gcp/eventarc"
+  },
+  "resources": [
+    {
+      "type": "eventarc",
+      "name": "example-eventarc",
+      "description": "Eventarc example"
+    }
+  ]
+}

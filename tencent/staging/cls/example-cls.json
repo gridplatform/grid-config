@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cls",
+    "description": "Example for Cls. Module: tencent/cls",
+    "environment": "staging",
+    "modulePath": "tencent/cls"
+  },
+  "resources": [
+    {
+      "type": "cls",
+      "name": "example-cls",
+      "description": "Cls example"
+    }
+  ]
+}

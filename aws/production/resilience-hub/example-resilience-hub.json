@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-resilience-hub",
+    "description": "Example for Resilience Hub. Module: aws/resilience-hub",
+    "environment": "production",
+    "modulePath": "aws/resilience-hub"
+  },
+  "resources": [
+    {
+      "type": "resilience-hub",
+      "name": "example-resilience-hub",
+      "description": "Resilience Hub example"
+    }
+  ]
+}

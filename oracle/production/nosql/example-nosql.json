@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-nosql",
+    "description": "Example for Nosql. Module: oracle/nosql",
+    "environment": "production",
+    "modulePath": "oracle/nosql"
+  },
+  "resources": [
+    {
+      "type": "nosql",
+      "name": "example-nosql",
+      "description": "Nosql example"
+    }
+  ]
+}

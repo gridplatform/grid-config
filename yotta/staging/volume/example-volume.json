@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-volume",
+    "description": "Example for Volume. Module: yotta/volume",
+    "environment": "staging",
+    "modulePath": "yotta/volume"
+  },
+  "resources": [
+    {
+      "type": "volume",
+      "name": "example-volume",
+      "description": "Volume example"
+    }
+  ]
+}

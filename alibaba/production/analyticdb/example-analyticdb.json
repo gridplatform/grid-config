@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-analyticdb",
+    "description": "Example for Analyticdb. Module: alibaba/analyticdb",
+    "environment": "production",
+    "modulePath": "alibaba/analyticdb"
+  },
+  "resources": [
+    {
+      "type": "analyticdb",
+      "name": "example-analyticdb",
+      "description": "Analyticdb example"
+    }
+  ]
+}

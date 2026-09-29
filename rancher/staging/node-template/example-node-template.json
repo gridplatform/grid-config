@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-node-template",
+    "description": "Example for Node Template. Module: rancher/node-template",
+    "environment": "staging",
+    "modulePath": "rancher/node-template"
+  },
+  "resources": [
+    {
+      "type": "node-template",
+      "name": "example-node-template",
+      "description": "Node Template example"
+    }
+  ]
+}

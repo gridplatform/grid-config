@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-deepspeed",
+    "description": "Example for Deepspeed (self-hosted / unmanaged). Module: aws/deepspeed",
+    "environment": "production",
+    "modulePath": "aws/deepspeed"
+  },
+  "resources": [
+    {
+      "type": "deepspeed",
+      "name": "example-deepspeed",
+      "description": "Deepspeed (self-hosted / unmanaged) example"
+    }
+  ]
+}

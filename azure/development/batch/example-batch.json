@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-batch",
+    "description": "Example for Batch. Module: azure/batch",
+    "environment": "development",
+    "modulePath": "azure/batch"
+  },
+  "resources": [
+    {
+      "type": "batch",
+      "name": "example-batch",
+      "description": "Batch example"
+    }
+  ]
+}

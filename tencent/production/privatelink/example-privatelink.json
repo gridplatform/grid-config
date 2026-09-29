@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-privatelink",
+    "description": "Example for Privatelink. Module: tencent/privatelink",
+    "environment": "production",
+    "modulePath": "tencent/privatelink"
+  },
+  "resources": [
+    {
+      "type": "privatelink",
+      "name": "example-privatelink",
+      "description": "Privatelink example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-kms",
+    "description": "Example for Kms. Module: huawei/kms",
+    "environment": "development",
+    "modulePath": "huawei/kms"
+  },
+  "resources": [
+    {
+      "type": "kms",
+      "name": "example-kms",
+      "description": "Kms example"
+    }
+  ]
+}

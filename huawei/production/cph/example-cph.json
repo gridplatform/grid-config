@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cph",
+    "description": "Example for Cph. Module: huawei/cph",
+    "environment": "production",
+    "modulePath": "huawei/cph"
+  },
+  "resources": [
+    {
+      "type": "cph",
+      "name": "example-cph",
+      "description": "Cph example"
+    }
+  ]
+}

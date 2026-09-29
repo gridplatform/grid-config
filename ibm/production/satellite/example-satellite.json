@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-production",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-satellite",
+    "description": "Example for Satellite. Module: ibm/satellite",
+    "environment": "production",
+    "modulePath": "ibm/satellite"
+  },
+  "resources": [
+    {
+      "type": "satellite",
+      "name": "example-satellite",
+      "description": "Satellite example"
+    }
+  ]
+}

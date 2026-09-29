@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-dms",
+    "description": "Example for Dms. Module: alibaba/dms",
+    "environment": "development",
+    "modulePath": "alibaba/dms"
+  },
+  "resources": [
+    {
+      "type": "dms",
+      "name": "example-dms",
+      "description": "Dms example"
+    }
+  ]
+}

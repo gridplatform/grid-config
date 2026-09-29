@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-identity-platform",
+    "description": "Example for Identity Platform. Module: gcp/identity-platform",
+    "environment": "staging",
+    "modulePath": "gcp/identity-platform"
+  },
+  "resources": [
+    {
+      "type": "identity-platform",
+      "name": "example-identity-platform",
+      "description": "Identity Platform example"
+    }
+  ]
+}

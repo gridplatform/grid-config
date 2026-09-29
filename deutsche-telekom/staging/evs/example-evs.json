@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-evs",
+    "description": "Example for Evs. Module: deutsche-telekom/evs",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/evs"
+  },
+  "resources": [
+    {
+      "type": "evs",
+      "name": "example-evs",
+      "description": "Evs example"
+    }
+  ]
+}

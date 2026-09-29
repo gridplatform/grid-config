@@ -1,0 +1,25 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-redshift",
+    "description": "Example for Redshift. Module: aws/redshift",
+    "environment": "production",
+    "modulePath": "aws/redshift"
+  },
+  "resources": [
+    {
+      "type": "redshift",
+      "name": "example-redshift",
+      "description": "Redshift example",
+      "cluster_identifier": "REPLACE_CLUSTER_IDENTIFIER",
+      "node_type": "REPLACE_NODE_TYPE",
+      "master_username": "example-redshift",
+      "master_password": "REPLACE_MASTER_PASSWORD",
+      "security_group_ids": [
+        "example-redshift-item"
+      ]
+    }
+  ]
+}

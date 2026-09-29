@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-refactor-spaces",
+    "description": "Example for Refactor Spaces. Module: aws/refactor-spaces",
+    "environment": "staging",
+    "modulePath": "aws/refactor-spaces"
+  },
+  "resources": [
+    {
+      "type": "refactor-spaces",
+      "name": "example-refactor-spaces",
+      "description": "Refactor Spaces example"
+    }
+  ]
+}

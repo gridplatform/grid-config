@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dds-mongodb",
+    "description": "Example for Dds Mongodb. Module: huawei/dds-mongodb",
+    "environment": "development",
+    "modulePath": "huawei/dds-mongodb"
+  },
+  "resources": [
+    {
+      "type": "dds-mongodb",
+      "name": "example-dds-mongodb",
+      "description": "Dds Mongodb example"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "grid-staging-vpc",
+    "description": "Dedicated VPC for Grid staging platform (GKE + VM)",
+    "environment": "staging"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "grid-staging-vpc",
+      "cidr": "10.20.0.0/16",
+      "description": "Staging platform VPC"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-staging-nodes",
+      "vpc": "grid-staging-vpc",
+      "cidr": "10.20.0.0/20",
+      "region": "us-central1",
+      "description": "Private GKE nodes subnet; secondary ranges pods=10.20.64.0/18 services=10.20.128.0/20"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-staging-public",
+      "vpc": "grid-staging-vpc",
+      "cidr": "10.20.16.0/24",
+      "region": "us-central1",
+      "description": "Public subnet for Compute Engine VM"
+    }
+  ]
+}

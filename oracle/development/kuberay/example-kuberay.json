@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-kuberay",
+    "description": "Example for Kuberay. Module: oracle/kuberay",
+    "environment": "development",
+    "modulePath": "oracle/kuberay"
+  },
+  "resources": [
+    {
+      "type": "kuberay",
+      "name": "example-kuberay",
+      "description": "Kuberay example"
+    }
+  ]
+}

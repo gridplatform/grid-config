@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-codestar-connections",
+    "description": "Example for Codestar Connections. Module: aws/codestar-connections",
+    "environment": "development",
+    "modulePath": "aws/codestar-connections"
+  },
+  "resources": [
+    {
+      "type": "codestar-connections",
+      "name": "example-codestar-connections",
+      "description": "Codestar Connections example"
+    }
+  ]
+}

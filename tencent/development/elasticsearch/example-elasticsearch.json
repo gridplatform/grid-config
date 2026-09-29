@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-elasticsearch",
+    "description": "Example for Elasticsearch. Module: tencent/elasticsearch",
+    "environment": "development",
+    "modulePath": "tencent/elasticsearch"
+  },
+  "resources": [
+    {
+      "type": "elasticsearch",
+      "name": "example-elasticsearch",
+      "description": "Elasticsearch example"
+    }
+  ]
+}

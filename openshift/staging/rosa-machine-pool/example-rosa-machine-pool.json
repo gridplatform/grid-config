@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-rosa-machine-pool",
+    "description": "Example for Rosa Machine Pool. Module: openshift/rosa-machine-pool",
+    "environment": "staging",
+    "modulePath": "openshift/rosa-machine-pool"
+  },
+  "resources": [
+    {
+      "type": "rosa-machine-pool",
+      "name": "example-rosa-machine-pool",
+      "description": "Rosa Machine Pool example"
+    }
+  ]
+}

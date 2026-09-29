@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-mq",
+    "description": "Example for Mq. Module: aws/mq",
+    "environment": "production",
+    "modulePath": "aws/mq"
+  },
+  "resources": [
+    {
+      "type": "mq",
+      "name": "example-mq",
+      "description": "Mq example"
+    }
+  ]
+}

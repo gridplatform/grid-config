@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-apm",
+    "description": "Example for Apm. Module: huawei/apm",
+    "environment": "staging",
+    "modulePath": "huawei/apm"
+  },
+  "resources": [
+    {
+      "type": "apm",
+      "name": "example-apm",
+      "description": "Apm example"
+    }
+  ]
+}

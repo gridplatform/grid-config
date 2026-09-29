@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-sfs",
+    "description": "Example for Sfs. Module: huawei/sfs",
+    "environment": "staging",
+    "modulePath": "huawei/sfs"
+  },
+  "resources": [
+    {
+      "type": "sfs",
+      "name": "example-sfs",
+      "description": "Sfs example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-development",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-gpu-instance",
+    "description": "Example for Gpu Instance. Module: yotta/gpu-instance",
+    "environment": "development",
+    "modulePath": "yotta/gpu-instance"
+  },
+  "resources": [
+    {
+      "type": "gpu-instance",
+      "name": "example-gpu-instance",
+      "description": "Gpu Instance example"
+    }
+  ]
+}

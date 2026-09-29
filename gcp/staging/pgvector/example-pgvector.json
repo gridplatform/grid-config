@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-pgvector",
+    "description": "Example for Pgvector (self-hosted / unmanaged). Module: gcp/pgvector",
+    "environment": "staging",
+    "modulePath": "gcp/pgvector"
+  },
+  "resources": [
+    {
+      "type": "pgvector",
+      "name": "example-pgvector",
+      "description": "Pgvector (self-hosted / unmanaged) example"
+    }
+  ]
+}

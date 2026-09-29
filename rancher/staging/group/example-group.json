@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-group",
+    "description": "Example for Group. Module: rancher/group",
+    "environment": "staging",
+    "modulePath": "rancher/group"
+  },
+  "resources": [
+    {
+      "type": "group",
+      "name": "example-group",
+      "description": "Group example"
+    }
+  ]
+}

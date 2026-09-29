@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-kuberay",
+    "description": "Example for Kuberay (self-hosted / unmanaged). Module: aws/kuberay",
+    "environment": "staging",
+    "modulePath": "aws/kuberay"
+  },
+  "resources": [
+    {
+      "type": "kuberay",
+      "name": "example-kuberay",
+      "description": "Kuberay (self-hosted / unmanaged) example"
+    }
+  ]
+}

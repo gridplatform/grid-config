@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-verified-access",
+    "description": "Example for Verified Access. Module: aws/verified-access",
+    "environment": "development",
+    "modulePath": "aws/verified-access"
+  },
+  "resources": [
+    {
+      "type": "verified-access",
+      "name": "example-verified-access",
+      "description": "Verified Access example"
+    }
+  ]
+}

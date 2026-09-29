@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-dynamodb-accelerator",
+    "description": "Example for Dynamodb Accelerator. Module: aws/dynamodb-accelerator",
+    "environment": "development",
+    "modulePath": "aws/dynamodb-accelerator"
+  },
+  "resources": [
+    {
+      "type": "dynamodb-accelerator",
+      "name": "example-dynamodb-accelerator",
+      "description": "Dynamodb Accelerator example"
+    }
+  ]
+}

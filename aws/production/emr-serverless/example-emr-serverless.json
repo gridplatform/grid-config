@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-emr-serverless",
+    "description": "Example for Emr Serverless. Module: aws/emr-serverless",
+    "environment": "production",
+    "modulePath": "aws/emr-serverless"
+  },
+  "resources": [
+    {
+      "type": "emr-serverless",
+      "name": "example-emr-serverless",
+      "description": "Emr Serverless example"
+    }
+  ]
+}

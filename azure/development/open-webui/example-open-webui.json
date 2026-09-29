@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-open-webui",
+    "description": "Example for Open Webui (self-hosted / unmanaged). Module: azure/open-webui",
+    "environment": "development",
+    "modulePath": "azure/open-webui"
+  },
+  "resources": [
+    {
+      "type": "open-webui",
+      "name": "example-open-webui",
+      "description": "Open Webui (self-hosted / unmanaged) example"
+    }
+  ]
+}

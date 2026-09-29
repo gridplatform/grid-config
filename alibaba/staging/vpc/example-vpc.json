@@ -1,0 +1,19 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-vpc",
+    "description": "Example for Vpc. Module: alibaba/vpc",
+    "environment": "staging",
+    "modulePath": "alibaba/vpc"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "example-vpc",
+      "description": "Vpc example",
+      "cidr": "10.90.0.0/16"
+    }
+  ]
+}

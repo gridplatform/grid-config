@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-staging",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-logs",
+    "description": "Example for Logs. Module: ovh/logs",
+    "environment": "staging",
+    "modulePath": "ovh/logs"
+  },
+  "resources": [
+    {
+      "type": "logs",
+      "name": "example-logs",
+      "description": "Logs example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-artifact",
+    "description": "Example for Artifact. Module: aws/artifact",
+    "environment": "development",
+    "modulePath": "aws/artifact"
+  },
+  "resources": [
+    {
+      "type": "artifact",
+      "name": "example-artifact",
+      "description": "Artifact example"
+    }
+  ]
+}

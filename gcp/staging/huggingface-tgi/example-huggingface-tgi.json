@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-huggingface-tgi",
+    "description": "Example for Huggingface Tgi (self-hosted / unmanaged). Module: gcp/huggingface-tgi",
+    "environment": "staging",
+    "modulePath": "gcp/huggingface-tgi"
+  },
+  "resources": [
+    {
+      "type": "huggingface-tgi",
+      "name": "example-huggingface-tgi",
+      "description": "Huggingface Tgi (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-alloydb",
+    "description": "Example for Alloydb. Module: gcp/alloydb",
+    "environment": "development",
+    "modulePath": "gcp/alloydb"
+  },
+  "resources": [
+    {
+      "type": "alloydb",
+      "name": "example-alloydb",
+      "description": "Alloydb example"
+    }
+  ]
+}

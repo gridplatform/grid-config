@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-object-storage",
+    "description": "Example for COS. Module: tencent/object-storage",
+    "environment": "staging",
+    "modulePath": "tencent/object-storage"
+  },
+  "resources": [
+    {
+      "type": "object-storage",
+      "name": "example-object-storage",
+      "description": "COS example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-qdrant",
+    "description": "Example for Qdrant (self-hosted / unmanaged). Module: azure/qdrant",
+    "environment": "production",
+    "modulePath": "azure/qdrant"
+  },
+  "resources": [
+    {
+      "type": "qdrant",
+      "name": "example-qdrant",
+      "description": "Qdrant (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-vod",
+    "description": "Example for Vod. Module: alibaba/vod",
+    "environment": "production",
+    "modulePath": "alibaba/vod"
+  },
+  "resources": [
+    {
+      "type": "vod",
+      "name": "example-vod",
+      "description": "Vod example"
+    }
+  ]
+}

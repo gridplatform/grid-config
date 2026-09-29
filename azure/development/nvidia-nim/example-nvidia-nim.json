@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-nvidia-nim",
+    "description": "Example for Nvidia Nim (self-hosted / unmanaged). Module: azure/nvidia-nim",
+    "environment": "development",
+    "modulePath": "azure/nvidia-nim"
+  },
+  "resources": [
+    {
+      "type": "nvidia-nim",
+      "name": "example-nvidia-nim",
+      "description": "Nvidia Nim (self-hosted / unmanaged) example"
+    }
+  ]
+}

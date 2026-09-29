@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-production",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-dedicated-ceph",
+    "description": "Example for Dedicated Ceph. Module: ovh/dedicated-ceph",
+    "environment": "production",
+    "modulePath": "ovh/dedicated-ceph"
+  },
+  "resources": [
+    {
+      "type": "dedicated-ceph",
+      "name": "example-dedicated-ceph",
+      "description": "Dedicated Ceph example"
+    }
+  ]
+}

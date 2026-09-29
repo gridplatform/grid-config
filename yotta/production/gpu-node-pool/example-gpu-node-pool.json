@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-production",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-gpu-node-pool",
+    "description": "Example for Gpu Node Pool. Module: yotta/gpu-node-pool",
+    "environment": "production",
+    "modulePath": "yotta/gpu-node-pool"
+  },
+  "resources": [
+    {
+      "type": "gpu-node-pool",
+      "name": "example-gpu-node-pool",
+      "description": "Gpu Node Pool example"
+    }
+  ]
+}

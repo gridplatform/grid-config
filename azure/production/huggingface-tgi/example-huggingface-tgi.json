@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-huggingface-tgi",
+    "description": "Example for Huggingface Tgi (self-hosted / unmanaged). Module: azure/huggingface-tgi",
+    "environment": "production",
+    "modulePath": "azure/huggingface-tgi"
+  },
+  "resources": [
+    {
+      "type": "huggingface-tgi",
+      "name": "example-huggingface-tgi",
+      "description": "Huggingface Tgi (self-hosted / unmanaged) example"
+    }
+  ]
+}

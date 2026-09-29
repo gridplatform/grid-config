@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-application-migration",
+    "description": "Example for Application Migration. Module: aws/application-migration",
+    "environment": "production",
+    "modulePath": "aws/application-migration"
+  },
+  "resources": [
+    {
+      "type": "application-migration",
+      "name": "example-application-migration",
+      "description": "Application Migration example"
+    }
+  ]
+}

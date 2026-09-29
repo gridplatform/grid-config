@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-documentdb",
+    "description": "Example for Documentdb. Module: aws/documentdb",
+    "environment": "staging",
+    "modulePath": "aws/documentdb"
+  },
+  "resources": [
+    {
+      "type": "documentdb",
+      "name": "example-documentdb",
+      "description": "Documentdb example"
+    }
+  ]
+}

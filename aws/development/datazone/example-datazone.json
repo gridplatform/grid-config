@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-datazone",
+    "description": "Example for Datazone. Module: aws/datazone",
+    "environment": "development",
+    "modulePath": "aws/datazone"
+  },
+  "resources": [
+    {
+      "type": "datazone",
+      "name": "example-datazone",
+      "description": "Datazone example"
+    }
+  ]
+}

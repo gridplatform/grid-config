@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-peering",
+    "description": "Example for Peering. Module: huawei/peering",
+    "environment": "staging",
+    "modulePath": "huawei/peering"
+  },
+  "resources": [
+    {
+      "type": "peering",
+      "name": "example-peering",
+      "description": "Peering example"
+    }
+  ]
+}

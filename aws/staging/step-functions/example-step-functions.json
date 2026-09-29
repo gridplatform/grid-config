@@ -1,0 +1,20 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-step-functions",
+    "description": "Example for Step Functions. Module: aws/step-functions",
+    "environment": "staging",
+    "modulePath": "aws/step-functions"
+  },
+  "resources": [
+    {
+      "type": "step-functions",
+      "name": "example-step-functions",
+      "description": "Step Functions example",
+      "role_arn": "REPLACE_ROLE_ARN",
+      "definition": "REPLACE_DEFINITION"
+    }
+  ]
+}

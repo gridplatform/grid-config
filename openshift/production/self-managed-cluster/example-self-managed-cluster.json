@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-self-managed-cluster",
+    "description": "Example for Self-managed OpenShift cluster. Module: openshift/self-managed-cluster",
+    "environment": "production",
+    "modulePath": "openshift/self-managed-cluster"
+  },
+  "resources": [
+    {
+      "type": "self-managed-cluster",
+      "name": "example-self-managed-cluster",
+      "description": "Self-managed OpenShift cluster example"
+    }
+  ]
+}

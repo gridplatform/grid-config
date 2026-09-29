@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-rds",
+    "description": "Example for RDS. Module: alibaba/rds",
+    "environment": "staging",
+    "modulePath": "alibaba/rds"
+  },
+  "resources": [
+    {
+      "type": "rds",
+      "name": "example-rds",
+      "description": "RDS example"
+    }
+  ]
+}

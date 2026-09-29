@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-deepspeed",
+    "description": "Example for Deepspeed (self-hosted / unmanaged). Module: azure/deepspeed",
+    "environment": "development",
+    "modulePath": "azure/deepspeed"
+  },
+  "resources": [
+    {
+      "type": "deepspeed",
+      "name": "example-deepspeed",
+      "description": "Deepspeed (self-hosted / unmanaged) example"
+    }
+  ]
+}

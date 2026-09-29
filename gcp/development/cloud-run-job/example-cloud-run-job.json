@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-run-job",
+    "description": "Example for Cloud Run Job. Module: gcp/cloud-run-job",
+    "environment": "development",
+    "modulePath": "gcp/cloud-run-job"
+  },
+  "resources": [
+    {
+      "type": "cloud-run-job",
+      "name": "example-cloud-run-job",
+      "description": "Cloud Run Job example"
+    }
+  ]
+}

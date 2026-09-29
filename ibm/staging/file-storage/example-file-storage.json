@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-file-storage",
+    "description": "Example for File Storage. Module: ibm/file-storage",
+    "environment": "staging",
+    "modulePath": "ibm/file-storage"
+  },
+  "resources": [
+    {
+      "type": "file-storage",
+      "name": "example-file-storage",
+      "description": "File Storage example"
+    }
+  ]
+}

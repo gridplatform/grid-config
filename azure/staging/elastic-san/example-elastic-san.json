@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-elastic-san",
+    "description": "Example for Elastic San. Module: azure/elastic-san",
+    "environment": "staging",
+    "modulePath": "azure/elastic-san"
+  },
+  "resources": [
+    {
+      "type": "elastic-san",
+      "name": "example-elastic-san",
+      "description": "Elastic San example"
+    }
+  ]
+}

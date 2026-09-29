@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-arms",
+    "description": "Example for Arms. Module: alibaba/arms",
+    "environment": "staging",
+    "modulePath": "alibaba/arms"
+  },
+  "resources": [
+    {
+      "type": "arms",
+      "name": "example-arms",
+      "description": "Arms example"
+    }
+  ]
+}

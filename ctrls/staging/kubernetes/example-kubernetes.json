@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-kubernetes",
+    "description": "Example for Kubernetes. Module: ctrls/kubernetes",
+    "environment": "staging",
+    "modulePath": "ctrls/kubernetes"
+  },
+  "resources": [
+    {
+      "type": "kubernetes",
+      "name": "example-kubernetes",
+      "description": "Kubernetes example"
+    }
+  ]
+}

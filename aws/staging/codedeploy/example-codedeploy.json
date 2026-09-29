@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-codedeploy",
+    "description": "Example for Codedeploy. Module: aws/codedeploy",
+    "environment": "staging",
+    "modulePath": "aws/codedeploy"
+  },
+  "resources": [
+    {
+      "type": "codedeploy",
+      "name": "example-codedeploy",
+      "description": "Codedeploy example"
+    }
+  ]
+}

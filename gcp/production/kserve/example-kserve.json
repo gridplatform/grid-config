@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-kserve",
+    "description": "Example for Kserve (self-hosted / unmanaged). Module: gcp/kserve",
+    "environment": "production",
+    "modulePath": "gcp/kserve"
+  },
+  "resources": [
+    {
+      "type": "kserve",
+      "name": "example-kserve",
+      "description": "Kserve (self-hosted / unmanaged) example"
+    }
+  ]
+}

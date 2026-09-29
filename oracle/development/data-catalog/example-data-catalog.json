@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-data-catalog",
+    "description": "Example for Data Catalog. Module: oracle/data-catalog",
+    "environment": "development",
+    "modulePath": "oracle/data-catalog"
+  },
+  "resources": [
+    {
+      "type": "data-catalog",
+      "name": "example-data-catalog",
+      "description": "Data Catalog example"
+    }
+  ]
+}

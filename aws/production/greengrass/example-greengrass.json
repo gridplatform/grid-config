@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-greengrass",
+    "description": "Example for Greengrass. Module: aws/greengrass",
+    "environment": "production",
+    "modulePath": "aws/greengrass"
+  },
+  "resources": [
+    {
+      "type": "greengrass",
+      "name": "example-greengrass",
+      "description": "Greengrass example"
+    }
+  ]
+}

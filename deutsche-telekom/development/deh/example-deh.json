@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-development",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-deh",
+    "description": "Example for Deh. Module: deutsche-telekom/deh",
+    "environment": "development",
+    "modulePath": "deutsche-telekom/deh"
+  },
+  "resources": [
+    {
+      "type": "deh",
+      "name": "example-deh",
+      "description": "Deh example"
+    }
+  ]
+}

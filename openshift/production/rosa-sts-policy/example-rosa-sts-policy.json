@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-rosa-sts-policy",
+    "description": "Example for Rosa Sts Policy. Module: openshift/rosa-sts-policy",
+    "environment": "production",
+    "modulePath": "openshift/rosa-sts-policy"
+  },
+  "resources": [
+    {
+      "type": "rosa-sts-policy",
+      "name": "example-rosa-sts-policy",
+      "description": "Rosa Sts Policy example"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "grid-development-ec2",
+    "description": "EC2 instance on development platform VPC",
+    "environment": "development",
+    "dependsOn": ["aws/development/vpc/grid-development-vpc.json"]
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "grid-development-ec2",
+      "machineType": "t3.micro",
+      "subnet": "grid-development-public",
+      "diskSize": 20,
+      "tags": ["grid", "ec2", "development"],
+      "description": "Test / jump EC2 (logical subnet ref to vpc stack)"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-lts",
+    "description": "Example for Lts. Module: huawei/lts",
+    "environment": "staging",
+    "modulePath": "huawei/lts"
+  },
+  "resources": [
+    {
+      "type": "lts",
+      "name": "example-lts",
+      "description": "Lts example"
+    }
+  ]
+}

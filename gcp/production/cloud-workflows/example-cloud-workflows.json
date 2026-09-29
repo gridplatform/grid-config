@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-workflows",
+    "description": "Example for Cloud Workflows. Module: gcp/cloud-workflows",
+    "environment": "production",
+    "modulePath": "gcp/cloud-workflows"
+  },
+  "resources": [
+    {
+      "type": "cloud-workflows",
+      "name": "example-cloud-workflows",
+      "description": "Cloud Workflows example"
+    }
+  ]
+}

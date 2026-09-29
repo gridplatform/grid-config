@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-production",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-acl",
+    "description": "Example for Acl. Module: yotta/acl",
+    "environment": "production",
+    "modulePath": "yotta/acl"
+  },
+  "resources": [
+    {
+      "type": "acl",
+      "name": "example-acl",
+      "description": "Acl example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-appmesh",
+    "description": "Example for Appmesh. Module: aws/appmesh",
+    "environment": "production",
+    "modulePath": "aws/appmesh"
+  },
+  "resources": [
+    {
+      "type": "appmesh",
+      "name": "example-appmesh",
+      "description": "Appmesh example"
+    }
+  ]
+}

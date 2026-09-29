@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-databases-mysql",
+    "description": "Example for Databases Mysql. Module: ibm/databases-mysql",
+    "environment": "staging",
+    "modulePath": "ibm/databases-mysql"
+  },
+  "resources": [
+    {
+      "type": "databases-mysql",
+      "name": "example-databases-mysql",
+      "description": "Databases Mysql example"
+    }
+  ]
+}

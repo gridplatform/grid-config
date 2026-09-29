@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-rocketmq",
+    "description": "Example for Rocketmq. Module: huawei/rocketmq",
+    "environment": "staging",
+    "modulePath": "huawei/rocketmq"
+  },
+  "resources": [
+    {
+      "type": "rocketmq",
+      "name": "example-rocketmq",
+      "description": "Rocketmq example"
+    }
+  ]
+}

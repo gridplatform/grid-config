@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-iot-analytics",
+    "description": "Example for Iot Analytics. Module: aws/iot-analytics",
+    "environment": "staging",
+    "modulePath": "aws/iot-analytics"
+  },
+  "resources": [
+    {
+      "type": "iot-analytics",
+      "name": "example-iot-analytics",
+      "description": "Iot Analytics example"
+    }
+  ]
+}

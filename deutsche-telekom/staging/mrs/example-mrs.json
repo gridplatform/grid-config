@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-mrs",
+    "description": "Example for Mrs. Module: deutsche-telekom/mrs",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/mrs"
+  },
+  "resources": [
+    {
+      "type": "mrs",
+      "name": "example-mrs",
+      "description": "Mrs example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-polly",
+    "description": "Example for module-polly. Module: aws/polly",
+    "environment": "staging",
+    "modulePath": "aws/polly"
+  },
+  "resources": [
+    {
+      "type": "module-polly",
+      "name": "example-module-polly",
+      "description": "module-polly example"
+    }
+  ]
+}

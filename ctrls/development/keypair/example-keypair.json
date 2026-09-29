@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-development",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-keypair",
+    "description": "Example for Keypair. Module: ctrls/keypair",
+    "environment": "development",
+    "modulePath": "ctrls/keypair"
+  },
+  "resources": [
+    {
+      "type": "keypair",
+      "name": "example-keypair",
+      "description": "Keypair example"
+    }
+  ]
+}

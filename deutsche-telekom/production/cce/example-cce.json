@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-cce",
+    "description": "Example for Cloud Container Engine (CCE). Module: deutsche-telekom/cce",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/cce"
+  },
+  "resources": [
+    {
+      "type": "cce",
+      "name": "example-cce",
+      "description": "Cloud Container Engine (CCE) example"
+    }
+  ]
+}

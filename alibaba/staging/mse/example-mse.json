@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-mse",
+    "description": "Example for Mse. Module: alibaba/mse",
+    "environment": "staging",
+    "modulePath": "alibaba/mse"
+  },
+  "resources": [
+    {
+      "type": "mse",
+      "name": "example-mse",
+      "description": "Mse example"
+    }
+  ]
+}

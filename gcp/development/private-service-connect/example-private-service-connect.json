@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-private-service-connect",
+    "description": "Example for Private Service Connect. Module: gcp/private-service-connect",
+    "environment": "development",
+    "modulePath": "gcp/private-service-connect"
+  },
+  "resources": [
+    {
+      "type": "private-service-connect",
+      "name": "example-private-service-connect",
+      "description": "Private Service Connect example"
+    }
+  ]
+}

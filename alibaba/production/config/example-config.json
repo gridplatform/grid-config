@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-config",
+    "description": "Example for Config. Module: alibaba/config",
+    "environment": "production",
+    "modulePath": "alibaba/config"
+  },
+  "resources": [
+    {
+      "type": "config",
+      "name": "example-config",
+      "description": "Config example"
+    }
+  ]
+}

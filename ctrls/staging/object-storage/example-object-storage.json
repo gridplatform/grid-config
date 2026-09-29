@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-object-storage",
+    "description": "Example for Object storage. Module: ctrls/object-storage",
+    "environment": "staging",
+    "modulePath": "ctrls/object-storage"
+  },
+  "resources": [
+    {
+      "type": "object-storage",
+      "name": "example-object-storage",
+      "description": "Object storage example"
+    }
+  ]
+}

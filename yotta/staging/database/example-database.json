@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-database",
+    "description": "Example for Database. Module: yotta/database",
+    "environment": "staging",
+    "modulePath": "yotta/database"
+  },
+  "resources": [
+    {
+      "type": "database",
+      "name": "example-database",
+      "description": "Database example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-watson-discovery",
+    "description": "Example for Watson Discovery. Module: ibm/watson-discovery",
+    "environment": "development",
+    "modulePath": "ibm/watson-discovery"
+  },
+  "resources": [
+    {
+      "type": "watson-discovery",
+      "name": "example-watson-discovery",
+      "description": "Watson Discovery example"
+    }
+  ]
+}

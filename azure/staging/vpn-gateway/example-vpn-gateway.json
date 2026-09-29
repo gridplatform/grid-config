@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-vpn-gateway",
+    "description": "Example for Vpn Gateway. Module: azure/vpn-gateway",
+    "environment": "staging",
+    "modulePath": "azure/vpn-gateway"
+  },
+  "resources": [
+    {
+      "type": "vpn-gateway",
+      "name": "example-vpn-gateway",
+      "description": "Vpn Gateway example"
+    }
+  ]
+}

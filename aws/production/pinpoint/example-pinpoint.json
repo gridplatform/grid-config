@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-pinpoint",
+    "description": "Example for Pinpoint. Module: aws/pinpoint",
+    "environment": "production",
+    "modulePath": "aws/pinpoint"
+  },
+  "resources": [
+    {
+      "type": "pinpoint",
+      "name": "example-pinpoint",
+      "description": "Pinpoint example"
+    }
+  ]
+}

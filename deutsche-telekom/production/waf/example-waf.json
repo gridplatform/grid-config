@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-waf",
+    "description": "Example for Waf. Module: deutsche-telekom/waf",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/waf"
+  },
+  "resources": [
+    {
+      "type": "waf",
+      "name": "example-waf",
+      "description": "Waf example"
+    }
+  ]
+}

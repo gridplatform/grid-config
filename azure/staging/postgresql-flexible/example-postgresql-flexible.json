@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-postgresql-flexible",
+    "description": "Example for Postgresql Flexible. Module: azure/postgresql-flexible",
+    "environment": "staging",
+    "modulePath": "azure/postgresql-flexible"
+  },
+  "resources": [
+    {
+      "type": "postgresql-flexible",
+      "name": "example-postgresql-flexible",
+      "description": "Postgresql Flexible example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-analytics",
+    "description": "Example for Analytics. Module: oracle/analytics",
+    "environment": "staging",
+    "modulePath": "oracle/analytics"
+  },
+  "resources": [
+    {
+      "type": "analytics",
+      "name": "example-analytics",
+      "description": "Analytics example"
+    }
+  ]
+}

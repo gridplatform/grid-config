@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-fabric",
+    "description": "Example for Fabric. Module: azure/fabric",
+    "environment": "production",
+    "modulePath": "azure/fabric"
+  },
+  "resources": [
+    {
+      "type": "fabric",
+      "name": "example-fabric",
+      "description": "Fabric example"
+    }
+  ]
+}

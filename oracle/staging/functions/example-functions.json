@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-functions",
+    "description": "Example for Functions. Module: oracle/functions",
+    "environment": "staging",
+    "modulePath": "oracle/functions"
+  },
+  "resources": [
+    {
+      "type": "functions",
+      "name": "example-functions",
+      "description": "Functions example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-media-cdn",
+    "description": "Example for Media Cdn. Module: gcp/media-cdn",
+    "environment": "development",
+    "modulePath": "gcp/media-cdn"
+  },
+  "resources": [
+    {
+      "type": "media-cdn",
+      "name": "example-media-cdn",
+      "description": "Media Cdn example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-load-test",
+    "description": "Example for Load Test. Module: azure/load-test",
+    "environment": "staging",
+    "modulePath": "azure/load-test"
+  },
+  "resources": [
+    {
+      "type": "load-test",
+      "name": "example-load-test",
+      "description": "Load Test example"
+    }
+  ]
+}

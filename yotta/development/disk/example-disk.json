@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-development",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-disk",
+    "description": "Example for Disk. Module: yotta/disk",
+    "environment": "development",
+    "modulePath": "yotta/disk"
+  },
+  "resources": [
+    {
+      "type": "disk",
+      "name": "example-disk",
+      "description": "Disk example"
+    }
+  ]
+}

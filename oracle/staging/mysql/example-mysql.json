@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-mysql",
+    "description": "Example for Mysql. Module: oracle/mysql",
+    "environment": "staging",
+    "modulePath": "oracle/mysql"
+  },
+  "resources": [
+    {
+      "type": "mysql",
+      "name": "example-mysql",
+      "description": "Mysql example"
+    }
+  ]
+}

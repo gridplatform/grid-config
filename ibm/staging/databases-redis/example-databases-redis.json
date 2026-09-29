@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-databases-redis",
+    "description": "Example for Databases Redis. Module: ibm/databases-redis",
+    "environment": "staging",
+    "modulePath": "ibm/databases-redis"
+  },
+  "resources": [
+    {
+      "type": "databases-redis",
+      "name": "example-databases-redis",
+      "description": "Databases Redis example"
+    }
+  ]
+}

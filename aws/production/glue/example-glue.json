@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-glue",
+    "description": "Example for Glue. Module: aws/glue",
+    "environment": "production",
+    "modulePath": "aws/glue"
+  },
+  "resources": [
+    {
+      "type": "glue",
+      "name": "example-glue",
+      "description": "Glue example"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "grid-production-ec2",
+    "description": "EC2 instance on production platform VPC",
+    "environment": "production",
+    "dependsOn": ["aws/production/vpc/grid-production-vpc.json"]
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "grid-production-ec2",
+      "machineType": "t3.small",
+      "subnet": "grid-production-public",
+      "diskSize": 40,
+      "tags": ["grid", "ec2", "production"],
+      "description": "Test / jump EC2 (logical subnet ref to vpc stack)"
+    }
+  ]
+}

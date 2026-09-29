@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-asset",
+    "description": "Example for Cloud Asset. Module: gcp/cloud-asset",
+    "environment": "production",
+    "modulePath": "gcp/cloud-asset"
+  },
+  "resources": [
+    {
+      "type": "cloud-asset",
+      "name": "example-cloud-asset",
+      "description": "Cloud Asset example"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-vm",
+    "description": "Example for Compute Engine VM. Module: gcp/compute-engine-instance",
+    "environment": "production",
+    "modulePath": "gcp/compute-engine-instance",
+    "serviceAccountEmail": "REPLACE_WITH_SA_EMAIL"
+  },
+  "resources": [
+    {
+      "type": "vm",
+      "name": "example-vm",
+      "description": "Compute Engine VM example",
+      "machineType": "REPLACE_MACHINE_TYPE",
+      "subnet": "REPLACE_SUBNET_NAME",
+      "diskSize": 20,
+      "zone": "us-central1-a",
+      "image": "ubuntu-os-cloud/ubuntu-2204-lts"
+    }
+  ]
+}

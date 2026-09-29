@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-feature",
+    "description": "Example for Feature. Module: rancher/feature",
+    "environment": "production",
+    "modulePath": "rancher/feature"
+  },
+  "resources": [
+    {
+      "type": "feature",
+      "name": "example-feature",
+      "description": "Feature example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-share",
+    "description": "Example for Share. Module: ctrls/share",
+    "environment": "staging",
+    "modulePath": "ctrls/share"
+  },
+  "resources": [
+    {
+      "type": "share",
+      "name": "example-share",
+      "description": "Share example"
+    }
+  ]
+}

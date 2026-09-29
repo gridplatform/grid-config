@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-fluid-relay",
+    "description": "Example for Fluid Relay. Module: azure/fluid-relay",
+    "environment": "production",
+    "modulePath": "azure/fluid-relay"
+  },
+  "resources": [
+    {
+      "type": "fluid-relay",
+      "name": "example-fluid-relay",
+      "description": "Fluid Relay example"
+    }
+  ]
+}

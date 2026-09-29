@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-vpn",
+    "description": "Example for Vpn. Module: yotta/vpn",
+    "environment": "staging",
+    "modulePath": "yotta/vpn"
+  },
+  "resources": [
+    {
+      "type": "vpn",
+      "name": "example-vpn",
+      "description": "Vpn example"
+    }
+  ]
+}

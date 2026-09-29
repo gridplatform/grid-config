@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-cluster-role-template",
+    "description": "Example for Cluster Role Template. Module: rancher/cluster-role-template",
+    "environment": "development",
+    "modulePath": "rancher/cluster-role-template"
+  },
+  "resources": [
+    {
+      "type": "cluster-role-template",
+      "name": "example-cluster-role-template",
+      "description": "Cluster Role Template example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-appstream",
+    "description": "Example for Appstream. Module: aws/appstream",
+    "environment": "staging",
+    "modulePath": "aws/appstream"
+  },
+  "resources": [
+    {
+      "type": "appstream",
+      "name": "example-appstream",
+      "description": "Appstream example"
+    }
+  ]
+}

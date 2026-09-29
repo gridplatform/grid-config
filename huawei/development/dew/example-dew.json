@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dew",
+    "description": "Example for Dew. Module: huawei/dew",
+    "environment": "development",
+    "modulePath": "huawei/dew"
+  },
+  "resources": [
+    {
+      "type": "dew",
+      "name": "example-dew",
+      "description": "Dew example"
+    }
+  ]
+}

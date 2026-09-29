@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-nvidia-gpu-operator",
+    "description": "Example for Nvidia Gpu Operator (self-hosted / unmanaged). Module: azure/nvidia-gpu-operator",
+    "environment": "production",
+    "modulePath": "azure/nvidia-gpu-operator"
+  },
+  "resources": [
+    {
+      "type": "nvidia-gpu-operator",
+      "name": "example-nvidia-gpu-operator",
+      "description": "Nvidia Gpu Operator (self-hosted / unmanaged) example"
+    }
+  ]
+}

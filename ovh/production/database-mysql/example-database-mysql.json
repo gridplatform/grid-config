@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-production",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-database-mysql",
+    "description": "Example for Database Mysql. Module: ovh/database-mysql",
+    "environment": "production",
+    "modulePath": "ovh/database-mysql"
+  },
+  "resources": [
+    {
+      "type": "database-mysql",
+      "name": "example-database-mysql",
+      "description": "Database Mysql example"
+    }
+  ]
+}

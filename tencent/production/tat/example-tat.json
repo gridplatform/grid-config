@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tat",
+    "description": "Example for Tat. Module: tencent/tat",
+    "environment": "production",
+    "modulePath": "tencent/tat"
+  },
+  "resources": [
+    {
+      "type": "tat",
+      "name": "example-tat",
+      "description": "Tat example"
+    }
+  ]
+}

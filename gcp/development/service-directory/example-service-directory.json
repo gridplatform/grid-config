@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-service-directory",
+    "description": "Example for Service Directory. Module: gcp/service-directory",
+    "environment": "development",
+    "modulePath": "gcp/service-directory"
+  },
+  "resources": [
+    {
+      "type": "service-directory",
+      "name": "example-service-directory",
+      "description": "Service Directory example"
+    }
+  ]
+}

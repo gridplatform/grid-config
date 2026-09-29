@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-automation",
+    "description": "Example for Automation. Module: azure/automation",
+    "environment": "staging",
+    "modulePath": "azure/automation"
+  },
+  "resources": [
+    {
+      "type": "automation",
+      "name": "example-automation",
+      "description": "Automation example"
+    }
+  ]
+}

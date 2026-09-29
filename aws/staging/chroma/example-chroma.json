@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-chroma",
+    "description": "Example for Chroma (self-hosted / unmanaged). Module: aws/chroma",
+    "environment": "staging",
+    "modulePath": "aws/chroma"
+  },
+  "resources": [
+    {
+      "type": "chroma",
+      "name": "example-chroma",
+      "description": "Chroma (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-kms",
+    "description": "Example for KMS. Module: aws/kms",
+    "environment": "production",
+    "modulePath": "aws/kms"
+  },
+  "resources": [
+    {
+      "type": "kms",
+      "name": "example-kms",
+      "description": "KMS example"
+    }
+  ]
+}

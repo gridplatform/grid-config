@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-rosa-cluster",
+    "description": "Example for ROSA cluster (AWS). Module: openshift/rosa-cluster",
+    "environment": "staging",
+    "modulePath": "openshift/rosa-cluster"
+  },
+  "resources": [
+    {
+      "type": "rosa-cluster",
+      "name": "example-rosa-cluster",
+      "description": "ROSA cluster (AWS) example"
+    }
+  ]
+}

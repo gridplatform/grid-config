@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-privatelink",
+    "description": "Example for Privatelink. Module: alibaba/privatelink",
+    "environment": "staging",
+    "modulePath": "alibaba/privatelink"
+  },
+  "resources": [
+    {
+      "type": "privatelink",
+      "name": "example-privatelink",
+      "description": "Privatelink example"
+    }
+  ]
+}

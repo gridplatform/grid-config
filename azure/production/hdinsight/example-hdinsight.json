@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-hdinsight",
+    "description": "Example for Hdinsight. Module: azure/hdinsight",
+    "environment": "production",
+    "modulePath": "azure/hdinsight"
+  },
+  "resources": [
+    {
+      "type": "hdinsight",
+      "name": "example-hdinsight",
+      "description": "Hdinsight example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-access-context-manager",
+    "description": "Example for Access Context Manager. Module: gcp/access-context-manager",
+    "environment": "development",
+    "modulePath": "gcp/access-context-manager"
+  },
+  "resources": [
+    {
+      "type": "access-context-manager",
+      "name": "example-access-context-manager",
+      "description": "Access Context Manager example"
+    }
+  ]
+}

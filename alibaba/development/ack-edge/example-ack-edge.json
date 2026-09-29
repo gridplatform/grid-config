@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ack-edge",
+    "description": "Example for Ack Edge. Module: alibaba/ack-edge",
+    "environment": "development",
+    "modulePath": "alibaba/ack-edge"
+  },
+  "resources": [
+    {
+      "type": "ack-edge",
+      "name": "example-ack-edge",
+      "description": "Ack Edge example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ots",
+    "description": "Example for Ots. Module: alibaba/ots",
+    "environment": "staging",
+    "modulePath": "alibaba/ots"
+  },
+  "resources": [
+    {
+      "type": "ots",
+      "name": "example-ots",
+      "description": "Ots example"
+    }
+  ]
+}

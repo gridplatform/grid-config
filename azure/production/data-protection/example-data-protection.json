@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-data-protection",
+    "description": "Example for Data Protection. Module: azure/data-protection",
+    "environment": "production",
+    "modulePath": "azure/data-protection"
+  },
+  "resources": [
+    {
+      "type": "data-protection",
+      "name": "example-data-protection",
+      "description": "Data Protection example"
+    }
+  ]
+}

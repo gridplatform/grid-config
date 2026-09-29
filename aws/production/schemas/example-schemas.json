@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-schemas",
+    "description": "Example for Schemas. Module: aws/schemas",
+    "environment": "production",
+    "modulePath": "aws/schemas"
+  },
+  "resources": [
+    {
+      "type": "schemas",
+      "name": "example-schemas",
+      "description": "Schemas example"
+    }
+  ]
+}

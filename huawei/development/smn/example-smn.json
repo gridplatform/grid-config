@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-smn",
+    "description": "Example for Smn. Module: huawei/smn",
+    "environment": "development",
+    "modulePath": "huawei/smn"
+  },
+  "resources": [
+    {
+      "type": "smn",
+      "name": "example-smn",
+      "description": "Smn example"
+    }
+  ]
+}

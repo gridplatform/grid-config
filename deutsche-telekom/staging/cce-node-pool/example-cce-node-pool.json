@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-cce-node-pool",
+    "description": "Example for Cce Node Pool. Module: deutsche-telekom/cce-node-pool",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/cce-node-pool"
+  },
+  "resources": [
+    {
+      "type": "cce-node-pool",
+      "name": "example-cce-node-pool",
+      "description": "Cce Node Pool example"
+    }
+  ]
+}

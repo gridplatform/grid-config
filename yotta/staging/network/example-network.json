@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-network",
+    "description": "Example for Network. Module: yotta/network",
+    "environment": "staging",
+    "modulePath": "yotta/network"
+  },
+  "resources": [
+    {
+      "type": "network",
+      "name": "example-network",
+      "description": "Network example"
+    }
+  ]
+}

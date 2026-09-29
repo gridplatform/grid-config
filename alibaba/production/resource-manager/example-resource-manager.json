@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-resource-manager",
+    "description": "Example for Resource Manager. Module: alibaba/resource-manager",
+    "environment": "production",
+    "modulePath": "alibaba/resource-manager"
+  },
+  "resources": [
+    {
+      "type": "resource-manager",
+      "name": "example-resource-manager",
+      "description": "Resource Manager example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-staging",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-ssh-keypair",
+    "description": "Example for Ssh Keypair. Module: yotta/ssh-keypair",
+    "environment": "staging",
+    "modulePath": "yotta/ssh-keypair"
+  },
+  "resources": [
+    {
+      "type": "ssh-keypair",
+      "name": "example-ssh-keypair",
+      "description": "Ssh Keypair example"
+    }
+  ]
+}

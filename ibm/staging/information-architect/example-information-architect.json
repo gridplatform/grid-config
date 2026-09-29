@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-staging",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-information-architect",
+    "description": "Example for Information Architect. Module: ibm/information-architect",
+    "environment": "staging",
+    "modulePath": "ibm/information-architect"
+  },
+  "resources": [
+    {
+      "type": "information-architect",
+      "name": "example-information-architect",
+      "description": "Information Architect example"
+    }
+  ]
+}

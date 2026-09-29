@@ -1,0 +1,21 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-firewall",
+    "description": "Example for Firewall rules (folded into network). Module: gcp/network",
+    "environment": "development",
+    "modulePath": "gcp/network"
+  },
+  "resources": [
+    {
+      "type": "firewall",
+      "name": "example-firewall",
+      "description": "Firewall rules (folded into network) example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "network_name": "example-firewall",
+      "subnets": []
+    }
+  ]
+}

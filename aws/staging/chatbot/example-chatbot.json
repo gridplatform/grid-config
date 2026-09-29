@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-chatbot",
+    "description": "Example for Chatbot. Module: aws/chatbot",
+    "environment": "staging",
+    "modulePath": "aws/chatbot"
+  },
+  "resources": [
+    {
+      "type": "chatbot",
+      "name": "example-chatbot",
+      "description": "Chatbot example"
+    }
+  ]
+}

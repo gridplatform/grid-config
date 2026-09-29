@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-service-plan",
+    "description": "Example for Service Plan. Module: azure/service-plan",
+    "environment": "production",
+    "modulePath": "azure/service-plan"
+  },
+  "resources": [
+    {
+      "type": "service-plan",
+      "name": "example-service-plan",
+      "description": "Service Plan example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-cosmosdb",
+    "description": "Example for Cosmosdb. Module: azure/cosmosdb",
+    "environment": "development",
+    "modulePath": "azure/cosmosdb"
+  },
+  "resources": [
+    {
+      "type": "cosmosdb",
+      "name": "example-cosmosdb",
+      "description": "Cosmosdb example"
+    }
+  ]
+}

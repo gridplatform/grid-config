@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-image-registry",
+    "description": "Example for Image Registry. Module: openshift/image-registry",
+    "environment": "production",
+    "modulePath": "openshift/image-registry"
+  },
+  "resources": [
+    {
+      "type": "image-registry",
+      "name": "example-image-registry",
+      "description": "Image Registry example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-waf",
+    "description": "Example for Waf. Module: huawei/waf",
+    "environment": "staging",
+    "modulePath": "huawei/waf"
+  },
+  "resources": [
+    {
+      "type": "waf",
+      "name": "example-waf",
+      "description": "Waf example"
+    }
+  ]
+}

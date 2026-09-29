@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-language",
+    "description": "Example for Language. Module: oracle/language",
+    "environment": "development",
+    "modulePath": "oracle/language"
+  },
+  "resources": [
+    {
+      "type": "language",
+      "name": "example-language",
+      "description": "Language example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-kafka",
+    "description": "Example for Kafka. Module: alibaba/kafka",
+    "environment": "development",
+    "modulePath": "alibaba/kafka"
+  },
+  "resources": [
+    {
+      "type": "kafka",
+      "name": "example-kafka",
+      "description": "Kafka example"
+    }
+  ]
+}

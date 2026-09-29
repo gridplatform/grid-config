@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-production",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-port",
+    "description": "Example for Port. Module: ctrls/port",
+    "environment": "production",
+    "modulePath": "ctrls/port"
+  },
+  "resources": [
+    {
+      "type": "port",
+      "name": "example-port",
+      "description": "Port example"
+    }
+  ]
+}

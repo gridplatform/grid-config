@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-staging",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-floating-ip",
+    "description": "Example for Floating Ip. Module: ctrls/floating-ip",
+    "environment": "staging",
+    "modulePath": "ctrls/floating-ip"
+  },
+  "resources": [
+    {
+      "type": "floating-ip",
+      "name": "example-floating-ip",
+      "description": "Floating Ip example"
+    }
+  ]
+}

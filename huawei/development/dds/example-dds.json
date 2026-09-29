@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dds",
+    "description": "Example for Dds. Module: huawei/dds",
+    "environment": "development",
+    "modulePath": "huawei/dds"
+  },
+  "resources": [
+    {
+      "type": "dds",
+      "name": "example-dds",
+      "description": "Dds example"
+    }
+  ]
+}

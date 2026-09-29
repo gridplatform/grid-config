@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-production",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-account",
+    "description": "Example for Account. Module: yotta/account",
+    "environment": "production",
+    "modulePath": "yotta/account"
+  },
+  "resources": [
+    {
+      "type": "account",
+      "name": "example-account",
+      "description": "Account example"
+    }
+  ]
+}

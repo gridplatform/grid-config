@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-certificates-management",
+    "description": "Example for Certificates Management. Module: oracle/certificates-management",
+    "environment": "production",
+    "modulePath": "oracle/certificates-management"
+  },
+  "resources": [
+    {
+      "type": "certificates-management",
+      "name": "example-certificates-management",
+      "description": "Certificates Management example"
+    }
+  ]
+}

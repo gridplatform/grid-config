@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-transfer-family",
+    "description": "Example for Transfer Family. Module: aws/transfer-family",
+    "environment": "staging",
+    "modulePath": "aws/transfer-family"
+  },
+  "resources": [
+    {
+      "type": "transfer-family",
+      "name": "example-transfer-family",
+      "description": "Transfer Family example"
+    }
+  ]
+}

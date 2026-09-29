@@ -1,0 +1,42 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "grid-development-vpc",
+    "description": "Dedicated VPC for Grid development platform (EKS + EC2)",
+    "environment": "development"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "grid-development-vpc",
+      "cidr": "10.40.0.0/16",
+      "description": "Development platform VPC"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-development-nodes-a",
+      "vpc": "grid-development-vpc",
+      "cidr": "10.40.0.0/20",
+      "region": "us-east-1",
+      "description": "Private EKS nodes subnet (us-east-1a)"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-development-nodes-b",
+      "vpc": "grid-development-vpc",
+      "cidr": "10.40.16.0/20",
+      "region": "us-east-1",
+      "description": "Private EKS nodes subnet (us-east-1b)"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-development-public",
+      "vpc": "grid-development-vpc",
+      "cidr": "10.40.32.0/24",
+      "region": "us-east-1",
+      "description": "Public subnet for EC2 instance"
+    }
+  ]
+}

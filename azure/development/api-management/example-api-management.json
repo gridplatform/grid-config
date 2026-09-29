@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-api-management",
+    "description": "Example for Api Management. Module: azure/api-management",
+    "environment": "development",
+    "modulePath": "azure/api-management"
+  },
+  "resources": [
+    {
+      "type": "api-management",
+      "name": "example-api-management",
+      "description": "Api Management example"
+    }
+  ]
+}

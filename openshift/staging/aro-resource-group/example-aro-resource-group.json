@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-aro-resource-group",
+    "description": "Example for Aro Resource Group. Module: openshift/aro-resource-group",
+    "environment": "staging",
+    "modulePath": "openshift/aro-resource-group"
+  },
+  "resources": [
+    {
+      "type": "aro-resource-group",
+      "name": "example-aro-resource-group",
+      "description": "Aro Resource Group example"
+    }
+  ]
+}

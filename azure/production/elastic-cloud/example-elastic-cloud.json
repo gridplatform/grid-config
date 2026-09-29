@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-elastic-cloud",
+    "description": "Example for Elastic Cloud. Module: azure/elastic-cloud",
+    "environment": "production",
+    "modulePath": "azure/elastic-cloud"
+  },
+  "resources": [
+    {
+      "type": "elastic-cloud",
+      "name": "example-elastic-cloud",
+      "description": "Elastic Cloud example"
+    }
+  ]
+}

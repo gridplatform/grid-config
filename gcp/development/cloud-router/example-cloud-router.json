@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-router",
+    "description": "Example for Cloud Router. Module: gcp/cloud-router",
+    "environment": "development",
+    "modulePath": "gcp/cloud-router"
+  },
+  "resources": [
+    {
+      "type": "cloud-router",
+      "name": "example-cloud-router",
+      "description": "Cloud Router example"
+    }
+  ]
+}

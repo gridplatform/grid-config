@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-cloudformation",
+    "description": "Example for Cloudformation. Module: aws/cloudformation",
+    "environment": "production",
+    "modulePath": "aws/cloudformation"
+  },
+  "resources": [
+    {
+      "type": "cloudformation",
+      "name": "example-cloudformation",
+      "description": "Cloudformation example"
+    }
+  ]
+}

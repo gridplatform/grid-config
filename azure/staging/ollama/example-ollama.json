@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-ollama",
+    "description": "Example for Ollama (self-hosted / unmanaged). Module: azure/ollama",
+    "environment": "staging",
+    "modulePath": "azure/ollama"
+  },
+  "resources": [
+    {
+      "type": "ollama",
+      "name": "example-ollama",
+      "description": "Ollama (self-hosted / unmanaged) example"
+    }
+  ]
+}

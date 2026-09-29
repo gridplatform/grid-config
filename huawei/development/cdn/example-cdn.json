@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cdn",
+    "description": "Example for Cdn. Module: huawei/cdn",
+    "environment": "development",
+    "modulePath": "huawei/cdn"
+  },
+  "resources": [
+    {
+      "type": "cdn",
+      "name": "example-cdn",
+      "description": "Cdn example"
+    }
+  ]
+}

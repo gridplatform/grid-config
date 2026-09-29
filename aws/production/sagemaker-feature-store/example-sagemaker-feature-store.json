@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-sagemaker-feature-store",
+    "description": "Example for Sagemaker Feature Store. Module: aws/sagemaker-feature-store",
+    "environment": "production",
+    "modulePath": "aws/sagemaker-feature-store"
+  },
+  "resources": [
+    {
+      "type": "sagemaker-feature-store",
+      "name": "example-sagemaker-feature-store",
+      "description": "Sagemaker Feature Store example"
+    }
+  ]
+}

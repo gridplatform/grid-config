@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ga",
+    "description": "Example for Ga. Module: alibaba/ga",
+    "environment": "development",
+    "modulePath": "alibaba/ga"
+  },
+  "resources": [
+    {
+      "type": "ga",
+      "name": "example-ga",
+      "description": "Ga example"
+    }
+  ]
+}

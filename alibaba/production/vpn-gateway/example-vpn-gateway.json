@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-vpn-gateway",
+    "description": "Example for Vpn Gateway. Module: alibaba/vpn-gateway",
+    "environment": "production",
+    "modulePath": "alibaba/vpn-gateway"
+  },
+  "resources": [
+    {
+      "type": "vpn-gateway",
+      "name": "example-vpn-gateway",
+      "description": "Vpn Gateway example"
+    }
+  ]
+}

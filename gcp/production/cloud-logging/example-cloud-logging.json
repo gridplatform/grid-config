@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-logging",
+    "description": "Example for Cloud Logging. Module: gcp/cloud-logging",
+    "environment": "production",
+    "modulePath": "gcp/cloud-logging"
+  },
+  "resources": [
+    {
+      "type": "cloud-logging",
+      "name": "example-cloud-logging",
+      "description": "Cloud Logging example"
+    }
+  ]
+}

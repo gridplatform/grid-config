@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-media-services",
+    "description": "Example for Media Services. Module: azure/media-services",
+    "environment": "production",
+    "modulePath": "azure/media-services"
+  },
+  "resources": [
+    {
+      "type": "media-services",
+      "name": "example-media-services",
+      "description": "Media Services example"
+    }
+  ]
+}

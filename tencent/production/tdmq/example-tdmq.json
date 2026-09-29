@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tdmq",
+    "description": "Example for Tdmq. Module: tencent/tdmq",
+    "environment": "production",
+    "modulePath": "tencent/tdmq"
+  },
+  "resources": [
+    {
+      "type": "tdmq",
+      "name": "example-tdmq",
+      "description": "Tdmq example"
+    }
+  ]
+}

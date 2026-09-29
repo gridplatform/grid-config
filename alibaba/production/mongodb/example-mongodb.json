@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-mongodb",
+    "description": "Example for Mongodb. Module: alibaba/mongodb",
+    "environment": "production",
+    "modulePath": "alibaba/mongodb"
+  },
+  "resources": [
+    {
+      "type": "mongodb",
+      "name": "example-mongodb",
+      "description": "Mongodb example"
+    }
+  ]
+}

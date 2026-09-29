@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-gaussdb-cassandra",
+    "description": "Example for Gaussdb Cassandra. Module: huawei/gaussdb-cassandra",
+    "environment": "development",
+    "modulePath": "huawei/gaussdb-cassandra"
+  },
+  "resources": [
+    {
+      "type": "gaussdb-cassandra",
+      "name": "example-gaussdb-cassandra",
+      "description": "Gaussdb Cassandra example"
+    }
+  ]
+}

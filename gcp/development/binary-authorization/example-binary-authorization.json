@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-binary-authorization",
+    "description": "Example for Binary Authorization. Module: gcp/binary-authorization",
+    "environment": "development",
+    "modulePath": "gcp/binary-authorization"
+  },
+  "resources": [
+    {
+      "type": "binary-authorization",
+      "name": "example-binary-authorization",
+      "description": "Binary Authorization example"
+    }
+  ]
+}

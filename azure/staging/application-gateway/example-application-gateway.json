@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-application-gateway",
+    "description": "Example for Application Gateway. Module: azure/application-gateway",
+    "environment": "staging",
+    "modulePath": "azure/application-gateway"
+  },
+  "resources": [
+    {
+      "type": "application-gateway",
+      "name": "example-application-gateway",
+      "description": "Application Gateway example"
+    }
+  ]
+}

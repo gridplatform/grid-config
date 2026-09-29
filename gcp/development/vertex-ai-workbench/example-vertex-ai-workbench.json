@@ -1,0 +1,20 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-vertex-ai-workbench",
+    "description": "Example for Vertex AI Workbench (Jupyter). Module: gcp/vertex-ai-workbench",
+    "environment": "development",
+    "modulePath": "gcp/vertex-ai-workbench"
+  },
+  "resources": [
+    {
+      "type": "vertex-ai-workbench",
+      "name": "example-vertex-ai-workbench",
+      "description": "Vertex AI Workbench (Jupyter) example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "location": "us-central1"
+    }
+  ]
+}

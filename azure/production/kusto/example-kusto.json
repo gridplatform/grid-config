@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-kusto",
+    "description": "Example for Kusto. Module: azure/kusto",
+    "environment": "production",
+    "modulePath": "azure/kusto"
+  },
+  "resources": [
+    {
+      "type": "kusto",
+      "name": "example-kusto",
+      "description": "Kusto example"
+    }
+  ]
+}

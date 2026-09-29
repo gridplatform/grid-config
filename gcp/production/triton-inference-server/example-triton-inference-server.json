@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-triton-inference-server",
+    "description": "Example for Triton Inference Server (self-hosted / unmanaged). Module: gcp/triton-inference-server",
+    "environment": "production",
+    "modulePath": "gcp/triton-inference-server"
+  },
+  "resources": [
+    {
+      "type": "triton-inference-server",
+      "name": "example-triton-inference-server",
+      "description": "Triton Inference Server (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-web-pubsub",
+    "description": "Example for Web Pubsub. Module: azure/web-pubsub",
+    "environment": "development",
+    "modulePath": "azure/web-pubsub"
+  },
+  "resources": [
+    {
+      "type": "web-pubsub",
+      "name": "example-web-pubsub",
+      "description": "Web Pubsub example"
+    }
+  ]
+}

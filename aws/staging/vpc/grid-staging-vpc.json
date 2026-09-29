@@ -1,0 +1,42 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "grid-staging-vpc",
+    "description": "Dedicated VPC for Grid staging platform (EKS + EC2)",
+    "environment": "staging"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "grid-staging-vpc",
+      "cidr": "10.50.0.0/16",
+      "description": "Staging platform VPC"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-staging-nodes-a",
+      "vpc": "grid-staging-vpc",
+      "cidr": "10.50.0.0/20",
+      "region": "us-east-1",
+      "description": "Private EKS nodes subnet (us-east-1a)"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-staging-nodes-b",
+      "vpc": "grid-staging-vpc",
+      "cidr": "10.50.16.0/20",
+      "region": "us-east-1",
+      "description": "Private EKS nodes subnet (us-east-1b)"
+    },
+    {
+      "type": "subnet",
+      "name": "grid-staging-public",
+      "vpc": "grid-staging-vpc",
+      "cidr": "10.50.32.0/24",
+      "region": "us-east-1",
+      "description": "Public subnet for EC2 instance"
+    }
+  ]
+}

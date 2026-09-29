@@ -1,0 +1,20 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-bigquery",
+    "description": "Example for BigQuery (+ BQML / vector search via SQL). Module: gcp/bigquery",
+    "environment": "development",
+    "modulePath": "gcp/bigquery"
+  },
+  "resources": [
+    {
+      "type": "bigquery",
+      "name": "example-bigquery",
+      "description": "BigQuery (+ BQML / vector search via SQL) example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "dataset_id": "example-bigquery"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-redis",
+    "description": "Example for Redis. Module: alibaba/redis",
+    "environment": "development",
+    "modulePath": "alibaba/redis"
+  },
+  "resources": [
+    {
+      "type": "redis",
+      "name": "example-redis",
+      "description": "Redis example"
+    }
+  ]
+}

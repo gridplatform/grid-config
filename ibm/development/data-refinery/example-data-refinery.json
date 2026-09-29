@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-data-refinery",
+    "description": "Example for Data Refinery. Module: ibm/data-refinery",
+    "environment": "development",
+    "modulePath": "ibm/data-refinery"
+  },
+  "resources": [
+    {
+      "type": "data-refinery",
+      "name": "example-data-refinery",
+      "description": "Data Refinery example"
+    }
+  ]
+}

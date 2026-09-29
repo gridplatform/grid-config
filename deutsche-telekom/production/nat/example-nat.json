@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-production",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-nat",
+    "description": "Example for Nat. Module: deutsche-telekom/nat",
+    "environment": "production",
+    "modulePath": "deutsche-telekom/nat"
+  },
+  "resources": [
+    {
+      "type": "nat",
+      "name": "example-nat",
+      "description": "Nat example"
+    }
+  ]
+}

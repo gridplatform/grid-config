@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-organizations",
+    "description": "Example for Organizations. Module: huawei/organizations",
+    "environment": "development",
+    "modulePath": "huawei/organizations"
+  },
+  "resources": [
+    {
+      "type": "organizations",
+      "name": "example-organizations",
+      "description": "Organizations example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cce",
+    "description": "Example for Cloud Container Engine (CCE). Module: huawei/cce",
+    "environment": "staging",
+    "modulePath": "huawei/cce"
+  },
+  "resources": [
+    {
+      "type": "cce",
+      "name": "example-cce",
+      "description": "Cloud Container Engine (CCE) example"
+    }
+  ]
+}

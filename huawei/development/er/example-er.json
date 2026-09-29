@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-er",
+    "description": "Example for Er. Module: huawei/er",
+    "environment": "development",
+    "modulePath": "huawei/er"
+  },
+  "resources": [
+    {
+      "type": "er",
+      "name": "example-er",
+      "description": "Er example"
+    }
+  ]
+}

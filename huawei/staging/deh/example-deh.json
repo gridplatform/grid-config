@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-deh",
+    "description": "Example for Deh. Module: huawei/deh",
+    "environment": "staging",
+    "modulePath": "huawei/deh"
+  },
+  "resources": [
+    {
+      "type": "deh",
+      "name": "example-deh",
+      "description": "Deh example"
+    }
+  ]
+}

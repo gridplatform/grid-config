@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-iam",
+    "description": "Example for IAM. Module: deutsche-telekom/iam",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/iam"
+  },
+  "resources": [
+    {
+      "type": "iam",
+      "name": "example-iam",
+      "description": "IAM example"
+    }
+  ]
+}

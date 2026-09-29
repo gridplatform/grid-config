@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-obs-bucket",
+    "description": "Example for Obs Bucket. Module: huawei/obs-bucket",
+    "environment": "development",
+    "modulePath": "huawei/obs-bucket"
+  },
+  "resources": [
+    {
+      "type": "obs-bucket",
+      "name": "example-obs-bucket",
+      "description": "Obs Bucket example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-aro-cluster",
+    "description": "Example for ARO cluster (Azure). Module: openshift/aro-cluster",
+    "environment": "development",
+    "modulePath": "openshift/aro-cluster"
+  },
+  "resources": [
+    {
+      "type": "aro-cluster",
+      "name": "example-aro-cluster",
+      "description": "ARO cluster (Azure) example"
+    }
+  ]
+}

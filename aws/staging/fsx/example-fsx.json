@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-fsx",
+    "description": "Example for Fsx. Module: aws/fsx",
+    "environment": "staging",
+    "modulePath": "aws/fsx"
+  },
+  "resources": [
+    {
+      "type": "fsx",
+      "name": "example-fsx",
+      "description": "Fsx example"
+    }
+  ]
+}

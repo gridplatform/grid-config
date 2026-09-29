@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-ckafka",
+    "description": "Example for Ckafka. Module: tencent/ckafka",
+    "environment": "development",
+    "modulePath": "tencent/ckafka"
+  },
+  "resources": [
+    {
+      "type": "ckafka",
+      "name": "example-ckafka",
+      "description": "Ckafka example"
+    }
+  ]
+}

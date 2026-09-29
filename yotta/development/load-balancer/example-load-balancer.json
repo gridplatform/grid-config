@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-development",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-load-balancer",
+    "description": "Example for Load balancer. Module: yotta/load-balancer",
+    "environment": "development",
+    "modulePath": "yotta/load-balancer"
+  },
+  "resources": [
+    {
+      "type": "load-balancer",
+      "name": "example-load-balancer",
+      "description": "Load balancer example"
+    }
+  ]
+}

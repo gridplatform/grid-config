@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-cluster-sync",
+    "description": "Example for Cluster Sync. Module: rancher/cluster-sync",
+    "environment": "staging",
+    "modulePath": "rancher/cluster-sync"
+  },
+  "resources": [
+    {
+      "type": "cluster-sync",
+      "name": "example-cluster-sync",
+      "description": "Cluster Sync example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-ses",
+    "description": "Example for Ses. Module: aws/ses",
+    "environment": "staging",
+    "modulePath": "aws/ses"
+  },
+  "resources": [
+    {
+      "type": "ses",
+      "name": "example-ses",
+      "description": "Ses example"
+    }
+  ]
+}

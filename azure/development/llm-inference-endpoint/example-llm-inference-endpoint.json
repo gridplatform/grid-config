@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-llm-inference-endpoint",
+    "description": "Example for Llm Inference Endpoint (self-hosted / unmanaged). Module: azure/llm-inference-endpoint",
+    "environment": "development",
+    "modulePath": "azure/llm-inference-endpoint"
+  },
+  "resources": [
+    {
+      "type": "llm-inference-endpoint",
+      "name": "example-llm-inference-endpoint",
+      "description": "Llm Inference Endpoint (self-hosted / unmanaged) example"
+    }
+  ]
+}

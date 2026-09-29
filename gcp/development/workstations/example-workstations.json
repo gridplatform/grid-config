@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-workstations",
+    "description": "Example for Workstations. Module: gcp/workstations",
+    "environment": "development",
+    "modulePath": "gcp/workstations"
+  },
+  "resources": [
+    {
+      "type": "workstations",
+      "name": "example-workstations",
+      "description": "Workstations example"
+    }
+  ]
+}

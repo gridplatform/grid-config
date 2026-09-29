@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-q-business",
+    "description": "Example for Amazon Q Business (API). Module: aws/ai-api",
+    "environment": "production",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "q-business",
+      "name": "example-q-business",
+      "description": "Amazon Q Business (API) example",
+      "service_name": "example-q-business"
+    }
+  ]
+}

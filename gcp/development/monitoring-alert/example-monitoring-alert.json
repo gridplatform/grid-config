@@ -1,0 +1,25 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-monitoring-alert",
+    "description": "Example for Monitoring alert policy (log-based). Module: gcp/monitoring-alert-policy",
+    "environment": "development",
+    "modulePath": "gcp/monitoring-alert-policy"
+  },
+  "resources": [
+    {
+      "type": "monitoring-alert",
+      "name": "example-monitoring-alert",
+      "description": "Monitoring alert policy (log-based) example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "display_name": "example-monitoring-alert",
+      "filter": "REPLACE_FILTER",
+      "documentation": "REPLACE_DOCUMENTATION",
+      "notification_channels": [
+        "example-monitoring-alert-item"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-oracle-database",
+    "description": "Example for Oracle Database. Module: azure/oracle-database",
+    "environment": "development",
+    "modulePath": "azure/oracle-database"
+  },
+  "resources": [
+    {
+      "type": "oracle-database",
+      "name": "example-oracle-database",
+      "description": "Oracle Database example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-guardduty",
+    "description": "Example for Guardduty. Module: aws/guardduty",
+    "environment": "development",
+    "modulePath": "aws/guardduty"
+  },
+  "resources": [
+    {
+      "type": "guardduty",
+      "name": "example-guardduty",
+      "description": "Guardduty example"
+    }
+  ]
+}

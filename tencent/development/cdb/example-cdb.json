@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-development",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cdb",
+    "description": "Example for TencentDB (CDB). Module: tencent/cdb",
+    "environment": "development",
+    "modulePath": "tencent/cdb"
+  },
+  "resources": [
+    {
+      "type": "cdb",
+      "name": "example-cdb",
+      "description": "TencentDB (CDB) example"
+    }
+  ]
+}

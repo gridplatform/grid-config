@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-notification-hub",
+    "description": "Example for Notification Hub. Module: azure/notification-hub",
+    "environment": "development",
+    "modulePath": "azure/notification-hub"
+  },
+  "resources": [
+    {
+      "type": "notification-hub",
+      "name": "example-notification-hub",
+      "description": "Notification Hub example"
+    }
+  ]
+}

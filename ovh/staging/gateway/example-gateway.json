@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-staging",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-gateway",
+    "description": "Example for Gateway. Module: ovh/gateway",
+    "environment": "staging",
+    "modulePath": "ovh/gateway"
+  },
+  "resources": [
+    {
+      "type": "gateway",
+      "name": "example-gateway",
+      "description": "Gateway example"
+    }
+  ]
+}

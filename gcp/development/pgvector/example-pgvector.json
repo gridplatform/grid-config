@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-pgvector",
+    "description": "Example for Pgvector (self-hosted / unmanaged). Module: gcp/pgvector",
+    "environment": "development",
+    "modulePath": "gcp/pgvector"
+  },
+  "resources": [
+    {
+      "type": "pgvector",
+      "name": "example-pgvector",
+      "description": "Pgvector (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-machine-set",
+    "description": "Example for Machine Set. Module: openshift/machine-set",
+    "environment": "production",
+    "modulePath": "openshift/machine-set"
+  },
+  "resources": [
+    {
+      "type": "machine-set",
+      "name": "example-machine-set",
+      "description": "Machine Set example"
+    }
+  ]
+}

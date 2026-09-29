@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-polar-db",
+    "description": "Example for Polar Db. Module: alibaba/polar-db",
+    "environment": "staging",
+    "modulePath": "alibaba/polar-db"
+  },
+  "resources": [
+    {
+      "type": "polar-db",
+      "name": "example-polar-db",
+      "description": "Polar Db example"
+    }
+  ]
+}

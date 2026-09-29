@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-machine-config-pool",
+    "description": "Example for Machine Config Pool. Module: openshift/machine-config-pool",
+    "environment": "staging",
+    "modulePath": "openshift/machine-config-pool"
+  },
+  "resources": [
+    {
+      "type": "machine-config-pool",
+      "name": "example-machine-config-pool",
+      "description": "Machine Config Pool example"
+    }
+  ]
+}

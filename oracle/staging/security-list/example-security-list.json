@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-security-list",
+    "description": "Example for Security List. Module: oracle/security-list",
+    "environment": "staging",
+    "modulePath": "oracle/security-list"
+  },
+  "resources": [
+    {
+      "type": "security-list",
+      "name": "example-security-list",
+      "description": "Security List example"
+    }
+  ]
+}

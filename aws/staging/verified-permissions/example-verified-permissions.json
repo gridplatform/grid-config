@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-verified-permissions",
+    "description": "Example for Verified Permissions. Module: aws/verified-permissions",
+    "environment": "staging",
+    "modulePath": "aws/verified-permissions"
+  },
+  "resources": [
+    {
+      "type": "verified-permissions",
+      "name": "example-verified-permissions",
+      "description": "Verified Permissions example"
+    }
+  ]
+}

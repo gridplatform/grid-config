@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-fraud-detector",
+    "description": "Example for Amazon Fraud Detector (API). Module: aws/ai-api",
+    "environment": "staging",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "fraud-detector",
+      "name": "example-fraud-detector",
+      "description": "Amazon Fraud Detector (API) example",
+      "service_name": "example-fraud-detector"
+    }
+  ]
+}

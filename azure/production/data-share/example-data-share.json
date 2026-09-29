@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-data-share",
+    "description": "Example for Data Share. Module: azure/data-share",
+    "environment": "production",
+    "modulePath": "azure/data-share"
+  },
+  "resources": [
+    {
+      "type": "data-share",
+      "name": "example-data-share",
+      "description": "Data Share example"
+    }
+  ]
+}

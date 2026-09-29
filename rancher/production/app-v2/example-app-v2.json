@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-app-v2",
+    "description": "Example for App V2. Module: rancher/app-v2",
+    "environment": "production",
+    "modulePath": "rancher/app-v2"
+  },
+  "resources": [
+    {
+      "type": "app-v2",
+      "name": "example-app-v2",
+      "description": "App V2 example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-managed-grafana",
+    "description": "Example for Managed Grafana. Module: aws/managed-grafana",
+    "environment": "development",
+    "modulePath": "aws/managed-grafana"
+  },
+  "resources": [
+    {
+      "type": "managed-grafana",
+      "name": "example-managed-grafana",
+      "description": "Managed Grafana example"
+    }
+  ]
+}

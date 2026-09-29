@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-db-system",
+    "description": "Example for Db System. Module: oracle/db-system",
+    "environment": "development",
+    "modulePath": "oracle/db-system"
+  },
+  "resources": [
+    {
+      "type": "db-system",
+      "name": "example-db-system",
+      "description": "Db System example"
+    }
+  ]
+}

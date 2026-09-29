@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-nginx",
+    "description": "Example for Nginx. Module: azure/nginx",
+    "environment": "staging",
+    "modulePath": "azure/nginx"
+  },
+  "resources": [
+    {
+      "type": "nginx",
+      "name": "example-nginx",
+      "description": "Nginx example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-registry",
+    "description": "Example for Registry. Module: rancher/registry",
+    "environment": "staging",
+    "modulePath": "rancher/registry"
+  },
+  "resources": [
+    {
+      "type": "registry",
+      "name": "example-registry",
+      "description": "Registry example"
+    }
+  ]
+}

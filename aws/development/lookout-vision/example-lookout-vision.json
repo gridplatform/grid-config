@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-lookout-vision",
+    "description": "Example for Amazon Lookout for Vision (API). Module: aws/ai-api",
+    "environment": "development",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "lookout-vision",
+      "name": "example-lookout-vision",
+      "description": "Amazon Lookout for Vision (API) example",
+      "service_name": "example-lookout-vision"
+    }
+  ]
+}

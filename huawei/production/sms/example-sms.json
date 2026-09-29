@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-sms",
+    "description": "Example for Sms. Module: huawei/sms",
+    "environment": "production",
+    "modulePath": "huawei/sms"
+  },
+  "resources": [
+    {
+      "type": "sms",
+      "name": "example-sms",
+      "description": "Sms example"
+    }
+  ]
+}

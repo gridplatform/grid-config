@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-s3",
+    "description": "Example for S3 bucket. Module: aws/s3-bucket",
+    "environment": "development",
+    "modulePath": "aws/s3-bucket"
+  },
+  "resources": [
+    {
+      "type": "s3",
+      "name": "example-s3",
+      "description": "S3 bucket example",
+      "bucket": "example-s3"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-macie",
+    "description": "Example for Macie. Module: aws/macie",
+    "environment": "production",
+    "modulePath": "aws/macie"
+  },
+  "resources": [
+    {
+      "type": "macie",
+      "name": "example-macie",
+      "description": "Macie example"
+    }
+  ]
+}

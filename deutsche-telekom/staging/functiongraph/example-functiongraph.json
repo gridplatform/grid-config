@@ -1,0 +1,18 @@
+{
+  "provider": "deutsche-telekom",
+  "project": "grid-staging",
+  "region": "eu-de",
+  "metadata": {
+    "name": "example-functiongraph",
+    "description": "Example for Functiongraph. Module: deutsche-telekom/functiongraph",
+    "environment": "staging",
+    "modulePath": "deutsche-telekom/functiongraph"
+  },
+  "resources": [
+    {
+      "type": "functiongraph",
+      "name": "example-functiongraph",
+      "description": "Functiongraph example"
+    }
+  ]
+}

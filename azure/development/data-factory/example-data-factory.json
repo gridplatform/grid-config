@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-data-factory",
+    "description": "Example for Data Factory. Module: azure/data-factory",
+    "environment": "development",
+    "modulePath": "azure/data-factory"
+  },
+  "resources": [
+    {
+      "type": "data-factory",
+      "name": "example-data-factory",
+      "description": "Data Factory example"
+    }
+  ]
+}

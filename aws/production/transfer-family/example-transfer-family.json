@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-transfer-family",
+    "description": "Example for Transfer Family. Module: aws/transfer-family",
+    "environment": "production",
+    "modulePath": "aws/transfer-family"
+  },
+  "resources": [
+    {
+      "type": "transfer-family",
+      "name": "example-transfer-family",
+      "description": "Transfer Family example"
+    }
+  ]
+}

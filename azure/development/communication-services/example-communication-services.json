@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-communication-services",
+    "description": "Example for Communication Services. Module: azure/communication-services",
+    "environment": "development",
+    "modulePath": "azure/communication-services"
+  },
+  "resources": [
+    {
+      "type": "communication-services",
+      "name": "example-communication-services",
+      "description": "Communication Services example"
+    }
+  ]
+}

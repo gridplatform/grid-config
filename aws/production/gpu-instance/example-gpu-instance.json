@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-gpu-instance",
+    "description": "Example for Gpu Instance (self-hosted / unmanaged). Module: aws/gpu-instance",
+    "environment": "production",
+    "modulePath": "aws/gpu-instance"
+  },
+  "resources": [
+    {
+      "type": "gpu-instance",
+      "name": "example-gpu-instance",
+      "description": "Gpu Instance (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "ovh",
+  "project": "grid-production",
+  "region": "GRA7",
+  "metadata": {
+    "name": "example-gateway",
+    "description": "Example for Gateway. Module: ovh/gateway",
+    "environment": "production",
+    "modulePath": "ovh/gateway"
+  },
+  "resources": [
+    {
+      "type": "gateway",
+      "name": "example-gateway",
+      "description": "Gateway example"
+    }
+  ]
+}

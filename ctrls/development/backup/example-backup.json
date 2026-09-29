@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-development",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-backup",
+    "description": "Example for Backup. Module: ctrls/backup",
+    "environment": "development",
+    "modulePath": "ctrls/backup"
+  },
+  "resources": [
+    {
+      "type": "backup",
+      "name": "example-backup",
+      "description": "Backup example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-gpu-instance",
+    "description": "Example for Gpu Instance (self-hosted / unmanaged). Module: azure/gpu-instance",
+    "environment": "development",
+    "modulePath": "azure/gpu-instance"
+  },
+  "resources": [
+    {
+      "type": "gpu-instance",
+      "name": "example-gpu-instance",
+      "description": "Gpu Instance (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-staging",
+  "region": "global",
+  "metadata": {
+    "name": "example-machine-config",
+    "description": "Example for Machine Config. Module: rancher/machine-config",
+    "environment": "staging",
+    "modulePath": "rancher/machine-config"
+  },
+  "resources": [
+    {
+      "type": "machine-config",
+      "name": "example-machine-config",
+      "description": "Machine Config example"
+    }
+  ]
+}

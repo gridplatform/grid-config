@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-payment-cryptography",
+    "description": "Example for Payment Cryptography. Module: aws/payment-cryptography",
+    "environment": "production",
+    "modulePath": "aws/payment-cryptography"
+  },
+  "resources": [
+    {
+      "type": "payment-cryptography",
+      "name": "example-payment-cryptography",
+      "description": "Payment Cryptography example"
+    }
+  ]
+}

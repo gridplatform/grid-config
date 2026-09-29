@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-tpu",
+    "description": "Example for Tpu. Module: gcp/tpu",
+    "environment": "production",
+    "modulePath": "gcp/tpu"
+  },
+  "resources": [
+    {
+      "type": "tpu",
+      "name": "example-tpu",
+      "description": "Tpu example"
+    }
+  ]
+}

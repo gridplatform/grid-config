@@ -1,0 +1,18 @@
+{
+  "provider": "yotta",
+  "project": "grid-production",
+  "region": "ind-west",
+  "metadata": {
+    "name": "example-openstack-compute",
+    "description": "Example for Openstack Compute. Module: yotta/openstack-compute",
+    "environment": "production",
+    "modulePath": "yotta/openstack-compute"
+  },
+  "resources": [
+    {
+      "type": "openstack-compute",
+      "name": "example-openstack-compute",
+      "description": "Openstack Compute example"
+    }
+  ]
+}

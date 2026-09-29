@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-catalog-v2",
+    "description": "Example for Catalog V2. Module: rancher/catalog-v2",
+    "environment": "development",
+    "modulePath": "rancher/catalog-v2"
+  },
+  "resources": [
+    {
+      "type": "catalog-v2",
+      "name": "example-catalog-v2",
+      "description": "Catalog V2 example"
+    }
+  ]
+}

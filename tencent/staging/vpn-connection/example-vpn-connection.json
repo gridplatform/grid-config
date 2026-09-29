@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-vpn-connection",
+    "description": "Example for Vpn Connection. Module: tencent/vpn-connection",
+    "environment": "staging",
+    "modulePath": "tencent/vpn-connection"
+  },
+  "resources": [
+    {
+      "type": "vpn-connection",
+      "name": "example-vpn-connection",
+      "description": "Vpn Connection example"
+    }
+  ]
+}

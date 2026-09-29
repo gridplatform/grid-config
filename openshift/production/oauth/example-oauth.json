@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-oauth",
+    "description": "Example for Oauth. Module: openshift/oauth",
+    "environment": "production",
+    "modulePath": "openshift/oauth"
+  },
+  "resources": [
+    {
+      "type": "oauth",
+      "name": "example-oauth",
+      "description": "Oauth example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-cynosdb",
+    "description": "Example for Cynosdb. Module: tencent/cynosdb",
+    "environment": "production",
+    "modulePath": "tencent/cynosdb"
+  },
+  "resources": [
+    {
+      "type": "cynosdb",
+      "name": "example-cynosdb",
+      "description": "Cynosdb example"
+    }
+  ]
+}

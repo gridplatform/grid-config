@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-vswitch",
+    "description": "Example for Vswitch. Module: alibaba/vswitch",
+    "environment": "staging",
+    "modulePath": "alibaba/vswitch"
+  },
+  "resources": [
+    {
+      "type": "vswitch",
+      "name": "example-vswitch",
+      "description": "Vswitch example"
+    }
+  ]
+}

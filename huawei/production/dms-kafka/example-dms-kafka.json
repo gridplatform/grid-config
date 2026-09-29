@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dms-kafka",
+    "description": "Example for Dms Kafka. Module: huawei/dms-kafka",
+    "environment": "production",
+    "modulePath": "huawei/dms-kafka"
+  },
+  "resources": [
+    {
+      "type": "dms-kafka",
+      "name": "example-dms-kafka",
+      "description": "Dms Kafka example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-apig",
+    "description": "Example for Apig. Module: huawei/apig",
+    "environment": "production",
+    "modulePath": "huawei/apig"
+  },
+  "resources": [
+    {
+      "type": "apig",
+      "name": "example-apig",
+      "description": "Apig example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-s3-access-point",
+    "description": "Example for S3 Access Point. Module: aws/s3-access-point",
+    "environment": "production",
+    "modulePath": "aws/s3-access-point"
+  },
+  "resources": [
+    {
+      "type": "s3-access-point",
+      "name": "example-s3-access-point",
+      "description": "S3 Access Point example"
+    }
+  ]
+}

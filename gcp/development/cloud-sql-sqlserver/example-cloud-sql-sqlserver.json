@@ -1,0 +1,23 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-sql-sqlserver",
+    "description": "Example for Cloud SQL SQL Server. Module: gcp/cloud-sql-sqlserver",
+    "environment": "development",
+    "modulePath": "gcp/cloud-sql-sqlserver"
+  },
+  "resources": [
+    {
+      "type": "cloud-sql-sqlserver",
+      "name": "example-cloud-sql-sqlserver",
+      "description": "Cloud SQL SQL Server example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+      "region": "us-central1",
+      "instance_name": "example-cloud-sql-sqlserver",
+      "root_password": "REPLACE_ROOT_PASSWORD",
+      "tier": "REPLACE_TIER"
+    }
+  ]
+}

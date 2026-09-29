@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-api-gateway",
+    "description": "Example for Api Gateway. Module: alibaba/api-gateway",
+    "environment": "development",
+    "modulePath": "alibaba/api-gateway"
+  },
+  "resources": [
+    {
+      "type": "api-gateway",
+      "name": "example-api-gateway",
+      "description": "Api Gateway example"
+    }
+  ]
+}

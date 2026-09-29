@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-domain-services",
+    "description": "Example for Domain Services. Module: azure/domain-services",
+    "environment": "staging",
+    "modulePath": "azure/domain-services"
+  },
+  "resources": [
+    {
+      "type": "domain-services",
+      "name": "example-domain-services",
+      "description": "Domain Services example"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-polly",
+    "description": "Example for Amazon Polly (API). Module: aws/ai-api",
+    "environment": "staging",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "polly",
+      "name": "example-polly",
+      "description": "Amazon Polly (API) example",
+      "service_name": "example-polly"
+    }
+  ]
+}

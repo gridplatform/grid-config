@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-milvus",
+    "description": "Example for Milvus. Module: oracle/milvus",
+    "environment": "development",
+    "modulePath": "oracle/milvus"
+  },
+  "resources": [
+    {
+      "type": "milvus",
+      "name": "example-milvus",
+      "description": "Milvus example"
+    }
+  ]
+}

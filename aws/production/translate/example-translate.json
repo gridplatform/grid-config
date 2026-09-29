@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-translate",
+    "description": "Example for Amazon Translate (API). Module: aws/ai-api",
+    "environment": "production",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "translate",
+      "name": "example-translate",
+      "description": "Amazon Translate (API) example",
+      "service_name": "example-translate"
+    }
+  ]
+}

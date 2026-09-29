@@ -1,0 +1,25 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-gke",
+    "description": "Example for GKE cluster + node pools. Module: gcp/kubernetes-engine",
+    "environment": "production",
+    "modulePath": "gcp/kubernetes-engine"
+  },
+  "resources": [
+    {
+      "type": "gke",
+      "name": "example-gke",
+      "description": "GKE cluster + node pools example",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION",
+      "region": "us-central1",
+      "cluster_name": "example-gke",
+      "network_self_link": "REPLACE_NETWORK_ID",
+      "subnetwork_self_link": "REPLACE_SUBNET_ID",
+      "secondary_range_pod": "REPLACE_SECONDARY_RANGE_POD",
+      "secondary_range_services": "REPLACE_SECONDARY_RANGE_SERVICES"
+    }
+  ]
+}

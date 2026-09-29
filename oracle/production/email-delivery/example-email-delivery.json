@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-email-delivery",
+    "description": "Example for Email Delivery. Module: oracle/email-delivery",
+    "environment": "production",
+    "modulePath": "oracle/email-delivery"
+  },
+  "resources": [
+    {
+      "type": "email-delivery",
+      "name": "example-email-delivery",
+      "description": "Email Delivery example"
+    }
+  ]
+}

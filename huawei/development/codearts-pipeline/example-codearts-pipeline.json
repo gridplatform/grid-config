@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-codearts-pipeline",
+    "description": "Example for Codearts Pipeline. Module: huawei/codearts-pipeline",
+    "environment": "development",
+    "modulePath": "huawei/codearts-pipeline"
+  },
+  "resources": [
+    {
+      "type": "codearts-pipeline",
+      "name": "example-codearts-pipeline",
+      "description": "Codearts Pipeline example"
+    }
+  ]
+}

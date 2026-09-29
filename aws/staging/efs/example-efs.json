@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-efs",
+    "description": "Example for Efs. Module: aws/efs",
+    "environment": "staging",
+    "modulePath": "aws/efs"
+  },
+  "resources": [
+    {
+      "type": "efs",
+      "name": "example-efs",
+      "description": "Efs example"
+    }
+  ]
+}

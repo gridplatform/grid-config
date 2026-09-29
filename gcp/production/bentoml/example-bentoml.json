@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-bentoml",
+    "description": "Example for Bentoml (self-hosted / unmanaged). Module: gcp/bentoml",
+    "environment": "production",
+    "modulePath": "gcp/bentoml"
+  },
+  "resources": [
+    {
+      "type": "bentoml",
+      "name": "example-bentoml",
+      "description": "Bentoml (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-appsync",
+    "description": "Example for Appsync. Module: aws/appsync",
+    "environment": "production",
+    "modulePath": "aws/appsync"
+  },
+  "resources": [
+    {
+      "type": "appsync",
+      "name": "example-appsync",
+      "description": "Appsync example"
+    }
+  ]
+}

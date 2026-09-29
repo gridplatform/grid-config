@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-memorydb",
+    "description": "Example for Memorydb. Module: aws/memorydb",
+    "environment": "development",
+    "modulePath": "aws/memorydb"
+  },
+  "resources": [
+    {
+      "type": "memorydb",
+      "name": "example-memorydb",
+      "description": "Memorydb example"
+    }
+  ]
+}

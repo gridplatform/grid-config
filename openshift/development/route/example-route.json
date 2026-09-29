@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-development",
+  "region": "global",
+  "metadata": {
+    "name": "example-route",
+    "description": "Example for Route. Module: openshift/route",
+    "environment": "development",
+    "modulePath": "openshift/route"
+  },
+  "resources": [
+    {
+      "type": "route",
+      "name": "example-route",
+      "description": "Route example"
+    }
+  ]
+}

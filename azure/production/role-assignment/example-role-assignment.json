@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-role-assignment",
+    "description": "Example for Role Assignment. Module: azure/role-assignment",
+    "environment": "production",
+    "modulePath": "azure/role-assignment"
+  },
+  "resources": [
+    {
+      "type": "role-assignment",
+      "name": "example-role-assignment",
+      "description": "Role Assignment example"
+    }
+  ]
+}

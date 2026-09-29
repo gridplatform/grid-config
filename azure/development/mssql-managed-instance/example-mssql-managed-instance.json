@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-mssql-managed-instance",
+    "description": "Example for Mssql Managed Instance. Module: azure/mssql-managed-instance",
+    "environment": "development",
+    "modulePath": "azure/mssql-managed-instance"
+  },
+  "resources": [
+    {
+      "type": "mssql-managed-instance",
+      "name": "example-mssql-managed-instance",
+      "description": "Mssql Managed Instance example"
+    }
+  ]
+}

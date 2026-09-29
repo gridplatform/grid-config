@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-slb",
+    "description": "Example for Slb. Module: alibaba/slb",
+    "environment": "staging",
+    "modulePath": "alibaba/slb"
+  },
+  "resources": [
+    {
+      "type": "slb",
+      "name": "example-slb",
+      "description": "Slb example"
+    }
+  ]
+}

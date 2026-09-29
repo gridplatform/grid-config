@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-kinesis-firehose",
+    "description": "Example for Kinesis Firehose. Module: aws/kinesis-firehose",
+    "environment": "development",
+    "modulePath": "aws/kinesis-firehose"
+  },
+  "resources": [
+    {
+      "type": "kinesis-firehose",
+      "name": "example-kinesis-firehose",
+      "description": "Kinesis Firehose example"
+    }
+  ]
+}

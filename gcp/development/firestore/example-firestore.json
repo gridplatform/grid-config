@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-firestore",
+    "description": "Example for Firestore. Module: gcp/firestore",
+    "environment": "development",
+    "modulePath": "gcp/firestore"
+  },
+  "resources": [
+    {
+      "type": "firestore",
+      "name": "example-firestore",
+      "description": "Firestore example"
+    }
+  ]
+}

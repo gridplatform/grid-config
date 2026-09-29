@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-certificates-authority",
+    "description": "Example for Certificates Authority. Module: oracle/certificates-authority",
+    "environment": "staging",
+    "modulePath": "oracle/certificates-authority"
+  },
+  "resources": [
+    {
+      "type": "certificates-authority",
+      "name": "example-certificates-authority",
+      "description": "Certificates Authority example"
+    }
+  ]
+}

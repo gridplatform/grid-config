@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dc",
+    "description": "Example for Dc. Module: huawei/dc",
+    "environment": "production",
+    "modulePath": "huawei/dc"
+  },
+  "resources": [
+    {
+      "type": "dc",
+      "name": "example-dc",
+      "description": "Dc example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-anomaly-detection",
+    "description": "Example for Anomaly Detection. Module: oracle/anomaly-detection",
+    "environment": "staging",
+    "modulePath": "oracle/anomaly-detection"
+  },
+  "resources": [
+    {
+      "type": "anomaly-detection",
+      "name": "example-anomaly-detection",
+      "description": "Anomaly Detection example"
+    }
+  ]
+}

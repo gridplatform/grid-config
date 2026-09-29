@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-roks",
+    "description": "Example for Red Hat OpenShift on IBM Cloud (ROKS). Module: ibm/roks",
+    "environment": "development",
+    "modulePath": "ibm/roks"
+  },
+  "resources": [
+    {
+      "type": "roks",
+      "name": "example-roks",
+      "description": "Red Hat OpenShift on IBM Cloud (ROKS) example"
+    }
+  ]
+}

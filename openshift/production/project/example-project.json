@@ -1,0 +1,18 @@
+{
+  "provider": "openshift",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-project",
+    "description": "Example for OpenShift project. Module: openshift/project",
+    "environment": "production",
+    "modulePath": "openshift/project"
+  },
+  "resources": [
+    {
+      "type": "project",
+      "name": "example-project",
+      "description": "OpenShift project example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-glue-crawler",
+    "description": "Example for Glue Crawler. Module: aws/glue-crawler",
+    "environment": "production",
+    "modulePath": "aws/glue-crawler"
+  },
+  "resources": [
+    {
+      "type": "glue-crawler",
+      "name": "example-glue-crawler",
+      "description": "Glue Crawler example"
+    }
+  ]
+}

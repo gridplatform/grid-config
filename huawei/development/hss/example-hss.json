@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-hss",
+    "description": "Example for Hss. Module: huawei/hss",
+    "environment": "development",
+    "modulePath": "huawei/hss"
+  },
+  "resources": [
+    {
+      "type": "hss",
+      "name": "example-hss",
+      "description": "Hss example"
+    }
+  ]
+}

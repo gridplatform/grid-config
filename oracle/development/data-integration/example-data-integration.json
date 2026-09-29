@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-data-integration",
+    "description": "Example for Data Integration. Module: oracle/data-integration",
+    "environment": "development",
+    "modulePath": "oracle/data-integration"
+  },
+  "resources": [
+    {
+      "type": "data-integration",
+      "name": "example-data-integration",
+      "description": "Data Integration example"
+    }
+  ]
+}

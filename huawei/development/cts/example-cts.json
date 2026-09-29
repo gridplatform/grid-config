@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-cts",
+    "description": "Example for Cts. Module: huawei/cts",
+    "environment": "development",
+    "modulePath": "huawei/cts"
+  },
+  "resources": [
+    {
+      "type": "cts",
+      "name": "example-cts",
+      "description": "Cts example"
+    }
+  ]
+}

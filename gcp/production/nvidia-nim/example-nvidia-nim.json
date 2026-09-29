@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-nvidia-nim",
+    "description": "Example for Nvidia Nim (self-hosted / unmanaged). Module: gcp/nvidia-nim",
+    "environment": "production",
+    "modulePath": "gcp/nvidia-nim"
+  },
+  "resources": [
+    {
+      "type": "nvidia-nim",
+      "name": "example-nvidia-nim",
+      "description": "Nvidia Nim (self-hosted / unmanaged) example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-ack-serverless",
+    "description": "Example for Ack Serverless. Module: alibaba/ack-serverless",
+    "environment": "development",
+    "modulePath": "alibaba/ack-serverless"
+  },
+  "resources": [
+    {
+      "type": "ack-serverless",
+      "name": "example-ack-serverless",
+      "description": "Ack Serverless example"
+    }
+  ]
+}

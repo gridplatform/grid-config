@@ -1,0 +1,18 @@
+{
+  "provider": "rancher",
+  "project": "grid-production",
+  "region": "global",
+  "metadata": {
+    "name": "example-rancher2-bootstrap",
+    "description": "Example for Rancher2 Bootstrap. Module: rancher/rancher2-bootstrap",
+    "environment": "production",
+    "modulePath": "rancher/rancher2-bootstrap"
+  },
+  "resources": [
+    {
+      "type": "rancher2-bootstrap",
+      "name": "example-rancher2-bootstrap",
+      "description": "Rancher2 Bootstrap example"
+    }
+  ]
+}

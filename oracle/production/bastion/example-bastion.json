@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-bastion",
+    "description": "Example for Bastion. Module: oracle/bastion",
+    "environment": "production",
+    "modulePath": "oracle/bastion"
+  },
+  "resources": [
+    {
+      "type": "bastion",
+      "name": "example-bastion",
+      "description": "Bastion example"
+    }
+  ]
+}

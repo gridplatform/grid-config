@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-inspector",
+    "description": "Example for Inspector. Module: aws/inspector",
+    "environment": "development",
+    "modulePath": "aws/inspector"
+  },
+  "resources": [
+    {
+      "type": "inspector",
+      "name": "example-inspector",
+      "description": "Inspector example"
+    }
+  ]
+}

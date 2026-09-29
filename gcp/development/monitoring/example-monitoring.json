@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-monitoring",
+    "description": "Example for Monitoring. Module: gcp/monitoring",
+    "environment": "development",
+    "modulePath": "gcp/monitoring"
+  },
+  "resources": [
+    {
+      "type": "monitoring",
+      "name": "example-monitoring",
+      "description": "Monitoring example",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT"
+    }
+  ]
+}

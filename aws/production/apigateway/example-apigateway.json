@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-apigateway",
+    "description": "Example for API Gateway v2. Module: aws/apigateway-v2",
+    "environment": "production",
+    "modulePath": "aws/apigateway-v2"
+  },
+  "resources": [
+    {
+      "type": "apigateway",
+      "name": "example-apigateway",
+      "description": "API Gateway v2 example"
+    }
+  ]
+}

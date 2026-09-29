@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-timestream",
+    "description": "Example for Timestream. Module: aws/timestream",
+    "environment": "staging",
+    "modulePath": "aws/timestream"
+  },
+  "resources": [
+    {
+      "type": "timestream",
+      "name": "example-timestream",
+      "description": "Timestream example"
+    }
+  ]
+}

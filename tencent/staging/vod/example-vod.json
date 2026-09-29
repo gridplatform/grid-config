@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-vod",
+    "description": "Example for Vod. Module: tencent/vod",
+    "environment": "staging",
+    "modulePath": "tencent/vod"
+  },
+  "resources": [
+    {
+      "type": "vod",
+      "name": "example-vod",
+      "description": "Vod example"
+    }
+  ]
+}

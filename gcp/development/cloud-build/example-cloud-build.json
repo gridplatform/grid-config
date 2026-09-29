@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-build",
+    "description": "Example for Cloud Build. Module: gcp/cloud-build",
+    "environment": "development",
+    "modulePath": "gcp/cloud-build"
+  },
+  "resources": [
+    {
+      "type": "cloud-build",
+      "name": "example-cloud-build",
+      "description": "Cloud Build example"
+    }
+  ]
+}

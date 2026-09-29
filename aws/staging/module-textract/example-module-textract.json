@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-textract",
+    "description": "Example for module-textract. Module: aws/textract",
+    "environment": "staging",
+    "modulePath": "aws/textract"
+  },
+  "resources": [
+    {
+      "type": "module-textract",
+      "name": "example-module-textract",
+      "description": "module-textract example"
+    }
+  ]
+}

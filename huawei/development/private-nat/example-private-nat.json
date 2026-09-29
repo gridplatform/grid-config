@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-private-nat",
+    "description": "Example for Private Nat. Module: huawei/private-nat",
+    "environment": "development",
+    "modulePath": "huawei/private-nat"
+  },
+  "resources": [
+    {
+      "type": "private-nat",
+      "name": "example-private-nat",
+      "description": "Private Nat example"
+    }
+  ]
+}

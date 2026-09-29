@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-security-center",
+    "description": "Example for Security Center. Module: azure/security-center",
+    "environment": "production",
+    "modulePath": "azure/security-center"
+  },
+  "resources": [
+    {
+      "type": "security-center",
+      "name": "example-security-center",
+      "description": "Security Center example"
+    }
+  ]
+}

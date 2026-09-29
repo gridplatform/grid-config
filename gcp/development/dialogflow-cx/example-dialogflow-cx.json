@@ -1,0 +1,19 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-dialogflow-cx",
+    "description": "Example for Dialogflow CX / CX Agent Studio. Module: gcp/ai-api",
+    "environment": "development",
+    "modulePath": "gcp/ai-api"
+  },
+  "resources": [
+    {
+      "type": "dialogflow-cx",
+      "name": "example-dialogflow-cx",
+      "description": "Dialogflow CX / CX Agent Studio example",
+      "service_name": "example-dialogflow-cx"
+    }
+  ]
+}

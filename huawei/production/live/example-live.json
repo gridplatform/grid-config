@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-live",
+    "description": "Example for Live. Module: huawei/live",
+    "environment": "production",
+    "modulePath": "huawei/live"
+  },
+  "resources": [
+    {
+      "type": "live",
+      "name": "example-live",
+      "description": "Live example"
+    }
+  ]
+}

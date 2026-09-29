@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-lookout-metrics",
+    "description": "Example for Amazon Lookout for Metrics (API). Module: aws/ai-api",
+    "environment": "production",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "lookout-metrics",
+      "name": "example-lookout-metrics",
+      "description": "Amazon Lookout for Metrics (API) example",
+      "service_name": "example-lookout-metrics"
+    }
+  ]
+}

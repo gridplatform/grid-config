@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-sae",
+    "description": "Example for Sae. Module: alibaba/sae",
+    "environment": "development",
+    "modulePath": "alibaba/sae"
+  },
+  "resources": [
+    {
+      "type": "sae",
+      "name": "example-sae",
+      "description": "Sae example"
+    }
+  ]
+}

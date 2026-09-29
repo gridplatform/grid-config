@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-availability-set",
+    "description": "Example for Availability Set. Module: azure/availability-set",
+    "environment": "staging",
+    "modulePath": "azure/availability-set"
+  },
+  "resources": [
+    {
+      "type": "availability-set",
+      "name": "example-availability-set",
+      "description": "Availability Set example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-kuberay",
+    "description": "Example for Kuberay (self-hosted / unmanaged). Module: gcp/kuberay",
+    "environment": "development",
+    "modulePath": "gcp/kuberay"
+  },
+  "resources": [
+    {
+      "type": "kuberay",
+      "name": "example-kuberay",
+      "description": "Kuberay (self-hosted / unmanaged) example"
+    }
+  ]
+}

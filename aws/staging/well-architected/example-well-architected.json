@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-well-architected",
+    "description": "Example for Well Architected. Module: aws/well-architected",
+    "environment": "staging",
+    "modulePath": "aws/well-architected"
+  },
+  "resources": [
+    {
+      "type": "well-architected",
+      "name": "example-well-architected",
+      "description": "Well Architected example"
+    }
+  ]
+}

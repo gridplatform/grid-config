@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-full-stack-disaster-recovery",
+    "description": "Example for Full Stack Disaster Recovery. Module: oracle/full-stack-disaster-recovery",
+    "environment": "production",
+    "modulePath": "oracle/full-stack-disaster-recovery"
+  },
+  "resources": [
+    {
+      "type": "full-stack-disaster-recovery",
+      "name": "example-full-stack-disaster-recovery",
+      "description": "Full Stack Disaster Recovery example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-production",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-mrs",
+    "description": "Example for Mrs. Module: huawei/mrs",
+    "environment": "production",
+    "modulePath": "huawei/mrs"
+  },
+  "resources": [
+    {
+      "type": "mrs",
+      "name": "example-mrs",
+      "description": "Mrs example"
+    }
+  ]
+}

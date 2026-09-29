@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-nat",
+    "description": "Example for Nat. Module: alibaba/nat",
+    "environment": "staging",
+    "modulePath": "alibaba/nat"
+  },
+  "resources": [
+    {
+      "type": "nat",
+      "name": "example-nat",
+      "description": "Nat example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-redis",
+    "description": "Example for Redis. Module: oracle/redis",
+    "environment": "development",
+    "modulePath": "oracle/redis"
+  },
+  "resources": [
+    {
+      "type": "redis",
+      "name": "example-redis",
+      "description": "Redis example"
+    }
+  ]
+}

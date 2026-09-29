@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-healthcare-apis",
+    "description": "Example for Healthcare Apis. Module: azure/healthcare-apis",
+    "environment": "production",
+    "modulePath": "azure/healthcare-apis"
+  },
+  "resources": [
+    {
+      "type": "healthcare-apis",
+      "name": "example-healthcare-apis",
+      "description": "Healthcare Apis example"
+    }
+  ]
+}

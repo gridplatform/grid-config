@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-stack-monitoring",
+    "description": "Example for Stack Monitoring. Module: oracle/stack-monitoring",
+    "environment": "production",
+    "modulePath": "oracle/stack-monitoring"
+  },
+  "resources": [
+    {
+      "type": "stack-monitoring",
+      "name": "example-stack-monitoring",
+      "description": "Stack Monitoring example"
+    }
+  ]
+}

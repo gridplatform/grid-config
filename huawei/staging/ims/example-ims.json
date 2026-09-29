@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-ims",
+    "description": "Example for Ims. Module: huawei/ims",
+    "environment": "staging",
+    "modulePath": "huawei/ims"
+  },
+  "resources": [
+    {
+      "type": "ims",
+      "name": "example-ims",
+      "description": "Ims example"
+    }
+  ]
+}

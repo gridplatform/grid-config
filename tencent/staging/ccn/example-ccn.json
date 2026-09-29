@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-staging",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-ccn",
+    "description": "Example for Ccn. Module: tencent/ccn",
+    "environment": "staging",
+    "modulePath": "tencent/ccn"
+  },
+  "resources": [
+    {
+      "type": "ccn",
+      "name": "example-ccn",
+      "description": "Ccn example"
+    }
+  ]
+}

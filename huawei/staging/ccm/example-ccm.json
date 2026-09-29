@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-ccm",
+    "description": "Example for Ccm. Module: huawei/ccm",
+    "environment": "staging",
+    "modulePath": "huawei/ccm"
+  },
+  "resources": [
+    {
+      "type": "ccm",
+      "name": "example-ccm",
+      "description": "Ccm example"
+    }
+  ]
+}

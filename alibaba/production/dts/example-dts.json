@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-dts",
+    "description": "Example for Dts. Module: alibaba/dts",
+    "environment": "production",
+    "modulePath": "alibaba/dts"
+  },
+  "resources": [
+    {
+      "type": "dts",
+      "name": "example-dts",
+      "description": "Dts example"
+    }
+  ]
+}

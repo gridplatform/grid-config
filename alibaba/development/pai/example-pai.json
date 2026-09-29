@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-development",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-pai",
+    "description": "Example for Pai. Module: alibaba/pai",
+    "environment": "development",
+    "modulePath": "alibaba/pai"
+  },
+  "resources": [
+    {
+      "type": "pai",
+      "name": "example-pai",
+      "description": "Pai example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-nginx",
+    "description": "Example for Nginx. Module: azure/nginx",
+    "environment": "production",
+    "modulePath": "azure/nginx"
+  },
+  "resources": [
+    {
+      "type": "nginx",
+      "name": "example-nginx",
+      "description": "Nginx example"
+    }
+  ]
+}

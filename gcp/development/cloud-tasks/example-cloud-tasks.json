@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-tasks",
+    "description": "Example for Cloud Tasks. Module: gcp/cloud-tasks",
+    "environment": "development",
+    "modulePath": "gcp/cloud-tasks"
+  },
+  "resources": [
+    {
+      "type": "cloud-tasks",
+      "name": "example-cloud-tasks",
+      "description": "Cloud Tasks example"
+    }
+  ]
+}

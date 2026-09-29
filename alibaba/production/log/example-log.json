@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-production",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-log",
+    "description": "Example for Log. Module: alibaba/log",
+    "environment": "production",
+    "modulePath": "alibaba/log"
+  },
+  "resources": [
+    {
+      "type": "log",
+      "name": "example-log",
+      "description": "Log example"
+    }
+  ]
+}

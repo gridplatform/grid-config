@@ -1,0 +1,19 @@
+{
+  "provider": "azure",
+  "project": "grid-staging",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-vpc",
+    "description": "Example for Virtual network. Module: azure/network",
+    "environment": "staging",
+    "modulePath": "azure/network"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "example-vpc",
+      "description": "Virtual network example",
+      "cidr": "10.90.0.0/16"
+    }
+  ]
+}

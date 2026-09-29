@@ -1,0 +1,86 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "grid-production-gke",
+    "description": "GKE cluster with on-demand, spot, and GPU node pools (production)",
+    "environment": "production",
+    "dependsOn": ["gcp/production/vpc/grid-production-vpc.json"]
+  },
+  "resources": [
+    {
+      "type": "gke",
+      "name": "grid-production-gke",
+      "description": "Production GKE — private nodes, three node pools, deletion protection",
+      "cluster_name": "grid-production-gke",
+      "vpc": "grid-production-vpc",
+      "subnet": "grid-production-nodes",
+      "secondary_range_pod": "pods",
+      "secondary_range_services": "services",
+      "enable_private_nodes": true,
+      "enable_private_endpoint": true,
+      "deletion_protection": true,
+      "release_channel": "REGULAR",
+      "node_pools": {
+        "ondemand": {
+          "machine_type": "e2-standard-4",
+          "disk_size_gb": 100,
+          "disk_type": "pd-ssd",
+          "node_lifecycle": "ON_DEMAND",
+          "min_nodes": 2,
+          "max_nodes": 10,
+          "zones": ["us-central1-a", "us-central1-b", "us-central1-c"],
+          "labels": {
+            "pool": "ondemand",
+            "environment": "production"
+          }
+        },
+        "spot": {
+          "machine_type": "e2-standard-4",
+          "disk_size_gb": 100,
+          "disk_type": "pd-balanced",
+          "node_lifecycle": "SPOT",
+          "min_nodes": 0,
+          "max_nodes": 10,
+          "zones": ["us-central1-a", "us-central1-b", "us-central1-c"],
+          "labels": {
+            "pool": "spot",
+            "environment": "production"
+          },
+          "taints": [
+            {
+              "key": "spot",
+              "value": "true",
+              "effect": "NO_SCHEDULE"
+            }
+          ]
+        },
+        "gpu": {
+          "machine_type": "n1-standard-8",
+          "disk_size_gb": 200,
+          "disk_type": "pd-ssd",
+          "node_lifecycle": "ON_DEMAND",
+          "min_nodes": 1,
+          "max_nodes": 4,
+          "zones": ["us-central1-a", "us-central1-b"],
+          "labels": {
+            "pool": "gpu",
+            "environment": "production"
+          },
+          "taints": [
+            {
+              "key": "nvidia.com/gpu",
+              "value": "present",
+              "effect": "NO_SCHEDULE"
+            }
+          ],
+          "guest_accelerator": {
+            "type": "nvidia-tesla-t4",
+            "count": 1
+          }
+        }
+      }
+    }
+  ]
+}

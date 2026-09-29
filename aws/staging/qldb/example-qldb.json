@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-qldb",
+    "description": "Example for Qldb. Module: aws/qldb",
+    "environment": "staging",
+    "modulePath": "aws/qldb"
+  },
+  "resources": [
+    {
+      "type": "qldb",
+      "name": "example-qldb",
+      "description": "Qldb example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-codebuild",
+    "description": "Example for Codebuild. Module: aws/codebuild",
+    "environment": "production",
+    "modulePath": "aws/codebuild"
+  },
+  "resources": [
+    {
+      "type": "codebuild",
+      "name": "example-codebuild",
+      "description": "Codebuild example"
+    }
+  ]
+}

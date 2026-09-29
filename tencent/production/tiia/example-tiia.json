@@ -1,0 +1,18 @@
+{
+  "provider": "tencent",
+  "project": "grid-production",
+  "region": "ap-guangzhou",
+  "metadata": {
+    "name": "example-tiia",
+    "description": "Example for Tiia. Module: tencent/tiia",
+    "environment": "production",
+    "modulePath": "tencent/tiia"
+  },
+  "resources": [
+    {
+      "type": "tiia",
+      "name": "example-tiia",
+      "description": "Tiia example"
+    }
+  ]
+}

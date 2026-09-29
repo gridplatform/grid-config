@@ -1,0 +1,18 @@
+{
+  "provider": "ibm",
+  "project": "grid-development",
+  "region": "us-south",
+  "metadata": {
+    "name": "example-code-engine",
+    "description": "Example for Code Engine. Module: ibm/code-engine",
+    "environment": "development",
+    "modulePath": "ibm/code-engine"
+  },
+  "resources": [
+    {
+      "type": "code-engine",
+      "name": "example-code-engine",
+      "description": "Code Engine example"
+    }
+  ]
+}

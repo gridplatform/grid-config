@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-staging",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-local-peering",
+    "description": "Example for Local Peering. Module: oracle/local-peering",
+    "environment": "staging",
+    "modulePath": "oracle/local-peering"
+  },
+  "resources": [
+    {
+      "type": "local-peering",
+      "name": "example-local-peering",
+      "description": "Local Peering example"
+    }
+  ]
+}

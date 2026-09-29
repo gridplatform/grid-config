@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-nova",
+    "description": "Example for Amazon Nova foundation models (API via Bedrock). Module: aws/ai-api",
+    "environment": "development",
+    "modulePath": "aws/ai-api"
+  },
+  "resources": [
+    {
+      "type": "nova",
+      "name": "example-nova",
+      "description": "Amazon Nova foundation models (API via Bedrock) example",
+      "service_name": "example-nova"
+    }
+  ]
+}

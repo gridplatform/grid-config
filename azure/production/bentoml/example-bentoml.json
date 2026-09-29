@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-bentoml",
+    "description": "Example for Bentoml (self-hosted / unmanaged). Module: azure/bentoml",
+    "environment": "production",
+    "modulePath": "azure/bentoml"
+  },
+  "resources": [
+    {
+      "type": "bentoml",
+      "name": "example-bentoml",
+      "description": "Bentoml (self-hosted / unmanaged) example"
+    }
+  ]
+}

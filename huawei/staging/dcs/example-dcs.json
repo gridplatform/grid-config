@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-dcs",
+    "description": "Example for Dcs. Module: huawei/dcs",
+    "environment": "staging",
+    "modulePath": "huawei/dcs"
+  },
+  "resources": [
+    {
+      "type": "dcs",
+      "name": "example-dcs",
+      "description": "Dcs example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-managed-prometheus",
+    "description": "Example for Managed Prometheus. Module: aws/managed-prometheus",
+    "environment": "production",
+    "modulePath": "aws/managed-prometheus"
+  },
+  "resources": [
+    {
+      "type": "managed-prometheus",
+      "name": "example-managed-prometheus",
+      "description": "Managed Prometheus example"
+    }
+  ]
+}

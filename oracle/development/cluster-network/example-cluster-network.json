@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-cluster-network",
+    "description": "Example for Cluster Network. Module: oracle/cluster-network",
+    "environment": "development",
+    "modulePath": "oracle/cluster-network"
+  },
+  "resources": [
+    {
+      "type": "cluster-network",
+      "name": "example-cluster-network",
+      "description": "Cluster Network example"
+    }
+  ]
+}

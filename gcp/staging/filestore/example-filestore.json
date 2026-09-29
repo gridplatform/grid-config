@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-filestore",
+    "description": "Example for Filestore. Module: gcp/filestore",
+    "environment": "staging",
+    "modulePath": "gcp/filestore"
+  },
+  "resources": [
+    {
+      "type": "filestore",
+      "name": "example-filestore",
+      "description": "Filestore example"
+    }
+  ]
+}

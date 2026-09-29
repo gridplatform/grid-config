@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-eks-node-group",
+    "description": "Example for Eks Node Group. Module: aws/eks-node-group",
+    "environment": "staging",
+    "modulePath": "aws/eks-node-group"
+  },
+  "resources": [
+    {
+      "type": "eks-node-group",
+      "name": "example-eks-node-group",
+      "description": "Eks Node Group example"
+    }
+  ]
+}

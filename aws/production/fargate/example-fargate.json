@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-fargate",
+    "description": "Example for Fargate. Module: aws/fargate",
+    "environment": "production",
+    "modulePath": "aws/fargate"
+  },
+  "resources": [
+    {
+      "type": "fargate",
+      "name": "example-fargate",
+      "description": "Fargate example"
+    }
+  ]
+}

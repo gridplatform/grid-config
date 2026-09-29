@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-hilens",
+    "description": "Example for Hilens. Module: huawei/hilens",
+    "environment": "development",
+    "modulePath": "huawei/hilens"
+  },
+  "resources": [
+    {
+      "type": "hilens",
+      "name": "example-hilens",
+      "description": "Hilens example"
+    }
+  ]
+}

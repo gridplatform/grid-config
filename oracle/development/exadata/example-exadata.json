@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-development",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-exadata",
+    "description": "Example for Exadata. Module: oracle/exadata",
+    "environment": "development",
+    "modulePath": "oracle/exadata"
+  },
+  "resources": [
+    {
+      "type": "exadata",
+      "name": "example-exadata",
+      "description": "Exadata example"
+    }
+  ]
+}

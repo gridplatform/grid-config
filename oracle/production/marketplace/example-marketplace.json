@@ -1,0 +1,18 @@
+{
+  "provider": "oracle",
+  "project": "grid-production",
+  "region": "us-ashburn-1",
+  "metadata": {
+    "name": "example-marketplace",
+    "description": "Example for Marketplace. Module: oracle/marketplace",
+    "environment": "production",
+    "modulePath": "oracle/marketplace"
+  },
+  "resources": [
+    {
+      "type": "marketplace",
+      "name": "example-marketplace",
+      "description": "Marketplace example"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-alb",
+    "description": "Example for ALB. Module: aws/alb",
+    "environment": "production",
+    "modulePath": "aws/alb"
+  },
+  "resources": [
+    {
+      "type": "alb",
+      "name": "example-alb",
+      "description": "ALB example",
+      "subnet_ids": [
+        "example-alb-item"
+      ],
+      "security_group_ids": [
+        "example-alb-item"
+      ]
+    }
+  ]
+}

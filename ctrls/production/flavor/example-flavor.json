@@ -1,0 +1,18 @@
+{
+  "provider": "ctrls",
+  "project": "grid-production",
+  "region": "in-mumbai",
+  "metadata": {
+    "name": "example-flavor",
+    "description": "Example for Flavor. Module: ctrls/flavor",
+    "environment": "production",
+    "modulePath": "ctrls/flavor"
+  },
+  "resources": [
+    {
+      "type": "flavor",
+      "name": "example-flavor",
+      "description": "Flavor example"
+    }
+  ]
+}

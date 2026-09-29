@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-opensearch-serverless",
+    "description": "Example for Opensearch Serverless. Module: aws/opensearch-serverless",
+    "environment": "production",
+    "modulePath": "aws/opensearch-serverless"
+  },
+  "resources": [
+    {
+      "type": "opensearch-serverless",
+      "name": "example-opensearch-serverless",
+      "description": "Opensearch Serverless example"
+    }
+  ]
+}

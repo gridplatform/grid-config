@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-milvus",
+    "description": "Example for Milvus. Module: alibaba/milvus",
+    "environment": "staging",
+    "modulePath": "alibaba/milvus"
+  },
+  "resources": [
+    {
+      "type": "milvus",
+      "name": "example-milvus",
+      "description": "Milvus example"
+    }
+  ]
+}

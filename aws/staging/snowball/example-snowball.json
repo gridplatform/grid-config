@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-snowball",
+    "description": "Example for Snowball. Module: aws/snowball",
+    "environment": "staging",
+    "modulePath": "aws/snowball"
+  },
+  "resources": [
+    {
+      "type": "snowball",
+      "name": "example-snowball",
+      "description": "Snowball example"
+    }
+  ]
+}

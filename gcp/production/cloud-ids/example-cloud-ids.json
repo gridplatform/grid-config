@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_PRODUCTION",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-ids",
+    "description": "Example for Cloud Ids. Module: gcp/cloud-ids",
+    "environment": "production",
+    "modulePath": "gcp/cloud-ids"
+  },
+  "resources": [
+    {
+      "type": "cloud-ids",
+      "name": "example-cloud-ids",
+      "description": "Cloud Ids example"
+    }
+  ]
+}

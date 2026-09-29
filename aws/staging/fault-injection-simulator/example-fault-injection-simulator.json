@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-fault-injection-simulator",
+    "description": "Example for Fault Injection Simulator. Module: aws/fault-injection-simulator",
+    "environment": "staging",
+    "modulePath": "aws/fault-injection-simulator"
+  },
+  "resources": [
+    {
+      "type": "fault-injection-simulator",
+      "name": "example-fault-injection-simulator",
+      "description": "Fault Injection Simulator example"
+    }
+  ]
+}

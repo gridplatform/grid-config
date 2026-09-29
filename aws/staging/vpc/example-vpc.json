@@ -1,0 +1,19 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-vpc",
+    "description": "Example for VPC. Module: aws/vpc",
+    "environment": "staging",
+    "modulePath": "aws/vpc"
+  },
+  "resources": [
+    {
+      "type": "vpc",
+      "name": "example-vpc",
+      "description": "VPC example",
+      "cidr": "10.90.0.0/16"
+    }
+  ]
+}

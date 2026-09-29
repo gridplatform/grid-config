@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-cloudwatch",
+    "description": "Example for CloudWatch. Module: aws/cloudwatch",
+    "environment": "staging",
+    "modulePath": "aws/cloudwatch"
+  },
+  "resources": [
+    {
+      "type": "cloudwatch",
+      "name": "example-cloudwatch",
+      "description": "CloudWatch example"
+    }
+  ]
+}

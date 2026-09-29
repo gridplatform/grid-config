@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-module-personalize",
+    "description": "Example for module-personalize. Module: aws/personalize",
+    "environment": "production",
+    "modulePath": "aws/personalize"
+  },
+  "resources": [
+    {
+      "type": "module-personalize",
+      "name": "example-module-personalize",
+      "description": "module-personalize example"
+    }
+  ]
+}

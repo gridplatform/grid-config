@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-development",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-apprunner",
+    "description": "Example for Apprunner. Module: aws/apprunner",
+    "environment": "development",
+    "modulePath": "aws/apprunner"
+  },
+  "resources": [
+    {
+      "type": "apprunner",
+      "name": "example-apprunner",
+      "description": "Apprunner example"
+    }
+  ]
+}

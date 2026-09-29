@@ -1,0 +1,18 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-lakeformation",
+    "description": "Example for Lakeformation. Module: aws/lakeformation",
+    "environment": "production",
+    "modulePath": "aws/lakeformation"
+  },
+  "resources": [
+    {
+      "type": "lakeformation",
+      "name": "example-lakeformation",
+      "description": "Lakeformation example"
+    }
+  ]
+}

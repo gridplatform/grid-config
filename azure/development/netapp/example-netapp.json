@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-development",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-netapp",
+    "description": "Example for Netapp. Module: azure/netapp",
+    "environment": "development",
+    "modulePath": "azure/netapp"
+  },
+  "resources": [
+    {
+      "type": "netapp",
+      "name": "example-netapp",
+      "description": "Netapp example"
+    }
+  ]
+}

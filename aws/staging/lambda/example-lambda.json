@@ -1,0 +1,22 @@
+{
+  "provider": "aws",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-lambda",
+    "description": "Example for Lambda. Module: aws/lambda",
+    "environment": "staging",
+    "modulePath": "aws/lambda"
+  },
+  "resources": [
+    {
+      "type": "lambda",
+      "name": "example-lambda",
+      "description": "Lambda example",
+      "function_name": "example-lambda",
+      "handler": "REPLACE_HANDLER",
+      "runtime": "REPLACE_RUNTIME",
+      "role_arn": "REPLACE_ROLE_ARN"
+    }
+  ]
+}

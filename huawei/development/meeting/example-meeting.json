@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-development",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-meeting",
+    "description": "Example for Meeting. Module: huawei/meeting",
+    "environment": "development",
+    "modulePath": "huawei/meeting"
+  },
+  "resources": [
+    {
+      "type": "meeting",
+      "name": "example-meeting",
+      "description": "Meeting example"
+    }
+  ]
+}

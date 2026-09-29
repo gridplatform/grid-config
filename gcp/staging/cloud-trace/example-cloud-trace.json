@@ -1,0 +1,18 @@
+{
+  "provider": "gcp",
+  "project": "REPLACE_GCP_PROJECT_STAGING",
+  "region": "us-central1",
+  "metadata": {
+    "name": "example-cloud-trace",
+    "description": "Example for Cloud Trace. Module: gcp/cloud-trace",
+    "environment": "staging",
+    "modulePath": "gcp/cloud-trace"
+  },
+  "resources": [
+    {
+      "type": "cloud-trace",
+      "name": "example-cloud-trace",
+      "description": "Cloud Trace example"
+    }
+  ]
+}

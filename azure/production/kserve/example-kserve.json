@@ -1,0 +1,18 @@
+{
+  "provider": "azure",
+  "project": "grid-production",
+  "region": "eastus",
+  "metadata": {
+    "name": "example-kserve",
+    "description": "Example for Kserve (self-hosted / unmanaged). Module: azure/kserve",
+    "environment": "production",
+    "modulePath": "azure/kserve"
+  },
+  "resources": [
+    {
+      "type": "kserve",
+      "name": "example-kserve",
+      "description": "Kserve (self-hosted / unmanaged) example"
+    }
+  ]
+}

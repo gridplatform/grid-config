@@ -1,0 +1,18 @@
+{
+  "provider": "huawei",
+  "project": "grid-staging",
+  "region": "cn-north-4",
+  "metadata": {
+    "name": "example-tms",
+    "description": "Example for Tms. Module: huawei/tms",
+    "environment": "staging",
+    "modulePath": "huawei/tms"
+  },
+  "resources": [
+    {
+      "type": "tms",
+      "name": "example-tms",
+      "description": "Tms example"
+    }
+  ]
+}

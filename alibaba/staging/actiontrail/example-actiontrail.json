@@ -1,0 +1,18 @@
+{
+  "provider": "alibaba",
+  "project": "grid-staging",
+  "region": "cn-hangzhou",
+  "metadata": {
+    "name": "example-actiontrail",
+    "description": "Example for Actiontrail. Module: alibaba/actiontrail",
+    "environment": "staging",
+    "modulePath": "alibaba/actiontrail"
+  },
+  "resources": [
+    {
+      "type": "actiontrail",
+      "name": "example-actiontrail",
+      "description": "Actiontrail example"
+    }
+  ]
+}

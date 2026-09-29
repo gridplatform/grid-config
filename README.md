@@ -2,9 +2,9 @@
 
 Desired-state Grid JSON for platform infrastructure.
 
-Grid reads this intent, generates Terraform / GitOps / Crossplane artifacts, and
-applies them. Generated IaC is intended to live alongside these files later so
-the stack remains operable if Grid is removed.
+Grid reads this intent, generates Terraform / GitOps / Crossplane artifacts under
+`archive/`, and applies them. Commit `archive/` with the JSON so the stack stays
+operable if Grid is removed (run Terraform from `archive/…`).
 
 This repo is **customer desired state only** — no internal tooling, indexes, or
 generator scripts.
@@ -24,8 +24,7 @@ archive/                      # Terraform buffer (grid generate) — commit this
 ```
 
 `grid generate` / `plan` / `deploy` write under **`archive/`**, mirroring the JSON
-path. Same rule for `demo-infra`, this repo, or any `grid init` root. If Grid is
-removed, run Terraform from `archive/…` — no regenerate required.
+path. Same rule for `demo-infra`, this repo, or any `grid init` root.
 
 Examples:
 
@@ -81,8 +80,8 @@ duplicate ownership. Prefer either:
 1. Deploy only the leaf (VM/EC2) and let dependsOn pull network in, or
 2. Keep network + compute in one JSON file.
 
-Remote-state cross-stack refs (apply VPC alone, then VM against its outputs)
-are not wired yet.
+Cross-stack refs via remote state (apply VPC alone, then VM against its outputs)
+are out of scope for this layout; use dependsOn merge or a single JSON unit.
 
 ## Placeholders before apply
 

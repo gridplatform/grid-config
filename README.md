@@ -81,15 +81,28 @@ projects/demo-app/alibaba/development/vm/bastion.json   # bastion = a VM named b
 
 - `metadata.environment` — should match the path env
 - `metadata.modulePath` — module in `grid-terraform` (e.g. `aws/vpc`)
-- `metadata.dependsOn` — other JSON paths (relative to this repo) whose vpc/subnet resources merge into generate/plan/deploy
+- `metadata.dependsOn` — other unit JSON paths **relative to this project**
+  (`projects/<slug>/`). Reference-only: the dependency keeps its own Terraform
+  workspace; consumers look up vpc/subnet (etc.) by logical name via remote state.
 
 ```json
 "metadata": {
-  "dependsOn": ["projects/demo-app/gcp/development/vpc/grid-development-vpc.json"]
+  "dependsOn": ["aws/development/vpc/grid-labs-vpc.json"]
 }
 ```
 
-**Ownership:** the unit you deploy owns the merged graph. Do not also apply the dependsOn VPC unit separately.
+**Ownership (product rule):**
+
+| Unit | Owns |
+|------|------|
+| VPC JSON (`…/vpc/….json`) | VPC + subnets (folded in the same file) |
+| VM / EKS / GKE / SG consumer | Only its own resources; points at VPC/subnet **by name** |
+
+1. Apply the VPC unit first.
+2. Apply the VM (or cluster) unit second — it must **not** recreate the VPC.
+3. Do **not** put vpc/subnet resource blocks inside the VM JSON; use `dependsOn` + `vpc` / `subnet` name fields.
+
+Example (`projects/grid-labs`): `aws/development/vpc/grid-labs-vpc.json` is applied alone; `aws/development/ec2/grid-labs-vm.json` lists that path in `dependsOn` and sets `"subnet": "grid-labs-public"`.
 
 ## Demo catalog (`projects/demo-app`)
 

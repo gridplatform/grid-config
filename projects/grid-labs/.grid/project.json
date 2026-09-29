@@ -1,0 +1,5 @@
+{
+  "name": "Grid Labs",
+  "slug": "grid-labs",
+  "description": "Low-cost AWS lab (us-east-1): public VPC + small VM for running Grid."
+}

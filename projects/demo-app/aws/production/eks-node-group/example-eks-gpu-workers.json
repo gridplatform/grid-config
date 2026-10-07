@@ -1,0 +1,20 @@
+{
+  "provider": "aws",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-eks-gpu-workers",
+    "description": "Second node pool on the same cluster — own YAML so it can be destroyed alone.",
+    "environment": "production",
+    "modulePath": "aws/eks-node-group",
+    "clusterRef": "example-eks"
+  },
+  "resources": [
+    {
+      "type": "eks-node-group",
+      "name": "example-eks-gpu-workers",
+      "description": "GPU-oriented node group on example-eks",
+      "cluster_name": "example-eks"
+    }
+  ]
+}

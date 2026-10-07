@@ -4,15 +4,17 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-eks-node-group",
-    "description": "Example for Eks Node Group. Module: aws/eks-node-group",
+    "description": "One EKS node group / pool. Destroy this unit without destroying the cluster.",
     "environment": "production",
-    "modulePath": "aws/eks-node-group"
+    "modulePath": "aws/eks-node-group",
+    "clusterRef": "example-eks"
   },
   "resources": [
     {
       "type": "eks-node-group",
       "name": "example-eks-node-group",
-      "description": "Eks Node Group example"
+      "description": "Managed node group attached to example-eks",
+      "cluster_name": "example-eks"
     }
   ]
 }

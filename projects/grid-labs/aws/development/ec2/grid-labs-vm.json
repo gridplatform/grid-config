@@ -10,6 +10,17 @@
   },
   "resources": [
     {
+      "type": "vm",
+      "name": "grid-labs-vm",
+      "machineType": "t3.micro",
+      "subnet": "grid-labs-public",
+      "securityGroups": ["grid-labs-ssh"],
+      "associate_public_ip_address": true,
+      "diskSize": 8,
+      "tags": ["grid", "labs"],
+      "description": "Small lab VM"
+    },
+    {
       "type": "security-group",
       "name": "grid-labs-ssh",
       "vpc": "grid-labs-vpc",
@@ -38,17 +49,6 @@
           "cidr_blocks": ["0.0.0.0/0"]
         }
       ]
-    },
-    {
-      "type": "vm",
-      "name": "grid-labs-vm",
-      "machineType": "t3.micro",
-      "subnet": "grid-labs-public",
-      "securityGroups": ["grid-labs-ssh"],
-      "associate_public_ip_address": true,
-      "diskSize": 8,
-      "tags": ["grid", "labs"],
-      "description": "Small lab VM"
     }
   ]
 }

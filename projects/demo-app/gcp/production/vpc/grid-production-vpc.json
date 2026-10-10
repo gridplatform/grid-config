@@ -5,14 +5,16 @@
   "metadata": {
     "name": "grid-production-vpc",
     "description": "Dedicated VPC for Grid production platform (GKE + VM)",
-    "environment": "production"
+    "environment": "production",
+    "kind": "vpc"
   },
   "resources": [
     {
       "type": "vpc",
       "name": "grid-production-vpc",
       "cidr": "10.30.0.0/16",
-      "description": "Production platform VPC"
+      "description": "Production platform VPC",
+      "role": "primary"
     },
     {
       "type": "subnet",
@@ -20,7 +22,8 @@
       "vpc": "grid-production-vpc",
       "cidr": "10.30.0.0/20",
       "region": "us-central1",
-      "description": "Private GKE nodes subnet; secondary ranges pods=10.30.64.0/18 services=10.30.128.0/20"
+      "description": "Private GKE nodes subnet; secondary ranges pods=10.30.64.0/18 services=10.30.128.0/20",
+      "role": "support"
     },
     {
       "type": "subnet",
@@ -28,7 +31,8 @@
       "vpc": "grid-production-vpc",
       "cidr": "10.30.16.0/24",
       "region": "us-central1",
-      "description": "Public subnet for Compute Engine VM"
+      "description": "Public subnet for Compute Engine VM",
+      "role": "support"
     }
   ]
 }

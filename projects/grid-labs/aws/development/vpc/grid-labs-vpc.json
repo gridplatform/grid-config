@@ -5,7 +5,8 @@
   "metadata": {
     "name": "grid-labs-vpc",
     "description": "Cheap public-only VPC (no NAT)",
-    "environment": "development"
+    "environment": "development",
+    "kind": "vpc"
   },
   "resources": [
     {
@@ -15,7 +16,8 @@
       "enable_nat_gateway": false,
       "private_subnets": [],
       "map_public_ip_on_launch": true,
-      "description": "Lab VPC"
+      "description": "Lab VPC",
+      "role": "primary"
     },
     {
       "type": "subnet",
@@ -23,7 +25,8 @@
       "vpc": "grid-labs-vpc",
       "cidr": "10.50.1.0/24",
       "region": "us-east-1",
-      "description": "Public subnet us-east-1a"
+      "description": "Public subnet us-east-1a",
+      "role": "support"
     }
   ]
 }

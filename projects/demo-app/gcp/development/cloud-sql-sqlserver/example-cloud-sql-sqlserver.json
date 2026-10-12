@@ -3,8 +3,9 @@
   "project": "REPLACE_GCP_PROJECT_DEVELOPMENT",
   "region": "us-central1",
   "metadata": {
+    "kind": "cloud-sql-sqlserver",
     "name": "example-cloud-sql-sqlserver",
-    "description": "Example for Cloud SQL SQL Server. Module: gcp/cloud-sql-sqlserver",
+    "description": "Cloud SQL for SQL Server. Module: gcp/cloud-sql-sqlserver",
     "environment": "development",
     "modulePath": "gcp/cloud-sql-sqlserver"
   },
@@ -12,12 +13,19 @@
     {
       "type": "cloud-sql-sqlserver",
       "name": "example-cloud-sql-sqlserver",
-      "description": "Cloud SQL SQL Server example",
+      "role": "primary",
+      "description": "SQL Server 2022 Standard example",
       "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
       "region": "us-central1",
       "instance_name": "example-cloud-sql-sqlserver",
+      "database_version": "SQLSERVER_2022_STANDARD",
+      "tier": "db-custom-2-7680",
       "root_password": "REPLACE_ROOT_PASSWORD",
-      "tier": "REPLACE_TIER"
+      "edition": "ENTERPRISE",
+      "availability_type": "ZONAL",
+      "disk_size_gb": 100,
+      "assign_public_ip": false,
+      "deletion_protection": true
     }
   ]
 }

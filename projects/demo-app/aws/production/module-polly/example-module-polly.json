@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-polly",
+      "type": "polly",
       "name": "example-module-polly",
       "description": "module-polly example"
     }

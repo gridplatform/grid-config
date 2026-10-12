@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-personalize",
+      "type": "personalize",
       "name": "example-module-personalize",
       "description": "module-personalize example"
     }

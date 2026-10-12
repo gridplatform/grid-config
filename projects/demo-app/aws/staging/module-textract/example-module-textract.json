@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-textract",
+      "type": "textract",
       "name": "example-module-textract",
       "description": "module-textract example"
     }

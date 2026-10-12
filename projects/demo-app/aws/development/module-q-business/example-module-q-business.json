@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-q-business",
+      "type": "q-business",
       "name": "example-module-q-business",
       "description": "module-q-business example"
     }

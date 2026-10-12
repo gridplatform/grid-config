@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-translate",
+      "type": "translate",
       "name": "example-module-translate",
       "description": "module-translate example"
     }

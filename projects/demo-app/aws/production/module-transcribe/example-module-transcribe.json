@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-transcribe",
+      "type": "transcribe",
       "name": "example-module-transcribe",
       "description": "module-transcribe example"
     }

@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-lookout-metrics",
+      "type": "lookout-metrics",
       "name": "example-module-lookout-metrics",
       "description": "module-lookout-metrics example"
     }

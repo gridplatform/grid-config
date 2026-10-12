@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "REPLACE_TYPE",
+      "type": "route53-health-check",
       "name": "example-route53-health-check",
       "description": "Route 53 health check example"
     }

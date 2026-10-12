@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-forecast",
+      "type": "forecast",
       "name": "example-module-forecast",
       "description": "module-forecast example"
     }

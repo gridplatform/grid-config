@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-fraud-detector",
+      "type": "fraud-detector",
       "name": "example-module-fraud-detector",
       "description": "module-fraud-detector example"
     }

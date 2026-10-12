@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "module-comprehend",
+      "type": "comprehend",
       "name": "example-module-comprehend",
       "description": "module-comprehend example"
     }

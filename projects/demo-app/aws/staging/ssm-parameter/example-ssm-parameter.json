@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "REPLACE_TYPE",
+      "type": "ssm-parameter",
       "name": "example-ssm-parameter",
       "description": "SSM Parameter example"
     }

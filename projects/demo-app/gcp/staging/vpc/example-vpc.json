@@ -4,16 +4,37 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-vpc",
-    "description": "Example for VPC network (+ subnets, firewall, routes, peering, PSA). Module: gcp/network",
+    "description": "Network fabric (Unit A): network + subnets. Module: gcp/network",
     "environment": "staging",
-    "modulePath": "gcp/network"
+    "modulePath": "gcp/network",
+    "kind": "network"
   },
   "resources": [
     {
-      "type": "vpc",
+      "type": "network",
       "name": "example-vpc",
-      "description": "VPC network (+ subnets, firewall, routes, peering, PSA) example",
-      "cidr": "10.90.0.0/16"
+      "description": "network fabric",
+      "role": "primary",
+      "network_name": "example-vpc",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING"
+    },
+    {
+      "type": "subnet",
+      "name": "example-vpc-public",
+      "vpc": "example-vpc",
+      "cidr": "20.10.1.0/24",
+      "region": "us-central1",
+      "description": "Public subnet",
+      "role": "support"
+    },
+    {
+      "type": "subnet",
+      "name": "example-vpc-private",
+      "vpc": "example-vpc",
+      "cidr": "20.10.2.0/24",
+      "region": "us-central1",
+      "description": "Private subnet",
+      "role": "support"
     }
   ]
 }

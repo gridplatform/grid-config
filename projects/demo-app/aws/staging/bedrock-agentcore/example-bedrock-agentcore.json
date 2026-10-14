@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-bedrock-agentcore",
-    "description": "Example for Bedrock AgentCore (API/platform). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"bedrock-agentcore\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "staging",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "bedrock-agentcore"
   },
   "resources": [
     {
       "type": "bedrock-agentcore",
       "name": "example-bedrock-agentcore",
       "description": "Bedrock AgentCore (API/platform) example",
-      "service_name": "example-bedrock-agentcore"
+      "service_name": "bedrock-agentcore",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

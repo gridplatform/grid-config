@@ -4,16 +4,21 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-security-group",
-    "description": "Example for Security group. Module: aws/security-group",
+    "description": "Network control (Unit B): security-group. Module: aws/security-group",
     "environment": "development",
-    "modulePath": "aws/security-group"
+    "modulePath": "aws/security-group",
+    "kind": "security-group",
+    "dependsOn": [
+      "aws/development/vpc/example-vpc.json"
+    ]
   },
   "resources": [
     {
       "type": "security-group",
       "name": "example-security-group",
       "description": "Security group example",
-      "vpc_id": "example-security-group"
+      "vpc_id": "example-vpc",
+      "role": "primary"
     }
   ]
 }

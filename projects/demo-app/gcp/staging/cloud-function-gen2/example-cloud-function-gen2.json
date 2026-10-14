@@ -4,9 +4,10 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-cloud-function-gen2",
-    "description": "Example for Cloud Function (Gen 2). Module: gcp/cloud-function",
+    "description": "API peer unit: catalog type \"cloud-function-gen2\" \u2192 shared module gcp/cloud-function. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "staging",
-    "modulePath": "gcp/cloud-function"
+    "modulePath": "gcp/cloud-function",
+    "kind": "cloud-function-gen2"
   },
   "resources": [
     {
@@ -18,7 +19,8 @@
       "source_directory": "REPLACE_SOURCE_DIRECTORY",
       "runtime": "REPLACE_RUNTIME",
       "entry_point": "REPLACE_ENTRY_POINT",
-      "bucket_name": "example-cloud-function-gen2"
+      "bucket_name": "example-cloud-function-gen2",
+      "role": "primary"
     }
   ]
 }

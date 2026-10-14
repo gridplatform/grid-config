@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "s3",
+      "type": "s3-bucket",
       "name": "example-s3",
       "description": "S3 bucket example",
       "bucket": "example-s3"

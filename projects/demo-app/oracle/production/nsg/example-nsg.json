@@ -4,15 +4,20 @@
   "region": "us-ashburn-1",
   "metadata": {
     "name": "example-nsg",
-    "description": "Example for Nsg. Module: oracle/nsg",
+    "description": "Network control (Unit B): nsg. Module: oracle/nsg",
     "environment": "production",
-    "modulePath": "oracle/nsg"
+    "modulePath": "oracle/nsg",
+    "kind": "nsg",
+    "dependsOn": [
+      "oracle/production/network/example-network.json"
+    ]
   },
   "resources": [
     {
       "type": "nsg",
       "name": "example-nsg",
-      "description": "Nsg example"
+      "description": "Nsg example",
+      "role": "primary"
     }
   ]
 }

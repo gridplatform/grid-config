@@ -4,15 +4,36 @@
   "region": "us-south",
   "metadata": {
     "name": "example-network",
-    "description": "Example for VPC network. Module: ibm/network",
+    "description": "Network fabric (Unit A): network + subnets. Module: ibm/network",
     "environment": "production",
-    "modulePath": "ibm/network"
+    "modulePath": "ibm/network",
+    "kind": "network"
   },
   "resources": [
     {
       "type": "network",
       "name": "example-network",
-      "description": "VPC network example"
+      "description": "network fabric",
+      "role": "primary",
+      "cidr": "50.20.0.0/16"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-public",
+      "vpc": "example-network",
+      "cidr": "50.20.1.0/24",
+      "region": "us-south",
+      "description": "Public subnet",
+      "role": "support"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-private",
+      "vpc": "example-network",
+      "cidr": "50.20.2.0/24",
+      "region": "us-south",
+      "description": "Private subnet",
+      "role": "support"
     }
   ]
 }

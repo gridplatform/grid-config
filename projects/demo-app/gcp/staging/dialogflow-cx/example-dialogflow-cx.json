@@ -4,16 +4,19 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-dialogflow-cx",
-    "description": "Example for Dialogflow CX / CX Agent Studio. Module: gcp/ai-api",
+    "description": "API peer unit: catalog type \"dialogflow-cx\" \u2192 shared module gcp/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "staging",
-    "modulePath": "gcp/ai-api"
+    "modulePath": "gcp/ai-api",
+    "kind": "dialogflow-cx"
   },
   "resources": [
     {
       "type": "dialogflow-cx",
       "name": "example-dialogflow-cx",
       "description": "Dialogflow CX / CX Agent Studio example",
-      "service_name": "example-dialogflow-cx"
+      "service_name": "dialogflow-cx",
+      "role": "primary",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING"
     }
   ]
 }

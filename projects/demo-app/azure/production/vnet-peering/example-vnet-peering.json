@@ -4,15 +4,20 @@
   "region": "eastus",
   "metadata": {
     "name": "example-vnet-peering",
-    "description": "Example for Vnet Peering. Module: azure/vnet-peering",
+    "description": "Network control (Unit B): vnet-peering. Module: azure/vnet-peering",
     "environment": "production",
-    "modulePath": "azure/vnet-peering"
+    "modulePath": "azure/vnet-peering",
+    "kind": "vnet-peering",
+    "dependsOn": [
+      "azure/production/vpc/example-vpc.json"
+    ]
   },
   "resources": [
     {
       "type": "vnet-peering",
       "name": "example-vnet-peering",
-      "description": "Vnet Peering example"
+      "description": "Vnet Peering example",
+      "role": "primary"
     }
   ]
 }

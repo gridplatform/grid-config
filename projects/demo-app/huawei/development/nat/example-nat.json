@@ -4,15 +4,20 @@
   "region": "cn-north-4",
   "metadata": {
     "name": "example-nat",
-    "description": "Example for Nat. Module: huawei/nat",
+    "description": "Network control (Unit B): nat. Module: huawei/nat",
     "environment": "development",
-    "modulePath": "huawei/nat"
+    "modulePath": "huawei/nat",
+    "kind": "nat",
+    "dependsOn": [
+      "huawei/development/network/example-network.json"
+    ]
   },
   "resources": [
     {
       "type": "nat",
       "name": "example-nat",
-      "description": "Nat example"
+      "description": "Nat example",
+      "role": "primary"
     }
   ]
 }

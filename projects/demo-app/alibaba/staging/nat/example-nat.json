@@ -4,15 +4,20 @@
   "region": "cn-hangzhou",
   "metadata": {
     "name": "example-nat",
-    "description": "Example for Nat. Module: alibaba/nat",
+    "description": "Network control (Unit B): nat. Module: alibaba/nat",
     "environment": "staging",
-    "modulePath": "alibaba/nat"
+    "modulePath": "alibaba/nat",
+    "kind": "nat",
+    "dependsOn": [
+      "alibaba/staging/network/example-network.json"
+    ]
   },
   "resources": [
     {
       "type": "nat",
       "name": "example-nat",
-      "description": "Nat example"
+      "description": "Nat example",
+      "role": "primary"
     }
   ]
 }

@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-nova",
-    "description": "Example for Amazon Nova foundation models (API via Bedrock). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"nova\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "production",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "nova"
   },
   "resources": [
     {
       "type": "nova",
       "name": "example-nova",
       "description": "Amazon Nova foundation models (API via Bedrock) example",
-      "service_name": "example-nova"
+      "service_name": "nova",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

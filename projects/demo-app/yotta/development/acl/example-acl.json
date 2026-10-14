@@ -4,15 +4,20 @@
   "region": "ind-west",
   "metadata": {
     "name": "example-acl",
-    "description": "Example for Acl. Module: yotta/acl",
+    "description": "Network control (Unit B): acl. Module: yotta/acl",
     "environment": "development",
-    "modulePath": "yotta/acl"
+    "modulePath": "yotta/acl",
+    "kind": "acl",
+    "dependsOn": [
+      "yotta/development/network/example-network.json"
+    ]
   },
   "resources": [
     {
       "type": "acl",
       "name": "example-acl",
-      "description": "Acl example"
+      "description": "Acl example",
+      "role": "primary"
     }
   ]
 }

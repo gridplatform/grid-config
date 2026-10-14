@@ -4,15 +4,21 @@
   "region": "us-south",
   "metadata": {
     "name": "example-security-group",
-    "description": "Example for Security Group. Module: ibm/security-group",
+    "description": "Network control (Unit B): security-group. Module: ibm/security-group",
     "environment": "development",
-    "modulePath": "ibm/security-group"
+    "modulePath": "ibm/security-group",
+    "kind": "security-group",
+    "dependsOn": [
+      "ibm/development/network/example-network.json"
+    ]
   },
   "resources": [
     {
       "type": "security-group",
       "name": "example-security-group",
-      "description": "Security Group example"
+      "description": "Security Group example",
+      "role": "primary",
+      "vpc": "example-network"
     }
   ]
 }

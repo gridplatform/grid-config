@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "storage",
+      "type": "storage-account",
       "name": "example-storage",
       "description": "Storage account example",
       "storage_account_name": "example-storage",

@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "azure-openai",
+      "type": "openai",
       "name": "example-azure-openai",
       "description": "Azure OpenAI example",
       "resource_group_name": "example-azure-openai",

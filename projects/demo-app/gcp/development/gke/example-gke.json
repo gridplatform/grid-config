@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "gke",
+      "type": "kubernetes-engine",
       "name": "example-gke",
       "description": "GKE control plane (leave node_pools empty; use gke-node-pool units)",
       "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",

@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "azure-ml",
+      "type": "machine-learning",
       "name": "example-azure-ml",
       "description": "Azure Machine Learning workspace example",
       "resource_group_name": "example-azure-ml",

@@ -4,9 +4,10 @@
   "region": "eastus",
   "metadata": {
     "name": "example-language",
-    "description": "Example for Azure Language. Module: azure/cognitive-services",
+    "description": "API peer unit: catalog type \"language\" \u2192 shared module azure/cognitive-services. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "development",
-    "modulePath": "azure/cognitive-services"
+    "modulePath": "azure/cognitive-services",
+    "kind": "language"
   },
   "resources": [
     {
@@ -15,7 +16,8 @@
       "description": "Azure Language example",
       "resource_group_name": "example-language",
       "location": "eastus",
-      "kind": "REPLACE_KIND"
+      "kind": "TextAnalytics",
+      "role": "primary"
     }
   ]
 }

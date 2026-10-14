@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "vm",
+      "type": "virtual-machine",
       "name": "bastion",
       "description": "Bastion host VM",
       "machineType": "REPLACE_MACHINE_TYPE",

@@ -4,15 +4,19 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-vision-ai",
-    "description": "Example for Vision Ai. Module: gcp/vision-ai",
+    "description": "API peer unit: catalog type \"vision-ai\" \u2192 shared module gcp/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "development",
-    "modulePath": "gcp/vision-ai"
+    "modulePath": "gcp/ai-api",
+    "kind": "vision-ai"
   },
   "resources": [
     {
       "type": "vision-ai",
       "name": "example-vision-ai",
-      "description": "Vision Ai example"
+      "description": "Vision Ai example",
+      "role": "primary",
+      "service_name": "vision-ai",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT"
     }
   ]
 }

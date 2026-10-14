@@ -4,9 +4,10 @@
   "region": "eastus",
   "metadata": {
     "name": "example-content-safety",
-    "description": "Example for Azure Content Safety. Module: azure/cognitive-services",
+    "description": "API peer unit: catalog type \"content-safety\" \u2192 shared module azure/cognitive-services. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "development",
-    "modulePath": "azure/cognitive-services"
+    "modulePath": "azure/cognitive-services",
+    "kind": "content-safety"
   },
   "resources": [
     {
@@ -15,7 +16,8 @@
       "description": "Azure Content Safety example",
       "resource_group_name": "example-content-safety",
       "location": "eastus",
-      "kind": "REPLACE_KIND"
+      "kind": "ContentSafety",
+      "role": "primary"
     }
   ]
 }

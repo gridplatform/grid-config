@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-textract",
-    "description": "Example for Amazon Textract (API). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"textract\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "staging",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "textract"
   },
   "resources": [
     {
       "type": "textract",
       "name": "example-textract",
       "description": "Amazon Textract (API) example",
-      "service_name": "example-textract"
+      "service_name": "textract",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

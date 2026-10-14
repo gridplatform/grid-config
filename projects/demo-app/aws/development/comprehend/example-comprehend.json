@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-comprehend",
-    "description": "Example for Amazon Comprehend (API). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"comprehend\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "development",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "comprehend"
   },
   "resources": [
     {
       "type": "comprehend",
       "name": "example-comprehend",
       "description": "Amazon Comprehend (API) example",
-      "service_name": "example-comprehend"
+      "service_name": "comprehend",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

@@ -4,15 +4,20 @@
   "region": "cn-north-4",
   "metadata": {
     "name": "example-network-acl",
-    "description": "Example for Network Acl. Module: huawei/network-acl",
+    "description": "Network control (Unit B): network-acl. Module: huawei/network-acl",
     "environment": "production",
-    "modulePath": "huawei/network-acl"
+    "modulePath": "huawei/network-acl",
+    "kind": "network-acl",
+    "dependsOn": [
+      "huawei/production/network/example-network.json"
+    ]
   },
   "resources": [
     {
       "type": "network-acl",
       "name": "example-network-acl",
-      "description": "Network Acl example"
+      "description": "Network Acl example",
+      "role": "primary"
     }
   ]
 }

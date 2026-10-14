@@ -4,15 +4,19 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-natural-language",
-    "description": "Example for Natural Language. Module: gcp/natural-language",
+    "description": "API peer unit: catalog type \"natural-language\" \u2192 shared module gcp/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "staging",
-    "modulePath": "gcp/natural-language"
+    "modulePath": "gcp/ai-api",
+    "kind": "natural-language"
   },
   "resources": [
     {
       "type": "natural-language",
       "name": "example-natural-language",
-      "description": "Natural Language example"
+      "description": "Natural Language example",
+      "role": "primary",
+      "service_name": "natural-language",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING"
     }
   ]
 }

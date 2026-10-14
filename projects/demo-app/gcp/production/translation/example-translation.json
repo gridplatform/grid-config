@@ -4,15 +4,19 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-translation",
-    "description": "Example for Translation. Module: gcp/translation",
+    "description": "API peer unit: catalog type \"translation\" \u2192 shared module gcp/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "production",
-    "modulePath": "gcp/translation"
+    "modulePath": "gcp/ai-api",
+    "kind": "translation"
   },
   "resources": [
     {
       "type": "translation",
       "name": "example-translation",
-      "description": "Translation example"
+      "description": "Translation example",
+      "role": "primary",
+      "service_name": "translation",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION"
     }
   ]
 }

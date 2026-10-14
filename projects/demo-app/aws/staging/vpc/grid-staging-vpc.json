@@ -4,17 +4,18 @@
   "region": "us-east-1",
   "metadata": {
     "name": "grid-staging-vpc",
-    "description": "Dedicated VPC for Grid staging platform (EKS + EC2)",
+    "description": "Network fabric (Unit A): vpc + subnets. Module: aws/vpc",
     "environment": "staging",
-    "kind": "vpc"
+    "kind": "vpc",
+    "modulePath": "aws/vpc"
   },
   "resources": [
     {
       "type": "vpc",
       "name": "grid-staging-vpc",
-      "cidr": "10.50.0.0/16",
-      "description": "Staging platform VPC",
-      "role": "primary"
+      "description": "vpc fabric",
+      "role": "primary",
+      "cidr": "10.50.0.0/16"
     },
     {
       "type": "subnet",

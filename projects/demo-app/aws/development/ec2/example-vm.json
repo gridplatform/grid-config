@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "vm",
+      "type": "ec2-instance",
       "name": "example-vm",
       "description": "EC2 instance example",
       "machineType": "REPLACE_MACHINE_TYPE",

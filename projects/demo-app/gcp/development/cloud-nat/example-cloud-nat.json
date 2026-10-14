@@ -4,9 +4,13 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-cloud-nat",
-    "description": "Example for Cloud NAT. Module: gcp/cloud-nat",
+    "description": "Network control (Unit B): cloud-nat. Module: gcp/cloud-nat",
     "environment": "development",
-    "modulePath": "gcp/cloud-nat"
+    "modulePath": "gcp/cloud-nat",
+    "kind": "cloud-nat",
+    "dependsOn": [
+      "gcp/development/vpc/example-vpc.json"
+    ]
   },
   "resources": [
     {
@@ -15,7 +19,8 @@
       "description": "Cloud NAT example",
       "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
       "region": "us-central1",
-      "router": "REPLACE_ROUTER"
+      "router": "REPLACE_ROUTER",
+      "role": "primary"
     }
   ]
 }

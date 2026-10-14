@@ -4,16 +4,19 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-video-ai",
-    "description": "Example for Video Intelligence API. Module: gcp/ai-api",
+    "description": "API peer unit: catalog type \"video-ai\" \u2192 shared module gcp/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "development",
-    "modulePath": "gcp/ai-api"
+    "modulePath": "gcp/ai-api",
+    "kind": "video-ai"
   },
   "resources": [
     {
       "type": "video-ai",
       "name": "example-video-ai",
       "description": "Video Intelligence API example",
-      "service_name": "example-video-ai"
+      "service_name": "video-ai",
+      "role": "primary",
+      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT"
     }
   ]
 }

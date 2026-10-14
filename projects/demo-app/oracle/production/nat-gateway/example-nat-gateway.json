@@ -4,15 +4,20 @@
   "region": "us-ashburn-1",
   "metadata": {
     "name": "example-nat-gateway",
-    "description": "Example for Nat Gateway. Module: oracle/nat-gateway",
+    "description": "Network control (Unit B): nat-gateway. Module: oracle/nat-gateway",
     "environment": "production",
-    "modulePath": "oracle/nat-gateway"
+    "modulePath": "oracle/nat-gateway",
+    "kind": "nat-gateway",
+    "dependsOn": [
+      "oracle/production/network/example-network.json"
+    ]
   },
   "resources": [
     {
       "type": "nat-gateway",
       "name": "example-nat-gateway",
-      "description": "Nat Gateway example"
+      "description": "Nat Gateway example",
+      "role": "primary"
     }
   ]
 }

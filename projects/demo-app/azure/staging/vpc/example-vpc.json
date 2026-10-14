@@ -4,16 +4,38 @@
   "region": "eastus",
   "metadata": {
     "name": "example-vpc",
-    "description": "Example for Virtual network. Module: azure/network",
+    "description": "Network fabric (Unit A): network + subnets. Module: azure/network",
     "environment": "staging",
-    "modulePath": "azure/network"
+    "modulePath": "azure/network",
+    "kind": "network"
   },
   "resources": [
     {
-      "type": "vpc",
+      "type": "network",
       "name": "example-vpc",
-      "description": "Virtual network example",
-      "cidr": "10.90.0.0/16"
+      "description": "network fabric",
+      "role": "primary",
+      "address_space": [
+        "30.10.0.0/16"
+      ]
+    },
+    {
+      "type": "subnet",
+      "name": "example-vpc-public",
+      "vpc": "example-vpc",
+      "cidr": "30.10.1.0/24",
+      "region": "eastus",
+      "description": "Public subnet",
+      "role": "support"
+    },
+    {
+      "type": "subnet",
+      "name": "example-vpc-private",
+      "vpc": "example-vpc",
+      "cidr": "30.10.2.0/24",
+      "region": "eastus",
+      "description": "Private subnet",
+      "role": "support"
     }
   ]
 }

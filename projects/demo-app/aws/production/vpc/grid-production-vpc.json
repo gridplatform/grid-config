@@ -4,17 +4,18 @@
   "region": "us-east-1",
   "metadata": {
     "name": "grid-production-vpc",
-    "description": "Dedicated VPC for Grid production platform (EKS + EC2)",
+    "description": "Network fabric (Unit A): vpc + subnets. Module: aws/vpc",
     "environment": "production",
-    "kind": "vpc"
+    "kind": "vpc",
+    "modulePath": "aws/vpc"
   },
   "resources": [
     {
       "type": "vpc",
       "name": "grid-production-vpc",
-      "cidr": "10.60.0.0/16",
-      "description": "Production platform VPC",
-      "role": "primary"
+      "description": "vpc fabric",
+      "role": "primary",
+      "cidr": "10.60.0.0/16"
     },
     {
       "type": "subnet",

@@ -4,15 +4,20 @@
   "region": "eastus",
   "metadata": {
     "name": "example-nat-gateway",
-    "description": "Example for Nat Gateway. Module: azure/nat-gateway",
+    "description": "Network control (Unit B): nat-gateway. Module: azure/nat-gateway",
     "environment": "staging",
-    "modulePath": "azure/nat-gateway"
+    "modulePath": "azure/nat-gateway",
+    "kind": "nat-gateway",
+    "dependsOn": [
+      "azure/staging/vpc/example-vpc.json"
+    ]
   },
   "resources": [
     {
       "type": "nat-gateway",
       "name": "example-nat-gateway",
-      "description": "Nat Gateway example"
+      "description": "Nat Gateway example",
+      "role": "primary"
     }
   ]
 }

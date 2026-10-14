@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-lookout-vision",
-    "description": "Example for Amazon Lookout for Vision (API). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"lookout-vision\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "development",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "lookout-vision"
   },
   "resources": [
     {
       "type": "lookout-vision",
       "name": "example-lookout-vision",
       "description": "Amazon Lookout for Vision (API) example",
-      "service_name": "example-lookout-vision"
+      "service_name": "lookout-vision",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

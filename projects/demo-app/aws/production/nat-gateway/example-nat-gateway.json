@@ -4,15 +4,20 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-nat-gateway",
-    "description": "Example for Nat Gateway. Module: aws/nat-gateway",
+    "description": "Network control (Unit B): nat-gateway. Module: aws/nat-gateway",
     "environment": "production",
-    "modulePath": "aws/nat-gateway"
+    "modulePath": "aws/nat-gateway",
+    "kind": "nat-gateway",
+    "dependsOn": [
+      "aws/production/vpc/example-vpc.json"
+    ]
   },
   "resources": [
     {
       "type": "nat-gateway",
       "name": "example-nat-gateway",
-      "description": "Nat Gateway example"
+      "description": "Nat Gateway example",
+      "role": "primary"
     }
   ]
 }

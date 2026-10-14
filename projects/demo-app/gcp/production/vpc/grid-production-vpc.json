@@ -4,23 +4,25 @@
   "region": "us-central1",
   "metadata": {
     "name": "grid-production-vpc",
-    "description": "Dedicated VPC for Grid production platform (GKE + VM)",
+    "description": "Network fabric (Unit A): network + subnets. Module: gcp/network",
     "environment": "production",
-    "kind": "vpc"
+    "kind": "network",
+    "modulePath": "gcp/network"
   },
   "resources": [
     {
-      "type": "vpc",
+      "type": "network",
       "name": "grid-production-vpc",
-      "cidr": "10.30.0.0/16",
-      "description": "Production platform VPC",
-      "role": "primary"
+      "description": "network fabric",
+      "role": "primary",
+      "network_name": "grid-production-vpc",
+      "project_id": "REPLACE_GCP_PROJECT_PRODUCTION"
     },
     {
       "type": "subnet",
       "name": "grid-production-nodes",
       "vpc": "grid-production-vpc",
-      "cidr": "10.30.0.0/20",
+      "cidr": "20.20.0.0/24",
       "region": "us-central1",
       "description": "Private GKE nodes subnet; secondary ranges pods=10.30.64.0/18 services=10.30.128.0/20",
       "role": "support"
@@ -29,7 +31,7 @@
       "type": "subnet",
       "name": "grid-production-public",
       "vpc": "grid-production-vpc",
-      "cidr": "10.30.16.0/24",
+      "cidr": "20.20.1.0/24",
       "region": "us-central1",
       "description": "Public subnet for Compute Engine VM",
       "role": "support"

@@ -4,15 +4,36 @@
   "region": "cn-hangzhou",
   "metadata": {
     "name": "example-network",
-    "description": "Example for VPC. Module: alibaba/network",
+    "description": "Network fabric (Unit A): network + subnets. Module: alibaba/network",
     "environment": "staging",
-    "modulePath": "alibaba/network"
+    "modulePath": "alibaba/network",
+    "kind": "network"
   },
   "resources": [
     {
       "type": "network",
       "name": "example-network",
-      "description": "VPC example"
+      "description": "network fabric",
+      "role": "primary",
+      "cidr": "60.10.0.0/16"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-public",
+      "vpc": "example-network",
+      "cidr": "60.10.1.0/24",
+      "region": "cn-hangzhou",
+      "description": "Public subnet",
+      "role": "support"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-private",
+      "vpc": "example-network",
+      "cidr": "60.10.2.0/24",
+      "region": "cn-hangzhou",
+      "description": "Private subnet",
+      "role": "support"
     }
   ]
 }

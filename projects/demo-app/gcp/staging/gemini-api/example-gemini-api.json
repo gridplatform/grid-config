@@ -4,16 +4,19 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-gemini-api",
-    "description": "Example for Gemini / Model Garden APIs (via Vertex). Module: gcp/ai-api",
+    "description": "API peer unit: catalog type \"gemini-api\" \u2192 shared module gcp/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "staging",
-    "modulePath": "gcp/ai-api"
+    "modulePath": "gcp/ai-api",
+    "kind": "gemini-api"
   },
   "resources": [
     {
       "type": "gemini-api",
       "name": "example-gemini-api",
       "description": "Gemini / Model Garden APIs (via Vertex) example",
-      "service_name": "example-gemini-api"
+      "service_name": "gemini-api",
+      "role": "primary",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING"
     }
   ]
 }

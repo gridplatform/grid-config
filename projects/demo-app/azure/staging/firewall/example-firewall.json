@@ -4,15 +4,20 @@
   "region": "eastus",
   "metadata": {
     "name": "example-firewall",
-    "description": "Example for Firewall. Module: azure/firewall",
+    "description": "Network control (Unit B): firewall. Module: azure/firewall",
     "environment": "staging",
-    "modulePath": "azure/firewall"
+    "modulePath": "azure/firewall",
+    "kind": "firewall",
+    "dependsOn": [
+      "azure/staging/vpc/example-vpc.json"
+    ]
   },
   "resources": [
     {
       "type": "firewall",
       "name": "example-firewall",
-      "description": "Firewall example"
+      "description": "Firewall example",
+      "role": "primary"
     }
   ]
 }

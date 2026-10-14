@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "redis",
+      "type": "redis-cache",
       "name": "example-redis",
       "description": "Redis Cache example",
       "resource_group_name": "example-redis",

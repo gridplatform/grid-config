@@ -4,18 +4,29 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-route",
-    "description": "Example for Custom routes (folded into network). Module: gcp/network",
+    "description": "Network control (Unit B): route. Module: gcp/route",
     "environment": "development",
-    "modulePath": "gcp/network"
+    "modulePath": "gcp/route",
+    "dependsOn": [
+      "gcp/development/vpc/example-vpc.json"
+    ],
+    "kind": "route"
   },
   "resources": [
     {
       "type": "route",
       "name": "example-route",
-      "description": "Custom routes (folded into network) example",
+      "description": "Custom VPC route example",
       "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
-      "network_name": "example-route",
-      "subnets": []
+      "network": "example-vpc",
+      "routes": [
+        {
+          "name": "example-route",
+          "dest_range": "0.0.0.0/0",
+          "next_hop_gateway": "default-internet-gateway"
+        }
+      ],
+      "role": "primary"
     }
   ]
 }

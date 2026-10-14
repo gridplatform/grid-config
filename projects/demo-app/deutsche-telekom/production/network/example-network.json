@@ -4,15 +4,36 @@
   "region": "eu-de",
   "metadata": {
     "name": "example-network",
-    "description": "Example for VPC / network. Module: deutsche-telekom/network",
+    "description": "Network fabric (Unit A): network + subnets. Module: deutsche-telekom/network",
     "environment": "production",
-    "modulePath": "deutsche-telekom/network"
+    "modulePath": "deutsche-telekom/network",
+    "kind": "network"
   },
   "resources": [
     {
       "type": "network",
       "name": "example-network",
-      "description": "VPC / network example"
+      "description": "network fabric",
+      "role": "primary",
+      "cidr": "100.20.0.0/16"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-public",
+      "vpc": "example-network",
+      "cidr": "100.20.1.0/24",
+      "region": "eu-de",
+      "description": "Public subnet",
+      "role": "support"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-private",
+      "vpc": "example-network",
+      "cidr": "100.20.2.0/24",
+      "region": "eu-de",
+      "description": "Private subnet",
+      "role": "support"
     }
   ]
 }

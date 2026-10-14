@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-q-business",
-    "description": "Example for Amazon Q Business (API). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"q-business\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "production",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "q-business"
   },
   "resources": [
     {
       "type": "q-business",
       "name": "example-q-business",
       "description": "Amazon Q Business (API) example",
-      "service_name": "example-q-business"
+      "service_name": "q-business",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

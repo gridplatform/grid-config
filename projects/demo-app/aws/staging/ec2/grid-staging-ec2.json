@@ -6,16 +6,22 @@
     "name": "grid-staging-ec2",
     "description": "EC2 instance on staging platform VPC",
     "environment": "staging",
-    "dependsOn": ["aws/staging/vpc/grid-staging-vpc.json"]
+    "dependsOn": [
+      "aws/staging/vpc/grid-staging-vpc.json"
+    ]
   },
   "resources": [
     {
-      "type": "vm",
+      "type": "ec2-instance",
       "name": "grid-staging-ec2",
       "machineType": "t3.small",
       "subnet": "grid-staging-public",
       "diskSize": 30,
-      "tags": ["grid", "ec2", "staging"],
+      "tags": [
+        "grid",
+        "ec2",
+        "staging"
+      ],
       "description": "Test / jump EC2 (logical subnet ref to vpc stack)"
     }
   ]

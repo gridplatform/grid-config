@@ -4,15 +4,36 @@
   "region": "GRA7",
   "metadata": {
     "name": "example-network",
-    "description": "Example for Private network. Module: ovh/network",
+    "description": "Network fabric (Unit A): network + subnets. Module: ovh/network",
     "environment": "staging",
-    "modulePath": "ovh/network"
+    "modulePath": "ovh/network",
+    "kind": "network"
   },
   "resources": [
     {
       "type": "network",
       "name": "example-network",
-      "description": "Private network example"
+      "description": "network fabric",
+      "role": "primary",
+      "cidr": "90.10.0.0/16"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-public",
+      "vpc": "example-network",
+      "cidr": "90.10.1.0/24",
+      "region": "GRA7",
+      "description": "Public subnet",
+      "role": "support"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-private",
+      "vpc": "example-network",
+      "cidr": "90.10.2.0/24",
+      "region": "GRA7",
+      "description": "Private subnet",
+      "role": "support"
     }
   ]
 }

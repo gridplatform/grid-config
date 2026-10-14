@@ -4,17 +4,22 @@
   "region": "eastus",
   "metadata": {
     "name": "example-nsg",
-    "description": "Example for Network security group. Module: azure/network-security-group",
+    "description": "Network control (Unit B): network-security-group. Module: azure/network-security-group",
     "environment": "production",
-    "modulePath": "azure/network-security-group"
+    "modulePath": "azure/network-security-group",
+    "kind": "network-security-group",
+    "dependsOn": [
+      "azure/production/vpc/example-vpc.json"
+    ]
   },
   "resources": [
     {
-      "type": "nsg",
+      "type": "network-security-group",
       "name": "example-nsg",
       "description": "Network security group example",
       "resource_group_name": "example-nsg",
-      "location": "eastus"
+      "location": "eastus",
+      "role": "primary"
     }
   ]
 }

@@ -4,20 +4,18 @@
   "region": "us-east-1",
   "metadata": {
     "name": "grid-labs-vpc",
-    "description": "Cheap public-only VPC (no NAT)",
+    "description": "Network fabric (Unit A): vpc + subnets. Module: aws/vpc",
     "environment": "development",
-    "kind": "vpc"
+    "kind": "vpc",
+    "modulePath": "aws/vpc"
   },
   "resources": [
     {
       "type": "vpc",
       "name": "grid-labs-vpc",
-      "cidr": "10.50.0.0/16",
-      "enable_nat_gateway": false,
-      "private_subnets": [],
-      "map_public_ip_on_launch": true,
-      "description": "Lab VPC",
-      "role": "primary"
+      "description": "vpc fabric",
+      "role": "primary",
+      "cidr": "10.50.0.0/16"
     },
     {
       "type": "subnet",

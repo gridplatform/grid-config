@@ -4,16 +4,19 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-text-to-speech",
-    "description": "Example for Text-to-Speech. Module: gcp/ai-api",
+    "description": "API peer unit: catalog type \"text-to-speech\" \u2192 shared module gcp/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "staging",
-    "modulePath": "gcp/ai-api"
+    "modulePath": "gcp/ai-api",
+    "kind": "text-to-speech"
   },
   "resources": [
     {
       "type": "text-to-speech",
       "name": "example-text-to-speech",
       "description": "Text-to-Speech example",
-      "service_name": "example-text-to-speech"
+      "service_name": "text-to-speech",
+      "role": "primary",
+      "project_id": "REPLACE_GCP_PROJECT_STAGING"
     }
   ]
 }

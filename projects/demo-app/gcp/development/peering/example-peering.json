@@ -4,18 +4,27 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-peering",
-    "description": "Example for VPC peering (folded into network). Module: gcp/network",
+    "description": "Network control (Unit B): peering. Module: gcp/peering",
     "environment": "development",
-    "modulePath": "gcp/network"
+    "modulePath": "gcp/peering",
+    "dependsOn": [
+      "gcp/development/vpc/example-vpc.json"
+    ],
+    "kind": "peering"
   },
   "resources": [
     {
       "type": "peering",
       "name": "example-peering",
-      "description": "VPC peering (folded into network) example",
-      "project_id": "REPLACE_GCP_PROJECT_DEVELOPMENT",
-      "network_name": "example-peering",
-      "subnets": []
+      "description": "VPC peering example",
+      "network": "REPLACE_NETWORK_SELF_LINK",
+      "peerings": [
+        {
+          "name": "example-peering",
+          "peer_network": "REPLACE_PEER_NETWORK_SELF_LINK"
+        }
+      ],
+      "role": "primary"
     }
   ]
 }

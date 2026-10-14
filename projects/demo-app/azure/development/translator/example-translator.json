@@ -4,9 +4,10 @@
   "region": "eastus",
   "metadata": {
     "name": "example-translator",
-    "description": "Example for Azure Translator. Module: azure/cognitive-services",
+    "description": "API peer unit: catalog type \"translator\" \u2192 shared module azure/cognitive-services. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "development",
-    "modulePath": "azure/cognitive-services"
+    "modulePath": "azure/cognitive-services",
+    "kind": "translator"
   },
   "resources": [
     {
@@ -15,7 +16,8 @@
       "description": "Azure Translator example",
       "resource_group_name": "example-translator",
       "location": "eastus",
-      "kind": "REPLACE_KIND"
+      "kind": "TextTranslation",
+      "role": "primary"
     }
   ]
 }

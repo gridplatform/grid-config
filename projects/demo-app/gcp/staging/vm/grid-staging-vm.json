@@ -7,11 +7,13 @@
     "description": "Compute Engine VM instance on staging platform VPC",
     "environment": "staging",
     "serviceAccountEmail": "REPLACE_WITH_SA_EMAIL",
-    "dependsOn": ["gcp/staging/vpc/grid-staging-vpc.json"]
+    "dependsOn": [
+      "gcp/staging/vpc/grid-staging-vpc.json"
+    ]
   },
   "resources": [
     {
-      "type": "vm",
+      "type": "compute-engine-instance",
       "name": "grid-staging-vm",
       "machineType": "e2-medium",
       "zone": "us-central1-a",
@@ -19,7 +21,11 @@
       "image": "ubuntu-os-cloud/ubuntu-2204-lts",
       "diskSize": 30,
       "diskType": "pd-balanced",
-      "tags": ["grid", "vm", "staging"],
+      "tags": [
+        "grid",
+        "vm",
+        "staging"
+      ],
       "description": "Test / jump VM (logical subnet ref to vpc stack)"
     }
   ]

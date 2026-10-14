@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "dynamodb",
+      "type": "dynamodb-table",
       "name": "example-dynamodb",
       "description": "DynamoDB example",
       "hash_key": "REPLACE_HASH_KEY",

@@ -4,15 +4,36 @@
   "region": "cn-north-4",
   "metadata": {
     "name": "example-network",
-    "description": "Example for VPC. Module: huawei/network",
+    "description": "Network fabric (Unit A): network + subnets. Module: huawei/network",
     "environment": "development",
-    "modulePath": "huawei/network"
+    "modulePath": "huawei/network",
+    "kind": "network"
   },
   "resources": [
     {
       "type": "network",
       "name": "example-network",
-      "description": "VPC example"
+      "description": "network fabric",
+      "role": "primary",
+      "cidr": "80.0.0.0/16"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-public",
+      "vpc": "example-network",
+      "cidr": "80.0.1.0/24",
+      "region": "cn-north-4",
+      "description": "Public subnet",
+      "role": "support"
+    },
+    {
+      "type": "subnet",
+      "name": "example-network-private",
+      "vpc": "example-network",
+      "cidr": "80.0.2.0/24",
+      "region": "cn-north-4",
+      "description": "Private subnet",
+      "role": "support"
     }
   ]
 }

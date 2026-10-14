@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-translate",
-    "description": "Example for Amazon Translate (API). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"translate\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "development",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "translate"
   },
   "resources": [
     {
       "type": "translate",
       "name": "example-translate",
       "description": "Amazon Translate (API) example",
-      "service_name": "example-translate"
+      "service_name": "translate",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

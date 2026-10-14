@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "gcs",
+      "type": "cloud-storage",
       "name": "example-gcs",
       "description": "Cloud Storage example",
       "project_id": "REPLACE_GCP_PROJECT_PRODUCTION",

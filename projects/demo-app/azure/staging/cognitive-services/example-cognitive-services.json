@@ -4,9 +4,10 @@
   "region": "eastus",
   "metadata": {
     "name": "example-cognitive-services",
-    "description": "Example for Azure AI Services / Foundry Tools account. Module: azure/cognitive-services",
+    "description": "API peer unit: catalog type \"cognitive-services\" \u2192 shared module azure/cognitive-services. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "staging",
-    "modulePath": "azure/cognitive-services"
+    "modulePath": "azure/cognitive-services",
+    "kind": "cognitive-services"
   },
   "resources": [
     {
@@ -15,7 +16,8 @@
       "description": "Azure AI Services / Foundry Tools account example",
       "resource_group_name": "example-cognitive-services",
       "location": "eastus",
-      "kind": "REPLACE_KIND"
+      "kind": "CognitiveServices",
+      "role": "primary"
     }
   ]
 }

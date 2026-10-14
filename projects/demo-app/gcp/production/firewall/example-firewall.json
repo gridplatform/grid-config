@@ -4,18 +4,39 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-firewall",
-    "description": "Example for Firewall rules (folded into network). Module: gcp/network",
+    "description": "Network control (Unit B): firewall. Module: gcp/firewall",
     "environment": "production",
-    "modulePath": "gcp/network"
+    "modulePath": "gcp/firewall",
+    "dependsOn": [
+      "gcp/production/vpc/example-vpc.json"
+    ],
+    "kind": "firewall"
   },
   "resources": [
     {
       "type": "firewall",
       "name": "example-firewall",
-      "description": "Firewall rules (folded into network) example",
+      "description": "VPC firewall rules example",
       "project_id": "REPLACE_GCP_PROJECT_PRODUCTION",
-      "network_name": "example-firewall",
-      "subnets": []
+      "network": "example-vpc",
+      "ingress_rules": [
+        {
+          "name": "example-firewall-allow-ssh",
+          "source_ranges": [
+            "0.0.0.0/0"
+          ],
+          "allow": [
+            {
+              "protocol": "tcp",
+              "ports": [
+                "22"
+              ]
+            }
+          ]
+        }
+      ],
+      "egress_rules": [],
+      "role": "primary"
     }
   ]
 }

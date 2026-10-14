@@ -10,7 +10,7 @@
   },
   "resources": [
     {
-      "type": "vm",
+      "type": "virtual-machine",
       "name": "example-vm",
       "description": "Virtual machine example",
       "machineType": "REPLACE_MACHINE_TYPE",

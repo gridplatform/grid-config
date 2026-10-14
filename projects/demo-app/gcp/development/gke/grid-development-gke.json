@@ -6,13 +6,15 @@
     "name": "grid-development-gke",
     "description": "GKE cluster with on-demand, spot, and GPU node pools (development)",
     "environment": "development",
-    "dependsOn": ["gcp/development/vpc/grid-development-vpc.json"]
+    "dependsOn": [
+      "gcp/development/vpc/grid-development-vpc.json"
+    ]
   },
   "resources": [
     {
-      "type": "gke",
+      "type": "kubernetes-engine",
       "name": "grid-development-gke",
-      "description": "Development GKE — private nodes, three node pools",
+      "description": "Development GKE \u2014 private nodes, three node pools",
       "cluster_name": "grid-development-gke",
       "vpc": "grid-development-vpc",
       "subnet": "grid-development-nodes",
@@ -30,7 +32,10 @@
           "node_lifecycle": "ON_DEMAND",
           "min_nodes": 0,
           "max_nodes": 3,
-          "zones": ["us-central1-a", "us-central1-b"],
+          "zones": [
+            "us-central1-a",
+            "us-central1-b"
+          ],
           "labels": {
             "pool": "ondemand",
             "environment": "development"
@@ -43,7 +48,10 @@
           "node_lifecycle": "SPOT",
           "min_nodes": 0,
           "max_nodes": 3,
-          "zones": ["us-central1-a", "us-central1-b"],
+          "zones": [
+            "us-central1-a",
+            "us-central1-b"
+          ],
           "labels": {
             "pool": "spot",
             "environment": "development"
@@ -63,7 +71,9 @@
           "node_lifecycle": "ON_DEMAND",
           "min_nodes": 0,
           "max_nodes": 2,
-          "zones": ["us-central1-a"],
+          "zones": [
+            "us-central1-a"
+          ],
           "labels": {
             "pool": "gpu",
             "environment": "development"

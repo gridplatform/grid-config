@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-forecast",
-    "description": "Example for Amazon Forecast (API). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"forecast\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "production",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "forecast"
   },
   "resources": [
     {
       "type": "forecast",
       "name": "example-forecast",
       "description": "Amazon Forecast (API) example",
-      "service_name": "example-forecast"
+      "service_name": "forecast",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

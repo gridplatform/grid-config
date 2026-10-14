@@ -11,7 +11,7 @@
   },
   "resources": [
     {
-      "type": "vm",
+      "type": "compute-engine-instance",
       "name": "example-vm",
       "description": "Compute Engine VM example",
       "machineType": "REPLACE_MACHINE_TYPE",

@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-transcribe",
-    "description": "Example for Amazon Transcribe (API). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"transcribe\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "staging",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "transcribe"
   },
   "resources": [
     {
       "type": "transcribe",
       "name": "example-transcribe",
       "description": "Amazon Transcribe (API) example",
-      "service_name": "example-transcribe"
+      "service_name": "transcribe",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

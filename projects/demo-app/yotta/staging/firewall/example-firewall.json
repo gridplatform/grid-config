@@ -4,15 +4,20 @@
   "region": "ind-west",
   "metadata": {
     "name": "example-firewall",
-    "description": "Example for Firewall. Module: yotta/firewall",
+    "description": "Network control (Unit B): firewall. Module: yotta/firewall",
     "environment": "staging",
-    "modulePath": "yotta/firewall"
+    "modulePath": "yotta/firewall",
+    "kind": "firewall",
+    "dependsOn": [
+      "yotta/staging/network/example-network.json"
+    ]
   },
   "resources": [
     {
       "type": "firewall",
       "name": "example-firewall",
-      "description": "Firewall example"
+      "description": "Firewall example",
+      "role": "primary"
     }
   ]
 }

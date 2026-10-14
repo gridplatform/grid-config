@@ -6,13 +6,15 @@
     "name": "grid-staging-gke",
     "description": "GKE cluster with on-demand, spot, and GPU node pools (staging)",
     "environment": "staging",
-    "dependsOn": ["gcp/staging/vpc/grid-staging-vpc.json"]
+    "dependsOn": [
+      "gcp/staging/vpc/grid-staging-vpc.json"
+    ]
   },
   "resources": [
     {
-      "type": "gke",
+      "type": "kubernetes-engine",
       "name": "grid-staging-gke",
-      "description": "Staging GKE — private nodes, three node pools",
+      "description": "Staging GKE \u2014 private nodes, three node pools",
       "cluster_name": "grid-staging-gke",
       "vpc": "grid-staging-vpc",
       "subnet": "grid-staging-nodes",
@@ -30,7 +32,10 @@
           "node_lifecycle": "ON_DEMAND",
           "min_nodes": 1,
           "max_nodes": 5,
-          "zones": ["us-central1-a", "us-central1-b"],
+          "zones": [
+            "us-central1-a",
+            "us-central1-b"
+          ],
           "labels": {
             "pool": "ondemand",
             "environment": "staging"
@@ -43,7 +48,10 @@
           "node_lifecycle": "SPOT",
           "min_nodes": 0,
           "max_nodes": 5,
-          "zones": ["us-central1-a", "us-central1-b"],
+          "zones": [
+            "us-central1-a",
+            "us-central1-b"
+          ],
           "labels": {
             "pool": "spot",
             "environment": "staging"
@@ -63,7 +71,9 @@
           "node_lifecycle": "ON_DEMAND",
           "min_nodes": 0,
           "max_nodes": 2,
-          "zones": ["us-central1-a"],
+          "zones": [
+            "us-central1-a"
+          ],
           "labels": {
             "pool": "gpu",
             "environment": "staging"

@@ -4,15 +4,20 @@
   "region": "us-south",
   "metadata": {
     "name": "example-public-gateway",
-    "description": "Example for Public Gateway. Module: ibm/public-gateway",
+    "description": "Network control (Unit B): public-gateway. Module: ibm/public-gateway",
     "environment": "production",
-    "modulePath": "ibm/public-gateway"
+    "modulePath": "ibm/public-gateway",
+    "kind": "public-gateway",
+    "dependsOn": [
+      "ibm/production/network/example-network.json"
+    ]
   },
   "resources": [
     {
       "type": "public-gateway",
       "name": "example-public-gateway",
-      "description": "Public Gateway example"
+      "description": "Public Gateway example",
+      "role": "primary"
     }
   ]
 }

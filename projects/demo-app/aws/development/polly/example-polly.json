@@ -4,16 +4,19 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-polly",
-    "description": "Example for Amazon Polly (API). Module: aws/ai-api",
+    "description": "API peer unit: catalog type \"polly\" \u2192 shared module aws/ai-api. Not an enable/disable flag; invoke via cloud API/SDK (or Azure cognitive account).",
     "environment": "development",
-    "modulePath": "aws/ai-api"
+    "modulePath": "aws/ai-api",
+    "kind": "polly"
   },
   "resources": [
     {
       "type": "polly",
       "name": "example-polly",
       "description": "Amazon Polly (API) example",
-      "service_name": "example-polly"
+      "service_name": "polly",
+      "role": "primary",
+      "region": "us-east-1"
     }
   ]
 }

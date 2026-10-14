@@ -9,11 +9,11 @@
     "dependsOn": [
       "aws/development/vpc/grid-labs-vpc.json"
     ],
-    "kind": "vm"
+    "kind": "ec2-instance"
   },
   "resources": [
     {
-      "type": "vm",
+      "type": "ec2-instance",
       "name": "grid-labs-vm",
       "machineType": "t3.micro",
       "subnet": "grid-labs-public",

@@ -14,7 +14,7 @@
     {
       "type": "kubernetes-engine",
       "name": "grid-staging-gke",
-      "description": "Staging GKE \u2014 private nodes, three node pools",
+      "description": "Staging GKE: private nodes, three node pools",
       "cluster_name": "grid-staging-gke",
       "vpc": "grid-staging-vpc",
       "subnet": "grid-staging-nodes",

@@ -4,7 +4,7 @@
   "region": "cn-north-4",
   "metadata": {
     "name": "example-network",
-    "description": "Network fabric (Unit A): network + subnets. Module: huawei/network",
+    "description": "Network fabric: network + subnets. Module: huawei/network",
     "environment": "production",
     "modulePath": "huawei/network",
     "kind": "network"

@@ -4,7 +4,7 @@
   "region": "us-central1",
   "metadata": {
     "name": "grid-staging-vpc",
-    "description": "Network fabric (Unit A): network + subnets. Module: gcp/network",
+    "description": "Network fabric: network + subnets. Module: gcp/network",
     "environment": "staging",
     "kind": "network",
     "modulePath": "gcp/network"

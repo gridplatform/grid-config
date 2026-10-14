@@ -14,7 +14,7 @@
     {
       "type": "kubernetes-engine",
       "name": "grid-production-gke",
-      "description": "Production GKE \u2014 private nodes, three node pools, deletion protection",
+      "description": "Production GKE: private nodes, three node pools, deletion protection",
       "cluster_name": "grid-production-gke",
       "vpc": "grid-production-vpc",
       "subnet": "grid-production-nodes",

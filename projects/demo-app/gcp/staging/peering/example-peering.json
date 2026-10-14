@@ -4,7 +4,7 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-peering",
-    "description": "Network control (Unit B): peering. Module: gcp/peering",
+    "description": "Network control: peering. Module: gcp/peering",
     "environment": "staging",
     "modulePath": "gcp/peering",
     "dependsOn": [

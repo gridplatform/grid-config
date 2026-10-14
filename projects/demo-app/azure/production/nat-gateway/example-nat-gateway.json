@@ -4,7 +4,7 @@
   "region": "eastus",
   "metadata": {
     "name": "example-nat-gateway",
-    "description": "Network control (Unit B): nat-gateway. Module: azure/nat-gateway",
+    "description": "Network control: nat-gateway. Module: azure/nat-gateway",
     "environment": "production",
     "modulePath": "azure/nat-gateway",
     "kind": "nat-gateway",

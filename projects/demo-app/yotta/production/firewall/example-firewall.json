@@ -4,7 +4,7 @@
   "region": "ind-west",
   "metadata": {
     "name": "example-firewall",
-    "description": "Network control (Unit B): firewall. Module: yotta/firewall",
+    "description": "Network control: firewall. Module: yotta/firewall",
     "environment": "production",
     "modulePath": "yotta/firewall",
     "kind": "firewall",

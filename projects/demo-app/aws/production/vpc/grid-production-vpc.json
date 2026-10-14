@@ -4,7 +4,7 @@
   "region": "us-east-1",
   "metadata": {
     "name": "grid-production-vpc",
-    "description": "Network fabric (Unit A): vpc + subnets. Module: aws/vpc",
+    "description": "Network fabric: vpc + subnets. Module: aws/vpc",
     "environment": "production",
     "kind": "vpc",
     "modulePath": "aws/vpc"

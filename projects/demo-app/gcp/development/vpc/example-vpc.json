@@ -4,7 +4,7 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-vpc",
-    "description": "Network fabric (Unit A): network + subnets. Module: gcp/network",
+    "description": "Network fabric: network + subnets. Module: gcp/network",
     "environment": "development",
     "modulePath": "gcp/network",
     "kind": "network"

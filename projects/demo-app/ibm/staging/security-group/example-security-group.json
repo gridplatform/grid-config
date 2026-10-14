@@ -4,7 +4,7 @@
   "region": "us-south",
   "metadata": {
     "name": "example-security-group",
-    "description": "Network control (Unit B): security-group. Module: ibm/security-group",
+    "description": "Network control: security-group. Module: ibm/security-group",
     "environment": "staging",
     "modulePath": "ibm/security-group",
     "kind": "security-group",

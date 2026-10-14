@@ -4,7 +4,7 @@
   "region": "cn-north-4",
   "metadata": {
     "name": "example-peering",
-    "description": "Network control (Unit B): peering. Module: huawei/peering",
+    "description": "Network control: peering. Module: huawei/peering",
     "environment": "production",
     "modulePath": "huawei/peering",
     "kind": "peering",

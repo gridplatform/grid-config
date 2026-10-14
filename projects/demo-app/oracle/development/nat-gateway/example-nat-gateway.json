@@ -4,7 +4,7 @@
   "region": "us-ashburn-1",
   "metadata": {
     "name": "example-nat-gateway",
-    "description": "Network control (Unit B): nat-gateway. Module: oracle/nat-gateway",
+    "description": "Network control: nat-gateway. Module: oracle/nat-gateway",
     "environment": "development",
     "modulePath": "oracle/nat-gateway",
     "kind": "nat-gateway",

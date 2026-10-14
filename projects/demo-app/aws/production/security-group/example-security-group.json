@@ -4,7 +4,7 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-security-group",
-    "description": "Network control (Unit B): security-group. Module: aws/security-group",
+    "description": "Network control: security-group. Module: aws/security-group",
     "environment": "production",
     "modulePath": "aws/security-group",
     "kind": "security-group",

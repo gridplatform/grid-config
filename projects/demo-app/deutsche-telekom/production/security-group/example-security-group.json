@@ -4,7 +4,7 @@
   "region": "eu-de",
   "metadata": {
     "name": "example-security-group",
-    "description": "Network control (Unit B): security-group. Module: deutsche-telekom/security-group",
+    "description": "Network control: security-group. Module: deutsche-telekom/security-group",
     "environment": "production",
     "modulePath": "deutsche-telekom/security-group",
     "kind": "security-group",

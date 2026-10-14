@@ -4,7 +4,7 @@
   "region": "us-south",
   "metadata": {
     "name": "example-network",
-    "description": "Network fabric (Unit A): network + subnets. Module: ibm/network",
+    "description": "Network fabric: network + subnets. Module: ibm/network",
     "environment": "staging",
     "modulePath": "ibm/network",
     "kind": "network"

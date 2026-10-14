@@ -4,7 +4,7 @@
   "region": "eastus",
   "metadata": {
     "name": "example-vnet-peering",
-    "description": "Network control (Unit B): vnet-peering. Module: azure/vnet-peering",
+    "description": "Network control: vnet-peering. Module: azure/vnet-peering",
     "environment": "staging",
     "modulePath": "azure/vnet-peering",
     "kind": "vnet-peering",

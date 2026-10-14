@@ -4,7 +4,7 @@
   "region": "us-ashburn-1",
   "metadata": {
     "name": "example-network",
-    "description": "Network fabric (Unit A): network + subnets. Module: oracle/network",
+    "description": "Network fabric: network + subnets. Module: oracle/network",
     "environment": "staging",
     "modulePath": "oracle/network",
     "kind": "network"

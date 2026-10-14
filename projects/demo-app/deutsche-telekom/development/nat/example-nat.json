@@ -4,7 +4,7 @@
   "region": "eu-de",
   "metadata": {
     "name": "example-nat",
-    "description": "Network control (Unit B): nat. Module: deutsche-telekom/nat",
+    "description": "Network control: nat. Module: deutsche-telekom/nat",
     "environment": "development",
     "modulePath": "deutsche-telekom/nat",
     "kind": "nat",

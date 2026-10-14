@@ -4,7 +4,7 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-cloud-nat",
-    "description": "Network control (Unit B): cloud-nat. Module: gcp/cloud-nat",
+    "description": "Network control: cloud-nat. Module: gcp/cloud-nat",
     "environment": "staging",
     "modulePath": "gcp/cloud-nat",
     "kind": "cloud-nat",

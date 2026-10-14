@@ -4,7 +4,7 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-route",
-    "description": "Network control (Unit B): route. Module: gcp/route",
+    "description": "Network control: route. Module: gcp/route",
     "environment": "production",
     "modulePath": "gcp/route",
     "dependsOn": [

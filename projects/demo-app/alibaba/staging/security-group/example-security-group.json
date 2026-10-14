@@ -4,7 +4,7 @@
   "region": "cn-hangzhou",
   "metadata": {
     "name": "example-security-group",
-    "description": "Network control (Unit B): security-group. Module: alibaba/security-group",
+    "description": "Network control: security-group. Module: alibaba/security-group",
     "environment": "staging",
     "modulePath": "alibaba/security-group",
     "kind": "security-group",

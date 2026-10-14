@@ -4,7 +4,7 @@
   "region": "eastus",
   "metadata": {
     "name": "example-vpc",
-    "description": "Network fabric (Unit A): network + subnets. Module: azure/network",
+    "description": "Network fabric: network + subnets. Module: azure/network",
     "environment": "production",
     "modulePath": "azure/network",
     "kind": "network"

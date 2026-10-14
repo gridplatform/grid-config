@@ -14,7 +14,7 @@
     {
       "type": "kubernetes-engine",
       "name": "grid-development-gke",
-      "description": "Development GKE \u2014 private nodes, three node pools",
+      "description": "Development GKE: private nodes, three node pools",
       "cluster_name": "grid-development-gke",
       "vpc": "grid-development-vpc",
       "subnet": "grid-development-nodes",

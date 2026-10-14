@@ -4,7 +4,7 @@
   "region": "in-mumbai",
   "metadata": {
     "name": "example-security-group",
-    "description": "Network control (Unit B): security-group. Module: ctrls/security-group",
+    "description": "Network control: security-group. Module: ctrls/security-group",
     "environment": "staging",
     "modulePath": "ctrls/security-group",
     "kind": "security-group",

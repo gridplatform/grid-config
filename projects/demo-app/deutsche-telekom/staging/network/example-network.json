@@ -4,7 +4,7 @@
   "region": "eu-de",
   "metadata": {
     "name": "example-network",
-    "description": "Network fabric (Unit A): network + subnets. Module: deutsche-telekom/network",
+    "description": "Network fabric: network + subnets. Module: deutsche-telekom/network",
     "environment": "staging",
     "modulePath": "deutsche-telekom/network",
     "kind": "network"

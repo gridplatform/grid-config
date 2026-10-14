@@ -4,7 +4,7 @@
   "region": "ap-guangzhou",
   "metadata": {
     "name": "example-network",
-    "description": "Network fabric (Unit A): network + subnets. Module: tencent/network",
+    "description": "Network fabric: network + subnets. Module: tencent/network",
     "environment": "staging",
     "modulePath": "tencent/network",
     "kind": "network"

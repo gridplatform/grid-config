@@ -4,7 +4,7 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-eks-gpu-workers",
-    "description": "Second node pool on the same cluster — own YAML so it can be destroyed alone.",
+    "description": "Second node pool on the same cluster: own YAML so it can be destroyed alone.",
     "environment": "production",
     "modulePath": "aws/eks-node-group",
     "clusterRef": "example-eks"

@@ -4,7 +4,7 @@
   "region": "us-east-1",
   "metadata": {
     "name": "example-vpc",
-    "description": "Network fabric (Unit A): vpc + subnets. Module: aws/vpc",
+    "description": "Network fabric: vpc + subnets. Module: aws/vpc",
     "environment": "production",
     "modulePath": "aws/vpc",
     "kind": "vpc"

@@ -12,7 +12,7 @@
     {
       "type": "eks",
       "name": "grid-development-eks",
-      "description": "Development EKS — three managed node groups",
+      "description": "Development EKS: three managed node groups",
       "cluster_name": "grid-development-eks",
       "vpc": "grid-development-vpc",
       "subnets": [

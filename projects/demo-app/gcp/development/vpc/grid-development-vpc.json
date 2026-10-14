@@ -4,7 +4,7 @@
   "region": "us-central1",
   "metadata": {
     "name": "grid-development-vpc",
-    "description": "Network fabric (Unit A): network + subnets. Module: gcp/network",
+    "description": "Network fabric: network + subnets. Module: gcp/network",
     "environment": "development",
     "kind": "network",
     "modulePath": "gcp/network"

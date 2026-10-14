@@ -4,7 +4,7 @@
   "region": "us-ashburn-1",
   "metadata": {
     "name": "example-nsg",
-    "description": "Network control (Unit B): nsg. Module: oracle/nsg",
+    "description": "Network control: nsg. Module: oracle/nsg",
     "environment": "production",
     "modulePath": "oracle/nsg",
     "kind": "nsg",

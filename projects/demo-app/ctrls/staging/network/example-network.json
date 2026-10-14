@@ -4,7 +4,7 @@
   "region": "in-mumbai",
   "metadata": {
     "name": "example-network",
-    "description": "Network fabric (Unit A): network + subnets. Module: ctrls/network",
+    "description": "Network fabric: network + subnets. Module: ctrls/network",
     "environment": "staging",
     "modulePath": "ctrls/network",
     "kind": "network"

@@ -4,7 +4,7 @@
   "region": "cn-hangzhou",
   "metadata": {
     "name": "example-network",
-    "description": "Network fabric (Unit A): network + subnets. Module: alibaba/network",
+    "description": "Network fabric: network + subnets. Module: alibaba/network",
     "environment": "development",
     "modulePath": "alibaba/network",
     "kind": "network"

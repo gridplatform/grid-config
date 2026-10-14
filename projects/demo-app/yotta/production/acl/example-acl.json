@@ -4,7 +4,7 @@
   "region": "ind-west",
   "metadata": {
     "name": "example-acl",
-    "description": "Network control (Unit B): acl. Module: yotta/acl",
+    "description": "Network control: acl. Module: yotta/acl",
     "environment": "production",
     "modulePath": "yotta/acl",
     "kind": "acl",

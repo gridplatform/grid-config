@@ -4,7 +4,7 @@
   "region": "ind-west",
   "metadata": {
     "name": "example-security-group",
-    "description": "Network control (Unit B): security-group. Module: yotta/security-group",
+    "description": "Network control: security-group. Module: yotta/security-group",
     "environment": "staging",
     "modulePath": "yotta/security-group",
     "kind": "security-group",

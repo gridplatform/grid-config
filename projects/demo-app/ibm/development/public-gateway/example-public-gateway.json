@@ -4,7 +4,7 @@
   "region": "us-south",
   "metadata": {
     "name": "example-public-gateway",
-    "description": "Network control (Unit B): public-gateway. Module: ibm/public-gateway",
+    "description": "Network control: public-gateway. Module: ibm/public-gateway",
     "environment": "development",
     "modulePath": "ibm/public-gateway",
     "kind": "public-gateway",

@@ -4,7 +4,7 @@
   "region": "cn-north-4",
   "metadata": {
     "name": "example-network-acl",
-    "description": "Network control (Unit B): network-acl. Module: huawei/network-acl",
+    "description": "Network control: network-acl. Module: huawei/network-acl",
     "environment": "staging",
     "modulePath": "huawei/network-acl",
     "kind": "network-acl",

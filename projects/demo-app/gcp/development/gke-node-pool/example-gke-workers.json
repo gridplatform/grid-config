@@ -4,7 +4,7 @@
   "region": "us-central1",
   "metadata": {
     "name": "example-gke-workers",
-    "description": "One GKE node pool. Own YAML — destroy without touching the cluster.",
+    "description": "One GKE node pool. Own YAML: destroy without touching the cluster.",
     "environment": "development",
     "modulePath": "gcp/gke-node-pool",
     "clusterRef": "example-gke"

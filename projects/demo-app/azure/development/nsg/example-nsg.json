@@ -4,7 +4,7 @@
   "region": "eastus",
   "metadata": {
     "name": "example-nsg",
-    "description": "Network control (Unit B): network-security-group. Module: azure/network-security-group",
+    "description": "Network control: network-security-group. Module: azure/network-security-group",
     "environment": "development",
     "modulePath": "azure/network-security-group",
     "kind": "network-security-group",

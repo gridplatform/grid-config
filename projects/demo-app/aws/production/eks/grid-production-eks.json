@@ -12,7 +12,7 @@
     {
       "type": "eks",
       "name": "grid-production-eks",
-      "description": "Production EKS — three managed node groups",
+      "description": "Production EKS: three managed node groups",
       "cluster_name": "grid-production-eks",
       "vpc": "grid-production-vpc",
       "subnets": [

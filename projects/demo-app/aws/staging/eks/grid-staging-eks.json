@@ -12,7 +12,7 @@
     {
       "type": "eks",
       "name": "grid-staging-eks",
-      "description": "Staging EKS — three managed node groups",
+      "description": "Staging EKS: three managed node groups",
       "cluster_name": "grid-staging-eks",
       "vpc": "grid-staging-vpc",
       "subnets": [

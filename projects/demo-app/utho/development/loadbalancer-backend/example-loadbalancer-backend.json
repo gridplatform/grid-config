@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-loadbalancer-backend",
+    "description": "Example for loadbalancer-backend. Module: utho/loadbalancer-backend",
+    "environment": "development",
+    "modulePath": "utho/loadbalancer-backend"
+  },
+  "resources": [
+    {
+      "type": "loadbalancer-backend",
+      "name": "example-loadbalancer-backend",
+      "description": "loadbalancer-backend example"
+    }
+  ]
+}

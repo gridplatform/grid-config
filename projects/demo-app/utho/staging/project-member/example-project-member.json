@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-project-member",
+    "description": "Example for project-member. Module: utho/project-member",
+    "environment": "staging",
+    "modulePath": "utho/project-member"
+  },
+  "resources": [
+    {
+      "type": "project-member",
+      "name": "example-project-member",
+      "description": "project-member example"
+    }
+  ]
+}

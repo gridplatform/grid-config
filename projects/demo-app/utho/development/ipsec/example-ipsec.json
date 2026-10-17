@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-ipsec",
+    "description": "Example for ipsec. Module: utho/ipsec",
+    "environment": "development",
+    "modulePath": "utho/ipsec"
+  },
+  "resources": [
+    {
+      "type": "ipsec",
+      "name": "example-ipsec",
+      "description": "ipsec example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "mongodb",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-push-based-log-export",
+    "description": "Example for push-based-log-export. Module: mongodb/push-based-log-export",
+    "environment": "staging",
+    "modulePath": "mongodb/push-based-log-export"
+  },
+  "resources": [
+    {
+      "type": "push-based-log-export",
+      "name": "example-push-based-log-export",
+      "description": "push-based-log-export example"
+    }
+  ]
+}

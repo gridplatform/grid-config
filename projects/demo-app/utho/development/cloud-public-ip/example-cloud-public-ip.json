@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-cloud-public-ip",
+    "description": "Example for cloud-public-ip. Module: utho/cloud-public-ip",
+    "environment": "development",
+    "modulePath": "utho/cloud-public-ip"
+  },
+  "resources": [
+    {
+      "type": "cloud-public-ip",
+      "name": "example-cloud-public-ip",
+      "description": "cloud-public-ip example"
+    }
+  ]
+}

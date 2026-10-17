@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-firewall-rule",
+    "description": "Example for firewall-rule. Module: utho/firewall-rule",
+    "environment": "staging",
+    "modulePath": "utho/firewall-rule"
+  },
+  "resources": [
+    {
+      "type": "firewall-rule",
+      "name": "example-firewall-rule",
+      "description": "firewall-rule example"
+    }
+  ]
+}

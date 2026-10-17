@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-ipsec-connection",
+    "description": "Example for ipsec-connection. Module: utho/ipsec-connection",
+    "environment": "development",
+    "modulePath": "utho/ipsec-connection"
+  },
+  "resources": [
+    {
+      "type": "ipsec-connection",
+      "name": "example-ipsec-connection",
+      "description": "ipsec-connection example"
+    }
+  ]
+}

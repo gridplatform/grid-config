@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-alert",
+    "description": "Example for alert. Module: utho/alert",
+    "environment": "staging",
+    "modulePath": "utho/alert"
+  },
+  "resources": [
+    {
+      "type": "alert",
+      "name": "example-alert",
+      "description": "alert example"
+    }
+  ]
+}

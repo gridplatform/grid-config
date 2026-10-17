@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-container-registry-webhook",
+    "description": "Example for container-registry-webhook. Module: utho/container-registry-webhook",
+    "environment": "production",
+    "modulePath": "utho/container-registry-webhook"
+  },
+  "resources": [
+    {
+      "type": "container-registry-webhook",
+      "name": "example-container-registry-webhook",
+      "description": "container-registry-webhook example"
+    }
+  ]
+}

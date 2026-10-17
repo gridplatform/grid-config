@@ -1,0 +1,18 @@
+{
+  "provider": "mongodb",
+  "project": "grid-staging",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-atlas-aws",
+    "description": "Example for atlas-aws. Module: mongodb/atlas-aws",
+    "environment": "staging",
+    "modulePath": "mongodb/atlas-aws"
+  },
+  "resources": [
+    {
+      "type": "atlas-aws",
+      "name": "example-atlas-aws",
+      "description": "atlas-aws example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-ebs",
+    "description": "Example for ebs. Module: utho/ebs",
+    "environment": "development",
+    "modulePath": "utho/ebs"
+  },
+  "resources": [
+    {
+      "type": "ebs",
+      "name": "example-ebs",
+      "description": "ebs example"
+    }
+  ]
+}

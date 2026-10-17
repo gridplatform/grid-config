@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-loadbalancer-acl",
+    "description": "Example for loadbalancer-acl. Module: utho/loadbalancer-acl",
+    "environment": "development",
+    "modulePath": "utho/loadbalancer-acl"
+  },
+  "resources": [
+    {
+      "type": "loadbalancer-acl",
+      "name": "example-loadbalancer-acl",
+      "description": "loadbalancer-acl example"
+    }
+  ]
+}

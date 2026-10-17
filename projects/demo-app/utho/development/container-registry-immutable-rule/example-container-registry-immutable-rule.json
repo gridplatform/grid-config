@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-container-registry-immutable-rule",
+    "description": "Example for container-registry-immutable-rule. Module: utho/container-registry-immutable-rule",
+    "environment": "development",
+    "modulePath": "utho/container-registry-immutable-rule"
+  },
+  "resources": [
+    {
+      "type": "container-registry-immutable-rule",
+      "name": "example-container-registry-immutable-rule",
+      "description": "container-registry-immutable-rule example"
+    }
+  ]
+}

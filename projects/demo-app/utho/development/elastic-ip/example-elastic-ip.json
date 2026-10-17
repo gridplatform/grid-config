@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-elastic-ip",
+    "description": "Example for elastic-ip. Module: utho/elastic-ip",
+    "environment": "development",
+    "modulePath": "utho/elastic-ip"
+  },
+  "resources": [
+    {
+      "type": "elastic-ip",
+      "name": "example-elastic-ip",
+      "description": "elastic-ip example"
+    }
+  ]
+}

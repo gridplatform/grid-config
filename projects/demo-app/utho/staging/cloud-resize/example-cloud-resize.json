@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-cloud-resize",
+    "description": "Example for cloud-resize. Module: utho/cloud-resize",
+    "environment": "staging",
+    "modulePath": "utho/cloud-resize"
+  },
+  "resources": [
+    {
+      "type": "cloud-resize",
+      "name": "example-cloud-resize",
+      "description": "cloud-resize example"
+    }
+  ]
+}

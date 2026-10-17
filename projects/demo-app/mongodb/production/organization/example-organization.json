@@ -1,0 +1,18 @@
+{
+  "provider": "mongodb",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-organization",
+    "description": "Example for organization. Module: mongodb/organization",
+    "environment": "production",
+    "modulePath": "mongodb/organization"
+  },
+  "resources": [
+    {
+      "type": "organization",
+      "name": "example-organization",
+      "description": "organization example"
+    }
+  ]
+}

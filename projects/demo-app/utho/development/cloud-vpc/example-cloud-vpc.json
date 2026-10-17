@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-cloud-vpc",
+    "description": "Example for cloud-vpc. Module: utho/cloud-vpc",
+    "environment": "development",
+    "modulePath": "utho/cloud-vpc"
+  },
+  "resources": [
+    {
+      "type": "cloud-vpc",
+      "name": "example-cloud-vpc",
+      "description": "cloud-vpc example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-nat-gateway",
+    "description": "Example for nat-gateway. Module: utho/nat-gateway",
+    "environment": "staging",
+    "modulePath": "utho/nat-gateway"
+  },
+  "resources": [
+    {
+      "type": "nat-gateway",
+      "name": "example-nat-gateway",
+      "description": "nat-gateway example"
+    }
+  ]
+}

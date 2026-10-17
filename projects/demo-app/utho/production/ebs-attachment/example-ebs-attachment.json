@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-ebs-attachment",
+    "description": "Example for ebs-attachment. Module: utho/ebs-attachment",
+    "environment": "production",
+    "modulePath": "utho/ebs-attachment"
+  },
+  "resources": [
+    {
+      "type": "ebs-attachment",
+      "name": "example-ebs-attachment",
+      "description": "ebs-attachment example"
+    }
+  ]
+}

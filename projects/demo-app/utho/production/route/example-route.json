@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-route",
+    "description": "Example for route. Module: utho/route",
+    "environment": "production",
+    "modulePath": "utho/route"
+  },
+  "resources": [
+    {
+      "type": "route",
+      "name": "example-route",
+      "description": "route example"
+    }
+  ]
+}

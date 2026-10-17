@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-loadbalancer",
+    "description": "Example for loadbalancer. Module: utho/loadbalancer",
+    "environment": "production",
+    "modulePath": "utho/loadbalancer"
+  },
+  "resources": [
+    {
+      "type": "loadbalancer",
+      "name": "example-loadbalancer",
+      "description": "loadbalancer example"
+    }
+  ]
+}

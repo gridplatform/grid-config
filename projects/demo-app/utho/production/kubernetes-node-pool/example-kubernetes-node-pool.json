@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-kubernetes-node-pool",
+    "description": "Example for kubernetes-node-pool. Module: utho/kubernetes-node-pool",
+    "environment": "production",
+    "modulePath": "utho/kubernetes-node-pool"
+  },
+  "resources": [
+    {
+      "type": "kubernetes-node-pool",
+      "name": "example-kubernetes-node-pool",
+      "description": "kubernetes-node-pool example"
+    }
+  ]
+}

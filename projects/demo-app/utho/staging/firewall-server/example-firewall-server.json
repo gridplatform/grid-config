@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-firewall-server",
+    "description": "Example for firewall-server. Module: utho/firewall-server",
+    "environment": "staging",
+    "modulePath": "utho/firewall-server"
+  },
+  "resources": [
+    {
+      "type": "firewall-server",
+      "name": "example-firewall-server",
+      "description": "firewall-server example"
+    }
+  ]
+}

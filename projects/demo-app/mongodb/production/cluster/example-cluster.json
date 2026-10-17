@@ -1,0 +1,18 @@
+{
+  "provider": "mongodb",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-cluster",
+    "description": "Example for cluster. Module: mongodb/cluster",
+    "environment": "production",
+    "modulePath": "mongodb/cluster"
+  },
+  "resources": [
+    {
+      "type": "cluster",
+      "name": "example-cluster",
+      "description": "cluster example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-cloud",
+    "description": "Example for cloud. Module: utho/cloud",
+    "environment": "staging",
+    "modulePath": "utho/cloud"
+  },
+  "resources": [
+    {
+      "type": "cloud",
+      "name": "example-cloud",
+      "description": "cloud example"
+    }
+  ]
+}

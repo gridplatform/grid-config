@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-cloud-snapshot",
+    "description": "Example for cloud-snapshot. Module: utho/cloud-snapshot",
+    "environment": "development",
+    "modulePath": "utho/cloud-snapshot"
+  },
+  "resources": [
+    {
+      "type": "cloud-snapshot",
+      "name": "example-cloud-snapshot",
+      "description": "cloud-snapshot example"
+    }
+  ]
+}

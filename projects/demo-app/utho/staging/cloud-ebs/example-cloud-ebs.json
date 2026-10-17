@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-cloud-ebs",
+    "description": "Example for cloud-ebs. Module: utho/cloud-ebs",
+    "environment": "staging",
+    "modulePath": "utho/cloud-ebs"
+  },
+  "resources": [
+    {
+      "type": "cloud-ebs",
+      "name": "example-cloud-ebs",
+      "description": "cloud-ebs example"
+    }
+  ]
+}

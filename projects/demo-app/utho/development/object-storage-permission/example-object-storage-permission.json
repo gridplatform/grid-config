@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-object-storage-permission",
+    "description": "Example for object-storage-permission. Module: utho/object-storage-permission",
+    "environment": "development",
+    "modulePath": "utho/object-storage-permission"
+  },
+  "resources": [
+    {
+      "type": "object-storage-permission",
+      "name": "example-object-storage-permission",
+      "description": "object-storage-permission example"
+    }
+  ]
+}

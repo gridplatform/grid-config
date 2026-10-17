@@ -1,0 +1,18 @@
+{
+  "provider": "mongodb",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-private-endpoint",
+    "description": "Example for private-endpoint. Module: mongodb/private-endpoint",
+    "environment": "production",
+    "modulePath": "mongodb/private-endpoint"
+  },
+  "resources": [
+    {
+      "type": "private-endpoint",
+      "name": "example-private-endpoint",
+      "description": "private-endpoint example"
+    }
+  ]
+}

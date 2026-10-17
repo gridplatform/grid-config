@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-database-pool",
+    "description": "Example for database-pool. Module: utho/database-pool",
+    "environment": "staging",
+    "modulePath": "utho/database-pool"
+  },
+  "resources": [
+    {
+      "type": "database-pool",
+      "name": "example-database-pool",
+      "description": "database-pool example"
+    }
+  ]
+}

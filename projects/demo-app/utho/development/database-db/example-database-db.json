@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-database-db",
+    "description": "Example for database-db. Module: utho/database-db",
+    "environment": "development",
+    "modulePath": "utho/database-db"
+  },
+  "resources": [
+    {
+      "type": "database-db",
+      "name": "example-database-db",
+      "description": "database-db example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-ipsec",
+    "description": "Example for ipsec. Module: utho/ipsec",
+    "environment": "staging",
+    "modulePath": "utho/ipsec"
+  },
+  "resources": [
+    {
+      "type": "ipsec",
+      "name": "example-ipsec",
+      "description": "ipsec example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-loadbalancer-settings",
+    "description": "Example for loadbalancer-settings. Module: utho/loadbalancer-settings",
+    "environment": "development",
+    "modulePath": "utho/loadbalancer-settings"
+  },
+  "resources": [
+    {
+      "type": "loadbalancer-settings",
+      "name": "example-loadbalancer-settings",
+      "description": "loadbalancer-settings example"
+    }
+  ]
+}

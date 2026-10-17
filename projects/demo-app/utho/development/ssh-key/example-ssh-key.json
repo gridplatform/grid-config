@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-ssh-key",
+    "description": "Example for ssh-key. Module: utho/ssh-key",
+    "environment": "development",
+    "modulePath": "utho/ssh-key"
+  },
+  "resources": [
+    {
+      "type": "ssh-key",
+      "name": "example-ssh-key",
+      "description": "ssh-key example"
+    }
+  ]
+}

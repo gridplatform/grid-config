@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-database-user",
+    "description": "Example for database-user. Module: utho/database-user",
+    "environment": "staging",
+    "modulePath": "utho/database-user"
+  },
+  "resources": [
+    {
+      "type": "database-user",
+      "name": "example-database-user",
+      "description": "database-user example"
+    }
+  ]
+}

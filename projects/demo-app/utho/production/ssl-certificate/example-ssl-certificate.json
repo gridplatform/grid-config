@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-ssl-certificate",
+    "description": "Example for ssl-certificate. Module: utho/ssl-certificate",
+    "environment": "production",
+    "modulePath": "utho/ssl-certificate"
+  },
+  "resources": [
+    {
+      "type": "ssl-certificate",
+      "name": "example-ssl-certificate",
+      "description": "ssl-certificate example"
+    }
+  ]
+}

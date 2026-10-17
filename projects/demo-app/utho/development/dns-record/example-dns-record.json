@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-dns-record",
+    "description": "Example for dns-record. Module: utho/dns-record",
+    "environment": "development",
+    "modulePath": "utho/dns-record"
+  },
+  "resources": [
+    {
+      "type": "dns-record",
+      "name": "example-dns-record",
+      "description": "dns-record example"
+    }
+  ]
+}

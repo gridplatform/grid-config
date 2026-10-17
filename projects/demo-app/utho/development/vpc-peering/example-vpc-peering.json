@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-vpc-peering",
+    "description": "Example for vpc-peering. Module: utho/vpc-peering",
+    "environment": "development",
+    "modulePath": "utho/vpc-peering"
+  },
+  "resources": [
+    {
+      "type": "vpc-peering",
+      "name": "example-vpc-peering",
+      "description": "vpc-peering example"
+    }
+  ]
+}

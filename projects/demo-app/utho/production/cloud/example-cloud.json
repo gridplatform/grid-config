@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-cloud",
+    "description": "Example for cloud. Module: utho/cloud",
+    "environment": "production",
+    "modulePath": "utho/cloud"
+  },
+  "resources": [
+    {
+      "type": "cloud",
+      "name": "example-cloud",
+      "description": "cloud example"
+    }
+  ]
+}

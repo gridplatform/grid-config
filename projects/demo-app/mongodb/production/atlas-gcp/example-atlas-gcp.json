@@ -1,0 +1,18 @@
+{
+  "provider": "mongodb",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-atlas-gcp",
+    "description": "Example for atlas-gcp. Module: mongodb/atlas-gcp",
+    "environment": "production",
+    "modulePath": "mongodb/atlas-gcp"
+  },
+  "resources": [
+    {
+      "type": "atlas-gcp",
+      "name": "example-atlas-gcp",
+      "description": "atlas-gcp example"
+    }
+  ]
+}

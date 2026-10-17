@@ -1,0 +1,18 @@
+{
+  "provider": "mongodb",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-encryption-at-rest",
+    "description": "Example for encryption-at-rest. Module: mongodb/encryption-at-rest",
+    "environment": "production",
+    "modulePath": "mongodb/encryption-at-rest"
+  },
+  "resources": [
+    {
+      "type": "encryption-at-rest",
+      "name": "example-encryption-at-rest",
+      "description": "encryption-at-rest example"
+    }
+  ]
+}

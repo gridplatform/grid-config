@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-autoscaling",
+    "description": "Example for autoscaling. Module: utho/autoscaling",
+    "environment": "staging",
+    "modulePath": "utho/autoscaling"
+  },
+  "resources": [
+    {
+      "type": "autoscaling",
+      "name": "example-autoscaling",
+      "description": "autoscaling example"
+    }
+  ]
+}

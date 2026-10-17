@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-cloud-iso",
+    "description": "Example for cloud-iso. Module: utho/cloud-iso",
+    "environment": "production",
+    "modulePath": "utho/cloud-iso"
+  },
+  "resources": [
+    {
+      "type": "cloud-iso",
+      "name": "example-cloud-iso",
+      "description": "cloud-iso example"
+    }
+  ]
+}

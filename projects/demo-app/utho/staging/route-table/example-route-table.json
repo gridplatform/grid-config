@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-route-table",
+    "description": "Example for route-table. Module: utho/route-table",
+    "environment": "staging",
+    "modulePath": "utho/route-table"
+  },
+  "resources": [
+    {
+      "type": "route-table",
+      "name": "example-route-table",
+      "description": "route-table example"
+    }
+  ]
+}

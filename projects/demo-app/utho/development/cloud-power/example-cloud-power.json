@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-cloud-power",
+    "description": "Example for cloud-power. Module: utho/cloud-power",
+    "environment": "development",
+    "modulePath": "utho/cloud-power"
+  },
+  "resources": [
+    {
+      "type": "cloud-power",
+      "name": "example-cloud-power",
+      "description": "cloud-power example"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-staging",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-loadbalancer",
+    "description": "Example for loadbalancer. Module: utho/loadbalancer",
+    "environment": "staging",
+    "modulePath": "utho/loadbalancer"
+  },
+  "resources": [
+    {
+      "type": "loadbalancer",
+      "name": "example-loadbalancer",
+      "description": "loadbalancer example"
+    }
+  ]
+}

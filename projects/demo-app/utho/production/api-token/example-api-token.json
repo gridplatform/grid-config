@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-api-token",
+    "description": "Example for api-token. Module: utho/api-token",
+    "environment": "production",
+    "modulePath": "utho/api-token"
+  },
+  "resources": [
+    {
+      "type": "api-token",
+      "name": "example-api-token",
+      "description": "api-token example"
+    }
+  ]
+}

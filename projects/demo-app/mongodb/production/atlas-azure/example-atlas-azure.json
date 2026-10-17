@@ -1,0 +1,18 @@
+{
+  "provider": "mongodb",
+  "project": "grid-production",
+  "region": "us-east-1",
+  "metadata": {
+    "name": "example-atlas-azure",
+    "description": "Example for atlas-azure. Module: mongodb/atlas-azure",
+    "environment": "production",
+    "modulePath": "mongodb/atlas-azure"
+  },
+  "resources": [
+    {
+      "type": "atlas-azure",
+      "name": "example-atlas-azure",
+      "description": "atlas-azure example"
+    }
+  ]
+}

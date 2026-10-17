@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-container-registry",
+    "description": "Example for container-registry. Module: utho/container-registry",
+    "environment": "production",
+    "modulePath": "utho/container-registry"
+  },
+  "resources": [
+    {
+      "type": "container-registry",
+      "name": "example-container-registry",
+      "description": "container-registry example"
+    }
+  ]
+}

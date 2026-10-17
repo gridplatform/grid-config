@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-production",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-alert-contact",
+    "description": "Example for alert-contact. Module: utho/alert-contact",
+    "environment": "production",
+    "modulePath": "utho/alert-contact"
+  },
+  "resources": [
+    {
+      "type": "alert-contact",
+      "name": "example-alert-contact",
+      "description": "alert-contact example"
+    }
+  ]
+}

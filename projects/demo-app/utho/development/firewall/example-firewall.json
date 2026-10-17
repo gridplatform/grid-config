@@ -1,0 +1,18 @@
+{
+  "provider": "utho",
+  "project": "grid-development",
+  "region": "inmumbaizone2",
+  "metadata": {
+    "name": "example-firewall",
+    "description": "Example for firewall. Module: utho/firewall",
+    "environment": "development",
+    "modulePath": "utho/firewall"
+  },
+  "resources": [
+    {
+      "type": "firewall",
+      "name": "example-firewall",
+      "description": "firewall example"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ This repository shows how Grid JSON is shaped and organized (projects, clouds, e
 > **Do not fork this for production.**  
 > Create a **new** GitHub repository under your org or account, add your own JSON, and point Grid at that repository (`GRID_GITOPS_REPO_URL`). Own the settings; treat this tree as a reference.
 
-**Docs:** [Concepts](https://github.com/gridplatform/grid-docs/blob/main/docs/concepts/overview.md) · [Install](https://github.com/gridplatform/grid-docs/tree/main/docs/install)
+**Docs:** [Concepts](https://gridplatform.github.io/doc/Concepts/Overview) · [Install](https://gridplatform.github.io/doc/Install/Overview)
 
 ## What this is for
 
@@ -65,7 +65,7 @@ Fill any `REPLACE_*` values before a real apply. Many units are examples only.
 | [grid-core](https://github.com/gridplatform/grid-core) | Runs Grid; syncs **your** desired-state repository |
 | [grid-cli](https://github.com/gridplatform/grid-cli) | Generate / plan / apply from JSON |
 | [grid-terraform](https://github.com/gridplatform/grid-terraform) | Modules those JSON files point at |
-| [grid-docs](https://github.com/gridplatform/grid-docs) | Guides |
+| [grid-docs](https://gridplatform.github.io/doc/) | Guides |
 
 ## Contributing
 
